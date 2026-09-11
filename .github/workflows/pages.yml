@@ -23,6 +23,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install Korean fonts and PDF validation tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk fonts-noto-core fonts-stix poppler-utils fontconfig
+          fc-cache -f
+          echo "Resolved Korean font:"
+          fc-match "Noto Sans CJK KR"
+          fc-match "Noto Sans CJK KR" | grep -qi "NotoSansCJK"
+
       - name: Set up Chrome
         uses: browser-actions/setup-chrome@v1
 
@@ -31,10 +42,25 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p downloads/2026
-          chrome --headless --no-sandbox --disable-gpu --allow-file-access-from-files --no-pdf-header-footer \
-            --print-to-pdf="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W37.pdf" \
+          PDF="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W37.pdf"
+          chrome --headless --no-sandbox --disable-gpu --allow-file-access-from-files \
+            --run-all-compositor-stages-before-draw --virtual-time-budget=3000 \
+            --no-pdf-header-footer --print-to-pdf="$PDF" \
             "file://$GITHUB_WORKSPACE/reports/2026/w37/index.html"
-          test -s downloads/2026/VNAND_HV_Reliability_2026-W37.pdf
+          test -s "$PDF"
+
+      - name: Validate PDF fonts and Korean text
+        shell: bash
+        run: |
+          set -euo pipefail
+          PDF="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W37.pdf"
+          echo "--- Embedded fonts ---"
+          pdffonts "$PDF"
+          # Require a Korean-capable Noto CJK font and require that it is embedded.
+          pdffonts "$PDF" | grep -Ei 'NotoSansCJK.*yes' >/dev/null
+          # Confirm the Korean source text is preserved in the generated PDF text layer.
+          pdftotext "$PDF" - | grep -q '이번 회차'
+          echo "Korean font embedding and text-layer validation: PASS"
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
