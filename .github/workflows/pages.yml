@@ -1,0 +1,51 @@
+name: Build and deploy NAND Memory Physics
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Build downloadable weekly PDFs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p downloads/2026
+          chrome --headless --no-sandbox --disable-gpu --allow-file-access-from-files --no-pdf-header-footer \
+            --print-to-pdf="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W37.pdf" \
+            "file://$GITHUB_WORKSPACE/reports/2026/w37/index.html"
+          test -s downloads/2026/VNAND_HV_Reliability_2026-W37.pdf
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
