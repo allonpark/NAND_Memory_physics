@@ -42,24 +42,27 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p downloads/2026
-          PDF="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W37.pdf"
-          chrome --headless --no-sandbox --disable-gpu --allow-file-access-from-files \
-            --run-all-compositor-stages-before-draw --virtual-time-budget=3000 \
-            --no-pdf-header-footer --print-to-pdf="$PDF" \
-            "file://$GITHUB_WORKSPACE/reports/2026/w37/index.html"
-          test -s "$PDF"
+          for W in 37 38; do
+            PDF="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W${W}.pdf"
+            chrome --headless --no-sandbox --disable-gpu --allow-file-access-from-files \
+              --run-all-compositor-stages-before-draw --virtual-time-budget=3000 \
+              --no-pdf-header-footer --print-to-pdf="$PDF" \
+              "file://$GITHUB_WORKSPACE/reports/2026/w${W}/index.html"
+            test -s "$PDF"
+          done
 
       - name: Validate PDF fonts and Korean text
         shell: bash
         run: |
           set -euo pipefail
-          PDF="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W37.pdf"
-          echo "--- Embedded fonts ---"
-          pdffonts "$PDF"
-          # Require a Korean-capable Noto CJK font and require that it is embedded.
-          pdffonts "$PDF" | grep -Ei 'NotoSansCJK.*yes' >/dev/null
-          # Confirm the Korean source text is preserved in the generated PDF text layer.
-          pdftotext "$PDF" - | grep -q '이번 회차'
+          for W in 37 38; do
+            PDF="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W${W}.pdf"
+            echo "--- W${W} embedded fonts ---"
+            pdffonts "$PDF"
+            pdffonts "$PDF" | grep -Ei 'NotoSansCJK.*yes' >/dev/null
+          done
+          pdftotext "$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W37.pdf" - | grep -q '이번 회차'
+          pdftotext "$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W38.pdf" - | grep -q '이번 회차'
           echo "Korean font embedding and text-layer validation: PASS"
 
       - name: Configure Pages
