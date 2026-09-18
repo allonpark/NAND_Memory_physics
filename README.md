@@ -4,7 +4,7 @@
 
 > 3D NAND(VNAND) 및 고전압(HV) 소자의 물리 메커니즘과 reliability를 매주 최신 공개 자료를 기반으로 정리하고, 단순 논문 요약을 넘어 실제 개발·분석·DOE에 연결할 수 있도록 재구성하는 기술 아카이브입니다.
 
-[🌐 Website](https://allonpark.github.io/NAND_Memory_physics/) · [📚 GitHub Repository](https://github.com/allonpark/NAND_Memory_physics) · [🧪 Latest Report — 2026 W37](https://allonpark.github.io/NAND_Memory_physics/reports/2026/w37/) · [📄 Latest PDF](https://allonpark.github.io/NAND_Memory_physics/downloads/2026/VNAND_HV_Reliability_2026-W37.pdf)
+[🌐 Website](https://allonpark.github.io/NAND_Memory_physics/) · [📚 GitHub Repository](https://github.com/allonpark/NAND_Memory_physics) · [🧪 Latest Report — 2026 W38](https://allonpark.github.io/NAND_Memory_physics/reports/2026/w38/) · [📄 Latest PDF](https://allonpark.github.io/NAND_Memory_physics/downloads/2026/VNAND_HV_Reliability_2026-W38.pdf) · [🧠 Living Mechanism Maps](https://allonpark.github.io/NAND_Memory_physics/knowledge/)
 
 ---
 
@@ -26,6 +26,27 @@ NAND reliability 관련 논문이나 학회 자료는 개별 결과 자체는 �
 > **Source → Physical mechanism → Equation → Electrical signature → Material/Structure translation → Failure mode → DOE → Critical boundary**
 
 의 흐름으로 연결된 **engineering knowledge base**를 구축하는 것입니다.
+
+---
+
+## Reliability Co-Scientist Layer
+
+주간 보고서는 이제 개별 논문 요약에서 끝나지 않습니다. 각 논문을 `CLAIM / EVIDENCE / MODEL / VALID RANGE / ASSUMPTION / CONTRADICTING DATA / CRITICAL BOUNDARY / CONFIDENCE / SOURCE TRACE` 구조로 정리하고, 이번 주 논문끼리뿐 아니라 과거 archive와도 비교합니다.
+
+핵심 추가 산출물은 다음과 같습니다.
+
+- **Contradiction Matrix** — 같은 engineering question에 대해 논문들이 어디서 일치하고 충돌하는지 비교
+- **Domain Boundary Gate** — material/geometry/E/T/time/frequency/failure criterion이 source 범위를 벗어나면 `EXTRAPOLATION ONLY`로 표시
+- **What Changed Our Understanding** — 기존 지식 대비 실제로 바뀐 해석
+- **New Testable Hypotheses** — source fact와 구분된 Engineering Inference
+- **Falsification Plan** — 가설이 틀렸을 때 나와야 할 반증 signature
+- **Living Mechanism Maps** — TDDB, GIDL, HCI/BTI, CTL/retention, poly-Si channel, HV SOA, Weibull/screening을 주차를 넘어 누적 업데이트
+
+따라서 저장소는 이제 **weekly archive + living engineering knowledge base** 두 층으로 운영됩니다.
+
+- [🧠 Living Mechanism Maps](https://allonpark.github.io/NAND_Memory_physics/knowledge/)
+- [📖 W38 Co-Scientist Review](https://allonpark.github.io/NAND_Memory_physics/reports/2026/w38/)
+
 
 ---
 
