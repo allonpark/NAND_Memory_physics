@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img"><style>
+text{font-family:"Noto Sans CJK KR","DejaVu Sans",Arial,sans-serif;fill:#172033}.title{font-size:27px;font-weight:800}.sub{font-size:15px;fill:#667085}.h{font-size:18px;font-weight:750}.t{font-size:15px}.s{font-size:13px;fill:#667085}.xs{font-size:12px;fill:#7b8493}
+.box{fill:#fff;stroke:#9aa7b8;stroke-width:1.6}.blue{fill:#eaf2ff;stroke:#2563eb;stroke-width:2}.orange{fill:#fff4e8;stroke:#b45309;stroke-width:2}.green{fill:#eafaf5;stroke:#0f766e;stroke-width:2}.purple{fill:#f4efff;stroke:#7c3aed;stroke-width:2}.red{fill:#fff0f0;stroke:#c2410c;stroke-width:2}.gray{fill:#f5f7fa;stroke:#98a2b3;stroke-width:1.5}.thin{stroke:#667085;stroke-width:1.5;fill:none}.dash{stroke:#98a2b3;stroke-width:1.5;stroke-dasharray:7 6;fill:none}
+</style><defs>
+<marker id="ab" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+<marker id="ao" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#b45309"/></marker>
+<marker id="ag" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/></marker>
+<marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c2410c"/></marker>
+</defs><rect width="1200" height="680" fill="#fff"/><text x="48" y="48" class="title">W37-4 Mechanism / DOE - separate free charge, trapped charge and permanent damage in time</text><text x="48" y="78" class="sub">Engineering translation to VNAND select-device / GIDL stress; expected signatures are hypotheses to test</text>
+<rect x="55" y="120" width="1090" height="445" rx="16" class="gray"/><text x="80" y="154" class="h">Stress-stop-read recovery spectroscopy</text>
+<line x1="110" y1="315" x2="1090" y2="315" class="thin"/><text x="110" y="345" class="s">time after stress stop</text>
+<path d="M145 210 C210 280 285 305 400 310" fill="none" stroke="#0f766e" stroke-width="5"/><text x="155" y="195" class="s">fast component: free / weakly bound charge</text>
+<path d="M145 235 C300 245 510 270 770 305" fill="none" stroke="#7c3aed" stroke-width="5"/><text x="450" y="225" class="s">slow recovery: trapped charge population</text>
+<path d="M145 265 C400 265 700 267 1040 270" fill="none" stroke="#c2410c" stroke-width="5"/><text x="720" y="255" class="s">persistent component: interface / permanent damage candidate</text>
+<g class="s"><text x="150" y="380">Read delays: μs → ms → s → min</text><text x="150" y="405">Observe VTH together with gm, SS and leakage — not VTH alone.</text></g>
+<rect x="145" y="445" width="410" height="82" rx="10" class="green"/><text x="170" y="475" class="t">Supports reversible/free-charge interpretation</text><text x="170" y="502" class="s">fast VTH recovery + little SS/gm change</text>
+<rect x="620" y="445" width="410" height="82" rx="10" class="red"/><text x="645" y="475" class="t">Supports permanent-damage interpretation</text><text x="645" y="502" class="s">persistent SS/gm/leakage degradation</text>
+<text x="80" y="620" class="s">VNAND implication: a post-GIDL dVTH measured at one fixed delay must not automatically be labeled HCI damage without this time-domain separation.</text></svg>
