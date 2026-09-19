@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img"><style>
+text{font-family:"Noto Sans CJK KR","DejaVu Sans",Arial,sans-serif;fill:#172033}.title{font-size:27px;font-weight:800}.sub{font-size:15px;fill:#667085}.h{font-size:18px;font-weight:750}.t{font-size:15px}.s{font-size:13px;fill:#667085}.xs{font-size:12px;fill:#7b8493}
+.box{fill:#fff;stroke:#9aa7b8;stroke-width:1.6}.blue{fill:#eaf2ff;stroke:#2563eb;stroke-width:2}.orange{fill:#fff4e8;stroke:#b45309;stroke-width:2}.green{fill:#eafaf5;stroke:#0f766e;stroke-width:2}.purple{fill:#f4efff;stroke:#7c3aed;stroke-width:2}.red{fill:#fff0f0;stroke:#c2410c;stroke-width:2}.gray{fill:#f5f7fa;stroke:#98a2b3;stroke-width:1.5}.thin{stroke:#667085;stroke-width:1.5;fill:none}.dash{stroke:#98a2b3;stroke-width:1.5;stroke-dasharray:7 6;fill:none}
+</style><defs>
+<marker id="ab" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+<marker id="ao" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#b45309"/></marker>
+<marker id="ag" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/></marker>
+<marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c2410c"/></marker>
+</defs><rect width="1200" height="680" fill="#fff"/><text x="48" y="48" class="title">W37-2 Mechanism - residual compression changes the retention energy landscape</text><text x="48" y="78" class="sub">Engineering explanation tied to source-reported stress trend; band diagram is qualitative / not source numeric data</text>
+<rect x="55" y="120" width="520" height="430" rx="16" class="gray"/><text x="80" y="154" class="h">A. Thermo-mechanical path</text>
+<rect x="120" y="205" width="390" height="48" rx="9" class="green"/><text x="315" y="235" text-anchor="middle" class="t">high-CTE SEL between filler and poly-Si</text>
+<path d="M315 265 L315 310" stroke="#0f766e" stroke-width="3" marker-end="url(#ag)"/>
+<rect x="120" y="315" width="390" height="58" rx="9" class="purple"/><text x="315" y="340" text-anchor="middle" class="t">more compressive residual stress in CTN</text><text x="315" y="361" text-anchor="middle" class="s">source trend: baseline ≈ -0.2 GPa, stronger compression studied</text>
+<path d="M315 385 L315 425" stroke="#7c3aed" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="120" y="430" width="390" height="70" rx="9" class="blue"/><text x="315" y="458" text-anchor="middle" class="t">band edge / emission barrier shifts</text><text x="315" y="482" text-anchor="middle" class="s">retention loss rate decreases, but channel current/VTH also move</text>
+<rect x="615" y="120" width="530" height="430" rx="16" class="box"/><text x="642" y="154" class="h">B. Qualitative trap-emission barrier</text>
+<line x1="675" y1="460" x2="1090" y2="460" class="thin"/><text x="676" y="485" class="s">position / reaction coordinate</text>
+<path d="M690 410 C770 300 850 270 930 405" fill="none" stroke="#98a2b3" stroke-width="4"/><text x="735" y="290" class="s">baseline barrier</text>
+<path d="M690 410 C770 245 850 215 930 405" fill="none" stroke="#7c3aed" stroke-width="4"/><text x="825" y="205" class="s">stronger compression → higher effective barrier</text>
+<line x1="1020" y1="405" x2="1020" y2="265" stroke="#b45309" stroke-width="3" marker-end="url(#ao)"/><text x="1040" y="335" class="s">electron emission</text>
+<text x="642" y="525" class="s">Generic interpretation: e_n ~ ν0 exp[-(E_barrier(σ)-ΔφPF)/(kT)]</text>
+<rect x="55" y="580" width="1090" height="60" rx="12" class="red"/><text x="80" y="607" class="h">Boundary gate</text><text x="235" y="607" class="s">Source uses a 10-layer model. Translation to 300–400L is EXTRAPOLATION ONLY until stress/warpage and read-current penalties are validated.</text></svg>
