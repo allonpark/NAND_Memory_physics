@@ -42,7 +42,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p downloads/2026
-          for W in 37 38; do
+          for W in 37 38 39; do
             PDF="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W${W}.pdf"
             chrome --headless --no-sandbox --disable-gpu --allow-file-access-from-files \
               --run-all-compositor-stages-before-draw --virtual-time-budget=3000 \
@@ -55,7 +55,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for W in 37 38; do
+          for W in 37 38 39; do
             PDF="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W${W}.pdf"
             echo "--- W${W} embedded fonts ---"
             pdffonts "$PDF"
@@ -63,6 +63,7 @@ jobs:
           done
           pdftotext "$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W37.pdf" - | grep -q '이번 회차'
           pdftotext "$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W38.pdf" - | grep -q '이번 회차'
+          pdftotext "$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W39.pdf" - | grep -q '이번 주 핵심'
           echo "Korean font embedding and text-layer validation: PASS"
 
       - name: Configure Pages
