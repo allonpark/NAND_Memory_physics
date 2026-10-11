@@ -1,0 +1,1 @@
+{"model":"Tco(C,Vs,L)","source":"10.1587/elex.23.20260379","valid_read_temperature_C":[-40,120],"prebake":"85C 10h","geometry":"3D TLC NAND","material":"poly-Si channel","observable":"VTH mean shift","failure_criterion":"RBER","parameters":"chip-calibrated","extrapolation_allowed":false}
