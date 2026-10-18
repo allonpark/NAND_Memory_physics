@@ -3,6 +3,8 @@ name: Build and deploy NAND Memory Physics
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -10,18 +12,22 @@ permissions:
   pages: write
   id-token: write
 
+# PR runs must never cancel a main deployment.
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 jobs:
-  build-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Unit tests for the publication gate
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Report gate (fail closed on placeholder / empty / non-bilingual reports)
+        run: python3 scripts/publication_gate.py check
 
       - name: Install Korean fonts and PDF validation tools
         shell: bash
@@ -37,45 +43,44 @@ jobs:
       - name: Set up Chrome
         uses: browser-actions/setup-chrome@v1
 
-      - name: Build downloadable weekly PDFs
+      - name: Build downloadable weekly PDFs (all non-draft weeks, auto-discovered)
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p downloads/2026
-          for W in 37 38 39 40; do
-            PDF="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W${W}.pdf"
+          python3 scripts/publication_gate.py weeks | while read -r Y W; do
+            mkdir -p "downloads/${Y}"
+            PDF="$GITHUB_WORKSPACE/downloads/${Y}/VNAND_HV_Reliability_${Y}-W${W}.pdf"
             chrome --headless --no-sandbox --disable-gpu --allow-file-access-from-files \
               --run-all-compositor-stages-before-draw --virtual-time-budget=3000 \
               --no-pdf-header-footer --print-to-pdf="$PDF" \
-              "file://$GITHUB_WORKSPACE/reports/2026/w${W}/index.html"
+              "file://$GITHUB_WORKSPACE/reports/${Y}/w${W}/index.html" < /dev/null
             test -s "$PDF"
           done
 
-      - name: Validate PDF fonts and Korean text
-        shell: bash
-        run: |
-          set -euo pipefail
-          for W in 37 38 39 40; do
-            PDF="$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W${W}.pdf"
-            echo "--- W${W} embedded fonts ---"
-            pdffonts "$PDF"
-            pdffonts "$PDF" | grep -Ei 'NotoSansCJK.*yes' >/dev/null
-          done
-          pdftotext "$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W37.pdf" - | grep -q '이번 회차'
-          pdftotext "$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W38.pdf" - | grep -q '이번 회차'
-          pdftotext "$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W39.pdf" - | grep -q '이번 주 핵심'
-          pdftotext "$GITHUB_WORKSPACE/downloads/2026/VNAND_HV_Reliability_2026-W40.pdf" - | grep -q 'Reliability Co-Scientist'
-          echo "Korean font embedding and text-layer validation: PASS"
+      - name: Validate PDF fonts and Korean text layer
+        run: python3 scripts/publication_gate.py pdf-check
 
+      - name: Stage site (draft weeks excluded)
+        run: python3 scripts/publication_gate.py stage "$RUNNER_TEMP/site"
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
 
       - name: Deploy Pages
         id: deployment
