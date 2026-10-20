@@ -1,0 +1,757 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ],
+  "date-time": "2026-10-01T09:05:29Z",
+  "timestamp": 1790845529027,
+  "version": "4.1.0"
+ },
+ "reference-count": 37,
+ "publisher": "IOP Publishing",
+ "issue": "19",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2026-10-01T00:00:00Z",
+    "timestamp": 1790812800000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://publishingsupport.iopscience.iop.org/iop-standard/v1"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2026-10-01T00:00:00Z",
+    "timestamp": 1790812800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+  }
+ ],
+ "funder": [
+  {
+   "name": "National Natural Science Foundation of China",
+   "award": [
+    "42566010"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "42566010"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "https://ror.org/01h0zpd94",
+     "id-type": "ROR",
+     "asserted-by": "crossref"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "iopscience.iop.org"
+  ],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Eng. Res. Express"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ]
+ },
+ "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    In this work, we present a comprehensive technology computer-aided design investigation of charge trap layer engineering and channel material effects in three-dimensional (3D) vertical NAND flash memory cells. Using Silvaco Atlas with the DYNASONOS charge trapping model, we systematically analyze the impact of trap density (\n                    <jats:italic>N</jats:italic>\n                    <jats:sub>T</jats:sub>\n                    ), tunneling oxide (\n                    <jats:italic>T</jats:italic>\n                    <jats:sub>OX</jats:sub>\n                    ) thickness, and polysilicon channel properties on program/erase (P/E) characteristics, memory window, and device reliability. Our simulation results reveal that the optimal trap density for maximizing the P/E window is approximately 3–5 × 10\n                    <jats:sup>19</jats:sup>\n                    cm\n                    <jats:sup>−3</jats:sup>\n                    , beyond which the incremental window gain saturates. A tunnel oxide thickness of 4–5 nm provides the best trade-off between programming speed and long-term data retention, demonstrating ⩽15% charge loss over 10 years when combined with an optimized Al\n                    <jats:sub>2</jats:sub>\n                    O\n                    <jats:sub>3</jats:sub>\n                    blocking oxide. Furthermore, we investigate the effect of polysilicon grain boundary traps on threshold voltage (\n                    <jats:italic>V</jats:italic>\n                    <jats:sub>th</jats:sub>\n                    ) variability, showing that larger grain sizes (&gt;50 nm) significantly reduce the\n                    <jats:italic>V</jats:italic>\n                    <jats:sub>th</jats:sub>\n                    distribution width. The simulation methodology is calibrated validated against published experimental P/E, retention, and endurance data, and coupled parameter optimization guidelines are provided for next-generation high-density 3D NAND flash memory design.\n                  </jats:p>",
+ "DOI": "10.1088/2631-8695/aea754",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    14
+   ]
+  ],
+  "date-time": "2026-09-14T22:57:02Z",
+  "timestamp": 1789426622000
+ },
+ "page": "195322",
+ "update-policy": "https://doi.org/10.1088/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "TCAD-based investigation of charge trap layer engineering and channel effects on program/erase characteristics in 3D vertical NAND flash memory cells"
+ ],
+ "prefix": "10.1088",
+ "volume": "8",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-5767-3327",
+   "authenticated-orcid": true,
+   "given": "Zhaomin",
+   "family": "Zhu",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Guilin University of Aerospace and Technology"
+    },
+    {
+     "name": "Guangxi Zhuang Autonomous Region Engineering Research Center for Artificial Intelligence and Aerospace Information Scenarios"
+    },
+    {
+     "name": "University Engineering Research Center of Integrated Aerospace-Terrestrial Information and Control"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    },
+    {
+     "role": "conceptualization",
+     "vocabulary": "credit"
+    }
+   ]
+  },
+  {
+   "given": "Yan",
+   "family": "Wang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Shanghai Technical Institute of Electronics and Information"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    },
+    {
+     "role": "writing-review-editing",
+     "vocabulary": "credit"
+    }
+   ]
+  },
+  {
+   "given": "Yanmei",
+   "family": "He",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Wuhan Donghu University"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    },
+    {
+     "role": "writing-review-editing",
+     "vocabulary": "credit"
+    }
+   ]
+  }
+ ],
+ "member": "266",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "erxaea754bib1",
+   "doi-asserted-by": "publisher",
+   "first-page": "323",
+   "DOI": "10.1109/IEDM.2005.1609340",
+   "type": "journal-article",
+   "article-title": "Technology for sub-50nm DRAM and NAND flash manufacturing",
+   "author": "Kim",
+   "year": "2005",
+   "journal-title": "IEDM Tech. Dig."
+  },
+  {
+   "key": "erxaea754bib2",
+   "doi-asserted-by": "publisher",
+   "first-page": "35",
+   "DOI": "10.1109/TED.2011.2170841",
+   "type": "journal-article",
+   "article-title": "Three-dimensional NAND flash architecture design based on single-crystalline stacked array",
+   "volume": "59",
+   "author": "Kim",
+   "year": "2012",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "erxaea754bib3",
+   "doi-asserted-by": "publisher",
+   "first-page": "14",
+   "DOI": "10.1109/VLSIT.2007.4339708",
+   "type": "journal-article",
+   "article-title": "Bit cost scalable technology with punch and plug process for ultra high density flash memory",
+   "author": "Tanaka",
+   "year": "2007",
+   "journal-title": "Symp. VLSI Technol."
+  },
+  {
+   "key": "erxaea754bib4",
+   "doi-asserted-by": "publisher",
+   "author": "Micheloni",
+   "year": "2010",
+   "DOI": "10.1007/978-90-481-9431-5",
+   "type": "book"
+  },
+  {
+   "key": "erxaea754bib5",
+   "doi-asserted-by": "publisher",
+   "author": "Aritome",
+   "year": "2016",
+   "DOI": "10.1002/9781119132639",
+   "type": "book"
+  },
+  {
+   "key": "erxaea754bib6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1088/0957-4484/22/25/254006",
+   "type": "journal-article",
+   "article-title": "A stacked memory device on logic 3D technology for ultra-high-density data storage",
+   "volume": "22",
+   "author": "Kim",
+   "year": "2011",
+   "journal-title": "Nanotechnology"
+  },
+  {
+   "key": "erxaea754bib7",
+   "first-page": "192",
+   "type": "journal-article",
+   "article-title": "Vertical cell array using TCAT (Terabit cell array transistor) technology for ultra high density NAND flash memory",
+   "author": "Jang",
+   "year": "2009",
+   "journal-title": "Symp. VLSI Technol."
+  },
+  {
+   "key": "erxaea754bib8",
+   "first-page": "188",
+   "type": "journal-article",
+   "article-title": "Multi-layered vertical gate NAND flash overcoming stacking limit for terabit density storage",
+   "author": "Kim",
+   "year": "2009",
+   "journal-title": "Symp. VLSI Technol."
+  },
+  {
+   "key": "erxaea754bib9",
+   "doi-asserted-by": "publisher",
+   "first-page": "3.3.1",
+   "DOI": "10.1109/IEDM.2015.7409618",
+   "type": "journal-article",
+   "article-title": "A floating gate based 3D NAND technology with CMOS under array",
+   "author": "Parat",
+   "year": "2015",
+   "journal-title": "IEDM Tech. Dig."
+  },
+  {
+   "key": "erxaea754bib10",
+   "doi-asserted-by": "publisher",
+   "first-page": "5247",
+   "DOI": "10.1063/1.321593",
+   "type": "journal-article",
+   "article-title": "The electrical properties of polycrystalline silicon films",
+   "volume": "46",
+   "author": "Seto",
+   "year": "1975",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "erxaea754bib11",
+   "doi-asserted-by": "publisher",
+   "first-page": "5565",
+   "DOI": "10.1063/1.324477",
+   "type": "journal-article",
+   "article-title": "Transport properties of polycrystalline silicon films",
+   "volume": "49",
+   "author": "Baccarani",
+   "year": "1978",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "erxaea754bib12",
+   "first-page": "809",
+   "type": "conference-proceedings",
+   "article-title": "Leakage current in HfO2 stacks: from physical to compact modeling",
+   "author": "Larcher",
+   "year": "2012"
+  },
+  {
+   "key": "erxaea754bib13",
+   "doi-asserted-by": "publisher",
+   "first-page": "2695",
+   "DOI": "10.1109/TED.2008.2003230",
+   "type": "journal-article",
+   "article-title": "Ultimate accuracy for the NAND flash program algorithm due to the electron injection statistics",
+   "volume": "55",
+   "author": "Compagnoni",
+   "year": "2008",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "erxaea754bib14",
+   "doi-asserted-by": "publisher",
+   "first-page": "201",
+   "DOI": "10.1007/978-3-030-37500-3_6",
+   "type": "book",
+   "article-title": "Random Telegraph Noise in Flash Memories",
+   "author": "Spinelli",
+   "year": "2020"
+  },
+  {
+   "key": "erxaea754bib15",
+   "doi-asserted-by": "publisher",
+   "first-page": "882",
+   "DOI": "10.1109/LED.2009.2024622",
+   "type": "journal-article",
+   "article-title": "Modeling TANOS Memory Program Transients to Investigate Charge-Trapping Dynamics",
+   "volume": "30",
+   "author": "Padovani",
+   "year": "2019",
+   "journal-title": "IEEE Electron Device Lett."
+  },
+  {
+   "key": "erxaea754bib16",
+   "doi-asserted-by": "publisher",
+   "first-page": "1789",
+   "DOI": "10.1109/16.936709",
+   "type": "journal-article",
+   "article-title": "Experimental and theoretical investigation of nano-crystal and nitride-trap memory devices",
+   "volume": "48",
+   "author": "De Salvo",
+   "year": "2001",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "erxaea754bib17",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.device.2024.100682",
+   "type": "journal-article",
+   "article-title": "Material engineering to enhance reliability in 3D NAND flash memory",
+   "volume": "3",
+   "author": "Kim",
+   "year": "2025",
+   "journal-title": "Device"
+  },
+  {
+   "key": "erxaea754bib18",
+   "doi-asserted-by": "publisher",
+   "first-page": "651",
+   "DOI": "10.1109/JEDS.2024.3447149",
+   "type": "journal-article",
+   "article-title": "Discrete-trap effects on 3-D NAND variability–part i: threshold voltage",
+   "volume": "12",
+   "author": "Malavena",
+   "year": "2024",
+   "journal-title": "IEEE J. Electron Devices Soc."
+  },
+  {
+   "key": "erxaea754bib19",
+   "doi-asserted-by": "publisher",
+   "first-page": "97",
+   "DOI": "10.23919/SISPAD57422.2023.10319604",
+   "type": "conference-proceedings",
+   "article-title": "Understanding the impact of polysilicon percolative conduction on 3D NAND variability",
+   "author": "Amoroso",
+   "year": "2023"
+  },
+  {
+   "key": "erxaea754bib20",
+   "doi-asserted-by": "publisher",
+   "first-page": "1",
+   "DOI": "10.1109/IMW56887.2023.10145986",
+   "type": "conference-proceedings",
+   "article-title": "Optimization of retention in ferroelectricity boosted gate stacks for 3D NAND",
+   "author": "Breuil",
+   "year": "2023"
+  },
+  {
+   "key": "erxaea754bib21",
+   "doi-asserted-by": "publisher",
+   "first-page": "3156",
+   "DOI": "10.3390/electronics10243156",
+   "type": "journal-article",
+   "article-title": "Recent progress on 3D NAND flash technologies",
+   "volume": "10",
+   "author": "Goda",
+   "year": "2021",
+   "journal-title": "Electronics"
+  },
+  {
+   "key": "erxaea754bib22",
+   "first-page": "1",
+   "type": "conference-proceedings",
+   "article-title": "Integration of alternative channel materials in 3D NAND flash memory",
+   "author": "Breuil",
+   "year": "2021"
+  },
+  {
+   "key": "erxaea754bib23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1088/1674-1056/ab695f",
+   "type": "journal-article",
+   "article-title": "Investigation of gate oxide traps effect on NAND flash memory by TCAD simulation",
+   "volume": "29",
+   "author": "Zhang",
+   "year": "2020",
+   "journal-title": "Chin. Phys. B"
+  },
+  {
+   "key": "erxaea754bib24",
+   "doi-asserted-by": "publisher",
+   "first-page": "328",
+   "DOI": "10.3390/mi12030328",
+   "type": "journal-article",
+   "article-title": "Retention enhancement in low-power NOR flash array with high-κ-based charge-trapping memory by utilizing high permittivity and high bandgap of aluminum oxide",
+   "volume": "12",
+   "author": "Song",
+   "year": "2021",
+   "journal-title": "Micromachines"
+  },
+  {
+   "key": "erxaea754bib25",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.35848/1347-4065/ab8275",
+   "type": "journal-article",
+   "article-title": "Tunneling oxide engineering for improving retention in nonvolatile charge-trapping memory with TaN/Al2O3/HfO2/SiO2/Al2O3/SiO2/Si structure",
+   "volume": "59",
+   "author": "Song",
+   "year": "2020",
+   "journal-title": "Jpn. J. Appl. Phys."
+  },
+  {
+   "key": "erxaea754bib26",
+   "doi-asserted-by": "publisher",
+   "first-page": "7135",
+   "DOI": "10.1109/ACCESS.2023.3237967",
+   "type": "journal-article",
+   "article-title": "Holistic optimization of trap distribution for performance/reliability in 3-D NAND flash using machine learning",
+   "volume": "11",
+   "author": "Nam",
+   "year": "2023",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "erxaea754bib27",
+   "doi-asserted-by": "publisher",
+   "first-page": "7425",
+   "DOI": "10.1109/TED.2024.3474618",
+   "type": "journal-article",
+   "article-title": "Machine learning-based prediction of threshold voltage distribution due to lateral migration in 3-D NAND flash memory",
+   "volume": "71",
+   "author": "Han",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "erxaea754bib28",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/advs.202501926",
+   "type": "journal-article",
+   "article-title": "MoS2 channel-enhanced high-density charge trap flash memory and machine learning-assisted sensing methodologies for Memory‐Centric Computing Systems",
+   "volume": "12",
+   "author": "Kim",
+   "year": "2025",
+   "journal-title": "Adv. Sci."
+  },
+  {
+   "key": "erxaea754bib29",
+   "article-title": "Atlas user’s manual",
+   "author": "Silvaco Inc.",
+   "year": "2018",
+   "type": "book"
+  },
+  {
+   "key": "erxaea754bib30",
+   "doi-asserted-by": "publisher",
+   "first-page": "1",
+   "DOI": "10.1109/IMW51353.2021.9439598",
+   "type": "conference-proceedings",
+   "article-title": "A TCAD compatible SONOS trapping layer model for accurate programming dynamics",
+   "author": "Schanovsky",
+   "year": "2021"
+  },
+  {
+   "key": "erxaea754bib31",
+   "first-page": "2456",
+   "type": "journal-article",
+   "article-title": "A compact model for the simulation of 3D NAND flash memory",
+   "volume": "67",
+   "author": "Li",
+   "year": "2020",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "erxaea754bib32",
+   "author": "Silvaco Inc.",
+   "year": "2017",
+   "type": "book"
+  },
+  {
+   "key": "erxaea754bib33",
+   "doi-asserted-by": "publisher",
+   "first-page": "1",
+   "DOI": "10.1109/IEDM.2008.4796750",
+   "type": "conference-proceedings",
+   "article-title": "New physical model for ultra-scaled 3D nitride-trapping non-volatile memories",
+   "author": "Nowak",
+   "year": "2008"
+  },
+  {
+   "key": "erxaea754bib34",
+   "doi-asserted-by": "publisher",
+   "first-page": "64",
+   "DOI": "10.1016/j.sse.2012.04.013",
+   "type": "journal-article",
+   "article-title": "Comprehensive investigation of the impact of lateral charge migration on retention performance of planar and 3D SONOS devices",
+   "volume": "74",
+   "author": "Maconi",
+   "year": "2012",
+   "journal-title": "Solid-State Electron."
+  },
+  {
+   "key": "erxaea754bib35",
+   "doi-asserted-by": "publisher",
+   "first-page": "1725",
+   "DOI": "10.1109/JPROC.2017.2725738",
+   "type": "journal-article",
+   "article-title": "Reliability of solid-state drives based on NAND flash memory",
+   "volume": "105",
+   "author": "Mielke",
+   "year": "2017",
+   "journal-title": "Proc. IEEE"
+  },
+  {
+   "key": "erxaea754bib36",
+   "doi-asserted-by": "publisher",
+   "first-page": "1",
+   "DOI": "10.1109/SISPAD62626.2024.10733082",
+   "type": "conference-proceedings",
+   "article-title": "A multiscale simulation approach for program noise and cross-temperature effects in 3-D NANDs",
+   "author": "Lin",
+   "year": "2024"
+  },
+  {
+   "key": "erxaea754bib37",
+   "doi-asserted-by": "publisher",
+   "first-page": "1",
+   "DOI": "10.1109/SISPAD66650.2025.11186324",
+   "type": "conference-proceedings",
+   "article-title": "Composition effect of tunneling and charge trap layer for enhanced cycle retention in VNAND flash memory",
+   "author": "Kwon",
+   "year": "2025"
+  }
+ ],
+ "container-title": [
+  "Engineering Research Express"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/aea754",
+   "content-type": "text/html",
+   "content-version": "am",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/aea754/pdf",
+   "content-type": "application/pdf",
+   "content-version": "am",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/aea754",
+   "content-type": "text/html",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/aea754/pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/aea754/pdf",
+   "content-type": "application/pdf",
+   "content-version": "am",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/aea754/pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/aea754/pdf",
+   "content-type": "application/pdf",
+   "content-version": "am",
+   "intended-application": "similarity-checking"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/aea754/pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ],
+  "date-time": "2026-10-01T08:50:59Z",
+  "timestamp": 1790844659000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/aea754"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ]
+ },
+ "references-count": 37,
+ "journal-issue": {
+  "issue": "19",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     1
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     1
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1088/2631-8695/aea754",
+ "relation": {},
+ "ISSN": [
+  "2631-8695"
+ ],
+ "issn-type": [
+  {
+   "value": "2631-8695",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "TCAD-based investigation of charge trap layer engineering and channel effects on program/erase characteristics in 3D vertical NAND flash memory cells",
+   "name": "article_title",
+   "label": "Article Title"
+  },
+  {
+   "value": "Engineering Research Express",
+   "name": "journal_title",
+   "label": "Journal Title"
+  },
+  {
+   "value": "paper",
+   "name": "article_type",
+   "label": "Article Type"
+  },
+  {
+   "value": "© 2026 IOP Publishing Ltd. All rights, including for text and data mining, AI training, and similar technologies, are reserved.",
+   "name": "copyright_information",
+   "label": "Copyright Information"
+  },
+  {
+   "value": "2026-07-15",
+   "name": "date_received",
+   "label": "Date Received",
+   "group": {
+    "name": "publication_dates",
+    "label": "Publication dates"
+   }
+  },
+  {
+   "value": "2026-09-14",
+   "name": "date_accepted",
+   "label": "Date Accepted",
+   "group": {
+    "name": "publication_dates",
+    "label": "Publication dates"
+   }
+  },
+  {
+   "value": "2026-10-01",
+   "name": "date_epub",
+   "label": "Online publication date",
+   "group": {
+    "name": "publication_dates",
+    "label": "Publication dates"
+   }
+  }
+ ]
+}

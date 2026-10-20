@@ -1,0 +1,472 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    2
+   ]
+  ],
+  "date-time": "2026-10-02T08:54:14Z",
+  "timestamp": 1790931254782,
+  "version": "4.1.0"
+ },
+ "reference-count": 27,
+ "publisher": "MDPI AG",
+ "issue": "19",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      2
+     ]
+    ],
+    "date-time": "2026-10-02T00:00:00Z",
+    "timestamp": 1790899200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "name": "European Project STEP",
+   "award": [
+    "101134959"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "101134959"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Sensors"
+ ],
+ "abstract": "<jats:p>Cryogenic operation of CMOS read-out integrated circuits (ROICs) is essential for high-performance infrared focal plane arrays but significantly affects carrier transport and device reliability. This work investigates hot-carrier injection (HCI) mechanisms in 180 nm NMOS transistors operating from room temperature down to 140 K. Electrical characterization and accelerated stress measurements reveal a strong impact of hot-carrier effects at low temperatures, resulting in increased degradation of device characteristics, particularly under channel hot-electron (CHE) and drain avalanche hot carrier (DAHC) stress conditions. Time-to-failure modeling confirms accelerated degradation kinetics while validating conventional substrate-current-based reliability methodologies at cryogenic temperatures. Geometry-based design strategies, notably gate-length optimization, are proposed to mitigate cryogenic HCI effects, enabling an improved performance–reliability trade-off. These results provide key guidelines for design reliability of cryogenic CMOS ROICs for infrared imaging applications.</jats:p>",
+ "DOI": "10.3390/s26196254",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    2
+   ]
+  ],
+  "date-time": "2026-10-02T08:15:18Z",
+  "timestamp": 1790928918000
+ },
+ "page": "6254",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "Investigation on Hot-Carrier Injection Mechanisms and Reliability Design-Based Strategies in Cryogenically Operated CMOS ROICs for Infrared Focal Plane Arrays"
+ ],
+ "prefix": "10.3390",
+ "volume": "26",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0009-0003-3732-7760",
+   "authenticated-orcid": false,
+   "given": "Ayoub El",
+   "family": "El Abdi",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "CIMI Integrated Image Sensor Laboratory, Institut Supérieur de l’Aéronautique et de l’Espace (ISAE-SUPAERO), Université de Toulouse, 31055 Toulouse, France"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-1922-7785",
+   "authenticated-orcid": false,
+   "given": "Philippe",
+   "family": "Martin-Gonthier",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "CIMI Integrated Image Sensor Laboratory, Institut Supérieur de l’Aéronautique et de l’Espace (ISAE-SUPAERO), Université de Toulouse, 31055 Toulouse, France"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0009-0003-0746-4086",
+   "authenticated-orcid": false,
+   "given": "Valentin",
+   "family": "Badefort-Baril",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "CIMI Integrated Image Sensor Laboratory, Institut Supérieur de l’Aéronautique et de l’Espace (ISAE-SUPAERO), Université de Toulouse, 31055 Toulouse, France"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    2
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Glidden, R.M., Lizotte, S.C., Cable, J.S., Mason, L.W., and Cao, C. (1992). Optimization of cryogenic CMOS processes for sub-10°K applications. Infrared Readout Electronics, SPIE.",
+   "DOI": "10.1117/12.60492"
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "first-page": "108",
+   "DOI": "10.1109/JPHOTOV.2012.2210032",
+   "article-title": "Incomplete Ionization and Carrier Mobility in Compensated p-Type and n-Type Silicon",
+   "volume": "3",
+   "author": "Forster",
+   "year": "2012",
+   "journal-title": "IEEE J. Photovolt."
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Chao, C.Y.-P., Wu, T.M.-H., Yeh, S.-F., Lee, C.-L., Tu, H., Huang, J.C.-Y., and Chang, C.-H. (2023). Random Telegraph Noise Degradation Caused by Hot Carrier Injection in a 0.8 μm-Pitch 8.3Mpixel Stacked CMOS Image Sensor. Sensors, 23.",
+   "DOI": "10.3390/s23187959"
+  },
+  {
+   "key": "ref_4",
+   "first-page": "1",
+   "article-title": "Hot carriers effects and electroluminescence in the CMOS photodiode active pixel sensors",
+   "volume": "5017",
+   "author": "Maestre",
+   "year": "2003",
+   "journal-title": "Sens. Camera Syst. Sci. Ind. Digit. Photogr. Appl. IV"
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "first-page": "620",
+   "DOI": "10.1109/TDMR.2021.3124417",
+   "article-title": "Hot Carrier Degradation in MOSFETs at Cryogenic Temperatures Down to 4.2 K",
+   "volume": "21",
+   "author": "Zhang",
+   "year": "2021",
+   "journal-title": "IEEE Trans. Device Mater. Reliab."
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Soli, E., Vladimirescu, A., Babaie, M., Hamdioui, S., and Sebastiano, F. (2026, January 22–26). Cryogenic Hot Carrier Degradation and Threshold-Voltage Turn-Around Effect in 5-V CMOS Transistors. Proceedings of the 2026 IEEE International Reliability Physics Symposium (IRPS), Tucson, AZ, USA.",
+   "DOI": "10.1109/IRPS61424.2026.11499192"
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "first-page": "871",
+   "DOI": "10.1109/T-ED.1983.21229",
+   "article-title": "Effects of hot-carrier trapping in n- and p-channel MOSFET’s",
+   "volume": "30",
+   "author": "Ng",
+   "year": "1983",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "first-page": "1869",
+   "DOI": "10.1109/16.57138",
+   "article-title": "The generation and characterization of electron and hole traps created by hole injection during low gate voltage hot-carrier stressing of n-MOS transistors",
+   "volume": "37",
+   "author": "Doyle",
+   "year": "1990",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "first-page": "980",
+   "DOI": "10.1109/16.52433",
+   "article-title": "Temperature dependence of the channel hot-carrier degradation of n-channel MOSFET’s",
+   "volume": "37",
+   "author": "Heremans",
+   "year": "1990",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "first-page": "1529",
+   "DOI": "10.1109/T-ED.1986.22703",
+   "article-title": "Observation of hot-hole injection in NMOS transistors using a modified floating-gate technique",
+   "volume": "33",
+   "author": "Saks",
+   "year": "1986",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "first-page": "111",
+   "DOI": "10.1109/EDL.1983.25667",
+   "article-title": "An empirical model for device degradation due to hot-carrier injection",
+   "volume": "4",
+   "author": "Takeda",
+   "year": "1983",
+   "journal-title": "IEEE Electron Device Lett."
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "first-page": "959",
+   "DOI": "10.1016/j.sse.2006.05.010",
+   "article-title": "CMOS reliability issues for emerging cryogenic Lunar electronics applications",
+   "volume": "50",
+   "author": "Chen",
+   "year": "2006",
+   "journal-title": "Solid-State Electron."
+  },
+  {
+   "key": "ref_13",
+   "doi-asserted-by": "crossref",
+   "first-page": "268",
+   "DOI": "10.1109/16.557714",
+   "article-title": "Comparison of NMOS and PMOS hot carrier effects from 300 to 77 K",
+   "volume": "44",
+   "author": "Song",
+   "year": "1997",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "first-page": "99",
+   "DOI": "10.7567/JJAPS.22S1.99",
+   "article-title": "New Observation of Hot-Carrier Injection Phenomena",
+   "volume": "22",
+   "author": "Nakagome",
+   "year": "1983",
+   "journal-title": "Jpn. J. Appl. Phys."
+  },
+  {
+   "key": "ref_15",
+   "first-page": "3",
+   "article-title": "New hot-carrier injection and device degradation in submicron MOSFETs",
+   "volume": "130",
+   "author": "Takeda",
+   "year": "1983",
+   "journal-title": "IEEE Proc. I—Solid-State Electron Devices"
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "3883",
+   "DOI": "10.1063/1.359905",
+   "article-title": "Mechanism for stress-induced leakage currents in thin silicon dioxide films",
+   "volume": "78",
+   "author": "DiMaria",
+   "year": "1995",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "ref_17",
+   "unstructured": "JEDEC Solid State Technology Association (2001). Procedure for Measuring N-Channel MOSFET Hot-Carrier-Induced Degradation Under DC Stress, JEDEC."
+  },
+  {
+   "key": "ref_18",
+   "unstructured": "JEDEC Solid State Technology Association (2001). N-Channel MOSFET Hot Carrier Data Analysis, JEDEC."
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "295",
+   "DOI": "10.1109/JSSC.1985.1052306",
+   "article-title": "Hot-Electron-Induced MOSFET Degradation—Model, Monitor, and Improvement",
+   "volume": "20",
+   "author": "Hu",
+   "year": "1985",
+   "journal-title": "IEEE J. Solid-State Circuits"
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "242",
+   "DOI": "10.1063/1.1754731",
+   "article-title": "TEMPERATURE DEPENDENCE OF AVALANCHE MULTIPLICATION IN SEMICONDUCTORS",
+   "volume": "9",
+   "author": "Crowell",
+   "year": "1966",
+   "journal-title": "Appl. Phys. Lett."
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Grasser, T. (2015). Hot Carrier Degradation in Semiconductor Devices, Springer International Publishing.",
+   "DOI": "10.1007/978-3-319-08994-2"
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Taur, Y., and Ning, T.H. (2009). Fundamentals of Modern VLSI Devices, Cambridge University Press. [2nd ed.].",
+   "DOI": "10.1017/CBO9781139195065"
+  },
+  {
+   "key": "ref_23",
+   "first-page": "806",
+   "article-title": "Hot-Carrier-Induced Current Degradation in Deep Sub-Micron MOSFETs from Subthreshold to Strong Inversion Region",
+   "volume": "2",
+   "author": "Lin",
+   "year": "2011",
+   "journal-title": "TechConnect Briefs"
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "first-page": "5997",
+   "DOI": "10.1063/1.324568",
+   "article-title": "Thermal reemission of trapped electrons in SiO2",
+   "volume": "49",
+   "author": "Ning",
+   "year": "1978",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "unstructured": "DiMaria, D. (1978). The Properties of Electron and Hole Traps in Thermal Silicon Dioxide Layers Grown on Silicon, Elsevier Inc.",
+   "DOI": "10.1016/B978-0-08-023049-8.50034-8"
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "first-page": "1120",
+   "DOI": "10.1109/16.3372",
+   "article-title": "Model for hysteresis and kink behavior of MOS transistors operating at 4.2 K",
+   "volume": "35",
+   "author": "Dierickx",
+   "year": "1988",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "first-page": "784",
+   "DOI": "10.1109/LED.2019.2903111",
+   "article-title": "Cryogenic Subthreshold Swing Saturation in FD-SOI MOSFETs Described With Band Broadening",
+   "volume": "40",
+   "author": "Bohuslavskyi",
+   "year": "2019",
+   "journal-title": "IEEE Electron Device Lett."
+  }
+ ],
+ "container-title": [
+  "Sensors"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1424-8220/26/19/6254/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    2
+   ]
+  ],
+  "date-time": "2026-10-02T08:17:30Z",
+  "timestamp": 1790929050000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1424-8220/26/19/6254"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    2
+   ]
+  ]
+ },
+ "references-count": 27,
+ "journal-issue": {
+  "issue": "19",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     10
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "s26196254"
+ ],
+ "URL": "https://doi.org/10.3390/s26196254",
+ "relation": {},
+ "ISSN": [
+  "1424-8220"
+ ],
+ "issn-type": [
+  {
+   "value": "1424-8220",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    2
+   ]
+  ]
+ }
+}

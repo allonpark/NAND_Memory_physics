@@ -1,0 +1,18 @@
+1a) Laplacian of 1/r (r>0): 0
+1b) half-max radius rho_1/2 = [sqrt(3)*d] -> FWHM = [2*sqrt(3)*d]
+1c) peak surface rise Ts(0) = P/(2*pi*d*k)
+1d) min detectable power P_min = [2*pi*DeltaT_min*d*k]
+2a) residual of heat eq with mu=sqrt(2D/w): 0
+2b) FWHM/d vs g=d/mu (numeric root of amp=1/2):
+    g=   0: FWHM/d=3.464 
+    g= 0.5: FWHM/d=2.323 
+    g=   1: FWHM/d=1.887 
+    g=   2: FWHM/d=1.464  (small-mu approx 2*sqrt(2ln2/g)=1.665)
+    g=   5: FWHM/d=0.993  (small-mu approx 2*sqrt(2ln2/g)=1.053)
+    g=  10: FWHM/d=0.722  (small-mu approx 2*sqrt(2ln2/g)=0.745)
+2c) on-axis amplitude attenuation factor exp(-d/mu)/d ; phase lag = d/mu rad
+    signal at g=5 relative to g=0 (same d): 0.006737946999085467
+3a) eta2/eta1 = (A1/A2)**(1/beta) (weakest-link, same E,T,criterion)
+3b) extrinsic fraction F_ext = 1-exp(-D0*A); small D0*A -> A*D0
+4a) E_coax(r_in)/E_planar(same t=r_out-r_in, same V) = (-r_in + r_out)/(r_in*log(r_out/r_in))
+4b) in u=t/r_in: u/log(u + 1) ; limit u->0 = 1
