@@ -29,6 +29,36 @@ jobs:
       - name: Report gate (fail closed on placeholder / empty / non-bilingual reports)
         run: python3 scripts/publication_gate.py check
 
+      # ---- Quality linters (PR-A). Unit tests for the linters already run, blocking,
+      # ---- in the "Unit tests" step above (python3 -m unittest discover -s tests).
+      - name: "Report linters (REPORT-ONLY, existing weeks, never blocks)"
+        id: report_lint
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -uo pipefail
+          mkdir -p "$RUNNER_TEMP/lint"
+          python3 -I scripts/report_lint.py all --report-only | tee "$RUNNER_TEMP/lint/report_lint_all.txt"
+          python3 -I scripts/report_lint.py crossref-resolve --report-only | tee "$RUNNER_TEMP/lint/report_lint_crossref.txt" || true
+          {
+            echo "## Report linters (report-only)"
+            python3 -I scripts/report_lint.py all --report-only --markdown
+            echo
+            echo "## crossref-resolve (network; UNKNOWN on network errors)"
+            python3 -I scripts/report_lint.py crossref-resolve --report-only --markdown
+          } >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Upload report-lint output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: report-lint-output
+          path: ${{ runner.temp }}/lint
+          if-no-files-found: ignore
+
+      - name: "New-week policy (blocking only for weeks 2026-W43 and later: leak-check, kr-en-adjacency, vocabulary)"
+        run: python3 -I scripts/report_lint.py policy --offline
+
       - name: Install Korean fonts and PDF validation tools
         shell: bash
         run: |
