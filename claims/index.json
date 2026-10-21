@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "description": "Index of per-week evidence ledgers. See claims/README.md.",
+  "files": [
+    {"week": "2026-W40", "path": "claims/2026-w40.json", "claims_count": 20}
+  ],
+  "new_week_policy": {
+    "first_blocking_week": "2026-W43",
+    "blocking_checks": ["leak-check", "kr-en-adjacency", "vocabulary"]
+  },
+  "allowed_duplicate_dois": []
+}

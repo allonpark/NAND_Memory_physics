@@ -1,0 +1,699 @@
+{
+  "schema_version": 1,
+  "week": "2026-W40",
+  "year": 2026,
+  "provenance": {
+    "built_from": "audit/2026/w40/sources_crossref/cr_S1..S5.json on branch weekly/2026-w40 (draft PR 4), commit 3b703ba0dd302e5be67de5e5a35f4ffb9fe0b756",
+    "method": "each claim text is a literal substring of the Crossref-deposited abstract (JATS tags removed, whitespace collapsed); only SOURCE_REPORTED claims with location abstract",
+    "grade_convention": "grade C = the claim matches the abstract text; body unchecked (same convention the W40 draft report uses)",
+    "not_covered": "No full text was read. Author interpretations, mechanism statements and report-side inferences are intentionally not in this file."
+  },
+  "sources": [
+    {
+      "doi": "10.31399/asm.cp.istfa2026p0151",
+      "title": "Understanding the Root Cause of Transient Failures in NAND-Type 3D Flash Memory",
+      "access": "abstract_only"
+    },
+    {
+      "doi": "10.31399/asm.cp.istfa2026p0478",
+      "title": "Localization of Gate Oxide Defects within Pool Capacitors in NAND-type 3D Flash Memory",
+      "access": "abstract_only"
+    },
+    {
+      "doi": "10.1088/2631-8695/aea754",
+      "title": "TCAD-based investigation of charge trap layer engineering and channel effects on program/erase characteristics in 3D vertical NAND flash memory cells",
+      "access": "abstract_only"
+    },
+    {
+      "doi": "10.3390/s26196254",
+      "title": "Investigation on Hot-Carrier Injection Mechanisms and Reliability Design-Based Strategies in Cryogenically Operated CMOS ROICs for Infrared Focal Plane Arrays",
+      "access": "abstract_only"
+    },
+    {
+      "doi": "10.1088/1361-6463/ae9c4e",
+      "title": "PWM-induced lifetime enhancement in commercial 4H-SiC MOSFET gate oxides and the associated physical mechanisms of interface traps",
+      "access": "abstract_only"
+    }
+  ],
+  "claims": [
+    {
+      "id": "2026-w40-c001",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.31399/asm.cp.istfa2026p0151",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "NAND-type 3D Flash memory chip",
+        "geometry": "circuits outside the memory array (row, column, peripheral)",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": {
+        "name": "failure classes studied",
+        "value": 3,
+        "unit": "classes"
+      },
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "scope",
+      "text": "we investigate three classes of transient failures originating from defects located in the row circuits, column circuitry, and peripheral logic",
+      "mechanism_ids": [],
+      "related_claim_ids": []
+    },
+    {
+      "id": "2026-w40-c002",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.31399/asm.cp.istfa2026p0151",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "NAND-type 3D Flash memory chip",
+        "geometry": "UNKNOWN",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": null,
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "method",
+      "text": "Beginning with the observed failure signatures, we analyze the underlying root causes and explain the physical mechanisms responsible for their transient behaviors.",
+      "mechanism_ids": [],
+      "related_claim_ids": [
+        "2026-w40-c001"
+      ]
+    },
+    {
+      "id": "2026-w40-c003",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.31399/asm.cp.istfa2026p0478",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "NAND-type 3D Flash memory",
+        "geometry": "global reference/clock signal path",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": null,
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "observation",
+      "text": "A defect affecting even a single load can disturb the integrity of the shared global signal, causing degradation across multiple functional blocks",
+      "mechanism_ids": [],
+      "related_claim_ids": []
+    },
+    {
+      "id": "2026-w40-c004",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.31399/asm.cp.istfa2026p0478",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "NAND-type 3D Flash memory device",
+        "geometry": "pool capacitor on a global signal line",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": null,
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "method",
+      "text": "we demonstrate the localization of a subtle defect within the pool capacitor of a global signal line in a NAND-type 3D Flash memory device",
+      "mechanism_ids": [],
+      "related_claim_ids": [
+        "2026-w40-c003"
+      ]
+    },
+    {
+      "id": "2026-w40-c005",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.31399/asm.cp.istfa2026p0478",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "NAND-type 3D Flash memory device",
+        "geometry": "defect buried deep within the die",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": null,
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "observation",
+      "text": "This type of defect is challenging to detect due to its small physical footprint and its location buried deep within the die, which makes typical OBIRCH hotspots diffused or smeared out.",
+      "mechanism_ids": [],
+      "related_claim_ids": [
+        "2026-w40-c004"
+      ]
+    },
+    {
+      "id": "2026-w40-c006",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/2631-8695/aea754",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "3D vertical NAND flash memory cell (TCAD)",
+        "geometry": "UNKNOWN (planar versus cylindrical not stated in abstract)",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": null,
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "method",
+      "text": "Using Silvaco Atlas with the DYNASONOS charge trapping model",
+      "mechanism_ids": [
+        "ctl-retention"
+      ],
+      "related_claim_ids": []
+    },
+    {
+      "id": "2026-w40-c007",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/2631-8695/aea754",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "charge trap layer (TCAD)",
+        "geometry": "UNKNOWN (not stated in abstract)",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": {
+        "name": "optimal trap density (abstract text: 3-5 x 10^19 cm^-3)",
+        "comparator": "approx",
+        "value_min": 3e+19,
+        "value_max": 5e+19,
+        "unit": "cm^-3"
+      },
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "quantity",
+      "text": "the optimal trap density for maximizing the P/E window is approximately 3–5 × 10 19 cm −3",
+      "mechanism_ids": [
+        "ctl-retention"
+      ],
+      "related_claim_ids": []
+    },
+    {
+      "id": "2026-w40-c008",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/2631-8695/aea754",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "charge trap layer (TCAD)",
+        "geometry": "UNKNOWN",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": null,
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "observation",
+      "text": "beyond which the incremental window gain saturates",
+      "mechanism_ids": [
+        "ctl-retention"
+      ],
+      "related_claim_ids": [
+        "2026-w40-c007"
+      ]
+    },
+    {
+      "id": "2026-w40-c009",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/2631-8695/aea754",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "tunnel oxide (TCAD)",
+        "geometry": "UNKNOWN (not stated in abstract)",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": {
+        "name": "tunnel oxide thickness",
+        "value_min": 4,
+        "value_max": 5,
+        "unit": "nm"
+      },
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "quantity",
+      "text": "A tunnel oxide thickness of 4–5 nm provides the best trade-off between programming speed and long-term data retention",
+      "mechanism_ids": [
+        "ctl-retention"
+      ],
+      "related_claim_ids": []
+    },
+    {
+      "id": "2026-w40-c010",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/2631-8695/aea754",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "optimized Al2O3 blocking oxide (TCAD)",
+        "geometry": "UNKNOWN",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "10 years (simulated; extrapolation method not stated in abstract)",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": {
+        "name": "charge loss",
+        "comparator": "<=",
+        "value": 15,
+        "unit": "%"
+      },
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "quantity",
+      "text": "demonstrating ⩽15% charge loss over 10 years when combined with an optimized Al 2 O 3 blocking oxide",
+      "mechanism_ids": [
+        "ctl-retention"
+      ],
+      "related_claim_ids": [
+        "2026-w40-c009"
+      ]
+    },
+    {
+      "id": "2026-w40-c011",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/2631-8695/aea754",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "polysilicon channel (TCAD)",
+        "geometry": "UNKNOWN",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": {
+        "name": "grain size threshold",
+        "comparator": ">",
+        "value": 50,
+        "unit": "nm"
+      },
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "quantity",
+      "text": "showing that larger grain sizes (>50 nm) significantly reduce the V th distribution width",
+      "mechanism_ids": [
+        "poly-si-channel"
+      ],
+      "related_claim_ids": []
+    },
+    {
+      "id": "2026-w40-c012",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.3390/s26196254",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "180 nm NMOS transistors",
+        "geometry": "UNKNOWN",
+        "temperature": "room temperature down to 140 K",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": {
+        "name": "technology node",
+        "value": 180,
+        "unit": "nm"
+      },
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "quantity",
+      "text": "This work investigates hot-carrier injection (HCI) mechanisms in 180 nm NMOS transistors operating from room temperature down to 140 K.",
+      "mechanism_ids": [
+        "hci-bti"
+      ],
+      "related_claim_ids": []
+    },
+    {
+      "id": "2026-w40-c013",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.3390/s26196254",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "180 nm NMOS transistors",
+        "geometry": "UNKNOWN",
+        "temperature": "low temperature (down to 140 K)",
+        "bias": "CHE and DAHC stress (values not stated in abstract)",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": null,
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "observation",
+      "text": "Electrical characterization and accelerated stress measurements reveal a strong impact of hot-carrier effects at low temperatures, resulting in increased degradation of device characteristics, particularly under channel hot-electron (CHE) and drain avalanche hot carrier (DAHC) stress conditions.",
+      "mechanism_ids": [
+        "hci-bti"
+      ],
+      "related_claim_ids": [
+        "2026-w40-c012"
+      ]
+    },
+    {
+      "id": "2026-w40-c014",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.3390/s26196254",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "180 nm NMOS transistors",
+        "geometry": "UNKNOWN",
+        "temperature": "cryogenic",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": null,
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "method",
+      "text": "Time-to-failure modeling confirms accelerated degradation kinetics while validating conventional substrate-current-based reliability methodologies at cryogenic temperatures.",
+      "mechanism_ids": [
+        "hci-bti"
+      ],
+      "related_claim_ids": [
+        "2026-w40-c013"
+      ]
+    },
+    {
+      "id": "2026-w40-c015",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.3390/s26196254",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "180 nm NMOS transistors",
+        "geometry": "UNKNOWN",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": null,
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "method",
+      "text": "Geometry-based design strategies, notably gate-length optimization, are proposed to mitigate cryogenic HCI effects",
+      "mechanism_ids": [
+        "hci-bti"
+      ],
+      "related_claim_ids": []
+    },
+    {
+      "id": "2026-w40-c016",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/1361-6463/ae9c4e",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "commercial 1.2 kV 4H-SiC MOSFET gate oxide (three device families)",
+        "geometry": "planar and trench",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": {
+        "name": "device voltage class",
+        "value": 1.2,
+        "unit": "kV"
+      },
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "method",
+      "text": "This work reports a controlled comparison of gate-oxide time-dependent dielectric breakdown (TDDB) under DC and pulsed-voltage stress for three commercial 1.2 kV device families (Wolfspeed C2M and C3M planar, Infineon trench)",
+      "mechanism_ids": [
+        "tdbb"
+      ],
+      "related_claim_ids": []
+    },
+    {
+      "id": "2026-w40-c017",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/1361-6463/ae9c4e",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "commercial 1.2 kV 4H-SiC MOSFET gate oxide",
+        "geometry": "UNKNOWN",
+        "temperature": "150 °C",
+        "bias": "pulsed voltage, DC to 100 kHz (amplitude not stated in abstract)",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": {
+        "name": "Weibull characteristic lifetime ratio, 100 kHz versus DC",
+        "value_min": 4.1,
+        "value_max": 4.7,
+        "unit": "x"
+      },
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "quantity",
+      "text": "Pulsed-voltage TDDB measurements at 150 °C and five switching frequencies (DC to 100 kHz) show that the Weibull characteristic lifetime increases monotonically with frequency, with the 100 kHz value approximately four times the DC value (4.1×–4.7× across the three families).",
+      "mechanism_ids": [
+        "tdbb",
+        "weibull-screening"
+      ],
+      "related_claim_ids": [
+        "2026-w40-c016"
+      ]
+    },
+    {
+      "id": "2026-w40-c018",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/1361-6463/ae9c4e",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "commercial 1.2 kV 4H-SiC MOSFET gate oxide",
+        "geometry": "interface-trap time-constant spectrum g(tau)",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": {
+        "name": "fast cluster time constant",
+        "comparator": "approx",
+        "value": 0.7,
+        "unit": "ms"
+      },
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "quantity",
+      "text": "comprising a fast interface-state cluster near τ ≈0.7 ms and a slow near-interface-oxide-trap shoulder extending from about 0.5 to 50 s",
+      "mechanism_ids": [
+        "tdbb"
+      ],
+      "related_claim_ids": []
+    },
+    {
+      "id": "2026-w40-c019",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/1361-6463/ae9c4e",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "commercial 1.2 kV 4H-SiC MOSFET gate oxide",
+        "geometry": "UNKNOWN",
+        "temperature": "150 °C",
+        "bias": "millisecond pulsing",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": {
+        "name": "reduction of quasi-permanent Vth drift versus DC",
+        "comparator": "approx",
+        "value": 30,
+        "unit": "%"
+      },
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "quantity",
+      "text": "The reduction of quasi-permanent threshold-voltage drift under millisecond pulsing (≈30% relative to DC at 150 °C)",
+      "mechanism_ids": [
+        "tdbb"
+      ],
+      "related_claim_ids": [
+        "2026-w40-c017"
+      ]
+    },
+    {
+      "id": "2026-w40-c020",
+      "week": "2026-W40",
+      "source": {
+        "doi": "10.1088/1361-6463/ae9c4e",
+        "location": {
+          "kind": "abstract",
+          "ref": "Crossref-deposited abstract text"
+        }
+      },
+      "conditions": {
+        "material": "commercial 1.2 kV 4H-SiC MOSFET gate oxide",
+        "geometry": "UNKNOWN",
+        "temperature": "UNKNOWN",
+        "bias": "UNKNOWN",
+        "time": "UNKNOWN",
+        "sample_count": "UNKNOWN"
+      },
+      "quantity": null,
+      "label": "SOURCE_REPORTED",
+      "grade": "C",
+      "access": "abstract_only",
+      "status": "supported",
+      "claim_type": "observation",
+      "text": "the relation is bounding and empirical, and the field mismatch between spectroscopy and TDDB testing is discussed explicitly",
+      "mechanism_ids": [
+        "tdbb"
+      ],
+      "related_claim_ids": [
+        "2026-w40-c017"
+      ]
+    }
+  ]
+}
