@@ -1,0 +1,248 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    6
+   ]
+  ],
+  "date-time": "2026-10-06T08:55:37Z",
+  "timestamp": 1791276937661,
+  "version": "4.1.0"
+ },
+ "reference-count": 0,
+ "publisher": "ASM International",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [],
+ "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>As NAND-type 3D Flash memory continues to scale in performance, speed, and storage density, the underlying architecture has grown significantly more complex. Global reference signals and clock networks must traverse large areas of the chip while driving numerous loads. A defect affecting even a single load can disturb the integrity of the shared global signal, causing degradation across multiple functional blocks and potentially resulting in fatal system-level failures. Therefore, rapid and accurate localization of defects on these global signal paths is critical for root cause identification and for enabling design, layout, and process teams to collaborate to reduce DPPM and improve overall yield. In this work, we demonstrate the localization of a subtle defect within the pool capacitor of a global signal line in a NAND-type 3D Flash memory device. This type of defect is challenging to detect due to its small physical footprint and its location buried deep within the die, which makes typical OBIRCH hotspots diffused or smeared out. The methodology presented here enables precise identification of such hidden failures.</jats:p>",
+ "DOI": "10.31399/asm.cp.istfa2026p0478",
+ "type": "proceedings-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    30
+   ]
+  ],
+  "date-time": "2026-09-30T07:43:38Z",
+  "timestamp": 1790754218000
+ },
+ "page": "478-480",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "Localization of Gate Oxide Defects within Pool Capacitors in NAND-type 3D Flash Memory"
+ ],
+ "prefix": "10.31399",
+ "volume": "85458",
+ "author": [
+  {
+   "given": "Xiaochen",
+   "family": "Zhu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sandisk Technologies Inc. , Milpitas, California, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Long",
+   "family": "Ngo",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sandisk Technologies Inc. , Milpitas, California, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mimi",
+   "family": "Dang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sandisk Technologies Inc. , Milpitas, California, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Long",
+   "family": "Phi",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sandisk Technologies Inc. , Milpitas, California, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Elliott",
+   "family": "Rill",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sandisk Technologies Inc. , Milpitas, California, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Lito De La",
+   "family": "Rama",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sandisk Technologies Inc. , Milpitas, California, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "14553",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    4
+   ]
+  ]
+ },
+ "event": {
+  "name": "ISTFA 2026",
+  "theme": "Design for Analysis",
+  "location": "San Antonio, Texas, USA",
+  "acronym": "ISTFA2026",
+  "sponsor": [
+   "Electronic Device Failure Analysis Society",
+   "ASM International"
+  ],
+  "start": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     4
+    ]
+   ]
+  },
+  "end": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     8
+    ]
+   ]
+  }
+ },
+ "container-title": [
+  "International Symposium for Testing and Failure Analysis",
+  "ISTFA 2026: Conference Proceedings from the 52nd International Symposium for Testing and Failure Analysis"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://dl.asminternational.org/istfa/proceedings-pdf/doi/10.31399/asm.cp.istfa2026p0478/748296/istfa2026p0478.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://dl.asminternational.org/istfa/proceedings-pdf/doi/10.31399/asm.cp.istfa2026p0478/748296/istfa2026p0478.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    6
+   ]
+  ],
+  "date-time": "2026-10-06T08:45:36Z",
+  "timestamp": 1791276336000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://dl.asminternational.org/istfa/proceedings/ISTFA2026/85458/478/36001"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    4
+   ]
+  ]
+ },
+ "references-count": 0,
+ "URL": "https://doi.org/10.31399/asm.cp.istfa2026p0478",
+ "relation": {},
+ "ISSN": [
+  "0890-1740"
+ ],
+ "issn-type": [
+  {
+   "value": "0890-1740",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    4
+   ]
+  ]
+ }
+}

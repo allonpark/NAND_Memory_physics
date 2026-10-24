@@ -1,0 +1,216 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    6
+   ]
+  ],
+  "date-time": "2026-10-06T08:55:19Z",
+  "timestamp": 1791276919741,
+  "version": "4.1.0"
+ },
+ "reference-count": 0,
+ "publisher": "ASM International",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [],
+ "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>NAND-type 3D Flash memory—built on vertically stacked memory cells to achieve higher storage density and enhanced performance—has become a foundational technology in modern data-storage systems and AI workloads. However, continued scaling to further increase density and improve device characteristics introduces substantial process-integration challenges. As dimensions shrink and architectural complexity rises, defect rates tend to increase, and more critically, many defects manifest transient or intermittent electrical behavior despite being physically observable. Although process improvements remain essential, understanding the failure mechanisms that drive these intermittent or transient behaviors is equally critical. Such insight is vital for defining effective screening strategies and stress methodologies that support time-to-market goals, while meeting stringent DPPM requirements. In this manuscript, we investigate three classes of transient failures originating from defects located in the row circuits, column circuitry, and peripheral logic—key functional blocks of a NAND-type 3D Flash memory chip outside the memory array. Beginning with the observed failure signatures, we analyze the underlying root causes and explain the physical mechanisms responsible for their transient behaviors.</jats:p>",
+ "DOI": "10.31399/asm.cp.istfa2026p0151",
+ "type": "proceedings-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    30
+   ]
+  ],
+  "date-time": "2026-09-30T07:39:41Z",
+  "timestamp": 1790753981000
+ },
+ "page": "151-156",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "Understanding the Root Cause of Transient Failures in NAND-Type 3D Flash Memory"
+ ],
+ "prefix": "10.31399",
+ "volume": "85458",
+ "author": [
+  {
+   "given": "Xiaochen",
+   "family": "Zhu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sandisk Technologies Inc. , Milpitas, California, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Elliott",
+   "family": "Rill",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sandisk Technologies Inc. , Milpitas, California, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Tao",
+   "family": "Du",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sandisk Technologies Inc. , Milpitas, California, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Lito De La",
+   "family": "Rama",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sandisk Technologies Inc. , Milpitas, California, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "14553",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    4
+   ]
+  ]
+ },
+ "event": {
+  "name": "ISTFA 2026",
+  "theme": "Design for Analysis",
+  "location": "San Antonio, Texas, USA",
+  "acronym": "ISTFA2026",
+  "sponsor": [
+   "Electronic Device Failure Analysis Society",
+   "ASM International"
+  ],
+  "start": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     4
+    ]
+   ]
+  },
+  "end": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     8
+    ]
+   ]
+  }
+ },
+ "container-title": [
+  "International Symposium for Testing and Failure Analysis",
+  "ISTFA 2026: Conference Proceedings from the 52nd International Symposium for Testing and Failure Analysis"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://dl.asminternational.org/istfa/proceedings-pdf/doi/10.31399/asm.cp.istfa2026p0151/748136/istfa2026p0151.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://dl.asminternational.org/istfa/proceedings-pdf/doi/10.31399/asm.cp.istfa2026p0151/748136/istfa2026p0151.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    6
+   ]
+  ],
+  "date-time": "2026-10-06T08:41:50Z",
+  "timestamp": 1791276110000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://dl.asminternational.org/istfa/proceedings/ISTFA2026/85458/151/35947"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    4
+   ]
+  ]
+ },
+ "references-count": 0,
+ "URL": "https://doi.org/10.31399/asm.cp.istfa2026p0151",
+ "relation": {},
+ "ISSN": [
+  "0890-1740"
+ ],
+ "issn-type": [
+  {
+   "value": "0890-1740",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    4
+   ]
+  ]
+ }
+}

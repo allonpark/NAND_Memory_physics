@@ -1,0 +1,87 @@
+=== per-file checks
+report_head.html: errs=[] unknown_classes=[] p ko=5 en=5 nolang=0 adjacency_bad=[] qc_in_section=0
+s1.html: errs=[] unknown_classes=[] p ko=23 en=23 nolang=0 adjacency_bad=[] qc_in_section=0
+   unclosed (expected none): []
+s2.html: errs=[] unknown_classes=[] p ko=26 en=26 nolang=0 adjacency_bad=[] qc_in_section=0
+   unclosed (expected none): []
+s3.html: errs=[] unknown_classes=[] p ko=25 en=25 nolang=0 adjacency_bad=[] qc_in_section=0
+   unclosed (expected none): []
+s4.html: errs=[] unknown_classes=[] p ko=23 en=23 nolang=0 adjacency_bad=[] qc_in_section=0
+   unclosed (expected none): []
+s5.html: errs=[] unknown_classes=[] p ko=32 en=32 nolang=0 adjacency_bad=[] qc_in_section=0
+   unclosed (expected none): []
+report_tail.html: errs=['mismatch </article> at (69, 0) top=None', 'mismatch </div> at (69, 10) top=None', 'mismatch </body> at (69, 129) top=None', 'mismatch </html> at (69, 136) top=None'] unknown_classes=[] p ko=19 en=19 nolang=0 adjacency_bad=[] qc_in_section=0
+
+=== concatenated document
+tag errors: []
+unclosed at end: []
+unknown classes: []
+duplicate ids: []
+unresolved anchors: []
+ko/en adjacency violations: []
+qc blocks inside <section>: 0 | total class=qc: 1
+
+=== forbidden / suspicious strings (count per file)
+internal S1..S5              none
+sources.yaml                 none
+file names                   none
+W41/W42/p0653                none
+저전압                          none
+low-voltage                  none
+300 K                        none
+B−/B-                        none
+High/Medium/Low words        none
+poster                       none
+revised                      none
+subscriber                   none
+data not public              none
+DGS                          none
+both modes claim             none
+합니다체                         none
+fast-trap quantitative       none
+Crossref deposit (s1-5)      none
+
+=== label usage
+report_head.html {'SOURCE_REPORTED': 4, 'AUTHOR_INTERPRETATION': 2, 'ENGINEERING_INFERENCE': 4, 'UNKNOWN': 7, 'EXTRAPOLATION_ONLY': 3} grades: ['A ', 'C)']
+s1.html {'SOURCE_REPORTED': 5, 'AUTHOR_INTERPRETATION': 0, 'ENGINEERING_INFERENCE': 7, 'UNKNOWN': 7, 'EXTRAPOLATION_ONLY': 0} grades: ['C ', 'C(', 'C:']
+s2.html {'SOURCE_REPORTED': 8, 'AUTHOR_INTERPRETATION': 4, 'ENGINEERING_INFERENCE': 12, 'UNKNOWN': 8, 'EXTRAPOLATION_ONLY': 2} grades: ['C ', 'C(']
+s3.html {'SOURCE_REPORTED': 2, 'AUTHOR_INTERPRETATION': 4, 'ENGINEERING_INFERENCE': 6, 'UNKNOWN': 5, 'EXTRAPOLATION_ONLY': 2} grades: ['C ', 'C(', 'C:', 'D ', 'D(']
+s4.html {'SOURCE_REPORTED': 6, 'AUTHOR_INTERPRETATION': 6, 'ENGINEERING_INFERENCE': 3, 'UNKNOWN': 16, 'EXTRAPOLATION_ONLY': 3} grades: ['C ', 'C(', 'C)', 'C:', 'D,']
+s5.html {'SOURCE_REPORTED': 7, 'AUTHOR_INTERPRETATION': 8, 'ENGINEERING_INFERENCE': 5, 'UNKNOWN': 14, 'EXTRAPOLATION_ONLY': 3} grades: ['C ', 'C(', 'C:', 'D ', 'D(']
+report_tail.html {'SOURCE_REPORTED': 1, 'AUTHOR_INTERPRETATION': 0, 'ENGINEERING_INFERENCE': 4, 'UNKNOWN': 8, 'EXTRAPOLATION_ONLY': 2} grades: []
+
+=== new number tokens vs _orig (numbers present in new file but not in original)
+report_head.html ['21']
+s1.html ['4', '7', '21', '403']
+s2.html ['6', '21', '403']
+s3.html ['01', '07', '09', '21']
+s4.html ['21']
+s5.html ['8', '14', '20', '21']
+report_tail.html ['21']
+
+=== literal phrase check against Crossref abstracts (blocker-grade rewrites)
+cr5 contains 'slow-trap filling-rate ratio derived from g' True
+cr5 contains 'agree within the propagated measurement uncertainty' True
+cr5 contains 'bounding and empirical' True
+cr5 contains 'proposed physical origin of the lifetime extension' True
+cr5 contains 'fast traps de-trap during each OFF interval' True
+cr5 contains '≈30% relative to DC at 150 °C' True
+cr5 contains 'increases monotonically with frequency' True
+cr5 contains 'five switching frequencies' True
+cr4 contains 'particularly under channel hot-electron (CHE) and drain avalanche hot carrier (DAHC)' True
+cr4 contains 'from room temperature down to 140 K' True
+cr4 contains 'low-voltage' False
+cr4 contains '300 K' False
+cr4 contains 'both' False
+cr2 contains 'causing degradation across multiple functional blocks' True
+cr2 contains 'subtle defect within the pool capacitor' True
+cr2 contains 'gate oxide' False
+cr2 contains 'poster' False
+s5 mentions slow-trap filling-rate ratio: 9 | proposed physical origin: 2 | 제안된 물리: 2
+
+=== card cells: th rows whose td lacks a ko+en p pair
+s1.html rows= 13 unpaired= []
+s2.html rows= 13 unpaired= []
+s3.html rows= 13 unpaired= []
+s4.html rows= 13 unpaired= []
+s5.html rows= 13 unpaired= []

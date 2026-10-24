@@ -1,0 +1,936 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    18
+   ]
+  ],
+  "date-time": "2026-09-18T13:03:50Z",
+  "timestamp": 1789736630148,
+  "version": "4.0.1"
+ },
+ "reference-count": 38,
+ "publisher": "IOP Publishing",
+ "issue": "37",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      18
+     ]
+    ],
+    "date-time": "2026-09-18T00:00:00Z",
+    "timestamp": 1789689600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://publishingsupport.iopscience.iop.org/iop-standard/v1"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      18
+     ]
+    ],
+    "date-time": "2026-09-18T00:00:00Z",
+    "timestamp": 1789689600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+  }
+ ],
+ "funder": [
+  {
+   "name": "the Nansha Key Science and Technology Plan Project",
+   "award": [
+    "2023ZD019"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "2023ZD019"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "the Open Research Fund of the State Key Laboratory of High-Efficiency and High-Quality Conversion for Electric Power, Hunan University",
+   "award": [
+    "2024KF012"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "2024KF012"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "the National Natural Science Foundation of China",
+   "award": [
+    "62504086"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "62504086"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "https://ror.org/01h0zpd94",
+     "id-type": "ROR",
+     "asserted-by": "crossref"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "iopscience.iop.org"
+  ],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "J. Phys. D: Appl. Phys."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    18
+   ]
+  ]
+ },
+ "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Silicon carbide (SiC) power metal-oxide-semiconductor field-effect transistors are increasingly operated under high-frequency pulse-width-modulated (PWM) gate drive, yet gate-oxide reliability is still qualified almost exclusively under direct-current (DC) stress. This work reports a controlled comparison of gate-oxide time-dependent dielectric breakdown (TDDB) under DC and pulsed-voltage stress for three commercial 1.2 kV device families (Wolfspeed C2M and C3M planar, Infineon trench), and interprets the observed frequency dependence in terms of interface-trap dynamics. Pulsed-voltage TDDB measurements at 150 °C and five switching frequencies (DC to 100 kHz) show that the Weibull characteristic lifetime increases monotonically with frequency, with the 100 kHz value approximately four times the DC value (4.1×–4.7× across the three families). Trap time-constant spectroscopy based on the differential threshold-voltage method resolves a continuous, bimodal interface-trap spectrum\n                    <jats:italic>g</jats:italic>\n                    (\n                    <jats:italic>τ</jats:italic>\n                    ), comprising a fast interface-state cluster near\n                    <jats:italic>τ</jats:italic>\n                    ≈0.7 ms and a slow near-interface-oxide-trap shoulder extending from about 0.5 to 50 s. The reduction of quasi-permanent threshold-voltage drift under millisecond pulsing (≈30% relative to DC at 150 °C) provides direct evidence that fast traps de-trap during each OFF interval, which is the proposed physical origin of the lifetime extension. An empirical correlation between the slow-trap filling-rate ratio derived from g(\n                    <jats:italic>τ</jats:italic>\n                    ) and the measured lifetime ratio is examined; the two quantities agree within the propagated measurement uncertainty, but the relation is bounding and empirical, and the field mismatch between spectroscopy and TDDB testing is discussed explicitly. Series-resistance correction for TO-247 packages and a static scattering-balance descriptor (the phonon-to-Coulomb mobility ratio) are reported as supporting characterization. The results indicate that conventional DC qualification underestimates the gate-oxide lifetime available under realistic PWM operation and that the time constant of the interface trap and the frequency dependence have a certain correlation.\n                  </jats:p>",
+ "DOI": "10.1088/1361-6463/ae9c4e",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    20
+   ]
+  ],
+  "date-time": "2026-08-20T22:48:54Z",
+  "timestamp": 1787266134000
+ },
+ "page": "375105",
+ "update-policy": "https://doi.org/10.1088/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "PWM-induced lifetime enhancement in commercial 4H-SiC MOSFET gate oxides and the associated physical mechanisms of interface traps"
+ ],
+ "prefix": "10.1088",
+ "volume": "59",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-5711-7435",
+   "authenticated-orcid": true,
+   "given": "Jiahui",
+   "family": "Yan",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "South China University of Technology"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    },
+    {
+     "role": "conceptualization",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "data-curation",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "formal-analysis",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "investigation",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "methodology",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "project-administration",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "software",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "visualization",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "writing-original-draft",
+     "vocabulary": "credit"
+    }
+   ]
+  },
+  {
+   "given": "Faci",
+   "family": "Cheng",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Nanchang University"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    },
+    {
+     "role": "investigation",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "validation",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "visualization",
+     "vocabulary": "credit"
+    }
+   ]
+  },
+  {
+   "given": "Xi",
+   "family": "Luo",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Central Laboratory, Shenzhen Sunlord Electronics Co., Ltd"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    },
+    {
+     "role": "data-curation",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "formal-analysis",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "project-administration",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "resources",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "supervision",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "validation",
+     "vocabulary": "credit"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-2026-2724",
+   "authenticated-orcid": true,
+   "given": "Yuebo",
+   "family": "Liu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Sun Yat-sen University"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Wen",
+   "family": "Yang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "South China University of Technology"
+    },
+    {
+     "name": "State Key Laboratory of High-Efficiency and High-Quality Conversion for Electric Power"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    },
+    {
+     "role": "funding-acquisition",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "project-administration",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "resources",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "supervision",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "validation",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "writing-review-editing",
+     "vocabulary": "credit"
+    }
+   ]
+  }
+ ],
+ "member": "266",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    18
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "dae9c4ebib1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.7567/JJAP.54.040103",
+   "type": "journal-article",
+   "article-title": "Material science and device physics in SiC technology for high-voltage power devices",
+   "volume": "54",
+   "author": "Kimoto",
+   "year": "2015",
+   "journal-title": "Jpn. J. Appl. Phys."
+  },
+  {
+   "key": "dae9c4ebib2",
+   "doi-asserted-by": "publisher",
+   "first-page": "2155",
+   "DOI": "10.1109/TPEL.2013.2268900",
+   "type": "journal-article",
+   "article-title": "A survey of wide bandgap power semiconductor devices",
+   "volume": "29",
+   "author": "Millán",
+   "year": "2014",
+   "journal-title": "IEEE Trans. Power Electron."
+  },
+  {
+   "key": "dae9c4ebib3",
+   "author": "Kimoto",
+   "year": "2014",
+   "type": "book"
+  },
+  {
+   "key": "dae9c4ebib4",
+   "doi-asserted-by": "publisher",
+   "first-page": "316",
+   "DOI": "10.1109/TED.2014.2356172",
+   "type": "journal-article",
+   "article-title": "Basic mechanisms of threshold-voltage instability and implications for reliability testing of SiC MOSFETs",
+   "volume": "62",
+   "author": "Lelis",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "dae9c4ebib5",
+   "doi-asserted-by": "publisher",
+   "first-page": "4604",
+   "DOI": "10.1109/TED.2019.2938262",
+   "type": "journal-article",
+   "article-title": "Review on SiC MOSFETs high-voltage device reliability focusing on threshold voltage instability",
+   "volume": "66",
+   "author": "Puschkarsky",
+   "year": "2019",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "dae9c4ebib6",
+   "doi-asserted-by": "publisher",
+   "first-page": "321",
+   "DOI": "10.1002/1521-396X(199707)162:1<321::AID-PSSA321>3.0.CO;2-F",
+   "type": "journal-article",
+   "article-title": "Intrinsic SiC/SiO2 interface states",
+   "volume": "162",
+   "author": "Afanasev",
+   "year": "1997",
+   "journal-title": "Phys. Status Solidi a"
+  },
+  {
+   "key": "dae9c4ebib7",
+   "doi-asserted-by": "publisher",
+   "first-page": "1513",
+   "DOI": "10.1063/1.368217",
+   "type": "journal-article",
+   "article-title": "Underlying physics of the thermochemical E model in describing low-field time-dependent dielectric breakdown in SiO2 thin films",
+   "volume": "84",
+   "author": "McPherson",
+   "year": "1998",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "dae9c4ebib8",
+   "first-page": "2B.3.1",
+   "type": "conference-proceedings",
+   "article-title": "SiC power MOSFET gate-oxide breakdown reliability—current status",
+   "author": "Cheung",
+   "year": "2018"
+  },
+  {
+   "key": "dae9c4ebib9",
+   "doi-asserted-by": "publisher",
+   "first-page": "68",
+   "DOI": "10.1016/j.microrel.2017.11.020",
+   "type": "journal-article",
+   "article-title": "Threshold voltage peculiarities and bias temperature instabilities of SiC MOSFETs",
+   "volume": "80",
+   "author": "Aichinger",
+   "year": "2018",
+   "journal-title": "Microelectron. Reliab."
+  },
+  {
+   "key": "dae9c4ebib10",
+   "author": "Grasser",
+   "year": "2014",
+   "type": "book"
+  },
+  {
+   "key": "dae9c4ebib11",
+   "doi-asserted-by": "publisher",
+   "first-page": "2221",
+   "DOI": "10.1109/TED.2008.926626",
+   "type": "journal-article",
+   "article-title": "Characterization of transient gate oxide trapping in SiC MOSFETs using fast I–V and charge pumping",
+   "volume": "55",
+   "author": "Gurfinkel",
+   "year": "2008",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "dae9c4ebib12",
+   "doi-asserted-by": "publisher",
+   "first-page": "1284",
+   "DOI": "10.1109/LED.2020.3007626",
+   "type": "journal-article",
+   "article-title": "Dynamic gate stress induced threshold voltage drift of silicon carbide MOSFET",
+   "volume": "41",
+   "author": "Jiang",
+   "year": "2020",
+   "journal-title": "IEEE Electron Device Lett."
+  },
+  {
+   "key": "dae9c4ebib13",
+   "doi-asserted-by": "publisher",
+   "first-page": "8830",
+   "DOI": "10.1109/TPEL.2022.3161678",
+   "type": "journal-article",
+   "article-title": "A physical explanation of threshold voltage drift of SiC MOSFET induced by gate switching",
+   "volume": "37",
+   "author": "Jiang",
+   "year": "2022",
+   "journal-title": "IEEE Trans. Power Electron."
+  },
+  {
+   "key": "dae9c4ebib14",
+   "doi-asserted-by": "publisher",
+   "first-page": "109",
+   "DOI": "10.4028/p-6g5v7s",
+   "type": "journal-article",
+   "article-title": "On the frequency dependence of the gate switching instability in silicon carbide MOSFETs",
+   "volume": "1092",
+   "author": "Feil",
+   "year": "2023",
+   "journal-title": "Mater. Sci. Forum"
+  },
+  {
+   "key": "dae9c4ebib15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.microrel.2022.114575",
+   "type": "journal-article",
+   "article-title": "Gate-switching-stress test: electrical parameter stability of SiC MOSFETs in switching operation",
+   "volume": "135",
+   "author": "Salmen",
+   "year": "2022",
+   "journal-title": "Microelectron. Reliab."
+  },
+  {
+   "key": "dae9c4ebib16",
+   "doi-asserted-by": "publisher",
+   "first-page": "1998",
+   "DOI": "10.1109/TPEL.2021.3105272",
+   "type": "journal-article",
+   "article-title": "Bias temperature instability of silicon carbide power MOSFET under AC gate stresses",
+   "volume": "37",
+   "author": "Zhong",
+   "year": "2022",
+   "journal-title": "IEEE Trans. Power Electron."
+  },
+  {
+   "key": "dae9c4ebib17",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.microrel.2023.115190",
+   "type": "journal-article",
+   "article-title": "New reliability model for power SiC MOSFET technologies under static and dynamic gate stress",
+   "volume": "150",
+   "author": "Zerarka",
+   "year": "2023",
+   "journal-title": "Microelectron. Reliab."
+  },
+  {
+   "key": "dae9c4ebib18",
+   "doi-asserted-by": "publisher",
+   "first-page": "1266",
+   "DOI": "10.3390/electronics15061266",
+   "type": "journal-article",
+   "article-title": "Impact of gate oxide thickness on the failure mechanisms of AC bias temperature instability in SiC MOSFETs",
+   "volume": "15",
+   "author": "Yin",
+   "year": "2026",
+   "journal-title": "Electronics"
+  },
+  {
+   "key": "dae9c4ebib19",
+   "doi-asserted-by": "publisher",
+   "first-page": "418",
+   "DOI": "10.1109/TDMR.2010.2077295",
+   "type": "journal-article",
+   "article-title": "Reliability issues of SiC MOSFETs: a technology for high-temperature environments",
+   "volume": "10",
+   "author": "Yu",
+   "year": "2010",
+   "journal-title": "IEEE Trans. Device Mater. Reliab."
+  },
+  {
+   "key": "dae9c4ebib20",
+   "doi-asserted-by": "publisher",
+   "first-page": "633",
+   "DOI": "10.1109/JEDS.2021.3091898",
+   "type": "journal-article",
+   "article-title": "Time-dependent dielectric breakdown of commercial 1.2 kV 4H-SiC power MOSFETs",
+   "volume": "9",
+   "author": "Liu",
+   "year": "2021",
+   "journal-title": "IEEE J. Electron Devices Soc."
+  },
+  {
+   "key": "dae9c4ebib21",
+   "volume": "vol JEP183A",
+   "author": "JEDEC Solid State Technology Association",
+   "year": "2023",
+   "type": "book"
+  },
+  {
+   "key": "dae9c4ebib22",
+   "doi-asserted-by": "publisher",
+   "first-page": "4714",
+   "DOI": "10.1109/TED.2025.3594603",
+   "type": "journal-article",
+   "article-title": "Investigation of time-dependent dielectric breakdown on commercial SiC MOSFETs using constant-voltage and pulse-voltage",
+   "volume": "72",
+   "author": "Jin",
+   "year": "2025",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "dae9c4ebib23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S0140-6736(24)01080-8",
+   "type": "conference-proceedings",
+   "article-title": "Gate oxide TDDB lifetime evaluation of SiC MOSFETs by HTGB test using square-wave voltage",
+   "author": "Hayashi",
+   "year": "2024"
+  },
+  {
+   "key": "dae9c4ebib24",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.microrel.2026.116079",
+   "type": "journal-article",
+   "article-title": "Design of gate-drive voltage for SiC MOSFETs considering gate-oxide TDDB lifetime and performance",
+   "volume": "179",
+   "author": "Hayashi",
+   "year": "2026",
+   "journal-title": "Microelectron. Reliab."
+  },
+  {
+   "key": "dae9c4ebib25",
+   "doi-asserted-by": "publisher",
+   "first-page": "3605",
+   "DOI": "10.1109/TED.2016.2586483",
+   "type": "journal-article",
+   "article-title": "Modeling early breakdown failures of gate oxide in SiC power MOSFETs",
+   "volume": "63",
+   "author": "Chbili",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "dae9c4ebib26",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1063/1.5115304",
+   "type": "journal-article",
+   "article-title": "Ideal phonon-scattering-limited mobility in inversion channels of 4H-SiC(0001) MOSFETs with ultralow net doping concentrations",
+   "volume": "115",
+   "author": "Sometani",
+   "year": "2019",
+   "journal-title": "Appl. Phys. Lett."
+  },
+  {
+   "key": "dae9c4ebib27",
+   "doi-asserted-by": "publisher",
+   "first-page": "1164",
+   "DOI": "10.1109/43.9186",
+   "type": "journal-article",
+   "article-title": "A physically based mobility model for numerical simulation of nonplanar devices",
+   "volume": "7",
+   "author": "Lombardi",
+   "year": "1988",
+   "journal-title": "IEEE Trans. Comput."
+  },
+  {
+   "key": "dae9c4ebib28",
+   "doi-asserted-by": "publisher",
+   "first-page": "2029",
+   "DOI": "10.1109/TED.2008.926665",
+   "type": "journal-article",
+   "article-title": "A physical model of high-temperature 4H-SiC MOSFETs",
+   "volume": "55",
+   "author": "Potbhare",
+   "year": "2008",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "dae9c4ebib29",
+   "doi-asserted-by": "publisher",
+   "first-page": "6736",
+   "DOI": "10.3390/ma15196736",
+   "type": "journal-article",
+   "article-title": "Study of carrier mobilities in 4H-SiC MOSFETs using Hall analysis",
+   "volume": "15",
+   "author": "Das",
+   "year": "2022",
+   "journal-title": "Materials"
+  },
+  {
+   "key": "dae9c4ebib30",
+   "doi-asserted-by": "publisher",
+   "first-page": "4076",
+   "DOI": "10.1038/s41598-022-08014-5",
+   "type": "journal-article",
+   "article-title": "Quantified density of performance-degrading near-interface traps in SiC MOSFETs",
+   "volume": "12",
+   "author": "Chaturvedi",
+   "year": "2022",
+   "journal-title": "Sci. Rep."
+  },
+  {
+   "key": "dae9c4ebib31",
+   "doi-asserted-by": "publisher",
+   "first-page": "25",
+   "DOI": "10.4028/p-258768",
+   "type": "journal-article",
+   "article-title": "Comparison of the performance-degrading near-interface traps in commercial SiC MOSFETs",
+   "volume": "1091",
+   "author": "Chaturvedi",
+   "year": "2023",
+   "journal-title": "Mater. Sci. Forum"
+  },
+  {
+   "key": "dae9c4ebib32",
+   "first-page": "1",
+   "type": "conference-proceedings",
+   "article-title": "Gate-oxide reliability and failure-rate reduction of industrial SiC MOSFETs",
+   "author": "Aichinger",
+   "year": "2020"
+  },
+  {
+   "key": "dae9c4ebib33",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.mssp.2024.108194",
+   "type": "journal-article",
+   "article-title": "Investigation on gate oxide reliability under gate bias screening for commercial SiC planar and trench MOSFETs",
+   "volume": "174",
+   "author": "Shi",
+   "year": "2024",
+   "journal-title": "Mater. Sci. Semicond. Process."
+  },
+  {
+   "key": "dae9c4ebib34",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1063/1.2221400",
+   "type": "journal-article",
+   "article-title": "Effect of the oxidation process on the electrical characteristics of 4H-SiC p-channel metal-oxide-semiconductor field-effect transistors",
+   "volume": "89",
+   "author": "Okamoto",
+   "year": "2006",
+   "journal-title": "Appl. Phys. Lett."
+  },
+  {
+   "key": "dae9c4ebib35",
+   "doi-asserted-by": "publisher",
+   "first-page": "733",
+   "DOI": "10.4028/www.scientific.net/MSF.338-342.733",
+   "type": "journal-article",
+   "article-title": "Hall scattering factor and electron mobility of 4H-SiC: measurements and numerical simulation",
+   "volume": "338–342",
+   "author": "Rutsch",
+   "year": "2000",
+   "journal-title": "Mater. Sci. Forum"
+  },
+  {
+   "key": "dae9c4ebib36",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.35848/1347-4065/addd78",
+   "type": "journal-article",
+   "article-title": "Temperature-dependent Hall mobility in heavily Al-doped 4H-SiC grown by chemical vapour deposition",
+   "volume": "64",
+   "author": "Hidaka",
+   "year": "2025",
+   "journal-title": "Jpn. J. Appl. Phys."
+  },
+  {
+   "key": "dae9c4ebib37",
+   "doi-asserted-by": "publisher",
+   "first-page": "111",
+   "DOI": "10.4028/www.scientific.net/MSF.897.111",
+   "type": "journal-article",
+   "article-title": "Quantitative investigation of near-interface traps in 4H-SiC MOSFETs via drain-current deep-level transient spectroscopy",
+   "volume": "897",
+   "author": "Hauck",
+   "year": "2017",
+   "journal-title": "Mater. Sci. Forum"
+  },
+  {
+   "key": "dae9c4ebib38",
+   "doi-asserted-by": "publisher",
+   "first-page": "5440",
+   "DOI": "10.1109/TED.2018.2873672",
+   "type": "journal-article",
+   "article-title": "Comprehensive analysis of electrical parameters degradations for SiC power MOSFETs under repetitive short-circuit stress",
+   "volume": "65",
+   "author": "Wei",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Electron Devices"
+  }
+ ],
+ "container-title": [
+  "Journal of Physics D: Applied Physics"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1361-6463/ae9c4e",
+   "content-type": "text/html",
+   "content-version": "am",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1361-6463/ae9c4e/pdf",
+   "content-type": "application/pdf",
+   "content-version": "am",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1361-6463/ae9c4e",
+   "content-type": "text/html",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1361-6463/ae9c4e/pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1361-6463/ae9c4e/pdf",
+   "content-type": "application/pdf",
+   "content-version": "am",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1361-6463/ae9c4e/pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1361-6463/ae9c4e/pdf",
+   "content-type": "application/pdf",
+   "content-version": "am",
+   "intended-application": "similarity-checking"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1361-6463/ae9c4e/pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    18
+   ]
+  ],
+  "date-time": "2026-09-18T12:07:13Z",
+  "timestamp": 1789733233000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://iopscience.iop.org/article/10.1088/1361-6463/ae9c4e"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    18
+   ]
+  ]
+ },
+ "references-count": 38,
+ "journal-issue": {
+  "issue": "37",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     18
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     18
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1088/1361-6463/ae9c4e",
+ "relation": {},
+ "ISSN": [
+  "0022-3727",
+  "1361-6463"
+ ],
+ "issn-type": [
+  {
+   "value": "0022-3727",
+   "type": "print"
+  },
+  {
+   "value": "1361-6463",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    18
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "PWM-induced lifetime enhancement in commercial 4H-SiC MOSFET gate oxides and the associated physical mechanisms of interface traps",
+   "name": "article_title",
+   "label": "Article Title"
+  },
+  {
+   "value": "Journal of Physics D: Applied Physics",
+   "name": "journal_title",
+   "label": "Journal Title"
+  },
+  {
+   "value": "paper",
+   "name": "article_type",
+   "label": "Article Type"
+  },
+  {
+   "value": "© 2026 IOP Publishing Ltd. All rights, including for text and data mining, AI training, and similar technologies, are reserved.",
+   "name": "copyright_information",
+   "label": "Copyright Information"
+  },
+  {
+   "value": "2026-04-12",
+   "name": "date_received",
+   "label": "Date Received",
+   "group": {
+    "name": "publication_dates",
+    "label": "Publication dates"
+   }
+  },
+  {
+   "value": "2026-08-20",
+   "name": "date_accepted",
+   "label": "Date Accepted",
+   "group": {
+    "name": "publication_dates",
+    "label": "Publication dates"
+   }
+  },
+  {
+   "value": "2026-09-18",
+   "name": "date_epub",
+   "label": "Online publication date",
+   "group": {
+    "name": "publication_dates",
+    "label": "Publication dates"
+   }
+  }
+ ]
+}
