@@ -1,1 +1,0 @@
-W40 staging placeholder (162 B) is held out of validation, PDF build and the Pages artifact until the real report replaces it. Delete this file in the PR that lands the real W40 report.

@@ -1,0 +1,101 @@
+# W40 (2026-09-28..2026-10-04, Asia/Seoul) candidate sources. Verified 2026-10-19 via Crossref API + doi.org redirect + publisher page.
+# All facts are from abstracts only (no full text readable in this session); body-level numbers/figures are unconfirmed (미확인).
+overlap_method: DOI/title grep of reports/2026/w37-w39 (main), w41, w42 (reliability-w41/w42 branches); none of the 5 DOIs present.
+sources:
+- id: S1
+  title: "Understanding the Root Cause of Transient Failures in NAND-Type 3D Flash Memory"
+  authors: [Xiaochen Zhu, Elliott Rill, Tao Du, Lito De La Rama]
+  venue: "ISTFA 2026 (52nd Intl Symp. Testing and Failure Analysis), paper istfa2026p0151, pp.151-156"
+  doi: 10.31399/asm.cp.istfa2026p0151
+  url: https://dl.asminternational.org/istfa/proceedings/ISTFA2026/85458/151/35947
+  publication_date: 2026-10-04
+  online_date: 2026-10-04   # Crossref created 2026-09-30 (deposit date, not publication)
+  selection_class: new_this_week
+  source_access: abstract_only   # PDF subscriber-only
+  resolve_evidence: "Crossref works API matched title/authors/date; doi.org -> dl.asminternational.org page showed same title, authors, 'Published online October 4, 2026'."
+  source_reported_facts:
+    - "Covers three classes of transient/intermittent failures from defects in row circuits, column circuitry, peripheral logic (outside the array) [abstract]."
+    - "Starts from observed failure signatures, derives root cause and physical mechanism of the transient behaviour [abstract]."
+    - "Motivation: screening/stress methodology for DPPM targets [abstract]."
+    - "Specific mechanisms, stress conditions, numbers: 미확인 (PDF not read)."
+  why_fits: "Peripheral/HV-circuit defect-induced transient failures in 3D NAND; supports failure-mode taxonomy and screening-DOE discussion."
+  extrapolation_warnings: ["Abstract has no mechanism detail; do not state specific mechanisms.", "Circuit-level defects, not channel-hole/array physics.", "Do not map to a specific product."]
+  overlap_check: "No DOI/title overlap w37-w42. Topic-adjacent to W41 ISTFA 2026 p0653 (different paper); differentiate."
+- id: S2
+  title: "Localization of Gate Oxide Defects within Pool Capacitors in NAND-type 3D Flash Memory"
+  authors: [Xiaochen Zhu, Long Ngo, Mimi Dang, Long Phi, Elliott Rill, Lito De La Rama]
+  venue: "ISTFA 2026, paper istfa2026p0478, pp.478-480 (poster, 3 pp.)"
+  doi: 10.31399/asm.cp.istfa2026p0478
+  url: https://dl.asminternational.org/istfa/proceedings/ISTFA2026/85458/478/36001
+  publication_date: 2026-10-04
+  online_date: 2026-10-04
+  selection_class: new_this_week
+  source_access: abstract_only
+  resolve_evidence: "Crossref + doi.org redirect + ASM page: same title/authors/'Published online October 4, 2026'."
+  source_reported_facts:
+    - "A single defective load on a shared global reference/clock line can degrade multiple functional blocks [abstract]."
+    - "Target defect: subtle gate-oxide defect inside a pool capacitor on a global signal line [abstract]."
+    - "Small footprint and deep burial make typical OBIRCH hotspots diffused/smeared [abstract]."
+    - "A localization methodology is presented; workflow/results 미확인."
+  why_fits: "Gate-oxide defect (TDDB-precursor class) in NAND periphery; links defect localization to DPPM and TDDB screening; fits T04 DFT / T05 framing."
+  extrapolation_warnings: ["3-page poster; abstract gives no quantitative result.", "Not a TDDB-statistics paper; no Weibull data stated.", "Do not claim a breakdown mechanism."]
+  overlap_check: "No overlap. Same authors/venue as S1: complementary, not duplicate."
+- id: S3
+  title: "TCAD-based investigation of charge trap layer engineering and channel effects on program/erase characteristics in 3D vertical NAND flash memory cells"
+  authors: [Zhaomin Zhu, Yan Wang, Yanmei He]
+  venue: "Engineering Research Express 8(19) 195322"
+  doi: 10.1088/2631-8695/aea754
+  url: https://iopscience.iop.org/article/10.1088/2631-8695/aea754
+  publication_date: 2026-10-01
+  online_date: 2026-10-01   # received 15 Jul, revised 5 Sep, accepted 14 Sep 2026 (publisher page)
+  selection_class: new_this_week
+  source_access: abstract_only   # paywalled; data not public per page
+  resolve_evidence: "Crossref + doi.org -> IOP page: title/authors/volume/dates match."
+  source_reported_facts:
+    - "Silvaco Atlas with DYNASONOS charge-trapping model; varies trap density, tunnel-oxide thickness, poly-Si channel properties [abstract]."
+    - "Optimal trap density for P/E window ~3-5e19 cm^-3; window gain saturates beyond [abstract]."
+    - "Tunnel oxide 4-5 nm best speed/retention trade-off; <=15% charge loss over 10 yr with optimized Al2O3 blocking oxide [abstract]."
+    - "Poly-Si grain-boundary traps drive Vth variability; grains >50 nm narrow the Vth distribution [abstract]."
+    - "Claims calibration against published P/E, retention, endurance data; which data and geometry (planar vs cylindrical) 미확인."
+  why_fits: "CTL retention and poly-Si channel in 3D VNAND; supports causal-chain analysis and a DOE (trap density x Tox x grain size) plus falsification of the claimed optimum."
+  extrapolation_warnings: ["TCAD result; evidence grade B/C at best, not measured.", "Geometry (cylindrical vs planar) not verified; coaxial curvature may shift the optimum.", "10-yr retention is a simulated extrapolation; mechanism equivalence (tunneling vs lateral migration vs detrapping) unverified.", "Numbers are one case, not general values."]
+  overlap_check: "No overlap w37-w42 (W41 used 10.1007/s10825-026-02647-9, different)."
+- id: S4
+  title: "Investigation on Hot-Carrier Injection Mechanisms and Reliability Design-Based Strategies in Cryogenically Operated CMOS ROICs for Infrared Focal Plane Arrays"
+  authors: [Ayoub El Abdi (Crossref deposits 'Ayoub El El Abdi'), Philippe Martin-Gonthier, Valentin Badefort-Baril]
+  venue: "Sensors (MDPI) 26(19) 6254"
+  doi: 10.3390/s26196254
+  url: https://www.mdpi.com/1424-8220/26/19/6254
+  publication_date: 2026-10-02
+  online_date: 2026-10-02
+  selection_class: new_this_week
+  source_access: abstract_only   # CC BY 4.0 per Crossref, but MDPI returned HTTP 403 to my fetch; full text not read
+  resolve_evidence: "Crossref record (title/authors/vol/issue/article no./date/CC-BY license, 27 references). doi.org 302 to mdpi.com confirmed; page body not retrievable (403)."
+  source_reported_facts:
+    - "HCI studied in 180 nm NMOS from room temperature down to 140 K [abstract]."
+    - "Stronger hot-carrier degradation at low T under channel hot-electron (CHE) and drain avalanche hot carrier (DAHC) stress [abstract]."
+    - "Time-to-failure modeling shows accelerated kinetics and validates substrate-current-based reliability methodology at cryogenic T [abstract]."
+    - "Gate-length optimization proposed as mitigation [abstract]."
+  why_fits: "T07 HCI physics: temperature dependence of impact ionization/mean free path, CHE vs DAHC competition, Isub-based lifetime model; a contrast case for HV-device HCI."
+  extrapolation_warnings: ["180 nm low-voltage CMOS at 140-300 K; not HV NAND periphery at operating T.", "Negative-T HCI trend must not be extrapolated to high-T HV devices; mechanism equivalence unverified.", "Fitted exponents/lifetimes 미확인."]
+  overlap_check: "No overlap w37-w42."
+- id: S5
+  title: "PWM-induced lifetime enhancement in commercial 4H-SiC MOSFET gate oxides and the associated physical mechanisms of interface traps"
+  authors: [Jiahui Yan, Faci Cheng, Xi Luo, Yuebo Liu, Wen Yang]
+  venue: "Journal of Physics D: Applied Physics 59(37) 375105"
+  doi: 10.1088/1361-6463/ae9c4e
+  url: https://doi.org/10.1088/1361-6463/ae9c4e
+  publication_date: 2026-09-18
+  online_date: 2026-09-18   # Crossref created 2026-08-20
+  selection_class: archive_gap   # published 2026-09-18, 10 days before the true W40 window start 2026-09-28 (earlier note said 4 days / 2026-09-22; corrected after review)
+  source_access: abstract_only   # Crossref-deposited full abstract read; body not read
+  resolve_evidence: "Crossref record matched title/authors/vol/article no./date; full abstract returned. Publisher page not fetched."
+  source_reported_facts:
+    - "Pulsed-voltage vs DC TDDB on three commercial 1.2 kV families (Wolfspeed C2M, C3M planar; Infineon trench) at 150 C, DC to 100 kHz [abstract]."
+    - "Weibull characteristic lifetime rises monotonically with frequency; 100 kHz value 4.1x-4.7x DC across the families [abstract]."
+    - "Differential-Vth trap time-constant spectroscopy: bimodal g(tau), fast cluster near 0.7 ms, slow shoulder 0.5-50 s [abstract]."
+    - "Quasi-permanent Vth drift ~30% lower under ms pulsing vs DC at 150 C, taken as evidence fast traps de-trap in OFF intervals [abstract]."
+    - "Authors state the trap/lifetime correlation is empirical and bounding; field mismatch between spectroscopy and TDDB discussed [abstract]."
+  why_fits: "AC/pulsed vs DC TDDB, Weibull lifetime, trap dynamics: relevant to waveform-dependent TDDB/BTI and the DC-qualification extrapolation caveat (T05/T07); has explicit competing mechanism and uncertainty statements."
+  extrapolation_warnings: ["SiC/SiO2 interface-trap system, not poly-Si/ONO or HV Si gate oxide.", "Correlation is empirical (authors' own caveat); causality unproven.", "Lifetime gain only at <=100 kHz and 150 C; not general to other waveforms/duty."]
+  overlap_check: "No overlap w37-w42 (W42 had 10.1109/TPEL.2026.3710070, different)."

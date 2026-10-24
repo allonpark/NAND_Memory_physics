@@ -1,0 +1,16 @@
+a=0.84 b=4.27 en=3.87 eb=1.42 | g0 coef num/claimed 3.0208659 3.0208659 True | g_gate coef -3.09176 (<0:True) | g(r1,TOX) coef num/derived 2.0208659 2.0208659 True
+a=2.58 b=2.36 en=3.33 eb=3.99 | g0 coef num/claimed 2.1498435 2.1498435 True | g_gate coef -3.7858 (<0:True) | g(r1,TOX) coef num/derived 1.1498435 1.1498435 True
+a=0.65 b=0.34 en=4.21 eb=2.28 | g0 coef num/claimed 0.747347 0.747347 True | g_gate coef -1.23925 (<0:True) | g(r1,TOX) coef num/derived -0.252653 -0.252653 True
+a=3.86 b=0.21 en=2.34 eb=3.66 | g0 coef num/claimed 2.0754114 2.0754114 True | g_gate coef -2.99364 (<0:True) | g(r1,TOX) coef num/derived 1.0754114 1.0754114 True
+a=1.30 b=4.74 en=4.53 eb=0.35 | g0 coef num/claimed 4.3300177 4.3300177 True | g_gate coef -2.70534 (<0:True) | g(r1,TOX) coef num/derived 3.3300177 3.3300177 True
+a=0.32 b=2.80 en=4.71 eb=2.03 | g0 coef num/claimed 1.7701468 1.7701468 True | g_gate coef -2.35077 (<0:True) | g(r1,TOX) coef num/derived 0.77014676 0.77014676 True
+a=1.24 b=2.23 en=0.34 eb=1.26 | g0 coef num/claimed 1.9210548 1.9210548 True | g_gate coef -2.54478 (<0:True) | g(r1,TOX) coef num/derived 0.92105482 0.92105482 True
+a=2.30 b=2.58 en=1.32 eb=1.31 | g0 coef num/claimed 2.8213753 2.8213753 True | g_gate coef -3.06038 (<0:True) | g(r1,TOX) coef num/derived 1.8213753 1.8213753 True
+a=1.25 b=2.41 en=1.59 eb=0.30 | g0 coef num/claimed 3.0017088 3.0017088 True | g_gate coef -1.65454 (<0:True) | g(r1,TOX) coef num/derived 2.0017088 2.0017088 True
+a=4.22 b=2.87 en=3.28 eb=1.09 | g0 coef num/claimed 4.4754861 4.4754861 True | g_gate coef -3.61587 (<0:True) | g(r1,TOX) coef num/derived 3.4754861 3.4754861 True
+a=4.96 b=4.33 en=0.78 eb=1.80 | g0 coef num/claimed 4.3221043 4.3221043 True | g_gate coef -5.96985 (<0:True) | g(r1,TOX) coef num/derived 3.3221043 3.3221043 True
+a=3.66 b=3.61 en=4.69 eb=2.23 | g0 coef num/claimed 3.8818745 3.8818745 True | g_gate coef -4.39497 (<0:True) | g(r1,TOX) coef num/derived 2.8818745 2.8818745 True
+mismatches: 0
+kappa 0.5 g0 1.8358 g_gate 0.5649
+kappa 2 g0 3.4758 g_gate 0.3476
+kappa 5 g0 5.9791 g_gate 0.2544

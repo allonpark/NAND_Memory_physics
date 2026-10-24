@@ -1,0 +1,32 @@
+sympy 1.14.0
+S1 E1 t_d - (Rd+Rx)C ln(1/(1-f)) = 0
+   Rx,crit - [tw/(C ln(1/(1-f))) - Rd] = 0
+   theta=3,f=1/2 -> r_crit = 3.32808
+S1 E2 Rb,crit - Ron m/(1-m) = 0
+S1 E3 dln t_fail/d(1/T) = E_a/k (expect Ea/k)
+S2 coax/planar = u/log(u + 1) | minus u/ln(1+u): 0
+   series = 1 + u/2 - u**2/12 + O(u**3)
+   ratio>1 at u=1e-3,.1,1,10,1e3: True
+S2 steady surface rise = P/(2*pi*k*sqrt(d**2 + rho**2))  FWHM = [2*sqrt(3)*d]
+   Pmin = [2*pi*d*dTmin*k]
+   FWHM/d for g=0,1,5,10: ['3.464', '1.887', '0.9935', '0.7221']  1/e^-5 = 148.41
+   asym 2sqrt(2ln2/g) g=10: 0.7447
+   heat-eq residual = 0
+S3 g0 first-order coeff - claimed = 0
+   single layer series: 1 + x/2 - x**2/12 + O(x**3)
+   g_gate first-order coeff = -(a**2*e_b + 2*a*b*e_b + 2*a*e_b*e_n + b**2*e_n + 2*b*e_b*e_n + e_b*e_n)/(2*(a*e_b + b*e_n + e_b*e_n))
+   g(r1, TOX side) first-order coeff = (a**2*e_b + 2*a*b*e_n + b**2*e_n - e_b*e_n)/(2*(a*e_b + b*e_n + e_b*e_n))
+   c1b*2*(a eb+b en+eb en) - (a^2 eb+2ab en+b^2 en - eb en) = 0
+S3 retention identity: |coax/planar field-per-dVth| / g0 = log((r0 + tT)**(epsB*(epsC - epsT))*(r0 + tC + tT)**(epsT*(epsB - epsC))*(r0 + tB + tC + tT)**(epsC*epsT)/r0**(epsB*epsC))/Abs(log((r0 + tT)**(epsB*(epsC - epsT))*(r0 + tC + tT)**(epsT*(epsB - epsC))*(r0 + tB + tC + tT)**(epsC*epsT)/r0**(epsB*epsC))) (1 => exact; both signs negative so ratio itself: 1 )
+   FN dlnJ/dlnE = B/E + 2
+S4 dln tau/dln r = -phi_it/(L + phi_i) | + phi_it/(phi_i+L) = 0
+   dlam/dT = -0.117501856100797  dlnr/dT = -2.43860773235012  dlntau/dT = 5.87654713354915
+S5 E gain = 1/D
+S5 1/E gain = 1/D
+S5 Qbd gain = 1/D
+   1/4.7, 1/4.1 = 0.2128 0.2439
+   n* - (1-a)b/(1-ab) = 0
+   npeak - (1-a)/(1-ab) = 0
+   D=0.5 npeak f*tau=7,70: 0.51785 0.50179  rel change 0.031
+   Weibull Var(eta)/eta^2*n*beta^2 = 1.10866  sd(ln ratio)*beta*sqrt(n) = 1.48907
+   logic: pure-duty gain 1/D is independent of f at fixed D
