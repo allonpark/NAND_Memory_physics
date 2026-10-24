@@ -1,0 +1,60 @@
+﻿1) TAG BALANCE (concatenation head+i1..i5+tail): unclosed= [] errors= []
+   element counts: {'article': 1, 'div': 108, 'h2': 12, 'h3': 34, 'li': 4, 'ol': 1, 'p': 544, 'section': 6, 'table': 16, 'td': 303, 'th': 107, 'tr': 138}
+2) CLASSES used: ['boundary', 'brand', 'btn', 'chain', 'compare', 'doebox', 'download-box', 'eq', 'footer', 'inference', 'kicker', 'label', 'lead', 'nav', 'pass', 'pending', 'primary', 'qc', 'report-hero', 'report-layout', 'source-links', 'sourcebox', 'spacer', 'toc', 'topbar', 'wrap'] 
+   not in assets/style.css: []
+3) KO->EN adjacency: p total 544 ko 272 en 272 violations 0 []
+4) CARD i1.html: rows 13, ko+en paired cells 13/13, row labels end with: 'Change vs archive'
+4) CARD i2.html: rows 13, ko+en paired cells 13/13, row labels end with: 'Change vs archive'
+4) CARD i3.html: rows 13, ko+en paired cells 13/13, row labels end with: 'Change vs archive'
+4) CARD i4.html: rows 13, ko+en paired cells 13/13, row labels end with: 'Change vs archive'
+4) CARD i5.html: rows 13, ko+en paired cells 13/13, row labels end with: 'Change vs archive'
+5) ANCHORS: hrefs ['overview', 'i1', 'i2', 'i3', 'i4', 'i5', 'synthesis', 'matrix', 'insight', 'hypotheses', 'qc', 'sources'] 
+   missing targets [] duplicate ids []
+6) FORBIDDEN strings (text and markup):
+   '\\bS[1-5]\\b': 0
+   'W43-S': 0
+   'sources\\.yaml': 0
+   '(?i)sonnet': 0
+   '(?i)opus': 0
+   '(?i)fable': 0
+   '(?i)notes': 0
+   '[A-Za-z]:\\\\': 0
+   '[A-Za-z]:/': 0
+   'scratchpad': 0
+   '\\.py\\b': 0
+   '\\.md\\b': 0
+   '_notes': 0
+   '(?i)\\bclaude\\b': 0
+   '(?i)\\bgpt': 0
+   '(?i)codex': 0
+   '\\bT0[0-9]\\b': 0
+   '\\bT10\\b': 0
+   'ARCHIVE_GAP': 0
+   '세션': 0
+   '노트': 0
+   '(?i)\\bsession\\b': 0
+   'class="qc"': 0
+   TOTAL forbidden = 0 (report-level QC grid excluded; per-item .qc blocks counted)
+   per-item .qc blocks: 0
+7) ASCII-token multiset diff vs _prefinal (per file):
+== report_head.html: +284 / -12
+   ADDED  : 0x4 1x10 2x5 2Ex2 3x6 4x6 5x5 5. Ax4 An Bx2 BGWx2 Elsewhere FNx2 Gauss Gauss-law Kanex2 Nx6 PASS-WITH-FIXESx2 PENDINGx2 Render/PDF SIx2 Symbolsx2 TDDBx2 The Unit V/cmx2 ax10 all andx9 appliedx2 archive_gapx6 arex3 at attached beenx2 betax2 but can cm cm-based coaxial/planar coefficient coincide. constant contribution defined definition differentx3 done ex2 eVx4 eachx2 either factor fieldx2 field-acceleration five fixesx2 follow for function gx8 hx2 has have impact impact-ionization inx14 independent inner ionization isx7 itemx13 itemsx3 letter limit lnx2 mean nmx2 not of onex2 only parameter parameters performed practical quantities rx2 radius ratio re-check result returned sx3 same shapex2 single-layerx2 so sources stated symbols systems tx6 t/x2 t/ax2 t/rx2 thex11 three two-layer unitsx2 units. use. used. was wherever with within written xx8 x/lnx2 yet
+   REMOVED: ARCHIVE_GAPx2 Independent archivex4 gapx4 render/PDF
+== i1.html: +410 / -10
+   ADDED  : 0x34 1/Ex5 2x4 2/5x2 Ax8 ANOx2 Bx10 B/Ex4 Crossrefx4 Curvature DOEx2 Ex11 Falsification Field Inx2 Jx8 Linearity Nx6 Rx16 T The Title ax13 abovex2 abscissax5 abstract acceptedx2 against agrees all alone also anx2 andx11 applicable arex5 authorsx2 axisx2 below between beyond by cx2 claim. coaxialx6 complex condition const controlx7 conventional correctedx3 curvedx2 datex2 datesx2 definitions departs derivationx2 designs. devicex6 dimensionless ex4 effective energyx2 establishx2 even exponent expression expressions extracted field fitting flashx2 follow forx9 fromx3 gx2 gives grounds holds if inx10 independently inserting isx4 issue itx2 item itself jointly judgedx2 labeled labels linearityx2 lnx2 measured measurement more multiply notx2 ofx3 onx3 onlinex2 only orx2 page page. parameter parametersx2 per plain planarx7 platforms plot produces publisherx2 qx2 qEx2 qrx2 rx6 rate/Ex2 receivedx2 record rejection results routex4 series so stack stacks state sympy sympy-checked tx8 taken targets thatx2 thex19 therefore these thisx2 tox2 tunneling-stackx2 uncertainty uncorrectedx2 unitsx2 used using value values varying when withx2 xx4
+   REMOVED: T. They eVx2 parameters. platform propose record. session versus
+== i2.html: +271 / -15
+   ADDED  : 0x2 0.3x2 0.87x2 1x14 10x6 17x2 2x14 2.66 2.66x 2.97x2 2.98 2.98x 2026-10-21x2 3x2 30x2 500x2 Carlox2 Each For Montex2 None PWMx2 SiCx2 TDDBx2 The To Vx4 Weibullx2 ax7 aboutx4 acceleration actual adds afterwards. andx4 arbitrary area area-axis as asymptoticx2 atx6 bex2 behaviour below. biased bibliographic bimodalx2 cx6 canx2 capacitor capacitors changed comparison complete-sample conclusions condition. confirmed derivation detailed detectablex2 dimensionless distribution equal example expx2 factor familyx2 field fix flexible forx4 form fraction geometry giving hazardx2 hide high holex2 ix4 in inequalities infinity intermediate invariance isx3 issuex2 issue. item its labeled labels large-area less lnx2 lookup mean mixturex3 must nx9 necessary non-monotonic non-weakest-link not ofx4 on one onlyx3 or origin px2 parameter parameters. per ratio re-checked replicates result satisfying scalingx2 sdx2 separately shapex3 slitx2 small so still stressx3 stress-axis subpopulationx2 tested thatx3 thex8 them this three time times. tox2 underestimates units wasx4 weakest-link width
+   REMOVED: See T05x2 T09x2 below compared from geometric record. sessionx2 session. source-verification taken
+== i3.html: +187 / -30
+   ADDED  : 1x2 1.12x2 2x2 2E 325x2 4x2 405x2 AUTHOR_INTERPRETATION Application Bx2 Cx2 Ex2 ENGINEERING_INFERENCE MOSx2 SOURCE_REPORTEDx2 SiOx2 a abstract andx4 are at authors based byx2 cx2 case chainx2 closer closing confidence conservative content contexts contributionx2 device eVx4 electronx5 extraction fieldx2 fitted found gx7 gives guaranteed h holds impactx4 impact-ionizationx2 inx5 inputs interval ionizationx5 isx6 itemx2 items labels layerx2 linking mx2 measurement measurements mixture mixture-layer modelling more named negligible nmx3 no not of on onex2 only paper paragraph primaryx2 probability produces rate ratio re-reads reading reflectance relation roughnessx2 same says secondary separate set statement summarizing summary than that thex14 thicknesses thisx2 through to tool transistor transistors tunnelingx2 two verbatim was were when whichx2 wording x
+   REMOVED: B.x2 Thex2 UNKNOWNx2 also application as be but condition confirmed contains contexts. could extracted from hold introduction its kept names notes output referent said script text working
+== i4.html: +213 / -21
+   ADDED  : 0.107x2 1x2 1/2x3 105x2 2.2.2x2 4 Ex2 ENGINEERING_INFERENCEx2 Fx2 Ge/Six2 In Its Lx2 MV/cmx3 MV/cm-class SRHx2 Sec. Tx6 T-independentx2 Table UNKNOWNx4 ax5 absentx2 actual along also andx3 archive_gapx2 arises asx4 assumes at background be below bothx2 box cases coaxial/planar compared component conclusion denote dependence device different dimensionlessx2 do elsewhere error expected exponent extracted falls fieldx2 field. fields forx4 formal from gx4 holds ifx2 inx6 isx4 issuex2 issue. item itself junction kT/2x3 knowledge labels larger lateral layout lifetimes limitation linex2 list listed looks low methods nx3 needed nmx3 of on onlyx2 or px3 planar pocket position possible ratio re-derived remark rendered sample see so substantially sympyx2 t/rx2 tails termx2 text thatx2 thex11 thermal-velocity they thicknessx2 thisx2 tunnelingx2 typesetting used usually value vary was while withx3 would xx6
+   REMOVED: 100x2 ARCHIVEx2 GAPx2 are channel channel-plus-pocket enough layerx2 length nm. samples sessionx2 session. state tails. themselves
+== i5.html: +248 / -37
+   ADDED  : 0x2 0.863 0.863x 10x2 13.8x2 2x2 3x2 4x2 Against BGWx2 BVx2 Cx2 ENGINEERING_INFERENCE Fig.x4 GaNx2 No ON-statex6 PWMx2 Qx2 SiCx2 TDDBx4 Tox2 UNKNOWNx2 W38x2 Weibullx2 What Whether ax6 across addsx2 an andx3 archive_gapx4 asx2 at axis axis. below. cx2 can cell change changed changes checked cm/MVx2 combination comparisonx2 computed conclusion confirmedx2 consistently contradiction coordinates cornerx4 criterion current dV/dtx2 decrease defining detailed device differ different dimensionless earlierx2 established evidence exact fact. factor field-acceleration footnote for found from gdx2 inx3 in-use increases independent inference inner isx8 issue itx3 itemx4 its itself judgement labels lesson level lines mx2 measure metrics monotonicity new no notx5 ofx2 off-statex6 only paperx3 paragraph parameterx2 peak prior radius range rank re-reads relative report reports reversal rssx2 sx4 selected separate separately. shapex4 shared sincex2 states stressx2 structure studies switchingx2 symbol textx2 thatx2 thex9 their there thisx4 tox2 vs wasx3 waveform waveforms were work
+   REMOVED: 100x2 14x2 Ax2 ARCHIVEx2 ARCHIVE_GAPx2 GAPx2 Ix2 New PB See T07x2 W about are available below compared computed. dsx2 falls footnotes hypotheses items monotonically session sweepx2 with
+== report_tail.html: +177 / -31
+   ADDED  : 0x2 0.863 0.863x 1 1/rx2 10x2 13.8x2 3x2 5 Bx4 GIDL HCI HVx2 Kanex4 Nx2 Px2 PASS-WITH-FIXESx3 PERFORMEDx3 Rx2 TDDB The V/cmx4 VNAND W37 W40 W41/W42 WKBx2 WL-to-WL/TCMC a against andx2 appliedx4 archive_gapx5 assumption at barrierx2 before being blocker by changes checkedx3 coaxial/planarx2 coefficientx2 confirmedx2 correction drafts editor electronx3 erase exponent fieldx4 five fixesx4 forx3 found. gx4 in inner is item items merge. more negligible no of on onex2 peripheryx2 prefactorx2 primaryx2 probability producing published rx2 radius ratiox2 re-check re-reading refer reviewx2 sx2 secondary see select-gate tx2 t/rx2 text. than that thex10 tox2 transistor wasx2 werex2 what withx4 xx4
+   REMOVED: 14x2 2026-10-21 ARCHIVE_GAPx5 T01/T02 T05 T07x2 about be confirmed. could earlier falls not onlyx2 or referent self-checkx2 source text used verification writerx2

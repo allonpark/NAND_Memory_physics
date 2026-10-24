@@ -1,0 +1,150 @@
+# W43 source manifest DRAFT (scratchpad only; not committed). Discovery/search date: 2026-10-21 (Asia/Seoul)
+# ISO week 2026-W43 = 2026-10-19..2026-10-25. All dates are Crossref published-online unless stated
+# (NOT Crossref created/deposited). Full-text reads were done through WebFetch (a summarizing fetcher);
+# equation renderings were incomplete in places and are flagged. No confidential data used in any query.
+# Evidence tags: SOURCE_REPORTED / AUTHOR_INTERPRETATION / ENGINEERING_INFERENCE / UNKNOWN / EXTRAPOLATION_ONLY
+meta:
+  week: 2026-W43
+  discovery_date: 2026-10-21
+  tools: [Crossref REST (works, journals), OpenAlex works search, Unpaywall, doi.org redirect, WebFetch publisher pages]
+  dedup_checked_against: [nand-ops/used_sources.md, origin/main reports w37-w40, origin/reliability-w41, origin/reliability-w42, origin/weekly/2026-w40]
+  count: 5
+  new_this_week: 3
+  archive_gap: 2
+  full_text_count: 3
+sources:
+- id: W43-S1
+  title: "Electron injection in tunneling-oxide-less charge-trap flash memories"
+  authors: [Joonhyung Cho, Joon Hwang, Suyoung Park, Min-Kyu Park, Jong-Ho Lee]
+  venue: "Applied Physics Letters 129(16), 163502"
+  doi: 10.1063/5.0345638
+  stable_url: https://pubs.aip.org/apl/article/129/16/163502/3406763/Electron-injection-in-tunneling-oxide-less-charge
+  publication_date: 2026-10-19   # Crossref issued, published-print and published-online all 2026-10-19
+  online_date: 2026-10-19
+  discovery_date: 2026-10-21
+  selection_class: new_this_week
+  source_access: abstract_only   # publisher page: no access (paywall); not bypassed
+  resolve_evidence: "doi.org -> HTTP 302 to pubs.aip.org/apl/article/129/16/163502/...; Crossref title/authors/dates match; AIP page returned abstract only"
+  facts:
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "Physics-based TCAD framework for electron trapping in tunneling-oxide-less Al2O3/Si3N4 (AN) charge-trap devices, extended to Al2O3/Si3N4/SiO2 (ANO) stacks."}
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "In AN devices Si3N4 contacts the poly-Si channel directly, so a different injection model than for SiO2-tunnel-oxide ANO is needed."}
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "Model = Fowler-Nordheim tunneling through Si3N4 plus direct channel-to-nitride injection, represented by shallow and deep nitride trap levels."}
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "Et, Nt, tunneling effective mass m* and spatial distribution are calibrated to programming transients and ID-VG of fabricated AN devices."}
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "Calibrated model predicts delta-Vth and trapped-electron distributions versus program voltage and temperature."}
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "Same nitride parameters applied to ANO devices with different tunnel-oxide thickness; authors propose AN devices as platform to extract intrinsic nitride trap parameters."}
+  key_conditions: "UNKNOWN (layer thicknesses, program voltages, temperatures, numeric Et/Nt/m* not readable: paywalled)"
+  why_fits: "CTL / poly-Si channel trap physics; calibratable nitride trap parameters (Et, Nt, m*) relevant to PGM and retention modeling. Test-device geometry (planar vs cylindrical) is UNKNOWN; do not assume coaxial."
+  extrapolation_warnings:
+    - "Abstract-only: no numeric claims may be made."
+    - "Parameters from a tunneling-oxide-less stack are not automatically transferable to cylindrical ONO VNAND cells."
+  overlap_check: "DOI not in ledger, w37-w42, or weekly/2026-w40. W40 has a different 3D VNAND CTL TCAD paper (10.1088/2631-8695/aea754): different group and topic (injection model vs channel TCAD)."
+
+- id: W43-S2
+  title: "Reliability Analysis of Isolation Structures for Integrated Circuits Based on the Beta Generalized Weibull Distribution"
+  authors: [Wei Cheng, Hongqing Zheng, Wanqing Song, Piercarlo Cattani]
+  venue: "Fractal and Fractional 10(10), 728 (MDPI, CC BY 4.0)"
+  doi: 10.3390/fractalfract10100728
+  stable_url: https://www.mdpi.com/2504-3110/10/10/728
+  publication_date: 2026-10-19
+  online_date: 2026-10-19
+  discovery_date: 2026-10-21
+  selection_class: new_this_week
+  source_access: abstract_only   # abstract taken from Crossref metadata; MDPI pages returned HTTP 403 to WebFetch (2 URLs); not bypassed
+  resolve_evidence: "doi.org -> 302 to mdpi.com/2504-3110/10/10/728; Crossref title/authors/date match; MDPI body HTTP 403"
+  facts:
+    - {tag: SOURCE_REPORTED, loc: "abstract (Crossref)", text: "Introduces five-parameter Beta Generalized Weibull (BGW) distribution able to represent IFR, DFR, CFR, bathtub and upside-down-bathtub hazard shapes."}
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "Hazard-shape conditions derived via Glaser eta-function theorem and hazard asymptotics; origin controlled by product a*gamma*omega, tail by gamma."}
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "TTF model for actual working conditions; authors prove that a stress change affects only the scale parameter, leaving shape parameters unchanged."}
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "Shape invariance checked on TDDB data with per-level Weibull shape estimates + bootstrap CIs, Kruskal-Wallis test on standardized failure times, and parametric-bootstrap likelihood-ratio test within BGW; all three support stress-invariant shapes."}
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "Untested 3800 V condition is predicted from a fitted linear voltage-acceleration model."}
+  key_conditions: "UNKNOWN (isolation structure type, voltage levels, temperature, sample counts, data origin not readable; only the 3800 V predicted level is named in the abstract)"
+  why_fits: "Weibull/TDDB statistics: shape invariance across stress is the precondition for acceleration extrapolation; supports the project rule to confirm mechanism equivalence before extrapolating."
+  extrapolation_warnings:
+    - "Abstract-only: no fitted parameter, CI or p-value may be quoted."
+    - "IC isolation-structure TDDB at kV-class voltage is not the NAND WL-to-WL / TCMC or gate-dielectric regime; do not transfer the linear-voltage model or the 3800 V prediction."
+    - "Statistical shape invariance does not establish a single physical failure mechanism."
+  overlap_check: "DOI not used before. W40 archive_gap SiC TDDB (10.1088/1361-6463/ae9c4e) is a different system and topic."
+
+- id: W43-S3
+  title: "Characterization of impact ionization rate in silicon over four orders of magnitude"
+  authors: [Aarre Kilpelainen, Meelis-Mait Sildoja, Toomas Kubarsepp, Peter Meindl, Tobias Pohl, Lutz Werner, Trinh Tran, Jarle Gran, Farshid Manoocheri, Eivind Bardalen, Erkki Ikonen]   # diacritics dropped here; Crossref: Kilpeläinen, Kübarsepp
+  venue: "AIP Advances 16(10), 105116 (CC BY 4.0)"
+  doi: 10.1063/5.0347445
+  stable_url: https://pubs.aip.org/adv/article/16/10/105116/3406826/Characterization-of-impact-ionization-rate-in
+  publication_date: 2026-10-20   # online; issue label is 2026-10-01 (issue-level only)
+  online_date: 2026-10-20
+  discovery_date: 2026-10-21
+  selection_class: new_this_week
+  source_access: full_text   # body read (Intro, Methods, Results, Discussion, captions); Eq.(3) garbled in extraction
+  resolve_evidence: "doi.org -> 302 to pubs.aip.org/adv/article/16/10/105116/...; page: published online Oct 20 2026, received Jun 21, accepted Oct 5 2026; Crossref online 2026-10-20; authors match"
+  facts:
+    - {tag: SOURCE_REPORTED, loc: abstract, text: "Spectral responsivity of induced-junction-photodiode trap detectors measured against a cryogenic radiometer over 250-476 nm yields impact-ionization data in Si."}
+    - {tag: SOURCE_REPORTED, loc: "Eq.(1)", text: "R = (e/h-nu)(1-rho)(1-delta)(1+g): rho reflectance, delta recombination loss, g impact-ionization contribution."}
+    - {tag: SOURCE_REPORTED, loc: "Eq.(2) and text", text: "Rate modeled r_c proportional to (E-Eg)^m_c with Eg = 1.12 eV; data support m_c = 4.6 (Kamakura) rather than 3.5 (parabolic-band, Alig)."}
+    - {tag: SOURCE_REPORTED, loc: "Eq.(4), Fig.4", text: "Log-linear form log10(g/(1-g)) ~ m_c log10(h-nu - 2Eg) - log10(A_c); Fig.4 log-log plot spans four orders of magnitude."}
+    - {tag: SOURCE_REPORTED, loc: "Table I, Fig.2", text: "Laser reflectance: 325 nm rho = 0.03787 (u_rel 1.0%); 405 nm rho = 0.000545 (u_rel 2.2%)."}
+    - {tag: SOURCE_REPORTED, loc: Methods, text: "Radiant power 2.8-4.5 uW, 1 V reverse bias; oxide model layers SiO2 220.9 nm, mixture 0.6 nm, roughness 0.3 nm (nominal)."}
+    - {tag: SOURCE_REPORTED, loc: Discussion, text: "Delta-function closed form fails below ~350 nm (argument > 0.1); below 275 nm hole impact ionization must be included; structure at argument 0.25-0.35 attributed to non-constant electron-phonon scattering."}
+  key_conditions: "Si induced-junction photodiodes, 220 nm SiO2 on high-resistance Si, 1 V reverse bias, 250-476 nm optical excitation; photodiode temperature and dimensions not stated in what was read (UNKNOWN)."
+  why_fits: "Field-free, optical benchmark for the threshold power-law of impact ionization (m_c); the abstract itself ties the result to modelling of tunneling in MOS transistors. Gives an independent reference for the impact-ionization term used in GIDL/HCI/avalanche models."
+  extrapolation_warnings:
+    - "Photon-excited carriers in field-free induced-junction diodes, NOT a field-driven (HCI/avalanche) rate; do not insert m_c = 4.6 into a field-dependent HCI/GIDL lifetime model without a bridging argument (ENGINEERING_INFERENCE only)."
+    - "No NAND device studied; relevance to cylindrical VNAND is indirect."
+    - "Eq.(3) was garbled in extraction; do not reproduce it."
+  overlap_check: "DOI not in ledger or any branch. No other impact-ionization measurement paper in prior reports."
+
+- id: W43-S4
+  title: "Role of trap position variation on electrical parameters in hetero-dielectric double gate TFET"
+  authors: [Riddhi Dutta, Aryan Bose, Shanidul Hoque, Rajesh Saha]
+  venue: "Frontiers in Nanotechnology 8, 1961029 (CC BY 4.0)"
+  doi: 10.3389/fnano.2026.1961029
+  stable_url: https://www.frontiersin.org/articles/10.3389/fnano.2026.1961029/full
+  publication_date: 2026-10-16
+  online_date: 2026-10-16
+  discovery_date: 2026-10-21
+  selection_class: archive_gap   # earlier week (2026-10-12..18), unused by any report
+  source_access: full_text   # Sections 1-4, Tables 1-3, references read; figures are images (not read); Eq.1 symbols missing in extraction
+  resolve_evidence: "doi.org -> 302 to frontiersin.org/articles/10.3389/fnano.2026.1961029/full; page: received 07 Aug, revised 09 Sep, accepted 23 Sep, published 16 Oct 2026; Crossref online 2026-10-16; authors match"
+  facts:
+    - {tag: SOURCE_REPORTED, loc: "Sec.2.1, Table 1, Fig.1", text: "Ge p+ source (Eg 0.66 eV, 20 nm), Si channel/drain, tSi = 20 nm, Lg = 70 nm, gate stack 2 nm SiO2 + 7 nm HfO2, metal WF 4.25 eV; doping source 5e19, drain 1e19, pocket 5e19, channel 1e19, light channel 1e18 cm^-3."}
+    - {tag: SOURCE_REPORTED, loc: "Sec.2.2.1", text: "Sentaurus TCAD; dynamic non-local BTBT (Kane/WKB); Si A = 3.29e15 cm^-3 s^-1, B = 2.38e7 V/cm; Ge A = 1.67e15, B = 6.55e6 V/cm; coefficients from literature."}
+    - {tag: SOURCE_REPORTED, loc: "Sec.2.2.2, Table 2", text: "Gaussian acceptor traps, ET = 0.0 eV, sigma_E = 0.1 eV, mean Nit 4.96e12, sigma 2.88e12 cm^-2 eV^-1, capture cross-sections 1e-15 cm^2; 14 segments of 5 nm; 100 Monte Carlo devices per case."}
+    - {tag: SOURCE_REPORTED, loc: "Sec.3.1-3.2, Fig.4a/6a/6f/6g", text: "Trap-free: ION 1.208e-10 A/um, min SS 38.4 mV/dec; channel traps: ION 1.192e-10 (~1.3% drop), electron velocity 1.37e8 -> 7.85e7 cm/s (~42% drop), SS 148.12 +/- 4.12 mV/dec."}
+    - {tag: SOURCE_REPORTED, loc: "Sec.3.3, Fig.8g", text: "Pocket traps (20-30 nm): SS 142.94 +/- 2.41 mV/dec."}
+    - {tag: SOURCE_REPORTED, loc: "Sec.3.5.1, Fig.11a", text: "Peak electric field 1.067e5 V/cm at x = 22.14 nm in the trap-free case."}
+    - {tag: ENGINEERING_INFERENCE, loc: "Sec.1 vs Sec.3.3 and Sec.3.1 vs Table 3", text: "Text calls the pocket 'immune' to traps, yet reported SS rises 38.4 -> 142.94 mV/dec in Case-3; IOFF 1.71e-13 (Sec.3.1) vs 1.71e-12 A/um (Table 3) is inconsistent. Treat the paper's conclusions with care."}
+  key_conditions: "TCAD only (Sentaurus), no experiment; Ge/Si hetero-dielectric double-gate TFET, planar double-gate geometry (not cylindrical); temperature not analysed."
+  why_fits: "Interplay of trap-assisted and band-to-band tunneling with Gaussian-distributed interface traps and Monte-Carlo variability; usable as DOE template for trap position vs BTBT/GIDL leakage, with explicit geometry caveat."
+  extrapolation_warnings:
+    - "Planar double-gate TFET: field, curvature and BTBT coefficients do not transfer to cylindrical coaxial VNAND GIDL."
+    - "Borrowed BTBT coefficients, no experimental validation; 100-device Monte Carlo cannot resolve tails; trap parameter derivation not explained."
+    - "Internal inconsistencies noted above reduce reliability of reported numbers."
+  overlap_check: "DOI not used. W39 used another Frontiers in Nanotechnology paper (10.3389/fnano.2026.1885901) on a different topic."
+
+- id: W43-S5
+  title: "Split-gate MOSFET with a source-connected P+ buffer for gate-oxide field suppression and current-path modulation"
+  authors: [Yi Liu, Yingbo Yue, Hengwen Yu, Jinchun Yan, Haoyang Cui]
+  venue: "AIP Advances 16(10), 105114 (CC BY 4.0)"
+  doi: 10.1063/5.0355163
+  stable_url: https://pubs.aip.org/adv/article/16/10/105114/3406552/Split-gate-MOSFET-with-a-source-connected-P-buffer
+  publication_date: 2026-10-15   # online (Crossref published-online; page header 15 Oct 2026); issue label 2026-10-01; page itself inconsistent, flagged
+  online_date: 2026-10-15
+  discovery_date: 2026-10-21
+  selection_class: archive_gap   # earlier week (2026-10-12..18)
+  source_access: full_text   # Abstract and Sec. I-IV read (two fetch passes, chars 0-140174); supplementary figshare material NOT read
+  resolve_evidence: "doi.org -> 302 to pubs.aip.org/adv/article/16/10/105114/...; Crossref online 2026-10-15, issued 2026-10-01; received 03 Aug, accepted 30 Sep 2026; authors match"
+  facts:
+    - {tag: SOURCE_REPORTED, loc: "Abstract, Sec.II, Fig.5", text: "Gate-oxide corner peak field at 1200 V blocking: 3.48 MV/cm (SG-MOSFET) -> 1.95 MV/cm (SG-PS-MOSFET)."}
+    - {tag: SOURCE_REPORTED, loc: "Sec.II, Fig.3(b)", text: "Ron 42 -> 45.6 mOhm (+8.6%); Qgd 38 -> 22 nC; HF-FOM 1596 -> 1003.2 mOhm*nC."}
+    - {tag: SOURCE_REPORTED, loc: "Sec.II-III, Fig.8", text: "Switching at 600 V/75 A: Eon 555.93 -> 342.69 uJ, Eoff 61.93 -> 54.45 uJ, total 617.86 -> 397.14 uJ (-35.72%)."}
+    - {tag: SOURCE_REPORTED, loc: "Sec.III, Fig.6, table footnote", text: "Short circuit at 800 V, Vgs 15 V: SCWT 10.6 -> 14.5 us with 1600 K criterion; Isc at 10 us 108.07 -> 93.21 A; Tmax 1580.86 -> 1475.82 K."}
+    - {tag: SOURCE_REPORTED, loc: "Table I/II, Fig.2", text: "4H-SiC, drift 10.0 um at 1e16 cm^-3, tox 0.1 um, P+ buffer peak 2e19 cm^-3, W_PB = 0.8 um chosen as knee point."}
+    - {tag: SOURCE_REPORTED, loc: "Sec.III, Fig.10", text: "Effective current width ~0.81 -> ~0.33 um (-59%) during short circuit; authors note Isc does not fall proportionally."}
+    - {tag: SOURCE_REPORTED, loc: "Sec.II-III", text: "2D electrothermal TCAD only; no experimental validation shown; 1600 K failure criterion is an adopted threshold."}
+  key_conditions: "2D TCAD, 4H-SiC planar split-gate cell, 1200 V class; single parameter set; operating points 1200 V block / 600 V,75 A switching / 800 V,15 V short circuit."
+  why_fits: "HV SOA / gate-oxide field management: links oxide-field reduction (TDDB driver) with short-circuit ruggedness (SOA); gives an explicit field-and-temperature failure-criterion pairing."
+  extrapolation_warnings:
+    - "SiC power MOSFET, 2D planar cell: not transferable to Si HV periphery transistors in NAND or to cylindrical VNAND."
+    - "No visible experimental calibration; 1600 K criterion is a modelling choice; single-point values without uncertainty."
+    - "No lifetime/TDDB model was applied in the main text (supplement unread, UNKNOWN)."
+  overlap_check: "DOI not used. W40 archive_gap SiC PWM TDDB (10.1088/1361-6463/ae9c4e) is a different paper; overlap limited to SiC oxide stress."

@@ -1,0 +1,825 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    20
+   ]
+  ],
+  "date-time": "2026-10-20T11:42:44Z",
+  "timestamp": 1792496564625,
+  "version": "4.5.0"
+ },
+ "reference-count": 36,
+ "publisher": "AIP Publishing",
+ "issue": "10",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      20
+     ]
+    ],
+    "date-time": "2026-10-20T00:00:00Z",
+    "timestamp": 1792454400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 19,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/100012329",
+   "name": "European Association of National Metrology Institutes",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "22IEM06 S-CALe Up"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "22IEM06 S-CALe Up"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/100012329",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100002341",
+   "name": "Research Council of Finland",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "2024/368652 Aalto University"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "2024/368652 Aalto University"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100002341",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "name": "Finnish Ministry of Education and Culture",
+   "award": [
+    "VN/3137/2024-OKM-4"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "VN/3137/2024-OKM-4"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "https://ror.org/02w52zt87",
+     "id-type": "ROR",
+     "asserted-by": "crossref"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "pubs.aip.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ]
+ },
+ "abstract": "<jats:p>Accurate experimental data on impact ionization rate in silicon have recently become achievable because of UV-resistant induced junction photodiodes, which eliminate the charge-carrier recombination losses in the bulk, leaving only a small contribution from surface recombination centers to be corrected in spectral responsivity data. We measured the spectral responsivity of trap detectors built from such photodiodes using low-uncertainty cryogenic radiometer setups, thereby gaining highly accurate responsivity data over the wavelength range of 250–476 nm. Reflectance correction of a three-element trap detector was measured at laser wavelengths of 325 and 405 nm and then modeled with low uncertainty between 250 and 410 nm. A minor correction due to recombination loss of electrons and holes was modeled over the spectral range of 250–476 nm. When combined, these measurements and models enabled us to achieve unprecedentedly accurate data on impact ionization. The results thus obtained are in good agreement with the theoretical impact ionization rate by Kamakura et al. [J. Appl. Phys. 75, 3500 (1994)] over four orders of magnitude, characterized by a power-law exponent of 4.6 describing the dependence on the energy of incident photons. These results have significance in developing silicon photodiode detectors with predictable spectral responsivity for photons or other particles and also in electronics when modeling electron tunneling in metal-oxide-semiconductor transistors.</jats:p>",
+ "DOI": "10.1063/5.0347445",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    20
+   ]
+  ],
+  "date-time": "2026-10-20T11:10:56Z",
+  "timestamp": 1792494656000
+ },
+ "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "Characterization of impact ionization rate in silicon over four orders of magnitude"
+ ],
+ "prefix": "10.1063",
+ "volume": "16",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0003-0236-4185",
+   "authenticated-orcid": false,
+   "given": "Aarre",
+   "family": "Kilpeläinen",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Aalto University, Metrology Research Institute 1 , Espoo,",
+     "place": [
+      "Finland"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-7787-4214",
+   "authenticated-orcid": false,
+   "given": "Meelis-Mait",
+   "family": "Sildoja",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Metrosert 2 , Tallinn,",
+     "place": [
+      "Estonia"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-7304-427X",
+   "authenticated-orcid": false,
+   "given": "Toomas",
+   "family": "Kübarsepp",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Metrosert 2 , Tallinn,",
+     "place": [
+      "Estonia"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0009-0001-5702-6928",
+   "authenticated-orcid": false,
+   "given": "Peter",
+   "family": "Meindl",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Physikalisch-Technische Bundesanstalt 3 , Berlin,",
+     "place": [
+      "Germany"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0009-0002-3863-4124",
+   "authenticated-orcid": false,
+   "given": "Tobias",
+   "family": "Pohl",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Physikalisch-Technische Bundesanstalt 3 , Berlin,",
+     "place": [
+      "Germany"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-6925-0997",
+   "authenticated-orcid": false,
+   "given": "Lutz",
+   "family": "Werner",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Physikalisch-Technische Bundesanstalt 3 , Berlin,",
+     "place": [
+      "Germany"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Trinh",
+   "family": "Tran",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Justervesenet 4 , Kjeller,",
+     "place": [
+      "Norway"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0009-0004-1037-4118",
+   "authenticated-orcid": false,
+   "given": "Jarle",
+   "family": "Gran",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Justervesenet 4 , Kjeller,",
+     "place": [
+      "Norway"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-3935-3930",
+   "authenticated-orcid": false,
+   "given": "Farshid",
+   "family": "Manoocheri",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Aalto University, Metrology Research Institute 1 , Espoo,",
+     "place": [
+      "Finland"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-7469-8585",
+   "authenticated-orcid": false,
+   "given": "Eivind",
+   "family": "Bardalen",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of South-Eastern Norway 5 , Kongsberg,",
+     "place": [
+      "Norway"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-6444-5330",
+   "authenticated-orcid": false,
+   "given": "Erkki",
+   "family": "Ikonen",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Aalto University, Metrology Research Institute 1 , Espoo,",
+     "place": [
+      "Finland"
+     ]
+    },
+    {
+     "name": "VTT MIKES 6 , Espoo,",
+     "place": [
+      "Finland"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "317",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    20
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "2026102007105479900_c1",
+   "doi-asserted-by": "publisher",
+   "first-page": "1172",
+   "DOI": "10.1063/1.332095",
+   "article-title": "The near ultraviolet quantum yield of silicon",
+   "volume": "54",
+   "year": "1983",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026102007105479900_c2",
+   "doi-asserted-by": "publisher",
+   "first-page": "345",
+   "DOI": "10.1088/0026-1394/30/4/023",
+   "article-title": "A physical basis for the extrapolation of silicon photodiode quantum efficiency into the ultraviolet",
+   "volume": "30",
+   "year": "1993",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c3",
+   "doi-asserted-by": "publisher",
+   "first-page": "2405",
+   "DOI": "10.1063/1.110489",
+   "article-title": "Quantum efficiencies exceeding unity due to impact ionization in silicon solar cells",
+   "volume": "63",
+   "year": "1993",
+   "journal-title": "Appl. Phys. Lett."
+  },
+  {
+   "key": "2026102007105479900_c4",
+   "doi-asserted-by": "publisher",
+   "first-page": "4213",
+   "DOI": "10.1063/1.367177",
+   "article-title": "Solar cell efficiency and carrier multiplication in alloys",
+   "volume": "83",
+   "year": "1998",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026102007105479900_c5",
+   "doi-asserted-by": "publisher",
+   "first-page": "9",
+   "DOI": "10.1364/ao.39.000009",
+   "article-title": "Interpolation of the spectral responsivity of silicon photodetectors in the near ultraviolet",
+   "volume": "39",
+   "year": "2000",
+   "journal-title": "Appl. Opt."
+  },
+  {
+   "key": "2026102007105479900_c6",
+   "doi-asserted-by": "publisher",
+   "first-page": "055010",
+   "DOI": "10.1088/1681-7575/acf5f0",
+   "article-title": "Internal quantum efficiency of silicon photodetectors at ultraviolet wavelengths",
+   "volume": "60",
+   "year": "2023",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c7",
+   "doi-asserted-by": "publisher",
+   "first-page": "085119",
+   "DOI": "10.1063/5.0164405",
+   "article-title": "Impact ionization in silicon at low charge-carrier energies",
+   "volume": "13",
+   "year": "2023",
+   "journal-title": "AIP Adv."
+  },
+  {
+   "key": "2026102007105479900_c8",
+   "doi-asserted-by": "publisher",
+   "first-page": "385",
+   "DOI": "10.1088/0026-1394/50/4/385",
+   "article-title": "Predictable quantum efficient detector: I. Photodiodes and predicted responsivity",
+   "volume": "50",
+   "year": "2013",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c9",
+   "doi-asserted-by": "publisher",
+   "first-page": "045012",
+   "DOI": "10.1088/1681-7575/ac604b",
+   "article-title": "Determination of the responsivity of a predictable quantum efficient detector over a wide spectral range based on a 3D model of charge carrier recombination losses",
+   "volume": "59",
+   "year": "2022",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c10",
+   "doi-asserted-by": "publisher",
+   "first-page": "395",
+   "DOI": "10.1088/0026-1394/50/4/395",
+   "article-title": "Predictable quantum efficient detector: II. Characterization and confirmed responsivity",
+   "volume": "50",
+   "year": "2013",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c11",
+   "doi-asserted-by": "publisher",
+   "first-page": "197",
+   "DOI": "10.1088/0026-1394/51/3/197",
+   "article-title": "A primary standard of optical power based on induced-junction silicon photodiodes operated at room temperature",
+   "volume": "51",
+   "year": "2014",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c12",
+   "unstructured": "International Bureau of Weights and Measures, SI Brochure – 9th edition. Appendix 2 v1.02: Mise en pratique for the definition of the candela, BIPM, 2021, https://www.bipm.org/documents/20126/41489685/SI-App2-candela.pdf (accessed on 14 May 2026)."
+  },
+  {
+   "key": "2026102007105479900_c13",
+   "doi-asserted-by": "publisher",
+   "first-page": "255",
+   "volume-title": "Proceedings of the NEWRAD 2021 Conference",
+   "DOI": "10.5281/zenodo.4882793"
+  },
+  {
+   "key": "2026102007105479900_c14",
+   "doi-asserted-by": "publisher",
+   "first-page": "035002",
+   "DOI": "10.1088/1681-7575/ad310d",
+   "article-title": "Quantum yield in induced-junction silicon photodiodes at wavelengths around 400 nm",
+   "volume": "61",
+   "year": "2024",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c15",
+   "doi-asserted-by": "publisher",
+   "first-page": "025006",
+   "DOI": "10.1088/1681-7575/ae4c8f",
+   "article-title": "Degradation characterization of induced junction photodiodes under ultraviolet irradiation",
+   "volume": "63",
+   "year": "2026",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c16",
+   "doi-asserted-by": "publisher",
+   "first-page": "5565",
+   "DOI": "10.1103/physrevb.22.5565",
+   "article-title": "Scattering by ionization and phonon emission in semiconductors",
+   "volume": "22",
+   "year": "1980",
+   "journal-title": "Phys. Rev. B"
+  },
+  {
+   "key": "2026102007105479900_c17",
+   "doi-asserted-by": "publisher",
+   "first-page": "4841",
+   "DOI": "10.1103/physrevb.27.4841",
+   "article-title": "New calculations of the quantum yield of silicon in the near ultraviolet",
+   "volume": "27",
+   "year": "1983",
+   "journal-title": "Phys. Rev. B"
+  },
+  {
+   "key": "2026102007105479900_c18",
+   "doi-asserted-by": "publisher",
+   "first-page": "063026",
+   "DOI": "10.1103/physrevd.102.063026",
+   "article-title": "Ionization yield in silicon for eV-scale electron-recoil processes",
+   "volume": "102",
+   "year": "2020",
+   "journal-title": "Phys. Rev. D"
+  },
+  {
+   "key": "2026102007105479900_c19",
+   "doi-asserted-by": "publisher",
+   "first-page": "3500",
+   "DOI": "10.1063/1.356112",
+   "article-title": "Impact ionization model for full band Monte Carlo simulation",
+   "volume": "75",
+   "year": "1994",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026102007105479900_c20",
+   "doi-asserted-by": "publisher",
+   "first-page": "2867",
+   "DOI": "10.1364/ao.22.002867",
+   "article-title": "Silicon photodiode device with 100% external quantum efficiency",
+   "volume": "22",
+   "year": "1983",
+   "journal-title": "Appl. Opt."
+  },
+  {
+   "key": "2026102007105479900_c21",
+   "doi-asserted-by": "publisher",
+   "first-page": "197",
+   "DOI": "10.1088/0026-1394/28/3/018",
+   "article-title": "Trap detectors and their properties",
+   "volume": "28",
+   "year": "1991",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c22",
+   "doi-asserted-by": "publisher",
+   "first-page": "1305",
+   "DOI": "10.1016/j.solmat.2008.06.009",
+   "article-title": "Self-consistent optical parameters of intrinsic silicon at 300 K including temperature coefficients",
+   "volume": "92",
+   "year": "2008",
+   "journal-title": "Sol. Energy Mater. Sol. Cells"
+  },
+  {
+   "key": "2026102007105479900_c23",
+   "doi-asserted-by": "publisher",
+   "first-page": "S72",
+   "DOI": "10.1088/0026-1394/43/2/s15",
+   "article-title": "New UV spectral responsivity scale of the PTB based on a cryogenic radiometer and an argon plasma arc radiation source",
+   "volume": "43",
+   "year": "2006",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c24",
+   "doi-asserted-by": "publisher",
+   "first-page": "4187",
+   "DOI": "10.1364/ao.32.004187",
+   "article-title": "Photodiode nonlinearity measurement with an intensity stabilized laser as a radiation source",
+   "volume": "32",
+   "year": "1993",
+   "journal-title": "Appl. Opt."
+  },
+  {
+   "key": "2026102007105479900_c25",
+   "doi-asserted-by": "publisher",
+   "first-page": "2688",
+   "DOI": "10.1063/1.111492",
+   "article-title": "Spectroscopic ellipsometry determination of the properties of the thin underlying strained Si layer and the roughness at SiO2/Si interface",
+   "volume": "64",
+   "year": "1994",
+   "journal-title": "Appl. Phys. Lett."
+  },
+  {
+   "key": "2026102007105479900_c26",
+   "doi-asserted-by": "publisher",
+   "first-page": "619",
+   "DOI": "10.1116/1.590298",
+   "article-title": "Roughness of thermal oxide layers grown on ion implanted silicon wafers",
+   "volume": "16",
+   "year": "1998",
+   "journal-title": "J. Vac. Sci. Technol., B: Microelectron. Nanometer Struct.-Process., Meas., Phenom."
+  },
+  {
+   "key": "2026102007105479900_c27",
+   "doi-asserted-by": "publisher",
+   "first-page": "3323",
+   "DOI": "10.1063/1.367101",
+   "article-title": "Ellipsometric determination of optical constants for silicon and thermally grown silicon dioxide via a multi-sample, multi-wavelength, multi-angle investigation",
+   "volume": "83",
+   "year": "1998",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026102007105479900_c28",
+   "doi-asserted-by": "publisher",
+   "first-page": "636",
+   "DOI": "10.1002/andp.19354160705",
+   "article-title": "Calculation of various physics constants in heterogeneous substances: I. Dielectricity constants and conductivity of mixed bodies from isotropic substances",
+   "volume": "416",
+   "year": "1935",
+   "journal-title": "Ann. Phys."
+  },
+  {
+   "key": "2026102007105479900_c29",
+   "doi-asserted-by": "publisher",
+   "first-page": "5556",
+   "DOI": "10.1063/1.1659981",
+   "article-title": "Hot Carriers in Si and Ge Radiation Detectors",
+   "volume": "42",
+   "year": "1971",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026102007105479900_c30",
+   "doi-asserted-by": "publisher",
+   "first-page": "045713",
+   "DOI": "10.1063/1.4927530",
+   "article-title": "Electron–phonon interaction and scattering in Si and Ge: Implications for phonon engineering",
+   "volume": "118",
+   "year": "2015",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026102007105479900_c31",
+   "doi-asserted-by": "publisher",
+   "first-page": "116",
+   "DOI": "10.1016/j.cpc.2016.07.028",
+   "article-title": "Electron–phonon coupling, transport and superconducting properties using maximally localized Wannier functions",
+   "volume": "209",
+   "year": "2016",
+   "journal-title": "Comput. Phys. Commun."
+  },
+  {
+   "key": "2026102007105479900_c32",
+   "first-page": "43",
+   "article-title": "Full-band Monte Carlo simulation of high-energy transport and impact ionization of electrons and holes in Ge, Si, and GaAs",
+   "year": "1996"
+  },
+  {
+   "key": "2026102007105479900_c33",
+   "doi-asserted-by": "publisher",
+   "first-page": "055010",
+   "DOI": "10.1088/1681-7575/aeaba7",
+   "article-title": "Quantum yield of silicon in the spectral range from ultraviolet to visible",
+   "volume": "63",
+   "year": "2026",
+   "journal-title": "Metrologia"
+  },
+  {
+   "key": "2026102007105479900_c34",
+   "doi-asserted-by": "publisher",
+   "first-page": "302",
+   "DOI": "10.1063/1.334804",
+   "article-title": "Quantum yield of electron impact ionization in silicon",
+   "volume": "57",
+   "year": "1985",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026102007105479900_c35",
+   "doi-asserted-by": "publisher",
+   "first-page": "1743",
+   "DOI": "10.1063/1.1751627",
+   "article-title": "Edge quantum yield in n-channel metal-oxide-semiconductor field-effect transistor",
+   "volume": "96",
+   "year": "2004",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026102007105479900_c36",
+   "doi-asserted-by": "publisher",
+   "first-page": "214",
+   "DOI": "10.1140/epjc/s10052-025-13883-x",
+   "article-title": "Measurements of the quantum yield of silicon using Geiger-mode avalanching photodetectors",
+   "volume": "85",
+   "year": "2025",
+   "journal-title": "Eur. Phys. J. C"
+  }
+ ],
+ "container-title": [
+  "AIP Advances"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0347445/21175017/105116_1_5.0347445.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0347445/21175017/105116_1_5.0347445.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    20
+   ]
+  ],
+  "date-time": "2026-10-20T11:10:58Z",
+  "timestamp": 1792494658000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://pubs.aip.org/adv/article/16/10/105116/3406826/Characterization-of-impact-ionization-rate-in"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ]
+ },
+ "references-count": 36,
+ "journal-issue": {
+  "issue": "10",
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     1
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1063/5.0347445",
+ "relation": {},
+ "ISSN": [
+  "2158-3226"
+ ],
+ "issn-type": [
+  {
+   "value": "2158-3226",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published-other": {
+  "date-parts": [
+   [
+    2026,
+    10
+   ]
+  ]
+ },
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ]
+ },
+ "article-number": "105116"
+}

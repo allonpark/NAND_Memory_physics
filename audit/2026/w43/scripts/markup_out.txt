@@ -1,0 +1,35 @@
+== i1: unclosed [] errs [] unknown classes [] ids ['i1']
+  pair violations [] ko 27 en 27
+  grades: ['C', 'D']
+  plain-style (하다체-ish) sentence endings in ko <p>: 0 []
+  card rows 13 ['CLAIM', 'EVIDENCE', 'MODEL', 'VALID RANGE', 'ASSUMPTION', 'CONTRADICTING DATA', 'CRITICAL BOUNDARY', 'CONFIDENCE', 'SOURCE TRACE', 'Competing mechanisms', 'Electrical signatures', 'Failure modes', 'Change vs archive']
+  cells with ko+en: 13 / 13
+== i2: unclosed [] errs [] unknown classes [] ids ['i2']
+  pair violations [] ko 38 en 38
+  LEAK? S# ['S2']
+  LEAK? week refs ['W43']
+  LEAK? trackIDs ['T05', 'T09']
+  grades: ['C', 'D']
+  plain-style (하다체-ish) sentence endings in ko <p>: 0 []
+  card rows 13 ['CLAIM', 'EVIDENCE', 'MODEL', 'VALID RANGE', 'ASSUMPTION', 'CONTRADICTING DATA', 'CRITICAL BOUNDARY', 'CONFIDENCE', 'SOURCE TRACE', 'Competing mechanisms', 'Electrical signatures', 'Failure modes', 'Change vs archive']
+  cells with ko+en: 13 / 13
+== i3: unclosed [] errs [] unknown classes [] ids ['i3']
+  pair violations [] ko 32 en 32
+  grades: ['B', 'C', 'D']
+  plain-style (하다체-ish) sentence endings in ko <p>: 0 []
+  card rows 13 ['CLAIM', 'EVIDENCE', 'MODEL', 'VALID RANGE', 'ASSUMPTION', 'CONTRADICTING DATA', 'CRITICAL BOUNDARY', 'CONFIDENCE', 'SOURCE TRACE', 'Competing mechanisms', 'Electrical signatures', 'Failure modes', 'Change vs archive']
+  cells with ko+en: 13 / 13
+== i4: unclosed [] errs [] unknown classes [] ids ['i4']
+  pair violations [] ko 28 en 28
+  LEAK? week refs ['W43']
+  grades: ['C', 'D']
+  plain-style (하다체-ish) sentence endings in ko <p>: 0 []
+  card rows 13 ['CLAIM', 'EVIDENCE', 'MODEL', 'VALID RANGE', 'ASSUMPTION', 'CONTRADICTING DATA', 'CRITICAL BOUNDARY', 'CONFIDENCE', 'SOURCE TRACE', 'Competing mechanisms', 'Electrical signatures', 'Failure modes', 'Change vs archive']
+  cells with ko+en: 13 / 13
+== i5: unclosed [] errs [] unknown classes [] ids ['i5']
+  pair violations [] ko 42 en 42
+  LEAK? trackIDs ['T07']
+  grades: ['C', 'D']
+  plain-style (하다체-ish) sentence endings in ko <p>: 0 []
+  card rows 13 ['CLAIM', 'EVIDENCE', 'MODEL', 'VALID RANGE', 'ASSUMPTION', 'CONTRADICTING DATA', 'CRITICAL BOUNDARY', 'CONFIDENCE', 'SOURCE TRACE', 'Competing mechanisms', 'Electrical signatures', 'Failure modes', 'Change vs archive']
+  cells with ko+en: 13 / 13

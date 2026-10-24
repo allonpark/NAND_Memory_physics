@@ -1,0 +1,14 @@
+﻿sympy 1.14.0
+R series check (should be 0): 0
+ln(rate/E0^2) vs u=1/E0 : -4*B*phi_B**2*u**3/(35*q**2*r0**2) - 2*B*phi_B*u**2/(5*q*r0) - B*u
+d2y/du2 = -4*B*phi_B*(6*phi_B*u + 7*q*r0)/(35*q**2*r0**2)  (non-zero -> uncorrected 1/E0 plot is curved)
+with abscissa X = R(lam)/E0, ln(rate/E0^2) = -B*X  (linear by construction)
+planar limit r0->oo of exponent: B/E0
+V=0: median t=6.959, Weibull-plot slope at median = 1.4636
+V=1: median t=0.9796, Weibull-plot slope at median = 1.7334
+V=2: median t=0.1506, Weibull-plot slope at median = 2.2488
+n=10: sd(ln b)*sqrt(n)=0.871 (asym 0.780); mean(b_hat)/b=1.171; detectable ratio MC=2.98, asymptotic=2.66
+n=30: sd(ln b)*sqrt(n)=0.820 (asym 0.780); mean(b_hat)/b=1.048; detectable ratio MC=1.81, asymptotic=1.76
+n=100: sd(ln b)*sqrt(n)=0.792 (asym 0.780); mean(b_hat)/b=1.012; detectable ratio MC=1.37, asymptotic=1.36
+E_a (tau const) = E_g/2 - 3*F**2*k/(F_G0**2*T**2)
+E_a (tau ~ T^-1/2) = E_g/2 - 3*F**2*k/(F_G0**2*T**2) + T*k/2

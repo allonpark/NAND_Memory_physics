@@ -1,0 +1,50 @@
+sympy 1.14.0
+
+A1. wavelength -> h*nu, electron excess energy E = h*nu - Eg, x = h*nu - 2Eg, log10(x)
+  250 nm: h*nu=4.9594 eV, E=h*nu-Eg=3.8394 eV, x=2.7194 eV, log10 x=0.4345
+  275 nm: h*nu=4.5085 eV, E=h*nu-Eg=3.3885 eV, x=2.2685 eV, log10 x=0.3557
+  350 nm: h*nu=3.5424 eV, E=h*nu-Eg=2.4224 eV, x=1.3024 eV, log10 x=0.1147
+  360 nm: h*nu=3.4440 eV, E=h*nu-Eg=2.3240 eV, x=1.2040 eV, log10 x=0.0806
+  410 nm: h*nu=3.0240 eV, E=h*nu-Eg=1.9040 eV, x=0.7840 eV, log10 x=-0.1057
+  476 nm: h*nu=2.6047 eV, E=h*nu-Eg=1.4847 eV, x=0.3647 eV, log10 x=-0.4381
+  check: source pairs (350 nm, argument>0.1) and (275 nm, argument>0.35) are reproduced if argument = log10((h*nu-2Eg)/eV)
+  argument=0.10 -> lambda=354.3 nm, x=1.2589 eV
+  argument=0.25 -> lambda=308.6 nm, x=1.7783 eV
+  argument=0.35 -> lambda=276.8 nm, x=2.2387 eV
+  closed-form zero point x=0 -> h*nu = 2Eg = 2.24 eV, lambda = 553.5 nm (outside the measured range)
+
+A2. g solved from Eq.(4): [x**m_c/(A_c + x**m_c)]  equals 1/(1 + A_c x^-m)? True
+A3. m_c=4.6: decades of g/(1-g) between 476 and 250 nm = 4.014
+A3. m_c=3.5: decades of g/(1-g) between 476 and 250 nm = 3.054
+    (source: g spans four orders of magnitude over the combined data set; m_c=4.6 is consistent)
+    m_c=4.6: decades between 476 nm and argument 0.1 = 2.475
+    m_c=3.5: decades between 476 nm and argument 0.1 = 1.883
+    difference 4.6 vs 3.5 over full span: 0.960 decades; over valid window: 0.592 decades
+
+B. GENERAL BACKGROUND (not from the paper)
+B1. <r>(eps) = P*epsilon**m_c*exp(-E_th/epsilon)*gamma(m_c + 1)
+    equals P*Gamma(m+1)*eps^m*exp(-Eth/eps)? True
+B2. hard-threshold (m=0) limit <r> = P*exp(-E_th/epsilon)  (lucky-electron form with eps = q*lambda*F)
+B3. d ln<r>/d ln eps = E_th/epsilon + m_c
+B4. dominant excess energy u=E-Eth: mode = [epsilon*m_c] , mean = epsilon*(m_c + 1) , variance = epsilon**2*(m_c + 1)
+B5. d ln<r>/d m = log(epsilon) + polygamma(0, m_c + 1)   (digamma + ln eps): shifts prefactor and adds Delta m to the log-slope
+B6. generic Isub/Id ~ C1*F^(m+s)*exp(-b/F), b = Eth/(q*lambda_p); s = field-profile/integration exponent (model dependent)
+    d ln(Isub/Id)/d ln Vp = E_th*l/(V_p*lambda_p*q) + m_c + s
+    Hu/Tam-type lucky-electron form corresponds to prefactor exponent 1 (m_c not present)
+B7. fraction of log-slope carried by m (with eps=q*lambda_p*F): epsilon*m_c/(E_th + epsilon*(m_c + s))
+    Eth/eps=5, s=1, m=4.6: total slope=10.6, m-share=0.434
+    Eth/eps=5, s=1, m=3.5: total slope=9.5, m-share=0.368
+    Eth/eps=10, s=1, m=4.6: total slope=15.6, m-share=0.295
+    Eth/eps=10, s=1, m=3.5: total slope=14.5, m-share=0.241
+    Eth/eps=20, s=1, m=4.6: total slope=25.6, m-share=0.180
+    Eth/eps=20, s=1, m=3.5: total slope=24.5, m-share=0.143
+    Eth/eps=40, s=1, m=4.6: total slope=45.6, m-share=0.101
+    Eth/eps=40, s=1, m=3.5: total slope=44.5, m-share=0.079
+    (Eth/eps values are illustrative symbols-to-numbers, NOT from the paper or any device)
+
+B8. bridging condition: mode u* = m*eps inside x-window supported by the closed form
+   476 nm (lowest x, earlier-publication data): x = 0.3647 eV -> eps = x/4.6 = 0.0793 eV
+   410 nm (start of this work's CESR range): x = 0.7840 eV -> eps = x/4.6 = 0.1704 eV
+   argument 0.1 (closed-form validity limit): x = 1.2589 eV -> eps = x/4.6 = 0.2737 eV
+   NOTE: identifying the paper's threshold variable with Eth (=Eg in kinetic energy) is an inference.
+B9. sigma_ln<r> ~= (m + s + Eth/eps)*sigma_lnF (first order, field-driven case incl. s)
