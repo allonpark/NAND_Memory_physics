@@ -1,0 +1,75 @@
+=== item 1 10.1063/5.0345638
+TITLE: ['Electron injection in tunneling-oxide-less charge-trap flash memories']
+AUTH: [('Joonhyung', 'Cho'), ('Joon', 'Hwang'), ('Suyoung', 'Park'), ('Min-Kyu', 'Park'), ('Jong-Ho', 'Lee')]
+issued [[2026, 10, 19]]
+published [[2026, 10, 19]]
+published-online [[2026, 10, 19]]
+published-print [[2026, 10, 19]]
+created [[2026, 10, 19]]
+deposited [[2026, 10, 19]]
+container: ['Applied Physics Letters'] 129 16 163502 None
+assertion: []
+license: []
+ABSTRACT:  This paper presents a physics-based technology computer-aided design framework for electron trapping in tunneling-oxide-less Al2O3/Si3N4 (AN) charge-trap devices and its extension to Al2O3/Si3N4/SiO2 (ANO) stacks. Unlike conventional ANO devices with a SiO2 tunneling oxide, AN devices place the Si3N4 layer in direct contact with the poly-Si channel, requiring a different electron injection model. The model combines Fowler–Nordheim tunneling through Si3N4 with direct channel-to-nitride injection caused by the tunneling-oxide-less gate stack. These two mechanisms are represented using shallow and deep trap-energy levels in the nitride layer. The trap energy Et, trap density Nt, tunneling effective mass m*, and spatial distribution are calibrated by matching simulated programming transients and ID–VG characteristics to measurements from fabricated AN devices. The measurement-calibrated framework accurately predicts the threshold-voltage shift ΔVth and trapped-electron distributions as functions of programming voltage and temperature. It also clarifies how Et, Nt, m*, and the spatial distribution determine the trapping rate, stored charge, and trapping location. Using the same nitride trap parameters, the model is applied to ANO devices with different tunneling-oxide thicknesses and accurately predicts their trapped-electron density distribution and ΔVth characteristics. These results establish tunneling-oxide-less AN devices as effective platforms for extracting intrinsic nitride trap parameters applicable to conventional ANO flash stacks and more complex tunneling-stack designs. 
+=== item 2 10.3390/fractalfract10100728
+TITLE: ['Reliability Analysis of Isolation Structures for Integrated Circuits Based on the Beta Generalized Weibull Distribution']
+AUTH: [('Wei', 'Cheng'), ('Hongqing', 'Zheng'), ('Wanqing', 'Song'), ('Piercarlo', 'Cattani')]
+issued [[2026, 10, 19]]
+published [[2026, 10, 19]]
+published-online [[2026, 10, 19]]
+published-print None
+created [[2026, 10, 19]]
+deposited [[2026, 10, 19]]
+container: ['Fractal and Fractional'] 10 10 None 728
+assertion: []
+license: ['https://creativecommons.org/licenses/by/4.0/', 'https://creativecommons.org/licenses/by/4.0/']
+ABSTRACT:  The reliability analysis of integrated circuit (IC) isolation structures (ISs) faces two challenges: how to accurately describe the distribution of time-to-failure (TTF) data, and how to obtain the TTF distribution under actual working conditions (AWCs). To address these issues, this paper introduces the flexible five-parameter Beta Generalized Weibull (BGW) distribution, which can represent the five characteristic failure-rate shapes (IFR, DFR, CFR, BFR and UBT). The sign of the hazard derivative is analyzed through Glaser’s eta-function theorem together with the asymptotic behavior of the hazard rate at the origin and at infinity; this yields exact, necessary-and-sufficient parameter conditions for each shape, with the origin controlled by the product aγω and the tail controlled by γ. A TTF model based on the BGW distribution is then proposed to predict the TTF distribution under AWCs, and it is proved analytically that a change of stress affects only the scale parameter Δ, leaving all shape parameters unchanged. Because this invariance was previously stated as an assumption, it is verified empirically on the time-dependent dielectric breakdown (TDDB) data using per-level Weibull shape estimates with bootstrap confidence intervals, a Kruskal–Wallis test on standardized failure times, and a parametric-bootstrap likelihood-ratio test within the BGW family; all three tests support stress-invariant shapes. The reliability function is recast as a convergent infinite series, with the correct beta-integral kernel and an explicit ratio-test bound. Finally, the effectiveness and superiority of the method are verified using TDDB TTF data, and the untested 3800 V condition is predicted from the fitted linear voltage-acceleration model. 
+=== item 3 10.1063/5.0347445
+TITLE: ['Characterization of impact ionization rate in silicon over four orders of magnitude']
+AUTH: [('Aarre', 'Kilpeläinen'), ('Meelis-Mait', 'Sildoja'), ('Toomas', 'Kübarsepp'), ('Peter', 'Meindl'), ('Tobias', 'Pohl'), ('Lutz', 'Werner'), ('Trinh', 'Tran'), ('Jarle', 'Gran'), ('Farshid', 'Manoocheri'), ('Eivind', 'Bardalen'), ('Erkki', 'Ikonen')]
+issued [[2026, 10, 1]]
+published [[2026, 10, 1]]
+published-online [[2026, 10, 20]]
+published-print [[2026, 10, 1]]
+created [[2026, 10, 20]]
+deposited [[2026, 10, 20]]
+container: ['AIP Advances'] 16 10 105116 None
+assertion: []
+license: ['https://creativecommons.org/licenses/by/4.0/']
+ABSTRACT:  Accurate experimental data on impact ionization rate in silicon have recently become achievable because of UV-resistant induced junction photodiodes, which eliminate the charge-carrier recombination losses in the bulk, leaving only a small contribution from surface recombination centers to be corrected in spectral responsivity data. We measured the spectral responsivity of trap detectors built from such photodiodes using low-uncertainty cryogenic radiometer setups, thereby gaining highly accurate responsivity data over the wavelength range of 250–476 nm. Reflectance correction of a three-element trap detector was measured at laser wavelengths of 325 and 405 nm and then modeled with low uncertainty between 250 and 410 nm. A minor correction due to recombination loss of electrons and holes was modeled over the spectral range of 250–476 nm. When combined, these measurements and models enabled us to achieve unprecedentedly accurate data on impact ionization. The results thus obtained are in good agreement with the theoretical impact ionization rate by Kamakura et al. [J. Appl. Phys. 75, 3500 (1994)] over four orders of magnitude, characterized by a power-law exponent of 4.6 describing the dependence on the energy of incident photons. These results have significance in developing silicon photodiode detectors with predictable spectral responsivity for photons or other particles and also in electronics when modeling electron tunneling in metal-oxide-semiconductor transistors. 
+=== item 4 10.3389/fnano.2026.1961029
+TITLE: ['Role of trap position variation on electrical parameters in hetero-dielectric double gate TFET']
+AUTH: [('Riddhi', 'Dutta'), ('Aryan', 'Bose'), ('Shanidul', 'Hoque'), ('Rajesh', 'Saha')]
+issued [[2026, 10, 16]]
+published [[2026, 10, 16]]
+published-online [[2026, 10, 16]]
+published-print None
+created [[2026, 10, 16]]
+deposited [[2026, 10, 16]]
+container: ['Frontiers in Nanotechnology'] 8 None 1961029 None
+assertion: []
+license: ['https://creativecommons.org/licenses/by/4.0/']
+ABSTRACT:  
+                    This work is a statistical reliability study of the Heterojunction Dielectric Double Gate (HDDG) tunnel field-effect-transistor (TFET) with respect to the randomized location of interface traps. The device configuration consists of a Ge source, and a p
+                     + 
+                    pocket to increase the tunneling probability. Using TCAD Sentaurus, the impact of various interface trap localizations arising from the random nature of the interface is examined through a comprehensive variability analysis. A comprehensive variability study is conducted to evaluate the sensitivity of the device to interface trap localization. Of particular interest is how the device parameters change due to the incorporation of Gaussian-distributed traps in 5 nm segments of the oxide semiconductor interface. The statistical analysis of 100 devices is performed over four unique cases; (i) no traps, (ii) traps localized in the oxide/n+ channel region, (iii) traps localized in the oxide/p+ pocket region, and (iv) traps distributed across both regions. The typical behavior of the devices is examined and the statistical variation of the following parameters is discussed; On-Current (I
+                     ON 
+                    ), Off-Current (I
+                     OFF 
+                    ), Threshold Voltage (V
+                     th 
+                    ), Band-to-Band Tunneling (BTBT) generation rate, electron velocity and subthreshold swing (SS).
+                   
+=== item 5 10.1063/5.0355163
+TITLE: ['Split-gate MOSFET with a source-connected P+ buffer for gate-oxide field suppression and current-path modulation']
+AUTH: [('Yi', 'Liu'), ('Yingbo', 'Yue'), ('Hengwen', 'Yu'), ('Jinchun', 'Yan'), ('Haoyang', 'Cui')]
+issued [[2026, 10, 1]]
+published [[2026, 10, 1]]
+published-online [[2026, 10, 15]]
+published-print [[2026, 10, 1]]
+created [[2026, 10, 15]]
+deposited [[2026, 10, 15]]
+container: ['AIP Advances'] 16 10 105114 None
+assertion: []
+license: ['https://creativecommons.org/licenses/by/4.0/']
+ABSTRACT:  The curvature-induced geometrical effect in split-gate metal–oxide–semiconductor field-effect transistors (SG-MOSFETs) can lead to electric-field crowding at the gate-oxide corner and an elevated short-circuit current level, thereby accelerating gate-oxide degradation and thermal failure. To address this issue, this paper proposes an SG-MOSFET with a source-connected heavily doped P-type buffer region, referred to as the source-connected P+ buffer split-gate MOSFET (SG-PS-MOSFET), to improve gate-oxide field distribution and short-circuit ruggedness. Based on two-dimensional electrothermal TCAD simulations, the proposed P-type buffer weakens the coupling between the high drain-side potential and the gate-oxide corner in the blocking state while enhancing depletion in the junction field-effect transistor region and compressing the effective electron current path under short-circuit stress. Compared with the SG-MOSFET, the SG-PS-MOSFET reduces the switching loss while introducing only a slight increase in on-resistance from 42 to 45.6 mΩ. The total switching energy is reduced from 617.86 to 397.14 μJ, corresponding to a reduction of 35.72%. Meanwhile, the peak electric field at the gate-oxide corner in the blocking state is reduced from 3.48 to 1.95 MV/cm, and the short-circuit withstand time is extended from 10.6 to 14.5 μs. These results demonstrate that the source-connected P+ buffer achieves a favorable balance among high-frequency switching performance, gate-oxide electric-field stress, and short-circuit ruggedness with only a small on-resistance penalty. 

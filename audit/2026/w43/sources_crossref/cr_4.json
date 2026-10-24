@@ -1,0 +1,544 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    16
+   ]
+  ],
+  "date-time": "2026-10-16T05:55:43Z",
+  "timestamp": 1792130143706,
+  "version": "4.4.0"
+ },
+ "reference-count": 33,
+ "publisher": "Frontiers Media SA",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      16
+     ]
+    ],
+    "date-time": "2026-10-16T00:00:00Z",
+    "timestamp": 1792108800000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "frontiersin.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Front. Nanotechnol."
+ ],
+ "abstract": "<jats:p>\n                    This work is a statistical reliability study of the Heterojunction Dielectric Double Gate (HDDG) tunnel field-effect-transistor (TFET) with respect to the randomized location of interface traps. The device configuration consists of a Ge source, and a p\n                    <jats:sup>+</jats:sup>\n                    pocket to increase the tunneling probability. Using TCAD Sentaurus, the impact of various interface trap localizations arising from the random nature of the interface is examined through a comprehensive variability analysis. A comprehensive variability study is conducted to evaluate the sensitivity of the device to interface trap localization. Of particular interest is how the device parameters change due to the incorporation of Gaussian-distributed traps in 5 nm segments of the oxide semiconductor interface. The statistical analysis of 100 devices is performed over four unique cases; (i) no traps, (ii) traps localized in the oxide/n+ channel region, (iii) traps localized in the oxide/p+ pocket region, and (iv) traps distributed across both regions. The typical behavior of the devices is examined and the statistical variation of the following parameters is discussed; On-Current (I\n                    <jats:sub>ON</jats:sub>\n                    ), Off-Current (I\n                    <jats:sub>OFF</jats:sub>\n                    ), Threshold Voltage (V\n                    <jats:sub>th</jats:sub>\n                    ), Band-to-Band Tunneling (BTBT) generation rate, electron velocity and subthreshold swing (SS).\n                  </jats:p>",
+ "DOI": "10.3389/fnano.2026.1961029",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    16
+   ]
+  ],
+  "date-time": "2026-10-16T05:40:29Z",
+  "timestamp": 1792129229000
+ },
+ "update-policy": "https://doi.org/10.3389/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "Role of trap position variation on electrical parameters in hetero-dielectric double gate TFET"
+ ],
+ "prefix": "10.3389",
+ "volume": "8",
+ "author": [
+  {
+   "given": "Riddhi",
+   "family": "Dutta",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "School of Electronics Engineering (SENSE), Vellore Institute of Technology",
+     "place": [
+      "Vellore, India"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Aryan",
+   "family": "Bose",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Electronics Engineering (SENSE), Vellore Institute of Technology",
+     "place": [
+      "Vellore, India"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Shanidul",
+   "family": "Hoque",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Electronics Engineering (SENSE), Vellore Institute of Technology",
+     "place": [
+      "Vellore, India"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Rajesh",
+   "family": "Saha",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of ECE, NIT Silchar",
+     "place": [
+      "Silchar, India"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1965",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    16
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "B1",
+   "doi-asserted-by": "publisher",
+   "first-page": "10855",
+   "DOI": "10.1007/s13369-025-09959-1",
+   "article-title": "Impact of interface traps on reliability in negative capacitance source pocket double gate TFET",
+   "volume": "50",
+   "author": "Babu",
+   "year": "2025",
+   "journal-title": "Arabian J. Sci. Eng."
+  },
+  {
+   "key": "B2",
+   "doi-asserted-by": "publisher",
+   "first-page": "115840",
+   "DOI": "10.1016/j.microrel.2025.115840",
+   "article-title": "Reliability analysis of dopingless vertical nanowire TFET with interface trap charges for ringoscillator circuit implementation",
+   "volume": "172",
+   "author": "Bhardwaj",
+   "year": "2025",
+   "journal-title": "Microelectron. Reliab."
+  },
+  {
+   "key": "B3",
+   "doi-asserted-by": "publisher",
+   "first-page": "1725",
+   "DOI": "10.1109/ted.2007.899389",
+   "article-title": "Double-gate tunnel FET with high-k gate dielectric",
+   "volume": "54",
+   "author": "Boucart",
+   "year": "2007",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "B4",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/IEMENTech60402.2023.10423461",
+   "article-title": "Examination of interface trap charges on electrically doped tunnel FET in the presence of High-K dielectric",
+   "author": "Chandan",
+   "year": "2023"
+  },
+  {
+   "key": "B5",
+   "doi-asserted-by": "publisher",
+   "first-page": "122",
+   "DOI": "10.1143/jjap.46.122",
+   "article-title": "Integration process of impactionization metal-oxide-semiconductor devices with tunneling fieldeffect transistors and metal-oxide-semiconductor field-effect transistors",
+   "volume": "46",
+   "author": "Choi",
+   "year": "2007",
+   "journal-title": "Jpn. J. Appl. Phys."
+  },
+  {
+   "key": "B6",
+   "doi-asserted-by": "publisher",
+   "first-page": "044006",
+   "DOI": "10.1088/1361-6439/ac56e8",
+   "article-title": "Role of gate electrode in influencing interface trap sensitivity in SOI tunnel FETs",
+   "volume": "32",
+   "author": "Deb",
+   "year": "2022",
+   "journal-title": "J. Micromech. Microeng."
+  },
+  {
+   "key": "B7",
+   "unstructured": "TCAD Sentaurus User Guide. Mountain View, CA: Synopsys Inc\n          \n          \n          2014"
+  },
+  {
+   "key": "B8",
+   "doi-asserted-by": "publisher",
+   "first-page": "437",
+   "DOI": "10.1109/LED.2011.2106757",
+   "article-title": "Vertical Si-nanowire tunneling FETs with low subthreshold swing",
+   "volume": "32",
+   "author": "Gandhi",
+   "year": "2011",
+   "journal-title": "IEEE Electron Device Lett."
+  },
+  {
+   "key": "B9",
+   "doi-asserted-by": "publisher",
+   "first-page": "400",
+   "DOI": "10.1109/ted.2021.3131110",
+   "article-title": "Low power ultradeep-submicrometer junctionless carbon nanotube field effect diode",
+   "volume": "69",
+   "author": "Ghoreishi",
+   "year": "2022",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "B10",
+   "doi-asserted-by": "publisher",
+   "first-page": "342",
+   "DOI": "10.1016/j.spmi.2015.07.064",
+   "article-title": "Electrical noise in circular gate tunnel FET in presence of interface traps",
+   "volume": "86",
+   "author": "Goswami",
+   "year": "2015",
+   "journal-title": "Superlattices Microstruct."
+  },
+  {
+   "key": "B11",
+   "doi-asserted-by": "publisher",
+   "first-page": "16",
+   "DOI": "10.1109/ICSICT.2008.4735116",
+   "article-title": "Green transistor as a solution to the power crisis",
+   "author": "Hu",
+   "year": "2008",
+   "journal-title": "Proc. IEEE Int. Conf. Solid-State Integr. Circuit Technol"
+  },
+  {
+   "key": "B12",
+   "doi-asserted-by": "publisher",
+   "first-page": "329",
+   "DOI": "10.1038/nature10679",
+   "article-title": "Tunnel field-effect transistors as energy-efficient electronic switches",
+   "volume": "479",
+   "author": "Ionescu",
+   "year": "2011",
+   "journal-title": "Nature"
+  },
+  {
+   "key": "B13",
+   "doi-asserted-by": "publisher",
+   "first-page": "181",
+   "DOI": "10.1016/0022-3697(60)90035-4",
+   "article-title": "Zener tunneling in semiconductors",
+   "volume": "12",
+   "author": "Kane",
+   "year": "1959",
+   "journal-title": "J. Phys. Chem. Solids"
+  },
+  {
+   "key": "B14",
+   "doi-asserted-by": "publisher",
+   "first-page": "1273",
+   "DOI": "10.1007/s12633-023-02754-3",
+   "article-title": "Analytical modeling for electrical characteristics of source pocket-based hetero dielectric double-gate TFETs",
+   "volume": "16",
+   "author": "Kavi",
+   "year": "2024",
+   "journal-title": "SILICON (1876990X)"
+  },
+  {
+   "key": "B15",
+   "first-page": "1",
+   "article-title": "Analyzing trap charge impact in TFET",
+   "volume-title": "2025 IEEE ICSC",
+   "author": "Kosre",
+   "year": "2025"
+  },
+  {
+   "key": "B16",
+   "first-page": "1",
+   "article-title": "Analysis of interface trap position variation in tunnel FETs",
+   "volume-title": "2024 IEEE EDKCON",
+   "author": "Koteshwar",
+   "year": "2024"
+  },
+  {
+   "key": "B17",
+   "doi-asserted-by": "publisher",
+   "first-page": "11149",
+   "DOI": "10.1109/access.2026.3654230",
+   "article-title": "Interface segmentation approach (InSeAp) for statistical analysis of interface trap spatial variations in TFETs",
+   "volume": "14",
+   "author": "Koteshwar",
+   "year": "2026",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "B18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10854-025-14404-y",
+   "article-title": "Statistical variability of physically localized interface traps in TFETs",
+   "author": "Lahkar",
+   "year": "2025",
+   "journal-title": "J. Mater. Sci"
+  },
+  {
+   "key": "B19",
+   "doi-asserted-by": "publisher",
+   "first-page": "1284",
+   "DOI": "10.1109/TED.2014.2312330",
+   "article-title": "Comparative study on impacts of interface traps on TFET and MOSFET",
+   "volume": "61",
+   "author": "Qiu",
+   "year": "2014",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "B20",
+   "doi-asserted-by": "publisher",
+   "first-page": "1313",
+   "DOI": "10.1007/s12633-025-03629-5",
+   "article-title": "Physical insights into the reliability of ES Fin-TFETs: an analysis of interface traps, noise, and temperature-induced effects",
+   "author": "Rao",
+   "year": "2026",
+   "journal-title": "Silicon"
+  },
+  {
+   "key": "B21",
+   "doi-asserted-by": "publisher",
+   "first-page": "61",
+   "DOI": "10.1134/s1028335825600671",
+   "article-title": "Interface trap-induced impact in linearity and small-signal performance of InAs-Channel TFETs: reliability implications",
+   "volume": "70",
+   "author": "Sachan",
+   "year": "2025",
+   "journal-title": "Dokl. Phys."
+  },
+  {
+   "key": "B22",
+   "doi-asserted-by": "publisher",
+   "first-page": "105629",
+   "DOI": "10.1016/j.mejo.2022.105629",
+   "article-title": "Analysis on electrical parameters including temperature and interface trap charges in gate overlap Ge source step shape double gate TFET",
+   "volume": "130",
+   "author": "Saha",
+   "year": "2022",
+   "journal-title": "Microelectron. J."
+  },
+  {
+   "key": "B23",
+   "doi-asserted-by": "publisher",
+   "first-page": "4380",
+   "DOI": "10.1109/ted.2016.2603468",
+   "article-title": "Trap assisted tunneling and its effect on subthreshold swing of tunnel FETs",
+   "volume": "63",
+   "author": "Sajjad",
+   "year": "2016",
+   "journal-title": "IEEE Trans.on Electron Devices"
+  },
+  {
+   "key": "B24",
+   "doi-asserted-by": "publisher",
+   "first-page": "1521",
+   "DOI": "10.1016/j.mee.2005.04.038",
+   "article-title": "Ge based high performance nanoscale MOSFETs",
+   "volume": "80",
+   "author": "Saraswat",
+   "year": "2005",
+   "journal-title": "Microelectron. Eng."
+  },
+  {
+   "key": "B25",
+   "volume-title": "Impact of Heterojunction and oxide-interface Traps",
+   "author": "Schenk",
+   "year": "2017"
+  },
+  {
+   "key": "B26",
+   "doi-asserted-by": "publisher",
+   "first-page": "835",
+   "DOI": "10.1103/physrev.87.835",
+   "article-title": "Statistics of the recombination of holes and electrons",
+   "volume": "87",
+   "author": "Shockley",
+   "year": "1952",
+   "journal-title": "Phys. Rev."
+  },
+  {
+   "key": "B27",
+   "article-title": "Modelling of heteromaterial dual-gate TFET",
+   "volume-title": "IEEE ECE Conference",
+   "author": "Sultan",
+   "year": "2025"
+  },
+  {
+   "key": "B28",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/NMDC64551.2025.11234649",
+   "article-title": "Study of dual extended sources double gate TFET for extremely low power applications",
+   "volume-title": "IEEE NMDC",
+   "author": "Suman",
+   "year": "2025"
+  },
+  {
+   "key": "B29",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1002/0470068329",
+   "volume-title": "Physics of Semiconductor Devices",
+   "author": "Sze",
+   "year": "2006"
+  },
+  {
+   "key": "B30",
+   "first-page": "301",
+   "article-title": "Using low-k oxide for reduction of leakage current in double gate tunnel FET",
+   "volume-title": "10th International Conference on Ultimate Integration of Silicon",
+   "author": "Vadizadeh",
+   "year": "2009"
+  },
+  {
+   "key": "B31",
+   "first-page": "300",
+   "article-title": "A novel nanoscale tunnel FET structure for increasing On/Off current ratio",
+   "volume-title": "Proc. Int. Conf. Microelectronics (ICM)",
+   "author": "Vadizadeh",
+   "year": "2008"
+  },
+  {
+   "key": "B32",
+   "doi-asserted-by": "publisher",
+   "first-page": "1127",
+   "DOI": "10.1007/s10825-022-01919-4",
+   "article-title": "Junctionless In0.3Ga0.7As/GaAs transistor with a shell doping profile for the design of a low-noise amplifier with a sub-1-dB noise figure for X-band applications",
+   "volume": "21",
+   "author": "Vadizadeh",
+   "year": "2022",
+   "journal-title": "J. Comput. Electron."
+  },
+  {
+   "key": "B33",
+   "doi-asserted-by": "publisher",
+   "first-page": "245",
+   "DOI": "10.1109/tdmr.2017.2653620",
+   "article-title": "Impact of interface trap charges onPerformance of electrically doped tunnel FET with heterogeneous gate dielectric",
+   "volume": "17",
+   "author": "Venkatesh",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Device Mater. Reliab."
+  }
+ ],
+ "container-title": [
+  "Frontiers in Nanotechnology"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://www.frontiersin.org/articles/10.3389/fnano.2026.1961029/full",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    16
+   ]
+  ],
+  "date-time": "2026-10-16T05:40:31Z",
+  "timestamp": 1792129231000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.frontiersin.org/articles/10.3389/fnano.2026.1961029/full"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    16
+   ]
+  ]
+ },
+ "references-count": 33,
+ "alternative-id": [
+  "10.3389/fnano.2026.1961029"
+ ],
+ "URL": "https://doi.org/10.3389/fnano.2026.1961029",
+ "relation": {},
+ "ISSN": [
+  "2673-3013"
+ ],
+ "issn-type": [
+  {
+   "value": "2673-3013",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    16
+   ]
+  ]
+ },
+ "article-number": "1961029"
+}

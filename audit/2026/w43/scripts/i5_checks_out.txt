@@ -1,0 +1,18 @@
+sympy 1.14.0
+[1a] Ron change = 8.571 % (source: +8.6%)
+[1b] HF-FOM = Ron*Qgd: 1596 , 1003.20 (source 1596 / 1003.2)
+[1c] Etot = 617.860 / 397.140 ; reduction 35.723 % (source 617.86/397.14, 35.72%)
+[1d] corner peak field ratio = 0.5603 ; reduction 43.97 %
+[1e] W_eff reduction 59.26 % (source ~59%); Isc ratio 0.8625 ; implied mean |Jn| over W_eff ratio (I1/W1)/(I0/W0) = 2.117 [DERIVATION: assumes all current inside W_eff on one cutline; not source-reported]
+[1f] SCWT change 36.79 %
+[1g] BV change 18.41 %
+[2] at 1600 K: NC = 1.971e+20 NV = 3.079e+20 Eg = 2.6912 eV, ni = 1.423e+16 cm^-3 (source: 1.97e20, 3.08e20, 2.691 eV, ~1.42e16)
+[2] ni(1600 K)/N_drift(1e16) = 1.423
+[3] SG: E_ox*t_ox = 34.80 V  [1D uniform-field equivalent only; actual corner field is 2D-crowded]
+[3] SG-PS: E_ox*t_ox = 19.50 V  [1D uniform-field equivalent only; actual corner field is 2D-crowded]
+[3b] on-state planar average field Vgs/t_ox = 1.50 MV/cm  [DERIVATION; ignores V_FB, surface potential, poly depletion, oxide charge]
+[3c] blocking voltage / BV: 0.843 (SG), 0.712 (SG-PS)  [DERIVATION]
+[3] interface normal-field relation: E_ox = (E_s*epsilon_s + Q_it)/epsilon_ox
+[4] E_coax(r=a)/E_planar = t/(a*log((a + t)/a)) ; limit t/a->0: 1
+[4] d/dx [x/ln(1+x)] > 0 check at x=1: 0.4020 (field enhancement grows with t/a)
+[4] dV_i = log((r_out/r_in)**(Q'/(2*pi*epsilon_i)))

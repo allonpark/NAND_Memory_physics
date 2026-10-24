@@ -1,0 +1,31 @@
+== 1. Local Kane-type generation G = A (E/E0)^P exp(-B/E)
+d lnG / d lnE = B/E + P
+
+== 2. Field-ratio amplification R(g) = G(gE)/G(E)
+R = g**P*exp(B*(g - 1)/(E*g))
+d lnR/dg = B/(E*g**2) + P/g   (>0 for g>0: positive terms only)
+
+== 3. Labeled derivation from source values (local-field illustration only)
+Ge: B/E_peak = 61.39;  exp(-B/E_peak) = 2.187e-27;  d lnG/d lnE (P=2) = 63.39
+Si: B/E_peak = 223.1;  exp(-B/E_peak) = 1.344e-97;  d lnG/d lnE (P=2) = 225.1
+CAVEAT: the paper uses a NON-LOCAL (WKB) BTBT model; a local-field evaluation at the reported peak is not the paper's generation rate.
+
+== 4. Kane: apparent activation energy via Eg(T); B proportional to Eg^(3/2) (m* assumed T-independent)
+Ea_app(Kane) = -3*C_B*sqrt(E_g)*T**2*dEg_dT*k/(2*E)
+  = -(3/2)(B/E)(k T^2/Eg) dEg/dT  -> positive if dEg/dT<0; scales with B/E, no exp(-Eg/2kT) factor
+
+== 5. Trap-assisted (SRH + Hurkx-type field enhancement), generic background
+Ea_app(TAT) = E_g/2 - 3*F**2*k/(T**2*c**2) + T*k/2
+  = Eg/2 + kT/2 - 3 kT (F/F_G)^2   [Gamma>>1 limit]; dEa/dF = -6*F*k/(T**2*c**2) (<0)
+  zero-field (Gamma->1, no enhancement) limit: Ea -> Eg/2 + 2kT (n_i T^(3/2), v_th T^(1/2))
+
+== 6. Coaxial single-dielectric field enhancement at the inner surface (same V)
+series g_coax = 1 + x/2 - x**2/12 + O(x**3)
+g_coax > 1 checked at x = 0.1, 0.5, 1 (symbolic proof: ln(1+x) < x for x>0)
+Combined with section 2: a coaxial geometry multiplies local Kane generation by g^P exp((B/E)(1-1/g)) > 1.
+
+== 7. Tail resolution of n = 100 Monte Carlo devices (source: 100 per case)
+exact p_u = 0.0295; rule-of-three approx 3/n = 0.03
+=> fractions below ~3e-2 per case are not resolvable; ppm-level tails are out of reach.
+
+ALL ASSERTIONS PASSED

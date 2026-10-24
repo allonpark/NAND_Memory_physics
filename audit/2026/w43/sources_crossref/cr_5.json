@@ -1,0 +1,666 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    15
+   ]
+  ],
+  "date-time": "2026-10-15T15:48:39Z",
+  "timestamp": 1792079319035,
+  "version": "4.4.0"
+ },
+ "reference-count": 35,
+ "publisher": "AIP Publishing",
+ "issue": "10",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      15
+     ]
+    ],
+    "date-time": "2026-10-15T00:00:00Z",
+    "timestamp": 1792022400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 14,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100001809",
+   "name": "National Natural Science Foundation of China",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "52177185"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "52177185"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100001809",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "pubs.aip.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ]
+ },
+ "abstract": "<jats:p>The curvature-induced geometrical effect in split-gate metal–oxide–semiconductor field-effect transistors (SG-MOSFETs) can lead to electric-field crowding at the gate-oxide corner and an elevated short-circuit current level, thereby accelerating gate-oxide degradation and thermal failure. To address this issue, this paper proposes an SG-MOSFET with a source-connected heavily doped P-type buffer region, referred to as the source-connected P+ buffer split-gate MOSFET (SG-PS-MOSFET), to improve gate-oxide field distribution and short-circuit ruggedness. Based on two-dimensional electrothermal TCAD simulations, the proposed P-type buffer weakens the coupling between the high drain-side potential and the gate-oxide corner in the blocking state while enhancing depletion in the junction field-effect transistor region and compressing the effective electron current path under short-circuit stress. Compared with the SG-MOSFET, the SG-PS-MOSFET reduces the switching loss while introducing only a slight increase in on-resistance from 42 to 45.6 mΩ. The total switching energy is reduced from 617.86 to 397.14 μJ, corresponding to a reduction of 35.72%. Meanwhile, the peak electric field at the gate-oxide corner in the blocking state is reduced from 3.48 to 1.95 MV/cm, and the short-circuit withstand time is extended from 10.6 to 14.5 μs. These results demonstrate that the source-connected P+ buffer achieves a favorable balance among high-frequency switching performance, gate-oxide electric-field stress, and short-circuit ruggedness with only a small on-resistance penalty.</jats:p>",
+ "DOI": "10.1063/5.0355163",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    15
+   ]
+  ],
+  "date-time": "2026-10-15T15:28:37Z",
+  "timestamp": 1792078117000
+ },
+ "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "Split-gate MOSFET with a source-connected P+ buffer for gate-oxide field suppression and current-path modulation"
+ ],
+ "prefix": "10.1063",
+ "volume": "16",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0009-0002-8993-3706",
+   "authenticated-orcid": false,
+   "given": "Yi",
+   "family": "Liu",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Faculty of Artificial Intelligence, Shanghai University of Electric Power 1 , Shanghai 201306,",
+     "place": [
+      "China"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-1801-5134",
+   "authenticated-orcid": false,
+   "given": "Yingbo",
+   "family": "Yue",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Faculty of Artificial Intelligence, Shanghai University of Electric Power 1 , Shanghai 201306,",
+     "place": [
+      "China"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Hengwen",
+   "family": "Yu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "2 Anhui Rena Semiconductor Technology Co., Ltd., Wuhu, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jinchun",
+   "family": "Yan",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Shanghai Bangxin Semi Technology Co., Ltd. 3 , Shanghai,",
+     "place": [
+      "China"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-8183-1599",
+   "authenticated-orcid": false,
+   "given": "Haoyang",
+   "family": "Cui",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Faculty of Artificial Intelligence, Shanghai University of Electric Power 1 , Shanghai 201306,",
+     "place": [
+      "China"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "317",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    15
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "issue": "5",
+   "key": "2026101511283337300_c1",
+   "doi-asserted-by": "publisher",
+   "first-page": "216",
+   "DOI": "10.3390/act14050216",
+   "article-title": "Design of high-speed motor system for EV based on 1200 V SiC-MOSFET power module",
+   "volume": "14",
+   "year": "2025",
+   "journal-title": "Actuators"
+  },
+  {
+   "issue": "14",
+   "key": "2026101511283337300_c2",
+   "doi-asserted-by": "publisher",
+   "first-page": "3063",
+   "DOI": "10.3390/electronics12143063",
+   "article-title": "State-of-the-art 800 V electric drive systems: Inverter–machine codesign for energy efficiency optimization",
+   "volume": "12",
+   "year": "2023",
+   "journal-title": "Electronics"
+  },
+  {
+   "issue": "2",
+   "key": "2026101511283337300_c3",
+   "doi-asserted-by": "publisher",
+   "first-page": "2923",
+   "DOI": "10.1109/TTE.2023.3300669",
+   "article-title": "Loss modeling and testing of 800-V DC bus IGBT and SiC traction inverter modules",
+   "volume": "10",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Transp. Electrif."
+  },
+  {
+   "issue": "17",
+   "key": "2026101511283337300_c4",
+   "doi-asserted-by": "publisher",
+   "first-page": "5995",
+   "DOI": "10.3390/ma15175995",
+   "article-title": "Effects of JFET region design and gate oxide thickness on the static and dynamic performance of 650 V SiC planar power MOSFETs",
+   "volume": "15",
+   "year": "2022",
+   "journal-title": "Materials"
+  },
+  {
+   "key": "2026101511283337300_c5",
+   "doi-asserted-by": "publisher",
+   "first-page": "53",
+   "DOI": "10.1016/j.ssel.2021.12.001",
+   "article-title": "JFET region design trade-offs of 650 V 4H-SiC planar power MOSFETs",
+   "volume": "3",
+   "year": "2021",
+   "journal-title": "Solid State Electron. Lett."
+  },
+  {
+   "issue": "23",
+   "key": "2026101511283337300_c6",
+   "doi-asserted-by": "publisher",
+   "first-page": "4849",
+   "DOI": "10.3390/electronics12234849",
+   "article-title": "Influence of JFET width on short-circuit robustness of 1200 V SiC power MOSFETs",
+   "volume": "12",
+   "year": "2023",
+   "journal-title": "Electronics"
+  },
+  {
+   "issue": "11",
+   "key": "2026101511283337300_c7",
+   "doi-asserted-by": "publisher",
+   "first-page": "2551",
+   "DOI": "10.3390/electronics12112551",
+   "article-title": "Experimental comparison of a new 1.2 kV 4H-SiC split-gate MOSFET with conventional SiC MOSFETs in terms of reliability robustness",
+   "volume": "12",
+   "year": "2023",
+   "journal-title": "Electronics"
+  },
+  {
+   "issue": "3",
+   "key": "2026101511283337300_c8",
+   "doi-asserted-by": "publisher",
+   "first-page": "1508",
+   "DOI": "10.1109/TED.2023.3336644",
+   "article-title": "Theoretical analysis and experimental characterization of 1.2-kV 4H-SiC planar split-gate MOSFET with source field plate",
+   "volume": "71",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "2026101511283337300_c9",
+   "first-page": "350",
+   "year": "2023"
+  },
+  {
+   "issue": "7",
+   "key": "2026101511283337300_c10",
+   "doi-asserted-by": "publisher",
+   "first-page": "933",
+   "DOI": "10.3390/mi15070933",
+   "article-title": "A novel 4H-SiC SGT MOSFET with improved P+ shielding region and integrated Schottky barrier diode",
+   "volume": "15",
+   "year": "2024",
+   "journal-title": "Micromachines"
+  },
+  {
+   "key": "2026101511283337300_c11",
+   "doi-asserted-by": "publisher",
+   "first-page": "554",
+   "DOI": "10.1109/JEDS.2022.3192420",
+   "article-title": "Low switching loss split-gate 4H-SiC MOSFET with integrated heterojunction diode",
+   "volume": "10",
+   "year": "2022",
+   "journal-title": "IEEE J. Electron Devices Soc."
+  },
+  {
+   "issue": "5",
+   "key": "2026101511283337300_c12",
+   "doi-asserted-by": "publisher",
+   "first-page": "1122",
+   "DOI": "10.3390/en13051122",
+   "article-title": "Numerical study of 4H-SiC UMOSFETs with split-gate and P+ shielding",
+   "volume": "13",
+   "year": "2020",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "12",
+   "key": "2026101511283337300_c13",
+   "doi-asserted-by": "publisher",
+   "first-page": "125955",
+   "DOI": "10.1088/1402-4896/ad049b",
+   "article-title": "A novel 4H-SiC multiple stepped SGT MOSFET with improved high frequency figure of merit",
+   "volume": "98",
+   "year": "2023",
+   "journal-title": "Phys. Scr."
+  },
+  {
+   "issue": "12",
+   "key": "2026101511283337300_c14",
+   "doi-asserted-by": "publisher",
+   "first-page": "122501",
+   "DOI": "10.1088/1674-4926/24060009",
+   "article-title": "Short-circuit failure modes and mechanism investigation of 1200 V planar SiC MOSFETs",
+   "volume": "45",
+   "year": "2024",
+   "journal-title": "J. Semicond."
+  },
+  {
+   "key": "2026101511283337300_c15",
+   "doi-asserted-by": "publisher",
+   "first-page": "109082",
+   "DOI": "10.1016/j.sse.2025.109082",
+   "article-title": "Degradation mechanisms for static and dynamic characteristics in 1.2 kV 4H-SiC MOSFETs under repetitive short-circuit tests",
+   "volume": "226",
+   "year": "2025",
+   "journal-title": "Solid-State Electron."
+  },
+  {
+   "issue": "2",
+   "key": "2026101511283337300_c16",
+   "doi-asserted-by": "publisher",
+   "first-page": "598",
+   "DOI": "10.3390/ma15020598",
+   "article-title": "Investigation of SiC trench MOSFETs’ reliability under short-circuit conditions",
+   "volume": "15",
+   "year": "2022",
+   "journal-title": "Materials"
+  },
+  {
+   "issue": "10",
+   "key": "2026101511283337300_c17",
+   "doi-asserted-by": "publisher",
+   "first-page": "4328",
+   "DOI": "10.1109/TED.2020.3013192",
+   "article-title": "Investigations of SiC MOSFET short-circuit failure mechanisms using electrical, thermal, and mechanical stress analyses",
+   "volume": "67",
+   "year": "2020",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "issue": "7",
+   "key": "2026101511283337300_c18",
+   "doi-asserted-by": "publisher",
+   "first-page": "1077",
+   "DOI": "10.3390/electronics11071077",
+   "article-title": "A 1200 V SiC trench MOSFET with a laterally widened P-shield region to enhance the short-circuit ruggedness",
+   "volume": "11",
+   "year": "2022",
+   "journal-title": "Electronics"
+  },
+  {
+   "issue": "22",
+   "key": "2026101511283337300_c19",
+   "doi-asserted-by": "publisher",
+   "first-page": "4516",
+   "DOI": "10.3390/electronics13224516",
+   "article-title": "Gate oxide reliability in silicon carbide planar and trench metal–oxide–semiconductor field-effect transistors under positive and negative electric field stress",
+   "volume": "13",
+   "year": "2024",
+   "journal-title": "Electronics"
+  },
+  {
+   "issue": "8",
+   "key": "2026101511283337300_c20",
+   "doi-asserted-by": "publisher",
+   "first-page": "1908",
+   "DOI": "10.3390/ma17081908",
+   "article-title": "4H-SiC MOSFET threshold voltage instability evaluated via pulsed high-temperature reverse bias and negative gate bias stresses",
+   "volume": "17",
+   "year": "2024",
+   "journal-title": "Materials"
+  },
+  {
+   "issue": "4",
+   "key": "2026101511283337300_c21",
+   "doi-asserted-by": "publisher",
+   "first-page": "447",
+   "DOI": "10.3390/mi16040447",
+   "article-title": "A high-density 4H-SiC MOSFET based on a buried field limiting ring with low Qgd and Ron",
+   "volume": "16",
+   "year": "2025",
+   "journal-title": "Micromachines"
+  },
+  {
+   "issue": "3",
+   "key": "2026101511283337300_c22",
+   "doi-asserted-by": "publisher",
+   "first-page": "244",
+   "DOI": "10.3390/mi16030244",
+   "article-title": "SiC double-trench MOSFETs with an integrated MOS-channel diode for improved third-quadrant performance",
+   "volume": "16",
+   "year": "2025",
+   "journal-title": "Micromachines"
+  },
+  {
+   "issue": "2",
+   "key": "2026101511283337300_c23",
+   "doi-asserted-by": "publisher",
+   "first-page": "254",
+   "DOI": "10.3390/mi15020254",
+   "article-title": "Novel SiC trench MOSFET with improved third-quadrant performance and switching speed",
+   "volume": "15",
+   "year": "2024",
+   "journal-title": "Micromachines"
+  },
+  {
+   "issue": "4",
+   "key": "2026101511283337300_c24",
+   "doi-asserted-by": "publisher",
+   "first-page": "461",
+   "DOI": "10.3390/mi15040461",
+   "article-title": "A novel asymmetric trench SiC metal–oxide–semiconductor field-effect transistor with a poly-Si/SiC heterojunction diode for optimizing reverse conduction performance",
+   "volume": "15",
+   "year": "2024",
+   "journal-title": "Micromachines"
+  },
+  {
+   "key": "2026101511283337300_c25",
+   "doi-asserted-by": "publisher",
+   "first-page": "189",
+   "DOI": "10.4028/p-4eg9rl",
+   "article-title": "Investigation of the short-circuit withstand time and on-resistance trade-off of 1.2 kV 4H-SiC power MOSFETs",
+   "volume": "360",
+   "year": "2024",
+   "journal-title": "Solid State Phenom."
+  },
+  {
+   "issue": "6",
+   "key": "2026101511283337300_c26",
+   "doi-asserted-by": "publisher",
+   "first-page": "061007",
+   "DOI": "10.35848/1347-4065/ac6409",
+   "article-title": "Non-isothermal simulation of SiC DMOSFET short circuit capability",
+   "volume": "61",
+   "year": "2022",
+   "journal-title": "Jpn. J. Appl. Phys."
+  },
+  {
+   "issue": "11",
+   "key": "2026101511283337300_c27",
+   "doi-asserted-by": "publisher",
+   "first-page": "12264",
+   "DOI": "10.1109/TPEL.2020.2988899",
+   "article-title": "Accurate analytical switching-on loss model of SiC MOSFET considering dynamic transfer characteristic and Qgd",
+   "volume": "35",
+   "year": "2020",
+   "journal-title": "IEEE Trans. Power Electron."
+  },
+  {
+   "issue": "8",
+   "key": "2026101511283337300_c28",
+   "doi-asserted-by": "publisher",
+   "first-page": "9398",
+   "DOI": "10.1109/TPEL.2021.3053330",
+   "article-title": "Accuracy of three interterminal capacitance models for SiC power MOSFETs under fast switching",
+   "volume": "36",
+   "year": "2021",
+   "journal-title": "IEEE Trans. Power Electron."
+  },
+  {
+   "issue": "4",
+   "key": "2026101511283337300_c29",
+   "doi-asserted-by": "publisher",
+   "first-page": "544",
+   "DOI": "10.1109/TDMR.2023.3316928",
+   "article-title": "Measurements and review of failure mechanisms and reliability constraints of 4H-SiC power MOSFETs under short circuit events",
+   "volume": "23",
+   "year": "2023",
+   "journal-title": "IEEE Trans. Device Mater. Reliab."
+  },
+  {
+   "issue": "2",
+   "key": "2026101511283337300_c30",
+   "doi-asserted-by": "publisher",
+   "first-page": "1555",
+   "DOI": "10.1109/TPEL.2015.2416358",
+   "article-title": "Temperature-dependent short-circuit capability of silicon carbide power MOSFETs",
+   "volume": "31",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Power Electron."
+  },
+  {
+   "issue": "3",
+   "key": "2026101511283337300_c31",
+   "doi-asserted-by": "publisher",
+   "first-page": "978",
+   "DOI": "10.1109/JESTPE.2016.2563220",
+   "article-title": "A comprehensive study of short-circuit ruggedness of silicon carbide power MOSFETs",
+   "volume": "4",
+   "year": "2016",
+   "journal-title": "IEEE J. Emerg. Sel. Top. Power Electron."
+  },
+  {
+   "issue": "2",
+   "key": "2026101511283337300_c32",
+   "doi-asserted-by": "publisher",
+   "first-page": "2138",
+   "DOI": "10.1109/JESTPE.2025.3527366",
+   "article-title": "Investigation on short-circuit characteristics and failure modes of SiC planar MOSFETs with linear and hexagonal topologies",
+   "volume": "13",
+   "year": "2025",
+   "journal-title": "IEEE J. Emerg. Sel. Top. Power Electron."
+  },
+  {
+   "key": "2026101511283337300_c33",
+   "doi-asserted-by": "publisher",
+   "first-page": "114163",
+   "DOI": "10.1016/j.microrel.2021.114163",
+   "article-title": "Investigations of short-circuit failure in double trench SiC MOSFETs through three-dimensional electro-thermal-mechanical stress analysis",
+   "volume": "122",
+   "year": "2021",
+   "journal-title": "Microelectron. Reliab."
+  },
+  {
+   "key": "2026101511283337300_c34",
+   "doi-asserted-by": "publisher",
+   "first-page": "632",
+   "DOI": "10.4028/p-fnekfr",
+   "article-title": "On the short circuit electro-thermal failure of 1.2 kV 4H-SiC MOSFETs with 3D cell layouts",
+   "volume": "1062",
+   "year": "2022",
+   "journal-title": "Mater. Sci. Forum"
+  },
+  {
+   "key": "2026101511283337300_c35",
+   "volume-title": "Fundamentals of Power Semiconductor Devices",
+   "year": "2019"
+  }
+ ],
+ "container-title": [
+  "AIP Advances"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0355163/21171301/105114_1_5.0355163.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0355163/21171301/105114_1_5.0355163.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    15
+   ]
+  ],
+  "date-time": "2026-10-15T15:28:39Z",
+  "timestamp": 1792078119000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://pubs.aip.org/adv/article/16/10/105114/3406552/Split-gate-MOSFET-with-a-source-connected-P-buffer"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ]
+ },
+ "references-count": 35,
+ "journal-issue": {
+  "issue": "10",
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     1
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1063/5.0355163",
+ "relation": {},
+ "ISSN": [
+  "2158-3226"
+ ],
+ "issn-type": [
+  {
+   "value": "2158-3226",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published-other": {
+  "date-parts": [
+   [
+    2026,
+    10
+   ]
+  ]
+ },
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    1
+   ]
+  ]
+ },
+ "article-number": "105114"
+}

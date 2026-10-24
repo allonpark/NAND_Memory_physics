@@ -1,0 +1,22 @@
+[1] g0 = E_coax(r0)/E_planar,nitride  (AN two-layer)
+    first order in x=t_N/r0:  g0 - 1 = x*(a**2 + 2*a + e)/(2*(a + e))
+    coefficient positive for all a,e>0? numerator/denominator are sums of positive terms: (a**2 + 2*a + e)/(2*(a + e))
+    gate-side ratio - 1 (first order): -x*(a**2 + 2*a*e + e)/(2*(a + e))
+    N/A interface (nitride side) ratio - 1: x*(a**2 - e)/(2*(a + e))
+
+[2] R(lam) = WKB exponent coax/planar at equal E0: 3*Integral(sqrt(1 - w)*exp(lambda*w), (w, 0, 1))/2
+    series: 8*lambda**3/315 + 4*lambda**2/35 + 2*lambda/5 + 1
+    numeric R at lam=0.05,0.2,0.5: [1.0203, 1.0848, 1.2321]
+    quad check: ['1.0203', '1.0848', '1.2321']
+
+[3] net exponent ratio N = R(lam_c)/g0 on a generic dimensionless grid (lam_c <= ln(1+x))
+    max N over grid = 0.992837 (<1 means coax still lowers the FN exponent at equal V)
+    first-order: R ~ 1 + 2*lam/5, lam <= x ; g0 ~ 1 + x*c1 ; c1 at a->0: 1/2
+
+[4] m*_fit (planar-field analysis of a coaxial device) = [R**2*m/g_0**2]
+
+[5] dVth(rc) = Qprime*(log(r_1/r_c)/epsilon_N + log(r_2/r_1)/epsilon_A)/(2*pi)
+    d(dVth)/d rc = -Qprime/(2*pi*epsilon_N*r_c)
+    planar limit check (r0 -> large, fixed thicknesses):
+    lim r0->oo of coax/planar = 1
+    c1 - 1/2 = a*(a + 1)/(2*(a + e)) (>0 for a>0: first-order g0 coefficient exceeds 1/2 > 2/5)

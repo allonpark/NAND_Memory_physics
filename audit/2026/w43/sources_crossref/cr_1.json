@@ -1,0 +1,634 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    19
+   ]
+  ],
+  "date-time": "2026-10-19T07:42:21Z",
+  "timestamp": 1792395741091,
+  "version": "4.4.0"
+ },
+ "reference-count": 31,
+ "publisher": "AIP Publishing",
+ "issue": "16",
+ "funder": [
+  {
+   "DOI": "10.13039/501100014188",
+   "name": "Ministry of Science and ICT, South Korea",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "RS-2025-00517999"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "RS-2025-00517999"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100014188",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100014188",
+   "name": "Ministry of Science and ICT, South Korea",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "RS-2025-10032968"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "RS-2025-10032968"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100014188",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "name": "BK21 FOUR Program"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "pubs.aip.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    19
+   ]
+  ]
+ },
+ "abstract": "<jats:p>This paper presents a physics-based technology computer-aided design framework for electron trapping in tunneling-oxide-less Al2O3/Si3N4 (AN) charge-trap devices and its extension to Al2O3/Si3N4/SiO2 (ANO) stacks. Unlike conventional ANO devices with a SiO2 tunneling oxide, AN devices place the Si3N4 layer in direct contact with the poly-Si channel, requiring a different electron injection model. The model combines Fowler–Nordheim tunneling through Si3N4 with direct channel-to-nitride injection caused by the tunneling-oxide-less gate stack. These two mechanisms are represented using shallow and deep trap-energy levels in the nitride layer. The trap energy Et, trap density Nt, tunneling effective mass m*, and spatial distribution are calibrated by matching simulated programming transients and ID–VG characteristics to measurements from fabricated AN devices. The measurement-calibrated framework accurately predicts the threshold-voltage shift ΔVth and trapped-electron distributions as functions of programming voltage and temperature. It also clarifies how Et, Nt, m*, and the spatial distribution determine the trapping rate, stored charge, and trapping location. Using the same nitride trap parameters, the model is applied to ANO devices with different tunneling-oxide thicknesses and accurately predicts their trapped-electron density distribution and ΔVth characteristics. These results establish tunneling-oxide-less AN devices as effective platforms for extracting intrinsic nitride trap parameters applicable to conventional ANO flash stacks and more complex tunneling-stack designs.</jats:p>",
+ "DOI": "10.1063/5.0345638",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    19
+   ]
+  ],
+  "date-time": "2026-10-19T07:06:58Z",
+  "timestamp": 1792393618000
+ },
+ "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "Electron injection in tunneling-oxide-less charge-trap flash memories"
+ ],
+ "prefix": "10.1063",
+ "volume": "129",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0009-0008-0669-1603",
+   "authenticated-orcid": false,
+   "given": "Joonhyung",
+   "family": "Cho",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Electrical and Computer Engineering, Seoul National University 1 , Seoul 08826,",
+     "place": [
+      "South Korea"
+     ]
+    },
+    {
+     "name": "Inter-University Semiconductor Research Center (ISRC), Seoul National University 2 , Seoul 08826,",
+     "place": [
+      "South Korea"
+     ]
+    },
+    {
+     "name": "Research and Development Division, SK Hynix Inc. 3 , Icheon 17336,",
+     "place": [
+      "South Korea"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-2998-8174",
+   "authenticated-orcid": false,
+   "given": "Joon",
+   "family": "Hwang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical and Computer Engineering, Seoul National University 1 , Seoul 08826,",
+     "place": [
+      "South Korea"
+     ]
+    },
+    {
+     "name": "Inter-University Semiconductor Research Center (ISRC), Seoul National University 2 , Seoul 08826,",
+     "place": [
+      "South Korea"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0009-0000-0850-9168",
+   "authenticated-orcid": false,
+   "given": "Suyoung",
+   "family": "Park",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical and Computer Engineering, Seoul National University 1 , Seoul 08826,",
+     "place": [
+      "South Korea"
+     ]
+    },
+    {
+     "name": "Inter-University Semiconductor Research Center (ISRC), Seoul National University 2 , Seoul 08826,",
+     "place": [
+      "South Korea"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-1426-1944",
+   "authenticated-orcid": false,
+   "given": "Min-Kyu",
+   "family": "Park",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Gachon University 4 , Gyeonggi-do 13120,",
+     "place": [
+      "South Korea"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-3559-9802",
+   "authenticated-orcid": false,
+   "given": "Jong-Ho",
+   "family": "Lee",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical and Computer Engineering, Seoul National University 1 , Seoul 08826,",
+     "place": [
+      "South Korea"
+     ]
+    },
+    {
+     "name": "Inter-University Semiconductor Research Center (ISRC), Seoul National University 2 , Seoul 08826,",
+     "place": [
+      "South Korea"
+     ]
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "317",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    19
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "2026101903065080800_c1",
+   "doi-asserted-by": "publisher",
+   "first-page": "56",
+   "DOI": "10.1109/MSSC.2022.3166466",
+   "article-title": "The fundamentals of NAND flash memory: Technology for tomorrow's fourth industrial revolution",
+   "volume": "14",
+   "year": "2022",
+   "journal-title": "IEEE Solid-State Circuits Mag."
+  },
+  {
+   "key": "2026101903065080800_c2",
+   "article-title": "Highly-reliable cell characteristics with 128-layer single-stack 3D-NAND flash memory",
+   "year": "2021"
+  },
+  {
+   "key": "2026101903065080800_c3",
+   "doi-asserted-by": "publisher",
+   "first-page": "3156",
+   "DOI": "10.3390/electronics10243156",
+   "article-title": "Recent progress on 3D NAND flash technologies",
+   "volume": "10",
+   "year": "2021",
+   "journal-title": "Electronics"
+  },
+  {
+   "key": "2026101903065080800_c4",
+   "doi-asserted-by": "publisher",
+   "first-page": "063508",
+   "DOI": "10.1063/1.2335619",
+   "article-title": "Electron trap density distribution of Si-rich silicon nitride extracted using the modified negative charge decay model of silicon-oxide-nitride-oxide-silicon structure at elevated temperatures",
+   "volume": "89",
+   "year": "2006",
+   "journal-title": "Appl. Phys. Lett."
+  },
+  {
+   "key": "2026101903065080800_c5",
+   "doi-asserted-by": "publisher",
+   "first-page": "810",
+   "DOI": "10.1134/S106377610605013X",
+   "article-title": "Electron and hole injection in metal-oxide-nitride-oxide-silicon structures",
+   "volume": "102",
+   "year": "2006",
+   "journal-title": "J. Exp. Theor. Phys."
+  },
+  {
+   "key": "2026101903065080800_c6",
+   "article-title": "Effect of the trap density and distribution of the silicon nitride layer on the retention characteristics of charge trap flash memory devices",
+   "year": "2011"
+  },
+  {
+   "key": "2026101903065080800_c7",
+   "doi-asserted-by": "publisher",
+   "first-page": "152908",
+   "DOI": "10.1063/1.1897431",
+   "article-title": "Charge-trapping device structure of SiO2/SiN/high-k dielectric Al2O3 for high-density flash memory",
+   "volume": "86",
+   "year": "2005",
+   "journal-title": "Appl. Phys. Lett."
+  },
+  {
+   "key": "2026101903065080800_c8",
+   "doi-asserted-by": "publisher",
+   "first-page": "863",
+   "DOI": "10.1109/TED.2012.2235145",
+   "article-title": "Electron-trap and hole-trap distributions in metal oxide nitride oxide silicon structures",
+   "volume": "60",
+   "year": "2013",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "2026101903065080800_c9",
+   "doi-asserted-by": "publisher",
+   "first-page": "816",
+   "DOI": "10.1109/LED.2004.839225",
+   "article-title": "A transient analysis method to characterize the trap vertical location in nitride-trapping devices",
+   "volume": "25",
+   "year": "2004",
+   "journal-title": "IEEE Electron Device Lett."
+  },
+  {
+   "key": "2026101903065080800_c10",
+   "doi-asserted-by": "publisher",
+   "first-page": "014101",
+   "DOI": "10.1063/5.0215684",
+   "article-title": "Discrete trapping levels of localized states in amorphous silicon nitride",
+   "volume": "136",
+   "year": "2024",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026101903065080800_c11",
+   "doi-asserted-by": "publisher",
+   "first-page": "2728",
+   "DOI": "10.1063/1.117692",
+   "article-title": "Direct extraction of the electron tunneling effective mass in ultrathin SiO2",
+   "volume": "69",
+   "year": "1996",
+   "journal-title": "Appl. Phys. Lett."
+  },
+  {
+   "key": "2026101903065080800_c12",
+   "doi-asserted-by": "publisher",
+   "first-page": "2462",
+   "DOI": "10.1109/TED.2008.927806",
+   "article-title": "Tunneling effective mass of electrons in lightly N-doped SiOxNy gate insulators",
+   "volume": "55",
+   "year": "2008",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "2026101903065080800_c13",
+   "doi-asserted-by": "publisher",
+   "first-page": "5212",
+   "DOI": "10.1063/1.347064",
+   "article-title": "Spatial profiling of electron traps in silicon nitride thin films",
+   "volume": "68",
+   "year": "1990",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026101903065080800_c14",
+   "doi-asserted-by": "publisher",
+   "first-page": "147",
+   "DOI": "10.1016/0040-6090(92)90808-O",
+   "article-title": "Characterization of the spatial distribution of traps in Si3N4 by field-assisted discharge of metal-nitride-oxide-semiconductor devices",
+   "volume": "221",
+   "year": "1992",
+   "journal-title": "Thin Solid Films"
+  },
+  {
+   "key": "2026101903065080800_c15",
+   "doi-asserted-by": "publisher",
+   "first-page": "5116",
+   "DOI": "10.1063/1.1461062",
+   "article-title": "Direct and trap-assisted elastic tunneling through ultrathin gate oxides",
+   "volume": "91",
+   "year": "2002",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2026101903065080800_c16",
+   "doi-asserted-by": "publisher",
+   "first-page": "2300866",
+   "DOI": "10.1002/aelm.202300866",
+   "article-title": "Lateral migration-based flash-like synaptic device for hybrid off-chip/on-chip training",
+   "volume": "10",
+   "year": "2024",
+   "journal-title": "Adv. Electron. Mater."
+  },
+  {
+   "key": "2026101903065080800_c17",
+   "doi-asserted-by": "publisher",
+   "first-page": "323",
+   "DOI": "10.1021/acsaelm.9b00698",
+   "article-title": "Field effect transistor-type devices using high-κ gate insulator stacks for neuromorphic applications",
+   "volume": "2",
+   "year": "2020",
+   "journal-title": "ACS Appl. Electron. Mater."
+  },
+  {
+   "key": "2026101903065080800_c18",
+   "doi-asserted-by": "publisher",
+   "first-page": "7728",
+   "DOI": "10.1021/acsaelm.4c01408",
+   "article-title": "Analysis of leaky integrate-and-fire neuron using Al2O3/Si3N4 gate insulator stack for spiking neural network",
+   "volume": "6",
+   "year": "2024",
+   "journal-title": "ACS Appl. Electron. Mater."
+  },
+  {
+   "key": "2026101903065080800_c19",
+   "doi-asserted-by": "publisher",
+   "first-page": "4292",
+   "DOI": "10.1166/jnn.2020.17788",
+   "article-title": "Implementation of synaptic device using various high-k gate dielectric stacks",
+   "volume": "20",
+   "year": "2020",
+   "journal-title": "J. Nanosci. Nanotechnol."
+  },
+  {
+   "key": "2026101903065080800_c20",
+   "doi-asserted-by": "publisher",
+   "first-page": "9961",
+   "DOI": "10.1039/D2TC01713J",
+   "article-title": "Mimicking biological synaptic plasticity with a leaky charge-trap FinFET",
+   "volume": "10",
+   "year": "2022",
+   "journal-title": "J. Mater. Chem. C"
+  },
+  {
+   "key": "2026101903065080800_c21",
+   "doi-asserted-by": "publisher",
+   "first-page": "26960",
+   "DOI": "10.1021/acsami.3c02630",
+   "article-title": "Leaky FinFET for reservoir computing with temporal signal processing",
+   "volume": "15",
+   "year": "2023",
+   "journal-title": "ACS Appl. Mater. Interfaces"
+  },
+  {
+   "key": "2026101903065080800_c22",
+   "doi-asserted-by": "crossref",
+   "first-page": "113",
+   "DOI": "10.1007/978-0-387-71752-4_3",
+   "article-title": "BSIM-CMG: A compact model for multi-gate transistors",
+   "volume-title": "FinFETs and Other Multi-Gate Transistors",
+   "year": "2008"
+  },
+  {
+   "key": "2026101903065080800_c23",
+   "article-title": "Modeling shallow and deep trapping behavior influenced by tunneling oxide in charge trap flash devices",
+   "year": "2025"
+  },
+  {
+   "key": "2026101903065080800_c24",
+   "article-title": "Modeling and analysis of electron trapping mechanisms in Al2O3/Si3N4 and Al2O3/Si3N4/SiO2 charge trap devices",
+   "year": "2025"
+  },
+  {
+   "key": "2026101903065080800_c25",
+   "volume-title": "Sentaurus Device Manual",
+   "author": "Synopsys",
+   "year": "2013"
+  },
+  {
+   "key": "2026101903065080800_c26",
+   "doi-asserted-by": "publisher",
+   "first-page": "04C068",
+   "DOI": "10.1143/JJAP.48.04C068",
+   "article-title": "Extraction of energy distribution of nitride traps using charge pumping method in silicon–oxide–nitride–oxide–silicon flash memory",
+   "volume": "48",
+   "year": "2009",
+   "journal-title": "Jpn. J. Appl. Phys, Part 1"
+  },
+  {
+   "key": "2026101903065080800_c27",
+   "doi-asserted-by": "publisher",
+   "first-page": "109",
+   "DOI": "10.1017/S1431927613012440",
+   "article-title": "Electron energy loss spectroscopy characterization of TANOS (TaN/Al2O3/Si3N4/SiO2/Si) stacks",
+   "volume": "19",
+   "year": "2013",
+   "journal-title": "Microsc. Microanal."
+  },
+  {
+   "key": "2026101903065080800_c28",
+   "doi-asserted-by": "publisher",
+   "first-page": "505301",
+   "DOI": "10.1088/0022-3727/43/50/505301",
+   "article-title": "The effects of RF power on the interfacial property between Al2O3 and Si3N4 and on the memory property in a MANOS structure",
+   "volume": "43",
+   "year": "2010",
+   "journal-title": "J. Phys. D"
+  },
+  {
+   "key": "2026101903065080800_c29",
+   "doi-asserted-by": "publisher",
+   "first-page": "499",
+   "DOI": "10.1109/TED.2017.2784419",
+   "article-title": "Evaluation of the role of deep trap state using analytical model in the program/erase cycling of NAND flash memory and its process dependence",
+   "volume": "65",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Electron Devices"
+  },
+  {
+   "key": "2026101903065080800_c30",
+   "doi-asserted-by": "publisher",
+   "first-page": "660",
+   "DOI": "10.1063/1.1773615",
+   "article-title": "Charge decay characteristics of silicon-oxide-nitride-oxide-silicon structure at elevated temperatures and extraction of the nitride trap density distribution",
+   "volume": "85",
+   "year": "2004",
+   "journal-title": "Appl. Phys. Lett."
+  },
+  {
+   "key": "2026101903065080800_c31",
+   "doi-asserted-by": "publisher",
+   "first-page": "949",
+   "DOI": "10.1016/S0038-1101(00)00012-5",
+   "article-title": "Charge retention of scaled SONOS nonvolatile memory devices at elevated temperatures",
+   "volume": "44",
+   "year": "2000",
+   "journal-title": "Solid-State Electron."
+  }
+ ],
+ "container-title": [
+  "Applied Physics Letters"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/5.0345638/21173942/163502_1_5.0345638.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/5.0345638/21173942/163502_1_5.0345638.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    19
+   ]
+  ],
+  "date-time": "2026-10-19T07:06:59Z",
+  "timestamp": 1792393619000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://pubs.aip.org/apl/article/129/16/163502/3406763/Electron-injection-in-tunneling-oxide-less-charge"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    19
+   ]
+  ]
+ },
+ "references-count": 31,
+ "journal-issue": {
+  "issue": "16",
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     19
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1063/5.0345638",
+ "relation": {},
+ "ISSN": [
+  "0003-6951",
+  "1077-3118"
+ ],
+ "issn-type": [
+  {
+   "value": "0003-6951",
+   "type": "print"
+  },
+  {
+   "value": "1077-3118",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published-other": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    19
+   ]
+  ]
+ },
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    19
+   ]
+  ]
+ },
+ "article-number": "163502"
+}

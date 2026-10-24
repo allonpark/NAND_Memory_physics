@@ -1,0 +1,8 @@
+﻿report_head.html plain-style endings: 0 []
+i1.html plain-style endings: 0 []
+i2.html plain-style endings: 0 []
+i3.html plain-style endings: 0 []
+i4.html plain-style endings: 0 []
+i5.html plain-style endings: 0 []
+report_tail.html plain-style endings: 0 []
+TOTAL 0

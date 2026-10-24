@@ -1,0 +1,23 @@
+sympy 1.14.0
+I1 g0 first-order matches writer: True
+I1 N/A nitride-side matches: True
+I1 gate-side matches: True
+R series: 1 + 2*lam/5 + 4*lam**2/35 + O(lam**3)
+R numeric (subst) vs direct r-integral 0.05 1.02028891797 (1.02028891797 + 9.10223525827e-46j)
+R numeric (subst) vs direct r-integral 0.3 1.13101062901 (1.13101062901 + 9.94094416972e-49j)
+R numeric (subst) vs direct r-integral 1.0 1.54511770392 (1.54511770392 + 3.96472698425e-48j)
+I1 grid n= 40000 max R/g0 = 0.9999002369518023 violations: 0 gate-side ratio>=1 count: 0
+ x 1 a 0.1 e 0.1 R/g0 at lam=ln(1+x): 0.7924
+ x 1 a 1 e 1 R/g0 at lam=ln(1+x): 0.7371
+ x 1 a 5 e 20 R/g0 at lam=ln(1+x): 0.8113
+ x 5 a 0.1 e 0.1 R/g0 at lam=ln(1+x): 0.5947
+ x 5 a 1 e 1 R/g0 at lam=ln(1+x): 0.5502
+ x 5 a 5 e 20 R/g0 at lam=ln(1+x): 0.6879
+ x 20 a 0.1 e 0.1 R/g0 at lam=ln(1+x): 0.4637
+ x 20 a 1 e 1 R/g0 at lam=ln(1+x): 0.4355
+ x 20 a 5 e 20 R/g0 at lam=ln(1+x): 0.5877
+ x 100 a 0.1 e 0.1 R/g0 at lam=ln(1+x): 0.3665
+ x 100 a 1 e 1 R/g0 at lam=ln(1+x): 0.3496
+ x 100 a 5 e 20 R/g0 at lam=ln(1+x): 0.4962
+I1 dVth/drc: -Q/(2*pi*eps_N*r_c)
+I1 planar limit (times sigma-normalisation): t_N/eps_N - x_c/eps_N + t_A/eps_A
