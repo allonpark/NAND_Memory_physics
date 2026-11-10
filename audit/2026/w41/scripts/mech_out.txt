@@ -1,0 +1,71 @@
+classes used not in css: []
+used ['boundary', 'brand', 'btn', 'chain', 'compare', 'doebox', 'download-box', 'eq', 'footer', 'inference', 'kicker', 'label', 'lead', 'nav', 'pass', 'pending', 'primary', 'qc', 'report-hero', 'report-layout', 'source-links', 'sourcebox', 'spacer', 'toc', 'topbar', 'wrap']
+FORBIDDEN? i2 'companion' 2
+FORBIDDEN? i3 'companion' 2
+report_head grades ['A', 'B', 'C', 'D']
+i1 grades ['C', 'D']
+i2 grades ['C', 'D']
+i3 grades ['C', 'D']
+i4 grades ['B', 'C', 'D']
+i5 grades ['C', 'D']
+report_tail grades ['B', 'C', 'D']
+i1 card rows 13 True
+i2 card rows 13 True
+i3 card rows 13 True
+i4 card rows 13 True
+i5 card rows 13 True
+ko sentences not ending in hapnida-che: 52
+   ('report_head', '선정 분류.')
+   ('report_head', '주제 범위.')
+   ('report_head', '라벨과 등급.')
+   ('report_head', '기호와 단위.')
+   ('i1', 'O/N/O의 기준 치수(그림 축 문자열만 있고 그림은 읽지 못함), 지수의 신뢰구간, 측정 데이터.')
+   ('i1', '이미 알려진 것.')
+   ('i1', 'sian 성분의 폭 [V], A, B는 비례 상수, γ는 dominant 성분의 trap 수 지수.')
+   ('i1', 'SymPy 결과.')
+   ('i1', '포화(trap 간 비독립, 저자 해석과 일관), 추출 창 효과, 또는 아래의 kinetics 효과.')
+   ('i1', '향 무한·균일 동축 stack, 층 내부 자유전하 없음, 모든 층을 같은 Q′가 통과, 원형 단면.')
+   ('i1', '측정량.')
+   ('i1', 'ork, 동축 trap 수·sheet 진폭 framework, 고정 밀도 총 민감도의 조건부 결합.')
+   ('i1', ' 꼬리 증가의 과대·과소 외삽, 소수 grain 배치 cell이 지배하는 꼬리, 층별 RTN 차이.')
+   ('i2', '준화된 채널 행렬, V 다섯 척도 × 일곱 구조 채널(35성분), Rt 척도 t의 구조 벡터 크기.')
+   ('i2', 'ce): 0 K 완화 구조, 전자 하나, Γ점, 한 가지 셀 크기, 저자가 선택한 유한 크기 보정.')
+   ('i2', 'n 질화막 바깥 반경, rg 게이트 안쪽 반경, εN, εB 질화막과 blocking 층의 유전율.')
+   ('i2', '채널 쪽 기준(flat-band에서 채널 쪽 전계 0), 포획 전하를 얇은 원통 sheet로 근사.')
+   ('i2', 'obility-edge 기준, 0 K·무전계, 결합 파괴의 가역성, Dtrap 순위 대 ET 순위.')
+   ('i2', 'ycling 후 성분 변화, 이웃 pattern 의존 손실, ESR K centre 신호와의 상관.')
+   ('i3', '(D1) 원문 내부 산술.')
+   ('i3', '4d 열 배정.')
+   ('i3', '(ε = 4.2), mobility edge N/4 기준, multinomial route 예측기.')
+   ('i3', '1·4·9 설명.')
+   ('i4', '(1) 외삽 failure 확률.')
+   ('i4', '(2) 패널 참조.')
+   ('i4', '(3) 누설 열화 순서.')
+   ('i4', '(4) τ의 명칭.')
+   ('i4', '(i) 원문 내부 일관성.')
+   ('i4', '(ii) 전계 대 전압.')
+   ('i4', '(iii) EBD 증가의 기준선.')
+   ('i4', '(iv) TDC 모델의 tail 구조.')
+   ('i4', '(v) 식 (7)이 요구하는 a0 변화.')
+   ('i4', '(vi) α의 비고유성.')
+   ('i4', ' 단면 TEM), stress 전후 깊이 분해 VO 지표, C–V로 dead layer 두께 추출.')
+   ('i4', 'nm 밖의 두께, DC CVS와 bipolar cycling 사이의 failure mode 동일성.')
+   ('i4', 'g 후 누설 증가율은 6 nm에서 가장 작음, TDDB 분포의 높은 percentile 아래쪽 휨.')
+   ('i4', '같은 전압 기준 TDDB, I–t 곡선의 soft/hard 구분, C–V dead layer 추출.')
+   ('i5', 'x [cm], η scale(t 또는 Q의 단위), β 무차원 shape, w(V) 무차원 가중치.')
+   ('i5', '[1] βQ > βt의 조건.')
+   ('i5', '[3] 전압 사이 collapse 조건.')
+   ('i5', '[4] 세 전압 모델이 비슷하게 맞는 이유.')
+   ('i5', '[5] Held-out 오차의 부호.')
+   ('i5', '핵심 측정.')
+   ('i5', 'collapse 조건(β 일정, w·η 일정), E/1/E/FN 곡률, held-out 오차 부호.')
+   ('i5', 'lization의 유효 전압 폭(40 V 근처 상한); 저 field에서의 mechanism 전환.')
+   ('i5', ' extrinsic 결함과 gate edge field 집중 · 기준·적분 구성에 의한 측정 효과.')
+   ('i5', '도 의존 차이, 고장 직전 전류 상승 구간이 QBD에서 차지하는 비중, TDDB 후 I–V의 저항.')
+   ('i5', 'ory에서 tBD와 QBD를 함께 측정하는 constant-voltage 데이터와 βQ/βt 비교.')
+   ('i5', '|IG| 적분을 손상 좌표로 쓰는 방법.')
+   ('i5', 'al 전압 계수 k를 좁은 범위에서 calibration하고 hold-out으로 한계를 보인 사례.')
+   ('i5', 't 좌표와 Q 좌표 중 어느 쪽이 맞는지를 가르는 통계량.')
+   ('report_tail', '연결되지 않는 곳.')
+tag errors [] left []
+unresolved anchors []  dup ids []

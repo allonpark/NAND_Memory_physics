@@ -1,0 +1,240 @@
+report_head.html:10:P : ...로 표시했습니다(항목 1의 식 (2)–(4), 항목 3의 trap depth·void fraction 식).
+report_head.html:12:P : ...선정 분류.
+report_head.html:14:P : ...주제 범위.
+report_head.html:16:P : ...라벨과 등급.
+report_head.html:18:P : ...기호와 단위.
+report_head.html:21:TD: ...LWL−1/4·Tpoly−1, O/N/O 지수 합 약 0.9, double-Gaussian 진폭 분포(본문)
+report_head.html:21:TD: ...ad·Vpass, 온도, trap 위치와 τc·τe, 식 (2)–(4) 형태, 지수의 신뢰구간, 측정 데이터
+report_head.html:21:TD: ...시뮬레이션 내 추세는 등급 C, 실제 소자 지수는 등급 D
+report_head.html:22:TD: ...1.4%(stabilisation)로 전체 44.2%보다 많음, 경로 분류 정확도 95.7%(본문·SI 표)
+report_head.html:22:TD: ... energy, 방출·포획·hopping 속도, 수소, 비화학량론 조성, 전계, 온도, cell 크기 의존성
+report_head.html:22:TD: ...계산 ensemble 내 결과 등급 C, CTL retention으로의 이전 등급 D
+report_head.html:23:TD: ...로별 trap depth·relaxation energy의 밀도 변화 구간이 모두 0을 포함(본문·SI 표)
+report_head.html:23:TD: ...수소, Si-rich 조성, 동역학, 실제 증착 조건과의 대응, 일부 식의 형태, 측정과의 비교
+report_head.html:23:TD: ...모델 내 결과 등급 C(항목 2와 같은 계열), 실제 막과 소자로의 이전 등급 D
+report_head.html:24:TD: ... 대 0.88%, TDC α 약 69% 증가, 10년 허용 field 3.84 대 3.52 MV/cm(본문)
+report_head.html:24:TD: ...소자 수, stress 수준, 온도, 가속 모델, α·β 수치, 외삽 확률 기준(0.001% 대 0.01%)
+report_head.html:24:TD: ...측정 추세 등급 B, 결함 조직 mechanism 등급 C, NAND 이전 등급 D
+report_head.html:25:TD: ... hold-out 예측이 측정 scale을 과소평가, Qeff는 수명 예측 법칙이 아니라는 저자 진술(초록)
+report_head.html:25:TD: ...eff 정의, 온도, 산화막 두께와 field, planar/trench 구조, 수준별 값과 신뢰구간, FA
+report_head.html:25:TD: ...초록 수준 통계 결과 등급 C, VNAND로는 방법론만 이전(등급 D)
+i1.html:10:P : ...026-05-12, 채택 2026-09-19, 온라인 게재 2026-09-29, 라이선스 CC BY 4.0.
+i1.html:10:P : ...접근 수준: full_text.
+i1.html:10:P : ...선정 분류: archive_gap.
+i1.html:10:P : ..., Monte Carlo 시뮬레이션뿐이며 측정 데이터나 측정 대비 calibration이 본문에 없습니다).
+i1.html:19:P : ...형상: UNKNOWN.
+i1.html:19:P : ...poly·O/N/O의 기준 치수(그림 축 문자열만 있고 그림은 읽지 못함), 지수의 신뢰구간, 측정 데이터.
+i1.html:29:P : ...새로운 점(source 주장).
+i1.html:29:P : ...이미 알려진 것.
+i1.html:33:P : ...저자 사슬 (시뮬레이션 내부).
+i1.html:36:P : ...측정 소자 사슬 (ENGINEERING_INFERENCE, 이 논문에서 검증되지 않음).
+i1.html:45:P : ...Si channel 두께 [m], Tox·Tctn·Tbox 층 두께 [m], Rf filler 반경 [m].
+i1.html:51:P : ... Gaussian 성분의 폭 [V], A, B는 비례 상수, γ는 dominant 성분의 trap 수 지수.
+i1.html:51:P : ...기는 σ·ln10/(z+1/z)로 σ에 비례함을 확인했으며, z는 그 창의 표준정규 분위수의 절댓값입니다).
+i1.html:51:P : ...SymPy 결과.
+i1.html:59:P : ... trap 밀도 [m−3], ns 계면 trap 밀도 [m−2], rf filler 반경(= Rf) [m].
+i1.html:59:P : ...건: 축방향 무한·균일 동축 stack, 층 내부 자유전하 없음, 모든 층을 같은 Q′가 통과, 원형 단면.
+i1.html:59:P : ...SymPy 결과(기호, 무차원).
+i1.html:71:P : ... 분석하지 않음), 저 Ntrap에서만 기술된 LWL·Tpoly 지수, poly-Si 대 single-Si.
+i1.html:87:P : ...측정량.
+i1.html:95:TD: ...ramework, 동축 trap 수·sheet 진폭 framework, 고정 밀도 총 민감도의 조건부 결합.
+i1.html:96:TD: ... 수 3 이상, 논문의 시뮬레이션 cell과 치수 범위(그림에만 있음), read 동작의 unit cell.
+i1.html:98:TD: ...ingle-Si 3D NAND Monte Carlo 부재, 데이터 가용성 진술(읽으며 관찰, 저자 미확인).
+i1.html:99:TD: ...치수; read 간격 대 τc, τe; 꼬리 깊이 약 10−4; trap 위치(부피 대 계면)와 반경비 t.
+i1.html:100:TD: ...시뮬레이션 내부 경향으로서의 세제곱근 의존: 등급 C(시뮬레이션만, 지수 불확도 없음).
+i1.html:100:TD: ...실제 3D NAND 소자의 지수: 등급 D(측정 없음).
+i1.html:100:TD: ...percolation 해석: 등급 C(물리적으로 일관된 가설이나 경쟁 설명과 구분되지 않음).
+i1.html:100:TD: ...본 보고서 framework: 등급 C(SymPy로 수학 확인, 물리 적용성은 조건부).
+i1.html:102:TD: ...undary·계면), 측정에서의 program noise·interference·CTN detrapping.
+i1.html:103:TD: ... 단일 trap RTN 진폭 분포의 이봉성, δ의 read 간격·온도·Vpass 의존, 층·WL 위치별 δ.
+i1.html:104:TD: ...RTN에 의한 Vt 왼쪽 꼬리 확장과 read 오류(저자 서론).
+i1.html:104:TD: ...른 RTN 꼬리 증가의 과대·과소 외삽, 소수 grain 배치 cell이 지배하는 꼬리, 층별 RTN 차이.
+i2.html:5:P : ...제출일 2026-10-05(v1).
+i2.html:5:P : ...라이선스 CC BY 4.0.
+i2.html:5:P : ...접근 수준: full_text.
+i2.html:5:P : ...선정 분류: new_this_week.
+i2.html:5:P : ...소자 수준 주장에 대해서는 D).
+i2.html:9:P : ...깊이는 defect별 고유값 보정을 하지 않은 값), 최대 원자 변위 0.30 / 0.51 / 0.40 Å.
+i2.html:21:P : ...다른 범함수나 FNV 보정과의 수치 비교(FNV는 "control"로 언급되지만 비교 수치는 본문에 없음).
+i2.html:31:P : ...새로운 점(source 주장).
+i2.html:31:P : ...이미 알려진 것(배경 지식, 등급 C: 이번 호에서 1차 문헌을 다시 확인하지 않음).
+i2.html:35:P : ...Source 사슬 (bulk 셀 안).
+i2.html:38:P : ...Bridge 사슬 (ENGINEERING_INFERENCE, 모든 단계가 이 논문에서 검증되지 않음).
+i2.html:38:P : ...B2: 스펙트럼 → 열적 이온화 에너지 ET,k.
+i2.html:38:P : ...B3: ET,k → 방출·hopping 속도(전계, 온도, 수소, 이웃 trap의 영향 포함).
+i2.html:38:P : ...B4: 속도 → retention ΔVth(t, T)와 lateral migration.
+i2.html:38:P : ...B5: 셀당 소수 전자의 경로 혼합 → Vth tail.
+i2.html:47:P : ..., X 표준화된 채널 행렬, V 다섯 척도 × 일곱 구조 채널(35성분), Rt 척도 t의 구조 벡터 크기.
+i2.html:47:P : ...(source): 0 K 완화 구조, 전자 하나, Γ점, 한 가지 셀 크기, 저자가 선택한 유한 크기 보정.
+i2.html:51:P : ...유도 A (보고된 개수와 백분율의 내부 산술, SymPy 정확 유리수).
+i2.html:53:P : ...유도 B (tail 농축의 통계적 크기).
+i2.html:55:P : ...유도 F (에너지 장부, 단일 configuration coordinate).
+i2.html:57:P : ...일반 배경 (논문에서 온 것이 아님).
+i2.html:65:P : ...반경, rn 질화막 바깥 반경, rg 게이트 안쪽 반경, εN, εB 질화막과 blocking 층의 유전율.
+i2.html:65:P : ... 없음, 채널 쪽 기준(flat-band에서 채널 쪽 전계 0), 포획 전하를 얇은 원통 sheet로 근사.
+i2.html:101:TD: ...2 분류), 경로별 개수와 tail 개수, 교차검증 95.7%, Spearman 상관 0.636–0.765.
+i2.html:102:TD: ...PR, diffusion-wavelet 1차 scattering 지문, QD, 보정 Estab, Dtrap.
+i2.html:102:TD: ...eometric tail 통계, 에너지 장부 ET = Dvert + Estab, 동축 위치 가중치(기호만).
+i2.html:106:TD: ...크기와 mobility-edge 기준, 0 K·무전계, 결합 파괴의 가역성, Dtrap 순위 대 ET 순위.
+i2.html:107:TD: ...ensemble 안의 경로 분류와 tail 농축: 등급 C(preprint, 비재현, 내부 산술 일관).
+i2.html:107:TD: ...·lateral migration·Vth tail로의 전이: 등급 D(bridge 단계 B2–B5 미검증).
+i2.html:109:TD: ...논문 안: polaron, induced K, native K.
+i2.html:109:TD: ... 전자 hopping과 hole migration, 다중 전자 효과(음의 U, trap 간 Coulomb).
+i2.html:110:TD: ...존성, cycling 후 성분 변화, 이웃 pattern 의존 손실, ESR K centre 신호와의 상관.
+i2.html:111:TD: ...합 변화, 전자 lateral migration, 셀당 소수 전자의 경로 표본 변동에 의한 Vth tail.
+i3.html:5:P : ...arXiv 제출일 2026-10-08(abs 페이지와 PDF 머리줄 일치), 라이선스 CC BY 4.0.
+i3.html:5:P : ...접근 수준: full_text.
+i3.html:5:P : ...선정 분류: new_this_week.
+i3.html:5:P : ...이 보고서에서 재현하지 않았습니다).
+i3.html:7:P : ...415개는 같은 저자군의 Vitriflow 연구(Comput.
+i3.html:7:P : ...275, 2026)의 HSE06 계열 455개 중에서, 84개는 Hückmann 등(Adv.
+i3.html:7:P : ...밀도가 3.15에서 2.92 g cm−3로 낮아지면 다음과 같이 변합니다(Sec.
+i3.html:21:P : ...1의 주석 텍스트("Ref.
+i3.html:21:P : ...저자들은 겹치는 구간의 route 비율(Ref.
+i3.html:21:P : ...[2] 22개, Ref.
+i3.html:21:P : ...N/5와 N/4 사이에서 바꾸면 평균 gap이 약 0.35 eV 움직입니다(Supplementary Fig.
+i3.html:26:P : ...이미 알려진 것(저자들이 인용한 선행 연구, 이번 호에서 1차 출처 재확인하지 않음).
+i3.html:26:P : ...이 논문이 보고한 것(SOURCE_REPORTED).
+i3.html:45:P : ...(D1) 원문 내부 산술.
+i3.html:47:P : ...(D2) Cell 부피(유도값).
+i3.html:49:P : ...4d 열 배정.
+i3.html:51:P : ...(D4) 체적 농도로 환산(유도값, 모델 집단의 값).
+i3.html:53:P : ...(D5) 열 방출 틀(기호 유도와 예시).
+i3.html:83:TD: ...ze 보정(ε = 4.2), mobility edge N/4 기준, multinomial route 예측기.
+i3.html:83:TD: ...본 보고서 framework: 열 방출식(비교용), 동축 전계식(기하 대비용).
+i3.html:84:TD: ...−3(경향은 2.92와 3.15에서 평가), 0 K 정적 구조, 무전계, 전자 1개, Si 중심 route.
+i3.html:87:TD: ... site가 최저 빈 상태인지 여부(98% K 포획), 국소 보상 여부(gap state 5% 대 67%).
+i3.html:87:TD: ...(제안): H 함량과 Si/N 비가 밀도보다 trap 혼합을 더 크게 바꾸기 시작하는 지점(UNKNOWN).
+i3.html:88:TD: ...모델 안의 계산값과 경향: 등급 C(preprint, 비재현, item 2와 같은 계열).
+i3.html:88:TD: ... 막에서 밀도가 같은 방식으로 trap 혼합을 바꾼다는 것: 등급 D(조성과 H를 분리한 실험이 없습니다).
+i3.html:88:TD: ...CTL retention이나 VNAND 소자로의 이전: 등급 D(EXTRAPOLATION_ONLY).
+i3.html:89:TD: ...값의 위치: Abstract, Sec.
+i3.html:89:TD: ...3, 4.3–4.5, 5.1, Supplementary Table 2–3, Supplementary Fig.
+i3.html:89:TD: ...1·4·9 설명.
+i3.html:90:TD: ...ich 막의 Si–Si·N 중심 trap · 전계와 다중 전자 효과(첫 항목만 저자 해석, 나머지는 가설).
+i3.html:91:TD: ... Vt 손실 대 log t 기울기와 온도 의존성, 수평 이동 test vehicle의 이웃 cell ΔVt.
+i3.html:92:TD: ... 군집을 통한 수평 이동과 장기 손실, 작은 CTL 부피에서 trap 혼합 산포에 따른 Vt 손실 tail.
+i4.html:10:P : ...ossref published-online 일치; Crossref의 print issue는 2026-12).
+i4.html:10:P : ...접근 수준: full_text(open access, CC BY 4.0 PDF).
+i4.html:10:P : ...이미지는 보지 못했고(caption 텍스트만 읽음), Supplementary Information(Fig.
+i4.html:10:P : ...선정 분류: new_this_week.
+i4.html:10:P : ...커니즘은 C(적합 parameter에 기반한 저자 해석이며 원자 수준 직접 증거가 없다고 저자들이 명시함).
+i4.html:12:P : ...eakdown 이전 최대 cycle 수를 수명으로 정의; 여러 소자 결과는 Supplementary Fig.
+i4.html:12:P : ...3로 제시).
+i4.html:14:P : ...AFM은 표면 grain만 보지만, TEM의 columnar 구조(Supplementary Fig.
+i4.html:21:P : ...(1) 외삽 failure 확률.
+i4.html:21:P : ...본문은 10년 수명 허용 전계를 failure 확률 0.001%에서 구했다고 쓰지만, Fig.
+i4.html:21:P : ...(2) 패널 참조.
+i4.html:21:P : ...본문은 63.2% 특성 수명을 Fig.
+i4.html:21:P : ...5d에, 10년 외삽을 Fig.
+i4.html:21:P : ...(3) 누설 열화 순서.
+i4.html:21:P : ...(4) τ의 명칭.
+i4.html:26:P : ...이미 알려진 것(원문 서론이 인용한 선행 연구 기준; 1차 출처는 이번 호에서 재확인하지 않음).
+i4.html:26:P : ...이 논문이 보고한 것(SOURCE_REPORTED).
+i4.html:40:P : ...γ의 단위는 원문에 없어 UNKNOWN입니다(식 (7)이 무차원이 되려면 γ도 무차원이어야 합니다).
+i4.html:44:P : ...(i) 원문 내부 일관성.
+i4.html:46:P : ...(ii) 전계 대 전압.
+i4.html:48:P : ...(iii) EBD 증가의 기준선.
+i4.html:48:P : ...맞으며, 결함 배치 가설만으로 설명할 필요가 없을 수 있음을 뜻합니다(아래 경쟁 메커니즘 (2), (3)).
+i4.html:50:P : ...(iv) TDC 모델의 tail 구조.
+i4.html:52:P : ...(v) 식 (7)이 요구하는 a0 변화.
+i4.html:54:P : ...(vi) α의 비고유성.
+i4.html:59:P : ...외삽 failure 확률 기준(0.001% 대 0.01%), (d) 원문이 Supplementary Fig.
+i4.html:67:P : ...+, −}, 온도 T ∈ {T1, T2}, 파형 ∈ {DC CVS, bipolar cycling at f}.
+i4.html:67:P : ...강유전 상(같은 조성의 비결정 또는 단사정 막) 시료, 그리고 상부 전극을 바꾼 시료(MoOx 대 TiN).
+i4.html:67:P : ...FM 또는 단면 TEM), stress 전후 깊이 분해 VO 지표, C–V로 dead layer 두께 추출.
+i4.html:72:P : ...비교를 할 때 같은 전계와 같은 전압 두 기준으로 모두 비교해야 한다는 점입니다(위 (ii), (iii)).
+i4.html:84:TD: ...범위가 아님) 밖의 두께, DC CVS와 bipolar cycling 사이의 failure mode 동일성.
+i4.html:85:TD: ... VO 지표, grain 크기): 등급 B(문헌 실측, 내부 산술 일관; 소자 수와 불확도 UNKNOWN).
+i4.html:85:TD: ...결함 배치 메커니즘: 등급 C(적합 parameter 기반 해석, 직접 증거 없음, 경쟁 설명 미배제).
+i4.html:85:TD: ...10년 허용 전계: 등급 C(가속 모델·기준 확률 불명확).
+i4.html:85:TD: ...NAND 이전: 등급 D(EXTRAPOLATION_ONLY).
+i4.html:86:TD: ...값의 위치는 2.1–2.3절, 3장 본문, Fig.
+i4.html:86:TD: ...그림 이미지와 Supplementary(Supplementary Figs.
+i4.html:87:TD: ...구성 차이 · XPS 표면 편향 · 소자 간 이질성 · 누설에 의한 stress 완화(1을 제외하면 가설).
+i4.html:88:TD: ...ycling 후 누설 증가율은 6 nm에서 가장 작음, TDDB 분포의 높은 percentile 아래쪽 휨.
+i4.html:88:TD: ... 측정: 같은 전압 기준 TDDB, I–t 곡선의 soft/hard 구분, C–V dead layer 추출.
+i4.html:98:TD: ...그러나 α는 소자 간 이질성으로도 같은 식이 됩니다(유도 (vi)).
+i5.html:5:P : ...published-online 기준, 권호 미배정), DOI 10.1142/s0217984926502520.
+i5.html:5:P : ...접근 수준: abstract_only.
+i5.html:5:P : ... 분류: new_this_week (게재일이 W41 window 2026-10-05–10-11 안에 있음).
+i5.html:5:P : ...(측정 기반 통계 결과를 보고하지만 초록만 확인했고 데이터, 표, 그림, Qeff 정의를 보지 못했습니다).
+i5.html:19:P : ...이미 알려진 것(배경 지식, 이번 호에서 1차 출처 재확인하지 않음).
+i5.html:19:P : ...이 논문에서 새로운 점(SOURCE_REPORTED).
+i5.html:33:P : ...A], Ī 고장까지의 시간 평균 전류 [A], tBD [s], QBD [C](면적으로 나누면 [C/cm2].
+i5.html:33:P : ...], tox [cm], η scale(t 또는 Q의 단위), β 무차원 shape, w(V) 무차원 가중치.
+i5.html:33:P : ...apping으로 cathode field가 바뀌면 E는 시간의 함수가 됨), planar 1차원 field.
+i5.html:37:P : ...[1] βQ > βt의 조건.
+i5.html:37:P : ... 49–76%가 소자 간 전류 차이에서 온다는 뜻이 됩니다(표시된 유도, 비율 = 1 − (βt/βQ)2).
+i5.html:41:P : ...[3] 전압 사이 collapse 조건.
+i5.html:43:P : ...[4] 세 전압 모델이 비슷하게 맞는 이유.
+i5.html:45:P : ...[5] Held-out 오차의 부호.
+i5.html:74:P : ...핵심 측정.
+i5.html:86:TD: ...개, Weibull 비교 42개(38–40 V), |IG| ≥ 10 mA 연속 세 sample 기준(초록).
+i5.html:87:TD: ...l과 bootstrap, exponential 전압 normalization(Qeff 정의 UNKNOWN).
+i5.html:87:TD: ... 분산, collapse 조건(β 일정, w·η 일정), E/1/E/FN 곡률, held-out 오차 부호.
+i5.html:89:TD: ...를 비교할 수 있음, gate 전류가 oxide를 통과하는 전도 전류만을 나타냄(모두 초록에서 확인 불가).
+i5.html:91:TD: ...normalization의 유효 전압 폭(40 V 근처 상한); 저 field에서의 mechanism 전환.
+i5.html:92:TD: ...보고된 통계 결과(β 비, scale 불확도, hold-out 한계): 등급 C(초록만).
+i5.html:92:TD: ...uence-driven mechanism 해석: 등급 C(물리적으로 일관된 가설이며 초록은 주장하지 않음).
+i5.html:92:TD: ...le 불확도의 β 종속, 국소 collapse): 등급 C(sympy 유도, 조건부, 49–76%는 근사).
+i5.html:92:TD: ...VNAND 이전: 등급 D(방법론 유추, EXTRAPOLATION_ONLY).
+i5.html:93:TD: ...I 10.1142/s0217984926502520, Crossref 등록 초록(2026-10-26 재조회).
+i5.html:94:TD: ... 변조 · extrinsic 결함과 gate edge field 집중 · 기준·적분 구성에 의한 측정 효과.
+i5.html:95:TD: ...le의 온도 의존 차이, 고장 직전 전류 상승 구간이 QBD에서 차지하는 비중, TDDB 후 I–V의 저항.
+i5.html:96:TD: ...(가설); gate edge·termination의 국부 field 증강 고장(가설, 구조 UNKNOWN).
+i5.html:103:TD: ...ajectory에서 tBD와 QBD를 함께 측정하는 constant-voltage 데이터와 βQ/βt 비교.
+i5.html:104:TD: ...|IG| 적분을 손상 좌표로 쓰는 방법.
+i5.html:105:TD: ...nential 전압 계수 k를 좁은 범위에서 calibration하고 hold-out으로 한계를 보인 사례.
+i5.html:106:TD: ...t 좌표와 Q 좌표 중 어느 쪽이 맞는지를 가르는 통계량.
+report_tail.html:6:P : ...항목 1(trap 통계) ↔ 항목 2·3(trap 종류의 population).
+report_tail.html:8:P : ...항목 2 ↔ 항목 3 (하나의 연구 계열).
+report_tail.html:10:P : ...항목 4 ↔ 항목 5 (통계적 불변성·붕괴 논증 대 mechanism equivalence).
+report_tail.html:12:P : ...항목 4 ↔ 항목 5 (field 기준 대 전압 기준).
+report_tail.html:14:P : ...연결되지 않는 곳.
+report_tail.html:22:TD: ...3D NAND의 RTN 꼬리 기울기는 2D처럼 trap 수의 제곱근으로 늘어나는가?
+report_tail.html:22:TD: ...2D NAND에서 유도한 scaling을 3D에 그대로 사용
+report_tail.html:22:TD: ...m 3(항목 1이 인용): grain이 cell 치수에 가까울 때 단일 GB trap RTN 가능성(추론만)
+report_tail.html:22:TD: ...시뮬레이션 결과와 저자의 인과 설명 사이의 간극(혼합만으로는 1/3이 나오지 않음); 측정 데이터 없음
+report_tail.html:23:TD: ...CTL nitride trap은 한두 개의 level로 표현할 수 있는가?
+report_tail.html:23:TD: ...TCAD에서 shallow·deep level 또는 단일 Nt로 calibration
+report_tail.html:23:TD: ...em 1, W40 item 3(항목 2·3이 인용): 한두 level 또는 단일 Nt의 TCAD(초록 수준)
+report_tail.html:23:TD: ...데이터 모순은 아님; DFT 경로를 TCAD level에 일대일 대응시킬 근거 없음(두 항목이 명시)
+report_tail.html:23:TD: ...막 조건에 한정된 값으로 취급하고, 다른 stack으로 옮길 때 막 밀도·조성·수소를 기록(제안, 등급 D)
+report_tail.html:24:TD: ...DFT trap depth가 깊으면 retention이 긴가?
+report_tail.html:24:TD: ...깊은 trap일수록 방출이 느림
+report_tail.html:24:TD: ...el이 아니며 mobility-edge 정의에 따라 약 0.35 eV 이동; 두 항목 모두 방출 속도 미계산
+report_tail.html:24:TD: ...단순화의 전제(깊이 = 활성화 에너지)가 이번 자료에서 성립하지 않음
+report_tail.html:24:TD: ...retention에 관한 결론 없음; 경로별 ET와 방출 경로가 계산·측정되기 전까지 등급 D
+report_tail.html:25:TD: ...같은 주에 나온 두 DFT preprint는 서로를 확인하는가?
+report_tail.html:25:TD: ...두 논문 = 두 개의 독립 근거
+report_tail.html:25:TD: ...tion에 적힌 mobility-edge 기준(N/5 대 N/4)과 깊이 정의(보정 전 대 보정 후)가 다름
+report_tail.html:25:TD: ...독립성 없음; 절대 깊이를 항목 간에 직접 비교할 수 없음
+report_tail.html:25:TD: ...하나의 연구 계열, 등급 C; 수치는 각 항목 안에서만 사용
+report_tail.html:26:TD: ...분포 모양 parameter가 mechanism을 알려 주는가?
+report_tail.html:26:TD: ...β, α 변화 → 결함 조직 또는 mechanism 변화
+report_tail.html:26:TD: ...pe 불변성 ≠ 단일 mechanism; W39 item 1(항목 4가 인용): 다른 비-Weibull 확장
+report_tail.html:26:TD: ...데이터 모순은 아님; 저자의 해석 방향(모양 → 미시 mechanism)이 식별되지 않음
+report_tail.html:27:TD: ...두께 분할은 같은 field에서 비교하면 충분한가?
+report_tail.html:27:TD: ...평균 field V/t가 공정한 비교 기준
+report_tail.html:27:TD: ...압 기준에서 뒤집힘; 항목 3·4: 동축에서는 같은 전압에서 내측 field가 t/(a·ln(1+t/a))배
+report_tail.html:27:TD: ...'field 기준 이득'의 해석이 기준 선택에 의존
+report_tail.html:27:TD: ...같은 field와 같은 전압 양쪽으로 비교하고, VNAND에서는 층별 radial field로 정의
+report_tail.html:28:TD: ...좁은 범위에서 맞춘 가속·정규화를 외삽할 수 있는가?
+report_tail.html:28:TD: ...가속 시험에서 맞춘 모델로 사용 조건 수명을 외삽
+report_tail.html:28:TD: ...W40 item 5(항목 4·5가 인용)와 W37 item 5(항목 5가 인용): 파형·온도 축의 같은 원칙
+report_tail.html:28:TD: ...모순은 없음; 두 출처 모두 외삽 근거가 부족함을 보여 줌
+report_tail.html:28:TD: ...uivalence를 저 stress·hold-out 수준에서 확인하기 전까지 외삽하지 않음(기존 규칙 유지)
+report_tail.html:31:P : ...물리 이해의 변화: 확정된 것 없음 (no change established).
+report_tail.html:62:P : ...항목 1.
+report_tail.html:64:P : ...항목 2.
+report_tail.html:66:P : ...항목 3.
+report_tail.html:68:P : ...항목 4.
+report_tail.html:68:P : ...(1) 10년 허용 field의 외삽 실패 확률이 본문은 0.001%, Fig.
+report_tail.html:68:P : ...(2) 본문과 캡션의 Fig.
+report_tail.html:70:P : ...항목 5(초록).
+report_tail.html:76:P : ...HTML로 재확인; 그림 미독; 식 (1)은 출판사 TeX와 일치, 식 (2)–(4) 형태 UNKNOWN).
+report_tail.html:78:P : ....0; arXiv PDF 텍스트 추출 전체 읽음, arXiv HTML로 재확인; 그림·보충 데이터 미개봉).
+report_tail.html:80:P : ...보충자료는 40자 이하 줄을 거른 판독과 일부 재판독, 참고문헌은 훑기만 함; 그림 미독; 일부 식 깨짐).
+report_tail.html:82:P : ...n access PDF 텍스트 추출 전체 읽음, 출판사 HTML로 지수와 식 재확인; 그림·보충자료 미독).
+report_tail.html:84:P : ...rossref 등록 초록; 출판사 페이지 HTTP 403, 우회하지 않음; Unpaywall 기준 비공개).

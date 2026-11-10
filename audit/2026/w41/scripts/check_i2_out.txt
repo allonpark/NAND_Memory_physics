@@ -1,0 +1,15 @@
+integral = log((32/27)**(2*lambda))  vs lam*(10ln2-6ln3): 0  coef 0.339798
+ numeric 0.339798073590795
+ Q_D vs Tr(U^T(D-A)U): 0
+ D^1/2 L D^1/2 == D-A: True
+P(iK>=30)= 0.000160072  P(iK>=29)= 0.000550577  P(pol<=3)= 6.30004e-7
+enrich iK stab 1.61695  depth 1.56306  pol 0.178355  nK stab 1.35824  nK depth 0.905494  =412/455? True 0.905494
+expectation 42*182/412 = 18.5534
+counts 165+182+65 412  182/347 52.45  182/412 44.17  165/412 40.05  29/41 70.73  30/42 71.43  3/42 7.14  29/42 69.0
+exclusions 14+15+7+9= 45  455-40= 415  excess 5
+412/10= 41.2
+ET-(Dv+Es)= 0  Dopt-(Dv+2Es)= 0  level drop = dE-/dq*...:  2
+d|dV|/drc = -Qp/(2*pi*eN*rc)  claim -Qp/(2 pi eN rc): 0
+rel spread binomial sqrt((1-f)/(N f)): 0
+Marcus dG=0: lambda_r/4
+dEd/dln t, dEd/dln nu: kT kT

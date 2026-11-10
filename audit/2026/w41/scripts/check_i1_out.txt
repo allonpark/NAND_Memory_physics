@@ -1,0 +1,17 @@
+D1a dlnsigma/dlnmu = 1/2
+D1b diff vs claim 0
+limits x->0 1/2  x->oo gamma/2
+gamma for 1/3 dominant: [2/3]
+slope(z)/s = sqrt(2)*sqrt(pi)*exp(z**2/2)*log(10)*erfc(sqrt(2)*z/2)/2 ; numeric z=3.7: 0.584344604828131  approx ln10/(z+1/z)= 0.579956762701019
+D2 ratio vs ln(1+u)/u: 0
+ ln(1+u)/u <1 for u>0: derivative sign (uu - (uu + 1)*log(uu + 1))/(uu**2*(uu + 1))  numeric u=.5,2: 0.810930216216329 0.549306144334055
+D3 bulk dlnN/dlnT minus claim 0
+ d lnN/d ln rf - 2/(2+t): 0
+ interface dlnN/dlnT - t/(1+t): 0
+ limits bulk t->0,t->oo: 1 2
+D4 L exponent fixed density: 1/12  sqrt law: 1/4
+ T total bulk -(t + 4)/(3*(t + 2))  claim -(t+4)/(3(t+2)): 0
+ T total interface -(2*t + 3)/(3*(t + 1))  claim -(2t+3)/(3(t+1)): 0
+ bulk range t->0,oo: -2/3 -1/3  interface: -1 -2/3
+D5 delta exponent Rf: -1/2  L: -1/4
+1/10000= 0.0001

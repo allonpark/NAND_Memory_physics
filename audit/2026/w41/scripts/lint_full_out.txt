@@ -1,0 +1,47 @@
+CHECK                WEEK      RESULT    DETAIL
+doi-format           2026-W37  PASS      5 distinct DOI(s) well-formed
+doi-format           2026-W38  PASS      5 distinct DOI(s) well-formed
+doi-format           2026-W39  PASS      5 distinct DOI(s) well-formed
+doi-format           2026-W40  PASS      5 distinct DOI(s) well-formed
+doi-format           2026-W41  PASS      6 distinct DOI(s) well-formed
+doi-format           2026-W43  PASS      5 distinct DOI(s) well-formed
+doi-duplicate        2026-W37  PASS      no DOI shared with another week
+doi-duplicate        2026-W38  PASS      no DOI shared with another week
+doi-duplicate        2026-W39  PASS      no DOI shared with another week
+doi-duplicate        2026-W40  PASS      no DOI shared with another week
+doi-duplicate        2026-W41  PASS      no DOI shared with another week
+doi-duplicate        2026-W43  PASS      no DOI shared with another week
+kr-en-adjacency      2026-W37  NA        not applicable: no <p lang> attributes in this report
+kr-en-adjacency      2026-W38  NA        not applicable: no <p lang> attributes in this report
+kr-en-adjacency      2026-W39  NA        not applicable: no <p lang> attributes in this report
+kr-en-adjacency      2026-W40  PASS      ko=153 en=153 ko_without_following_en=0 en_without_preceding_ko=0
+kr-en-adjacency      2026-W41  PASS      ko=298 en=298 ko_without_following_en=0 en_without_preceding_ko=0
+kr-en-adjacency      2026-W43  PASS      ko=272 en=272 ko_without_following_en=0 en_without_preceding_ko=0
+vocabulary           2026-W37  PASS      0 label/grade token(s), all within vocabulary (vacuous: report uses no label or grade tokens)
+vocabulary           2026-W38  PASS      0 label/grade token(s), all within vocabulary (vacuous: report uses no label or grade tokens)
+vocabulary           2026-W39  PASS      0 label/grade token(s), all within vocabulary (vacuous: report uses no label or grade tokens)
+vocabulary           2026-W40  PASS      212 label/grade token(s), all within vocabulary
+vocabulary           2026-W41  PASS      322 label/grade token(s), all within vocabulary
+vocabulary           2026-W43  PASS      281 label/grade token(s), all within vocabulary
+leak-check           2026-W37  PASS      no internal references found
+leak-check           2026-W38  PASS      no internal references found
+leak-check           2026-W39  PASS      no internal references found
+leak-check           2026-W40  PASS      no internal references found
+leak-check           2026-W41  PASS      no internal references found
+leak-check           2026-W43  PASS      no internal references found
+abstract-only-guard  2026-W37  NA        no claims ledger for this week
+abstract-only-guard  2026-W38  NA        no claims ledger for this week
+abstract-only-guard  2026-W39  NA        no claims ledger for this week
+abstract-only-guard  2026-W40  WARN      26 numeric token(s) in report not in any claim (of 40 distinct): 9, 12, 20, 26, 37, 40, 59, 70, 151, 156, 403, 478, 480, 0.21, 0.24 ...
+abstract-only-guard  2026-W41  NA        no claims ledger for this week
+abstract-only-guard  2026-W43  NA        no claims ledger for this week
+claims-validate      2026-W40  PASS      20 claim(s) valid
+claims-validate      index     PASS      index.json consistent with claims files
+derivations          2026-W37  NA        no audit scripts folder
+derivations          2026-W38  NA        no audit scripts folder
+derivations          2026-W39  NA        no audit scripts folder
+derivations          2026-W40  NA        no audit scripts folder
+derivations          2026-W41  NA        no audit scripts folder
+derivations          2026-W43  NA        no audit scripts folder
+
+SUMMARY: WARN=1, PASS=29, NA=14

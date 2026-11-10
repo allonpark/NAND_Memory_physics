@@ -1,0 +1,19 @@
+VO=Hf3/8: [0.8800, 0.9600, 1.070]
+1.39/0.51= 2.725  2/216= 0.9259 %
+E*d: 4.2*6/10= 63/25  4.2*8/10= 84/25  4.0: [12/5, 14/5, 16/5]  10y 288/125 352/125  gain 0.09091
+8/6= 1.333  8/7= 1.143  EBD ratios 1.266,1.141 -> VBD 0.9495 0.9984
+mean life Weibull tau*Gamma(1+1/beta): tau*gamma(1 + 1/beta)  =tau iff beta=1: tau
+W identity: 0
+series 0
+slope dW/dlnx = x/((alpha + x)*log((alpha + x)/alpha))  claim x/((al+x)ln(1+x/al)) diff: 0
+ limits x->0: 1  x->oo: 0
+ alpha 1 p 1.0e-5 ratio 1.00001
+ alpha 1 p 0.99 ratio 21.4976
+ alpha 2 p 1.0e-5 ratio 1.0
+ alpha 2 p 0.99 ratio 3.90865
+ alpha 5 p 1.0e-5 ratio 1.0
+ alpha 5 p 0.99 ratio 1.64151
+gamma mixture survival: (alpha/(alpha + x))**alpha  vs (1+x/al)^-al: 0
+ mean,var of lambda: 1, 1/alpha (shape al, rate al)
+a0 ratio: 3*b8*g6/(4*b6*g8)  claim (3/4)(g6/g8)(b8/b6) diff 0  bound if g6<=g8,b6>b8: < 3/4
+coax inner ratio at t/rin=1: 1.443

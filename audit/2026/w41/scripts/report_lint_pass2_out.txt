@@ -1,0 +1,10 @@
+CHECK                WEEK      RESULT    DETAIL
+doi-format           2026-W41  PASS      6 distinct DOI(s) well-formed
+doi-duplicate        2026-W41  PASS      no DOI shared with another week
+kr-en-adjacency      2026-W41  PASS      ko=299 en=299 ko_without_following_en=0 en_without_preceding_ko=0
+vocabulary           2026-W41  PASS      328 label/grade token(s), all within vocabulary
+leak-check           2026-W41  PASS      no internal references found
+abstract-only-guard  2026-W41  NA        no claims ledger for this week
+derivations          2026-W41  NA        no audit scripts folder
+
+SUMMARY: PASS=5, NA=2

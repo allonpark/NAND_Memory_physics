@@ -1,0 +1,223 @@
+# ERRATA (added 2026-11-10 after independent review; the published report does not repeat these manifest errors):
+#  - item 1 (10.1007/s10825-026-02647-9): published 2026-09-29 is 6 days (not 7) before the window start 2026-10-05.
+#  - items 2/3 facts: the mobility-edge criterion is N_eff >= 56 (not <= 56); the crystalline void reference is alpha-Si3N4 (not beta);
+#    the 415 cells come from a separate Vitriflow population of the same group (not from the companion preprint).
+#  - the evidence grades written in this manifest are not on the project's A-D scale; the report uses A-D only.
+# W41 source manifest DRAFT (ISO week 2026-W41, Mon 2026-10-05 .. Sun 2026-10-11, Asia/Seoul)
+# Status: DRAFT, not published. Repo untouched (read-only). Discovery/search date: 2026-10-26.
+# Evidence labels: SOURCE_REPORTED / AUTHOR_INTERPRETATION / ENGINEERING_INFERENCE / UNKNOWN / EXTRAPOLATION_ONLY
+# Discovery date is NOT publication date. Crossref created/deposited is NOT used as publication date.
+# Figures were NOT viewed as images in any source (captions/axis-label text only); recorded as "not read".
+
+meta:
+  week: 2026-W41
+  window: "2026-10-05 .. 2026-10-11 (KST)"
+  searched_on: 2026-10-26
+  tools: [Crossref REST (filter from-online-pub-date), OpenAlex (filter from_publication_date), arXiv API, Unpaywall, doi.org redirect check, pdftotext on publisher/arXiv PDFs]
+  counts: {sources: 5, new_this_week: 4, archive_gap: 1, full_text: 4, abstract_only: 1}
+  in_window_directly_NAND_CTL_polySi: "2 in window (S1, S2: a-Si3N4 charge-trap-layer material physics, DFT; NOT 3D NAND device data). 1 more 3D NAND poly-Si item exists only as archive_gap (S5, online 2026-09-29). No in-window item on 3D NAND GIDL or 3D NAND retention measurements was found (not proof of absence: search was Crossref/OpenAlex/arXiv keyword based)."
+  note_on_W44_reserved: "10.1088/1361-6641/aeb1e8 (V-NAND HCI programming) appears in OpenAlex with publication_date 2026-10-08, which may place it in the W41 window, but it is reserved for W44 in used_sources.md and was NOT used or read here. The reserved-list date note ('online 2026-10-26') conflicts with OpenAlex 2026-10-08: UNKNOWN, needs checking by whoever owns W44."
+
+sources:
+  - id: W41-S1
+    title: "State aligned graph wavelet fingerprints of electron trapping in amorphous Si3N4"
+    authors: ["Jonathon Cottom", "Emilia Olsson"]
+    affiliations: "Univ. of Amsterdam (Inst. Theoretical Physics) and ARCNL, Amsterdam"
+    venue: "arXiv preprint cond-mat.mtrl-sci, arXiv:2610.06173v1 (not peer reviewed; no journal ref found)"
+    doi_or_url: "10.48550/arXiv.2610.06173 ; https://arxiv.org/abs/2610.06173"
+    publication_date: "2026-10-05 (arXiv v1 date line and API <published> 2026-10-05T11:54:11Z)"
+    online_date: "2026-10-05"
+    selection_class: new_this_week
+    source_access: full_text   # PDF obtained from arxiv.org, CC BY 4.0, text extracted locally with pdftotext
+    read_ranges: "pdftotext extraction (75,396 chars): chars 0-52,241 read = abstract, Intro, Results 2.1-2.4, Discussion, Methods 4.1-4.6, data/code availability, references [1]-[63], start of Supplementary Information (Fig S1-S2 captions). NOT read: chars ~52,241-75,396 (remaining SI figure/table content, Tables S1-S8). Figures: not viewed."
+    resolve_evidence:
+      doi_org: "https://doi.org/10.48550/arXiv.2610.06173 -> HTTP 302 -> https://arxiv.org/abs/2610.06173"
+      arxiv_api: "id_list=2610.06173 returned title/authors/published matching"
+      crossref: "not applicable (arXiv DOIs are DataCite, not Crossref)"
+    facts:
+      - {label: SOURCE_REPORTED, loc: "Abstract; Sec 2.1; Methods 4.2", text: "Dataset = 415 pairs of relaxed neutral/negatively charged a-Si3N4 cells (455 deposited, 40 excluded for artefacts); 412 traps classified into 3 routes."}
+      - {label: SOURCE_REPORTED, loc: "Sec 2.2", text: "Routes: polaron (Si4->Si4) n=165; induced K centre (Si4->Si3, Si-N bond breaks on capture) n=182; native K centre (Si3->Si3) n=65; 3 cells unassigned. Two readouts classify routes with 95.7% cross-validated accuracy."}
+      - {label: SOURCE_REPORTED, loc: "Sec 2.4; Fig 5a", text: "Charge-induced Si-N bond breaking converts 182 of 347 four-coordinate Si precursors (52.4%) into three-coordinate trapped centres."}
+      - {label: SOURCE_REPORTED, loc: "Sec 2.4; Fig 5c", text: "Induced-K centres = 30 of 42 traps (71.4%) in upper corrected-stabilisation decile vs 44.2% of all classified traps; polarons only 3 of 42 (7.1%). Same route = 29 of 42 deepest (69.0%) by spectral trap depth."}
+      - {label: SOURCE_REPORTED, loc: "Sec 2.3", text: "Corrected stabilisation spans 0.9-2.1 eV (5th-95th percentile); localisation spans 4-33 effective atoms; local RMS ionic displacement 0.12-0.30 angstrom."}
+      - {label: SOURCE_REPORTED, loc: "Methods 4.1", text: "CP2K v2023.1, HSE06 hybrid functional, Gamma point, spin-polarised; melt-quench cells (MG2 potential, 1 K/ps cooling) then hybrid-DFT relaxed; force threshold 0.005 eV/angstrom."}
+      - {label: SOURCE_REPORTED, loc: "Methods 4.3", text: "Dielectric constants used for image-charge correction: electronic eps=4.2, static eps_s=7.8. Neutral mobility edge uses participation criterion N_eff <= 56 (one fifth of cell)."}
+      - {label: SOURCE_REPORTED, loc: "Sec 2.3", text: "Held-out R^2 of single-descriptor calibrations is modest (0.26 for relaxation vs 0.24 route-mean baseline; 0.59-0.60 for stabilisation); Spearman rho 0.636-0.765 for the main correlations."}
+    key_conditions: "Zero-temperature DFT on small periodic amorphous cells, single added electron, Gamma point, no hydrogen, no applied field, no cell geometry of a memory stack. Spectral/energetic numbers carry the finite-size correction scheme chosen by the authors."
+    why_it_fits: "Directly addresses the charge-trap layer (CTL) material physics behind retention/threshold stability: which atomic sites trap electrons and how deep. Supplies a mechanism taxonomy (polaron / native K / induced K) for TRAP-ENERGY discussion."
+    vnand_directness: "indirect-material (CTL SiN material; no cylindrical cell, no device data). The paper itself says nitride trapping underlies non-volatile memory but does not model a VNAND cell."
+    extrapolation_warnings:
+      - "EXTRAPOLATION_ONLY if used for retention lifetime, Vt shift, or detrapping rate: no kinetics, temperature, field, or hydrogen content are modelled."
+      - "Deposited VNAND SiN is typically non-stoichiometric/hydrogenated; this study is stoichiometric a-Si3N4 without H (ENGINEERING_INFERENCE about mismatch; hydrogen role is the authors' earlier work, not re-checked here)."
+      - "Preprint, not peer reviewed."
+    overlap_check: "No match in used_sources.md (W40/W43/W44 reserved) or in origin/main/branches (DOI/arXiv-id grep). Same authors as S2 (companion study); reserved W44 review 10.1088/1361-648x/ae8b4d is cited by S1 as Ref [7] (Wilhelmer et al.) but is a different work."
+    notes_file: fulltext_notes_W41-S1.md
+
+  - id: W41-S2
+    title: "The role of density in shaping electron trapping in amorphous silicon nitride"
+    authors: ["Jonathon Cottom", "Emilia Olsson"]
+    affiliations: "Univ. of Amsterdam and ARCNL, Amsterdam"
+    venue: "arXiv preprint cond-mat.mtrl-sci, arXiv:2610.11643v1 (not peer reviewed)"
+    doi_or_url: "10.48550/arXiv.2610.11643 ; https://arxiv.org/abs/2610.11643"
+    publication_date: "2026-10-08 (arXiv v1 date line; API <published> 2026-10-08T10:19:37Z)"
+    online_date: "2026-10-08"
+    selection_class: new_this_week
+    source_access: full_text   # arXiv PDF, CC BY 4.0, pdftotext locally
+    read_ranges: "pdftotext extraction (75,722 chars): chars 0-13,478 read in full (abstract, Intro, Methods, Sec 3.1 start); chars 13,478-~26,937 read with short lines (figure axis labels) filtered out, covering Sec 3.1-3.3, Conclusions, data availability, start of references; NOT read: chars ~26,937-75,722 (remaining references and Supplementary). Figures: not viewed."
+    resolve_evidence:
+      doi_org: "https://doi.org/10.48550/arXiv.2610.11643 -> HTTP 302 -> https://arxiv.org/abs/2610.11643"
+      arxiv_api: "id_list=2610.11643 returned title/authors/published matching"
+    facts:
+      - {label: SOURCE_REPORTED, loc: "Abstract; Methods", text: "499 stoichiometric Si120N160 cells spanning 2.86-3.19 g/cm3 (415 from the companion study + 84 from an earlier one); 496 enter route analysis."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3.1; Fig 1b-c", text: "As density falls 3.15 -> 2.92 g/cm3, accessible void fraction rises 8.4 -> 12.6% and internal surface 997 -> 1225 angstrom^2 per cell; mean Si-N bond length changes by only 0.01 angstrom. Crystalline beta-Si3N4 gives 7.8% by the same measure."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3.1; Fig 2a", text: "Capture at pre-existing K centres rises 9% -> 29% with falling density; induced-K falls 45 -> 34%; polaron 46 -> 37%. Mean count of uncapped three-coordinate Si per cell rises 0.12 -> 0.45."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3.1; Fig 2c", text: "Crossover between polaronic and induced-K relaxation near neutral longest Si-N bond d4_0 = 1.90 angstrom."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3.2; Fig 3d", text: "Three-coordinate Si compensated by a bonded two-coordinate N hosts the detached gap state in only 5% of sites vs 67% for uncapped sites; well depth +1.1 -> -0.1 eV. Lowest-empty-state criterion gives K-centre capture in 98% of cells."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3.3; Fig 4b-c", text: "Corrected relaxation energy ~1.4 / 1.5 / 1.2 eV and trap depth ~3.25 / 3.34 / 2.87 eV below mobility edge for pre-existing K / induced K / polaron; polarons ~0.4 eV shallower; routes keep these scales across density."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3.3; Fig 4e", text: "Neutral-precursor multinomial model assigns 60% of held-out routes correctly (200 random splits) vs 41% from route fractions alone."}
+      - {label: AUTHOR_INTERPRETATION, loc: "Sec 3.3/Conclusions", text: "Density acts through porosity and precursor supply, not through a change of the local capture criterion; density must be distinguished from composition when reading trap populations."}
+    key_conditions: "DFT (CP2K, HSE06) on melt-quench cells, one added electron, fixed stoichiometry, void probe 0.8 angstrom, density percentiles 2.92 and 3.15 g/cm3 for stated trends."
+    why_it_fits: "Links CTL film density/porosity (process knob) to the trap-route mixture and depth, relevant to retention and to why different SiN depositions behave differently."
+    vnand_directness: "indirect-material (CTL SiN; no cell geometry or device measurement)."
+    extrapolation_warnings:
+      - "EXTRAPOLATION_ONLY for any statement about retention time, program/erase window, or process-specific VNAND CTL: all numbers are DFT trap energetics at fixed stoichiometry."
+      - "Authors state fixed-composition Si3N4 only; real CTL composition and H content vary with process (their own caveat that density and composition must be separated)."
+      - "Preprint, not peer reviewed; descriptions of figures rely on captions only."
+    overlap_check: "No DOI/arXiv-id match anywhere in used_sources.md or origin branches. Companion of S1 (same authors, shares 415 cells with S1's dataset) -> not independent evidence of S1; count as one research line."
+    notes_file: fulltext_notes_W41-S2.md
+
+  - id: W41-S3
+    title: "Thickness scaling in hafnium ferroelectrics: insights into oxygen vacancy clustering and its impact on ferroelectricity and reliability"
+    authors: ["Xuepei Wang", "Jinhao Liu", "Haobo Lin", "Maokun Wu", "Xiaoxi Li", "Yusu Wang", "Boyao Cui", "Yuchun Li", "Ziying Huang", "Yishan Wu", "Yichen Wen", "Sheng Ye", "Pengpeng Ren", "Hongliang Lu", "Runsheng Wang", "Zhigang Ji"]
+    venue: "Moore and More (Springer Nature) 3:15 (2026); print issue 2026-12 per Crossref"
+    doi_or_url: "10.1007/s44275-026-00054-7 ; https://link.springer.com/article/10.1007/s44275-026-00054-7"
+    publication_date: "2026-10-09 (Crossref issued / published-online; article page not separately inspected); print issue 2026-12"
+    online_date: "2026-10-09"
+    selection_class: new_this_week
+    received_revised_accepted: "Received 2026-06-24 / Revised 2026-09-04 / Accepted 2026-09-06 (from article front page)"
+    source_access: full_text   # open access CC BY 4.0, PDF fetched from link.springer.com/content/pdf, pdftotext
+    read_ranges: "pdftotext extraction (73,040 chars): chars 0-62,122 read = abstract, Intro, Methods 2.1-2.3, Results (all of Sec 3), Conclusions, declarations, references [1]-[~43]. NOT read: chars ~62,122-73,040 (tail of references) and the Supplementary Information (Figs S1-S9, TDDB details) which is a separate file. Figures: not viewed."
+    resolve_evidence:
+      doi_org: "https://doi.org/10.1007/s44275-026-00054-7 -> HTTP 302 -> link.springer.com/10.1007/s44275-026-00054-7"
+      crossref: "title, 16 authors, issued 2026-10-09, published-online 2026-10-09, print 2026-12, license CC BY 4.0 all match PDF front page"
+    facts:
+      - {label: SOURCE_REPORTED, loc: "Sec 2.1", text: "TiN(50 nm)/HZO/MoOx(50 nm) capacitors, 100x100 um^2, HZO 6/7/8 nm by PE-ALD at 280 C, RTA 500 C 30 s in N2."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3; Fig 3a", text: "At 4.2 MV/cm the 6 nm film survived about 1e10 cycles (as read from garbled extraction '1 010') without breakdown whereas the 8 nm film broke down after about 2e8 cycles."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3; Fig 3b-d", text: "Time-zero breakdown field E_BD is 26.6% (6 nm) and 14.1% (7 nm) higher than 8 nm; 2Ec/E_BD falls 4-6% per nm of thinning."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3; Fig 4b-d, Eq 4", text: "XPS-inferred oxygen-vacancy fraction 0.88% / 0.96% / 1.07% for 8 / 7 / 6 nm (Hf3+ 7.04% / 7.68% / 8.56%); semi-quantitative, from reduced Hf core-level fractions."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3; Fig 5a-c, Eq 5-7", text: "Constant-voltage TDDB distributions deviate downward from a single Weibull line at high percentiles; time-dependent clustering (TDC) model with clustering factor fits better. Clustering factor rises ~69% going 8 -> 6 nm."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3; Fig 5e", text: "Extrapolated 10-year allowable field: 3.84 MV/cm (6 nm) vs 3.52 MV/cm (8 nm) at 0.001% failure per body text (Fig 5d caption says 0.01%: inconsistency inside the paper)."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3; Fig 6b", text: "AFM mean grain size ~25 nm (8 nm film) -> ~16 nm (6 nm film)."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3; Fig 7a-c", text: "DFT (PWmat, PBE): clustered V_O pair broadens in-gap defect-level spread from ~0.51 eV (dispersed) to ~1.39 eV (~2.7x); V_O 0.93% in supercell."}
+      - {label: AUTHOR_INTERPRETATION, loc: "Sec 3 closing", text: "Grain refinement raises grain-boundary density, disperses vacancies and delays percolation, explaining better reliability despite higher V_O concentration; direct atomic-scale proof is acknowledged as missing."}
+    key_conditions: "Planar MFM capacitors, bipolar cycling at 1 MHz, TDDB under positive bias on MoOx top electrode, TiN grounded; results are electrode- and interface-dependent per the authors."
+    why_it_fits: "Contains TDDB with Weibull vs non-Weibull (clustering) statistics and extrapolation to 10-year field, directly on the Weibull/screening and TDDB themes; same percolation language as gate-dielectric reliability."
+    vnand_directness: "indirect (hafnia ferroelectric capacitor reliability, not charge-trap NAND; planar MFM, not cylindrical coaxial)."
+    extrapolation_warnings:
+      - "EXTRAPOLATION_ONLY to VNAND blocking/tunnel oxide, IPD, or inter-WL dielectric TDDB: different material (HZO), thickness (6-8 nm), electrodes and bipolar-cycling context."
+      - "The 10-year field is the authors' model extrapolation from accelerated CVS data; mechanism equivalence across field range is not demonstrated in the text read."
+      - "Supplementary (TDDB conditions, I-t traces, sample counts) NOT read: sample size per group and temperature are UNKNOWN to this review."
+      - "The TDC clustering factor is a fit parameter; the physical meaning (defect clustering) is AUTHOR_INTERPRETATION, not independently verified."
+    overlap_check: "No match in used_sources.md, origin/main, or branches. Different from reserved W44 ferroelectric/HZO items (none listed); rejected.md in W43 mentions arXiv 2610.20154 (HZO endurance), a different paper."
+    notes_file: fulltext_notes_W41-S3.md
+
+  - id: W41-S4
+    title: "Voltage-weighted effective charge as a statistical damage coordinate for time-dependent dielectric breakdown in 1.2-kV SiC MOSFET gate oxides"
+    authors: ["Song Qiu", "Lumei Zhang", "Lintao Shi", "Kai Ou"]
+    venue: "Modern Physics Letters B (World Scientific), article S0217984926502520"
+    doi_or_url: "10.1142/s0217984926502520 ; https://www.worldscientific.com/doi/10.1142/S0217984926502520"
+    publication_date: "2026-10-09 (Crossref issued/published-online; print issue not assigned)"
+    online_date: "2026-10-09"
+    selection_class: new_this_week
+    source_access: abstract_only   # Crossref-deposited abstract only; publisher page returned HTTP 403 to automation; Unpaywall: closed; not bypassed
+    read_ranges: "Crossref 'abstract' field only (about 1,700 chars, read in full). Body text, tables, figures: NOT read."
+    resolve_evidence:
+      doi_org: "https://doi.org/10.1142/s0217984926502520 -> HTTP 302 -> worldscientific.com/doi/10.1142/S0217984926502520"
+      crossref: "title, 4 authors, issued 2026-10-09 match; created/deposited 2026-10-12 are NOT used as publication date"
+      unpaywall: "is_oa false, closed"
+      publisher_page: "HTTP 403 from WebFetch (not circumvented)"
+    facts:   # abstract-level, all SOURCE_REPORTED (abstract); no numerical claim may be strengthened beyond the abstract
+      - {label: SOURCE_REPORTED, loc: "Abstract", text: "46 constant-voltage TDDB tests on 1.2-kV 4H-SiC MOSFET bare dies at gate stresses of 37-40 V; breakdown = three consecutive samples with |IG| >= 10 mA; 44 valid trajectories retained."}
+      - {label: SOURCE_REPORTED, loc: "Abstract", text: "Weibull comparisons used 42 devices at 38-40 V; charge-to-breakdown Q_BD from integrating |IG| to t_BD; Weibull shape ratio beta_Q/beta_t ranges 1.40-2.03; bootstrap uncertainty of the Weibull scale is smaller for Q_BD."}
+      - {label: SOURCE_REPORTED, loc: "Abstract", text: "Exponential, power-law, inverse-voltage models fit the voltage dependence comparably; exponential kept only as finite-range empirical normalization; calibration over 38-39.5 V gives k = 1.40 /V and reduces scale ratio from 8.75 to 1.36; held-out 40 V prediction underestimates measured scale."}
+      - {label: SOURCE_REPORTED, loc: "Abstract", text: "States Q_eff is not an operating-life prediction law; post-TDDB I-V sweeps support persistent low-resistance gate conduction."}
+    key_conditions: "Bare dies, constant gate voltage 37-40 V (accelerated), abstract gives no temperature or oxide thickness: UNKNOWN."
+    why_it_fits: "Explicit Weibull + bootstrap uncertainty on TDDB of an HV (1.2 kV) device gate oxide and a clear self-stated limit on extrapolation to operating life."
+    vnand_directness: "none (SiC power MOSFET gate oxide). Fits HV reliability/Weibull theme only."
+    extrapolation_warnings:
+      - "No numeric claim here may be used beyond the abstract text; tables/figures unread."
+      - "Authors themselves state Q_eff is not a life-prediction law; do not use to project operating lifetime."
+      - "Not transferable to VNAND oxides (different material, SiC/SiO2 interface, stress voltage range)."
+    overlap_check: "No match with used_sources.md (W40 has a different SiC PWM TDDB paper 10.1088/1361-6463/ae9c4e) or origin branches; topically adjacent to that W40 item, not a duplicate."
+    notes_file: null   # nothing read in full
+
+  - id: W41-S5
+    title: "Modeling of random telegraph noise decay constant in 3D NAND flash memory using machine learning-based Monte Carlo simulation"
+    authors: ["Eunseok Oh", "Hyungcheol Shin"]
+    affiliations: "Seoul National University (ECE/ISRC); Integra Semiconductor Ltd., Seoul"
+    venue: "Journal of Computational Electronics 25:196 (2026), Springer"
+    doi_or_url: "10.1007/s10825-026-02647-9 ; https://link.springer.com/article/10.1007/s10825-026-02647-9"
+    publication_date: "2026-09-29 (Crossref issued/published-online; print issue 2026-10)"
+    online_date: "2026-09-29"
+    selection_class: archive_gap   # OUTSIDE the window (published 7 days before 2026-10-05); no in-window item with equal VNAND directness was found
+    received_accepted: "Received 2026-05-12 / Accepted 2026-09-19 (from PDF front page)"
+    source_access: full_text   # open access CC BY 4.0, PDF fetched from link.springer.com/content/pdf, pdftotext
+    read_ranges: "pdftotext extraction (33,530 chars): chars 0-33,530 read in full (abstract through references). Figures: not viewed; equation (1)-(4) typography garbled by extraction so exponents are taken from body text only."
+    resolve_evidence:
+      doi_org: "https://doi.org/10.1007/s10825-026-02647-9 -> HTTP 302 -> link.springer.com/10.1007/s10825-026-02647-9"
+      crossref: "title, authors Oh/Shin, issued/published-online 2026-09-29, print 2026-10, license CC BY 4.0 match"
+    facts:
+      - {label: SOURCE_REPORTED, loc: "Abstract; Conclusion", text: "Poly-Si-channel 3D NAND shows N_trap-dependent scaling of the RTN decay constant (delta), attributed to percolation through grain boundaries; delta ~ cube root of average trap number, vs square root in 2D NAND."}
+      - {label: SOURCE_REPORTED, loc: "Sec 2; Fig 2b-c", text: "3D NAND unit cell has channel, filler and O/N/O layers; variables include Tox, Tctn (charge-trap nitride), Tbox, filler radius Rf, WL length LWL, poly-Si thickness Tpoly (channel-thickness range in axis labels ~7.5-8.5 nm; figure not viewed)."}
+      - {label: SOURCE_REPORTED, loc: "Sec 2", text: "Validation on 2D NAND: 100 TCAD runs per condition (10x10 trap grid). 3D: channel thickness split into 5 and WL length into 20 segments -> 100 trap locations."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3", text: "ANN trained on TCAD of 1000 cells with random grain boundaries and trap positions; Markov-process Monte Carlo with 10,000 runs per cell-variation split; analysis restricted to average trap number >= 3 because lower values give abnormal CDFs."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3; Fig 5", text: "Scaling exponents of delta vs Tox, Tctn, Tbox sum to about 0.9 and are nearly independent of N_trap (same as 2D NAND)."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3; Fig 7-8", text: "Under low N_trap, delta is roughly inversely proportional to the fourth root of LWL and to Tpoly; the absolute exponent for Tpoly decreases and saturates as N_trap grows."}
+      - {label: SOURCE_REPORTED, loc: "Sec 3 near Eq 4", text: "Vt-shift amplitudes in poly-Si 3D NAND follow a double-Gaussian (dominant vs negligible traps by proximity to percolation paths), vs single Gaussian in 2D NAND."}
+      - {label: SOURCE_REPORTED, loc: "Sec 2 (Fig 4)", text: "With grain boundaries, delta vs Tpoly is non-monotonic, and a few hundred TCAD samples are stated to be insufficient to capture grain-boundary randomness."}
+    key_conditions: "Simulation only (TCAD + ANN + Monte Carlo), unit-cell read-operation geometry, no measured data in the paper; 'No datasets were generated' per data statement."
+    why_it_fits: "Poly-Si channel, grain-boundary percolation, charge-trap-nitride cell in a macaroni (filler) channel: most VNAND-direct paper found near the window. Reliability (RTN, Vt distribution tail)."
+    vnand_directness: "direct (3D NAND string unit cell with filler, poly-Si channel, O/N/O; cylindrical coaxial implied by filler radius Rf and O/N/O stack; exact cell geometry beyond Fig 2 not stated in text read)."
+    extrapolation_warnings:
+      - "Model-based; parameters (dimensions, bias) are the authors' case conditions, not generic product values."
+      - "Scaling laws hold for N_trap >= 3 and in the trap-count range of Figs 5-11; do not extrapolate below 3 or to different poly-Si process."
+      - "Fit constants and Eq (4) coefficients were not verifiable from the garbled extraction (UNKNOWN)."
+    overlap_check: "DOI not in used_sources.md or published reports on origin/main. It appears (a) in the unreviewed branch origin/reliability-w41 report and (b) as a string inside the overlap_check comment of audit/2026/w40/sources.yaml ('W41 used 10.1007/s10825-026-02647-9'), i.e. W40's audit pre-registered it as a W41 item from that unreviewed draft; treat as a text mention only. Predecessor: Oh & Shin TED 2025 (ref 14 in paper), not used anywhere."
+    notes_file: fulltext_notes_W41-S5.md
+
+draft_branch_check:
+  branch: origin/reliability-w41
+  commit: ae6102c43c5fbdd7cece3a9ef8687d0386550d65 (2026-10-05 07:27 KST, "Add W41 Report"; only reports/2026/w41/index.html)
+  trust: "UNVERIFIED hints. No fact from the branch text was used."
+  results:
+    - doi: "10.1007/s10825-026-02647-9"
+      verified: true
+      title_authors_match: "Oh & Shin, RTN decay constant 3D NAND (matches Crossref and PDF)"
+      date: "published-online 2026-09-29 (OUT of window; before 2026-10-05)"
+      classification: archive_gap
+      access: "full_text (CC BY 4.0 PDF)"
+      used_as: W41-S5
+    - doi: "10.1063/5.0347615"
+      verified: "metadata only"
+      title: "Sustainable breakdown in sub-micrometer E-mode GaN HEMTs: Impact of gate bias and process-driven optimization (Dell'Andrea, Fraccaroli, Longato, Fregolent et al., Applied Physics Letters)"
+      date: "published-online 2026-09-30; print date-part 2026-09-28 (OUT of window)"
+      classification: archive_gap
+      access: "UNKNOWN beyond metadata: Unpaywall closed; AIP page not fetched. Not used."
+    - doi: "10.1109/IRPS61424.2026.11499327"
+      verified: "metadata only"
+      title: "A Physics-Based Modeling Framework for Long-Term Retention Loss in 3D Nand Arrays (Kumar, Samadder, Thakor, Rangarajan)"
+      date: "proceedings date 2026-03-22 (Crossref issued); created 2026-05-07 (OUT of window)"
+      classification: archive_gap (older); topic is highly relevant (3D NAND retention) but IEEE Xplore paywalled, Unpaywall closed; abstract not read. Not used."
+      access: "metadata_only"
+    - doi: "10.1109/LED.2026.3730537"
+      verified: "metadata only; publication/online date UNKNOWN"
+      title: "Improved Reliability of Hafnia-based AFE Capacitors through BEOL-Compatible Furnace Annealing (Yang, Liu, Shen, Xie et al., IEEE EDL)"
+      date: "Crossref has only issued=2026 (no month), created 2026-09-07, deposited 2026-09-24: cannot be placed in the window (UNKNOWN). Not used."
+      access: "metadata_only; Unpaywall closed"
+    - doi: "10.31399/asm.cp.istfa2026p0653"
+      verified: "metadata only"
+      title: "Impact of Proton Irradiation on the TDDB Reliability of SiC MOSFETs (Germanicus, Niskanen, Phulpin, Dherbecourt, ISTFA 2026)"
+      date: "published-online 2026-10-04 (Sunday of W40; OUT of W41 window by one day)"
+      classification: "belongs to W40 window; not in used_sources.md W40 list. Not used."
+      access: "metadata_only; Unpaywall closed"
+  summary: "1 of 5 draft DOIs usable (as archive_gap); 0 of 5 are inside 2026-10-05..10-11."
