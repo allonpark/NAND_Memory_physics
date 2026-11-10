@@ -1,0 +1,90 @@
+===== report_head bytes 22258 unclosed ['html', 'body', 'div', 'article'] errs []
+ classes not in style.css: []
+ dup ids []
+ ko 22 en 22 pair fails 0
+  NUMDIFF para 6 KOonly {'2': 1} ENonly {} | 주제 범위. 3D NAND를 직접 다루는 항목은 세 건이며, 근거의 성격이 서로 다릅니다.
+  NUMDIFF para 10 KOonly {'2': 1} ENonly {} | 기호와 단위. 기호는 각 항목 안에서만 정의되며, 같은 글자가 항목마다 다른 양을 뜻하므로
+ paragraphs with numeric-token mismatch: 2
+ ko/en length ratio outliers (<0.25 or >1.2): [] median 0.5587734241908007
+ non-polite sentence endings (…다.) count: 0
+ grades used: Counter({'C': 10, 'D': 9, 'B': 2, 'A': 1})
+===== i1 bytes 55643 unclosed [] errs []
+ classes not in style.css: []
+ dup ids []
+ ko 31 en 31 pair fails 0
+  NUMDIFF para 8 KOonly {'90': 1} ENonly {} | 형상: UNKNOWN. 본문은 "3D NAND", "polysilicon channel",
+  NUMDIFF para 10 KOonly {'0': 1} ENonly {} | 두 번 읽으며 다음을 관찰했습니다. 저자들이 확인한 사항이 아니며 원인(표기 관례, 생략,
+  NUMDIFF para 26 KOonly {'2': 1} ENonly {} | 변수: Vapp sensing으로 정의되는 겉보기 Vth [V], Vint 저장 전하가 정
+  NUMDIFF para 34 KOonly {'2': 1, '0': 2} ENonly {} | Expected signature. reversible sensing(M1/M2)이 지배적
+ paragraphs with numeric-token mismatch: 4
+ ko/en length ratio outliers (<0.25 or >1.2): [] median 0.5657492354740061
+ non-polite sentence endings (…다.) count: 0
+ grades used: Counter({'C': 6, 'B': 2, 'D': 1})
+===== i2 bytes 71060 unclosed [] errs []
+ classes not in style.css: []
+ dup ids []
+ ko 106 en 106 pair fails 0
+  NUMDIFF para 0 KOonly {'10': 1} ENonly {} | 이 Perspective는 arXiv v1으로 2025-12-17에 제출되었으며(DataC
+  NUMDIFF para 12 KOonly {'1': 1} ENonly {} | 새로운 점(저자 주장). 저자들은 기존 요약을 넘어 재료, 소자, array 동작, 3D 
+  NUMDIFF para 166 KOonly {'4': 1} ENonly {} | Flat-band 조건의 1D analytical MW 모델 4종(식 형태는 추출본에서 깨
+  NUMDIFF para 180 KOonly {'1': 1} ENonly {} | Inter-WL: bulk TDDB · 가장자리 전계 집중 · 금속 공정 결함 · CTL·
+ paragraphs with numeric-token mismatch: 4
+ ko/en length ratio outliers (<0.25 or >1.2): [] median 0.5795053003533569
+ non-polite sentence endings (…다.) count: 0
+ grades used: Counter({'C': 6, 'D': 2})
+===== i3 bytes 53140 unclosed [] errs []
+ classes not in style.css: []
+ dup ids []
+ ko 36 en 36 pair fails 0
+  NUMDIFF para 10 KOonly {'1': 1} ENonly {} | 이미 알려진 것(배경 지식, 이번 호에서 1차 출처 재확인하지 않음). NAND contr
+  NUMDIFF para 14 KOonly {'1': 1} ENonly {} | 아래 식은 일반 지식에 근거한 표준 형태와 이 보고서의 해석적 유도이며, 이번 호에서 1차
+  NUMDIFF para 18 KOonly {'2': 2} ENonly {} | 변수: δ 사용한 read level과 VOPT의 차이 [V], h 무차원 margin. 
+  NUMDIFF para 26 KOonly {'0': 2} ENonly {} | [2] 관측 (ii)의 분리 가능 조건. 위 분해에서 같은 chip의 block b와 b′
+  NUMDIFF para 60 KOonly {'7': 1} ENonly {} | DOI 10.3390/eng7100563, Crossref 등록 초록(2026-10-28 
+ paragraphs with numeric-token mismatch: 5
+ ko/en length ratio outliers (<0.25 or >1.2): [] median 0.5902255639097744
+ non-polite sentence endings (…다.) count: 0
+ grades used: Counter({'D': 3, 'C': 3})
+===== i4 bytes 63598 unclosed [] errs []
+ classes not in style.css: []
+ dup ids []
+ ko 43 en 43 pair fails 0
+  NUMDIFF para 2 KOonly {'1': 1} ENonly {} | Roberto Guido, Julie Laguerre, Pramoda Vishnumurth
+  NUMDIFF para 12 KOonly {'1': 1} ENonly {} | 이미 알려진 것(원문 서론이 인용한 선행 연구 기준; 1차 출처는 이번 호에서 재확인하지 
+  NUMDIFF para 28 KOonly {'1': 1} ENonly {} | "delay가 길수록 2Pr 손실이 크다"는 관찰에 대한 경쟁 설명입니다. (1)만 저자 
+  NUMDIFF para 34 KOonly {'1': 1} ENonly {} | 이 논문은 planar HZO 강유전체 커패시터이므로 charge-trap VNAND의 t
+  NUMDIFF para 50 KOonly {'1': 1} ENonly {} | 측정 경향: 등급 C(동료 심사 전 preprint, 조건당 소자 1개, 크기는 미열람 그
+  NUMDIFF para 54 KOonly {'1': 1} ENonly {} | 계면 VO 전자 방출(charge trapping/de-trapping) · 결함 생성과 
+  NUMDIFF para 72 KOonly {'0': 1} ENonly {} | 재료와 무관하게, "누적 stress 시간"으로 파형을 환산하는 방식은 edge 항과 de
+ paragraphs with numeric-token mismatch: 7
+ ko/en length ratio outliers (<0.25 or >1.2): [] median 0.572737686139748
+ non-polite sentence endings (…다.) count: 0
+ grades used: Counter({'C': 2, 'D': 2})
+===== i5 bytes 64492 unclosed [] errs []
+ classes not in style.css: []
+ dup ids []
+ ko 43 en 43 pair fails 0
+  NUMDIFF para 8 KOonly {'3': 1} ENonly {} | SOURCE_REPORTED (trap 결과, L = 5 μm, W = 80 μm, S/D
+  NUMDIFF para 10 KOonly {'3': 1} ENonly {} | AUTHOR_INTERPRETATION. 저자들은 기존 parallel-plate AOS 
+  NUMDIFF para 18 KOonly {'1': 1} ENonly {} | 이미 알려진 것(배경 지식, 이번 호에서 1차 출처를 재확인하지 않음). Conductan
+  NUMDIFF para 24 KOonly {'3': 1} ENonly {} | (K1) 측정 창과 τ. τ = 250 ns이면 1/(2πτ) ≈ 6.37×105 Hz이고
+  NUMDIFF para 34 KOonly {'3': 1} ENonly {} | 원문은 stress, 열화, 수명, 분포 데이터를 제시하지 않으므로 failure mode
+ paragraphs with numeric-token mismatch: 5
+ ko/en length ratio outliers (<0.25 or >1.2): [] median 0.5879797248370746
+ non-polite sentence endings (…다.) count: 0
+ grades used: Counter({'C': 3, 'D': 3})
+===== report_tail bytes 56233 unclosed [] errs [('mismatch', 'article', [], (85, 0)), ('mismatch', 'div', [], (85, 10)), ('mismatch', 'body', [], (85, 129))]
+ classes not in style.css: []
+ dup ids []
+ ko 85 en 85 pair fails 0
+  NUMDIFF para 2 KOonly {'3': 1} ENonly {} | 항목 2의 checklist ↔ 항목 1·3의 측정. 항목 2의 checklist C1–C
+  NUMDIFF para 18 KOonly {'2': 1} ENonly {} | 항목 1: 각 program 온도에서 선형, R2 높음(값 없음), program 온도별 
+  NUMDIFF para 38 KOonly {'10': 1} ENonly {} | 항목 4 유도 (v): Supplementary Table 3에서 0.09·0.04 eV가
+  NUMDIFF para 100 KOonly {'2': 1, '0': 1} ENonly {} | |Δμ(T1,T2)+Δμ(T2,T1)|와 가산성 잔차가 반복성 δrep 안에 들고, ΔT만
+  NUMDIFF para 102 KOonly {'0': 2} ENonly {} | 반대칭 또는 가산성 잔차의 신뢰구간이 0을 배제하면 순수 sensing 해석을 기각하고, 
+  NUMDIFF para 150 KOonly {'0': 1} ENonly {} | 항목 1. (1) 2절 본문의 bake와 program 순서가 Algorithm 1(adv
+ paragraphs with numeric-token mismatch: 6
+ ko/en length ratio outliers (<0.25 or >1.2): [] median 0.5498839907192575
+ non-polite sentence endings (…다.) count: 0
+  BANNED? \.qc\b|class="qc" 1 {'class="qc"'}
+ grades used: Counter({'C': 4, 'D': 3, 'B': 1})

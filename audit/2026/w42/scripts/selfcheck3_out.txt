@@ -1,0 +1,58 @@
+== 0. assembled <local-path> 479488 bytes
+== 1. tag balance (assembled head+i1..i5+tail)
+   unclosed: []  mismatches: []  -> PASS
+== 2. classes not in assets/style.css: none -> PASS
+== 3. ko->en adjacency (all <p lang>)
+   ko=366 en=366 ko_without_en=0 orphan_en=0 -> PASS
+== 4. card cells paired (13 rows per item, each value cell has ko and en)
+   i1: rows 13/13, ko->en paired 13/13 PASS
+   i2: rows 13/13, ko->en paired 13/13 PASS
+   i3: rows 13/13, ko->en paired 13/13 PASS
+   i4: rows 13/13, ko->en paired 13/13 PASS
+   i5: rows 13/13, ko->en paired 13/13 PASS
+== 5. anchors
+   unresolved: none  duplicate ids: none -> PASS
+== 6. forbidden strings (count per pattern, public HTML)
+   model names: 0 
+   internal ids S#/W42-S#: 0 
+   sources.yaml: 0 
+   file paths: 0 
+   word writer: 0 
+   notes: 0 
+   Table S# style: 0 
+   unpublished draft branch: 0 
+   lowercase sympy: 0 
+   non-scale grades: 0 
+   stated lower/upper bound (m-2): 0 
+   old sign-comparison wording (m-5a): 0 
+   described differently (m-5c): 0 
+   item-1 old DOE levels (m-3): 1 [('i3', 'N<sub>1</sub> &lt; N<sub>')]
+   distinct prefix per item (m-4): 0 
+   this section discusses (m-1): 0 
+   re-check PENDING: 0 
+   most promising: 0 
+   per-item qc blocks: 0 (expected 0); tail qc blocks: 1 (expected 1)
+   greatest promise (m-1, expected i2 ko/en + tail): [('report_head', 0), ('i1', 0), ('i2', 2), ('i3', 0), ('i4', 0), ('i5', 0), ('report_tail', 2)]
+   order-of-magnitude (m-2): [('report_head', 0), ('i1', 0), ('i2', 0), ('i3', 0), ('i4', 2), ('i5', 0), ('report_tail', 2)]
+== 7. ASCII-token multiset diff vs _orig3 (per file)
+   [report_head] +281 -7
+     added  : .x8 0x4 1x6 10x2 2x8 24x2 3x6 36x2 4x2 5x2 Cx4 C1x2 C11 C11. DOEx6 Ex4 Eq.x4 Eqs.x2 In Nx12 N1x2 N2x2 Px4 Rx4 R1x2 R6x2 Sx2 S10x2 S24x2 S36x2 SIx3 Supplementaryx8 Tablex2 Within after andx9 another arex4 arithmetic before between blockerx2 can check checklistx2 checksx2 coincidex2 countx2 criteria criterion cyclex4 denote derivation dox2 e.g. each edits equationx2 equations example focused for hix2 in including independent information itemx10 items label labelsx2 letterx2 level levelsx4 lox2 majorx2 mechanical minorx2 nx8 nox2 notx3 numbers ofx7 only. or overlap part prefixes re-check readx3 read-count receivedx2 redefined refutation report restored sx5 same sox2 sourcex2 statement supplementary symbols table thatx4 thex11 their these theyx2 this w0x2 w3x2 were withx3 within written
+     removed: PENDING PENDING. been distinct have per prefix
+   [i1] +7 -7
+     added  : hi lo mid w0 w1 w2 w3
+     removed: 0 1x2 2x2 3x2
+   [i2] +56 -1
+     added  : .x2 Challengesx2 FeNANDx2 Gate-injection-typex2 NANDx2 On Prospectsx2 SOURCE_REPORTEDx2 agree andx4 as assessment authorsx2 both describe extractions first focus for future gate-side gate-side-injection greatest holding injection introducing it mechanisms new ofx3 on own p.22x2 paragraph physical promise say technology thex3 they
+     removed: discusses
+   [i3] +0 -0
+     added  : 
+     removed: 
+   [i4] +91 -23
+     added  : .x3 Howeverx2 Separatelyx2 accessx2 allowx2 alonex2 arex2 ascribes at but calls conclusionx2 correlates devicesx2 directionx2 endx2 fatiguex2 howx2 imprintx2 inx3 interplay it its larger lossx2 lower of order order-of-magnitude phenomenon.x2 polarizationx2 range rates. reasonablex2 remains resultsx2 samex2 says sharedx2 switchedx2 text thatx4 thex14 to twox4 unclear with
+     removed: The What ax2 as boundx2 comparisonx2 dependence hold.x2 however is mx2 presents rate sx2 signx2 stated
+   [i5] +0 -0
+     added  : 
+     removed: 
+   [report_tail] +192 -32
+     added  : .x7 10x2 4 ERSx2 However NANDx2 On PGMx4 SOURCE_REPORTEDx2 Separately ax4 afterx4 agree allow alone arex2 authors blockerx4 checksx4 conclusion contradiction. describe detrappingx2 direction does duringx3 editsx4 electronx2 electronsx2 endx2 explicitly. first fixesx3 focusedx4 fromx2 future gatex4 gate-injectedx2 greatest holding holex2 holesx2 if inx2 including independentx5 injectedx2 item its m majorx4 mechanicalx4 minorx4 nox8 not of on onlyx4 or order-of-magnitude p.20 p.22x2 p.26 pass phenomenon. physics promise range re-checkx4 receivedx8 refer refers restored review s same say shared so source statement technology textx2 thatx4 thex14 these this tox2 two type while
+     removed: 1 3 PASS-WITH-FIXES PENDINGx4 andx2 applied both boundx2 comparison contradiction corrected described differently first-pass for hold is items p.20. p.26. repeated report-level sign summary verdicts well wording

@@ -1,0 +1,20 @@
+i1 rows with labels 13 missing []
+   value cells with KO and EN: 13 / 13
+i2 rows with labels 13 missing []
+   value cells with KO and EN: 13 / 13
+i3 rows with labels 13 missing []
+   value cells with KO and EN: 13 / 13
+i4 rows with labels 13 missing []
+   value cells with KO and EN: 13 / 13
+i5 rows with labels 13 missing []
+   value cells with KO and EN: 13 / 13
+TOC anchors unresolved: set()
+external links: ['https://arxiv.org/abs/2512.15988', 'https://arxiv.org/abs/2610.16438', 'https://arxiv.org/abs/2610.20154', 'https://doi.org/10.1587/elex.23.20260379', 'https://doi.org/10.3390/eng7100563', 'https://doi.org/10.48550/arXiv.2512.15988', 'https://doi.org/10.48550/arXiv.2610.16438', 'https://doi.org/10.48550/arXiv.2610.20154']
+rel links: ['../../../assets/style.css', '../../../downloads/2026/VNAND_HV_Reliability_2026-W42.pdf', '../../../index.html', '../../../knowledge/']
+has <html>/<head>/<title> in head? True True
+item h2 lines:
+   i1 ["1. [archive_gap] Cross-temperature read-voltage shift measured on 3D TLC NAND chips: the authors' linear-in-ΔT engineering model with P/E, state and layer terms (ΔT-only dependence not shown), not a mechanism test"]
+   i2 ['2. [archive_gap] Ferroelectric-driven vertical NAND (Perspective): a literature map of charge-trap 3D NAND failure modes, with no new data, read as a checklist of testable claims']
+   i3 ['3. Read-retry history reuse in 3D NAND SSDs: what a stored V<sub>OPT</sub> measures, and when a block-invariant WL-offset table should fail']
+   i4 ["4. Access-rate-dependent endurance of HZO capacitors: longer delays between pulses remove more switchable polarization — in this stack the delay acts as net stress rather than net recovery (this report's sign-test inference; recovery may coexist), and the 10<sup>10</sup>-cycle curve is a fit extrapolation"]
+   i5 ['5. A conductive–semiconducting–conductive (CSC) MOS structure separates interface-state and shallow-state conductance loss in an amorphous-oxide-semiconductor transistor: a measurement-method case, not a poly-Si VNAND result']
