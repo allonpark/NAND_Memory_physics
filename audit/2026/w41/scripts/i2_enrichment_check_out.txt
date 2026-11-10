@@ -1,0 +1,13 @@
+﻿sympy 1.14.0
+stab  polaron    k= 3/42  overall 165/412  enrichment = 206/1155 = 0.178355
+stab  induced K  k=30/42  overall 182/412  enrichment = 1030/637 = 1.61695
+stab  native K   k= 9/42  overall 65/412  enrichment = 618/455 = 1.35824
+depth polaron    k= 7/42  overall 165/412  enrichment = 206/495 = 0.416162
+depth induced K  k=29/42  overall 182/412  enrichment = 2987/1911 = 1.56306
+depth native K   k= 6/42  overall 65/412  enrichment = 412/455 = 0.905494
+E[induced K in decile] = 18.5534
+P(iK>=30) = 0.0001601
+P(iK>=29) = 0.0005506
+P(pol<=3) = 6.300e-7
+29/41 = 0.70732  182/412 = 0.44175  182/347 = 0.52450
+native K depth enrichment rounded 3 d.p.: 0.905

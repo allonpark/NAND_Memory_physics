@@ -1,0 +1,6 @@
+seed 0 beta_Q 3.9956 beta_t 2.7324 ratio 1.4623
+seed 1 beta_Q 3.9711 beta_t 2.726 ratio 1.4568
+seed 2 beta_Q 3.9935 beta_t 2.7677 ratio 1.4429
+seed 3 beta_Q 4.0019 beta_t 2.734 ratio 1.4638
+seed 4 beta_Q 3.9933 beta_t 2.7558 ratio 1.449
+mean ratio 1.4549461099979388  log-variance prediction 1.2680406546534801

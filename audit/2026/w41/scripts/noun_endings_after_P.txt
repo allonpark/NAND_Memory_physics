@@ -1,0 +1,128 @@
+﻿report_head.html:10:P : ...로 표시했습니다(항목 1의 식 (1)–(4), 항목 3의 trap depth·void fraction 식).
+report_head.html:12:P : ...선정 분류.
+report_head.html:14:P : ...주제 범위.
+report_head.html:16:P : ...라벨과 등급.
+report_head.html:18:P : ...기호와 단위.
+i1.html:10:P : ...026-05-12, 채택 2026-09-19, 온라인 게재 2026-09-29, 라이선스 CC BY 4.0.
+i1.html:10:P : ...접근 수준: full_text.
+i1.html:10:P : ...선정 분류: archive_gap.
+i1.html:10:P : ..., Monte Carlo 시뮬레이션뿐이며 측정 데이터나 측정 대비 calibration이 본문에 없습니다).
+i1.html:19:P : ...형상: UNKNOWN.
+i1.html:19:P : ...poly·O/N/O의 기준 치수(그림 축 문자열만 있고 그림은 읽지 못함), 지수의 신뢰구간, 측정 데이터.
+i1.html:29:P : ...새로운 점(source 주장).
+i1.html:29:P : ...이미 알려진 것.
+i1.html:33:P : ...저자 사슬 (시뮬레이션 내부).
+i1.html:36:P : ...측정 소자 사슬 (ENGINEERING_INFERENCE, 이 논문에서 검증되지 않음).
+i1.html:44:P : ...Si channel 두께 [m], Tox·Tctn·Tbox 층 두께 [m], Rf filler 반경 [m].
+i1.html:50:P : ... Gaussian 성분의 폭 [V], A, B는 비례 상수, γ는 dominant 성분의 trap 수 지수.
+i1.html:50:P : ...기는 σ·ln10/(z+1/z)로 σ에 비례함을 확인했으며, z는 그 창의 표준정규 분위수의 절댓값입니다).
+i1.html:50:P : ...SymPy 결과.
+i1.html:50:P : ...로 수의 포화(trap 간 비독립, 저자 해석과 일관), 추출 창 효과, 또는 아래의 kinetics 효과.
+i1.html:58:P : ... trap 밀도 [m−3], ns 계면 trap 밀도 [m−2], rf filler 반경(= Rf) [m].
+i1.html:58:P : ...건: 축방향 무한·균일 동축 stack, 층 내부 자유전하 없음, 모든 층을 같은 Q′가 통과, 원형 단면.
+i1.html:58:P : ...SymPy 결과(기호, 무차원).
+i1.html:70:P : ... 분석하지 않음), 저 Ntrap에서만 기술된 LWL·Tpoly 지수, poly-Si 대 single-Si.
+i1.html:86:P : ...측정량.
+i2.html:5:P : ...제출일 2026-10-05(v1).
+i2.html:5:P : ...라이선스 CC BY 4.0.
+i2.html:5:P : ...접근 수준: full_text.
+i2.html:5:P : ...선정 분류: new_this_week.
+i2.html:5:P : ...소자 수준 주장에 대해서는 D).
+i2.html:9:P : ...깊이는 defect별 고유값 보정을 하지 않은 값), 최대 원자 변위 0.30 / 0.51 / 0.40 Å.
+i2.html:21:P : ...다른 범함수나 FNV 보정과의 수치 비교(FNV는 "control"로 언급되지만 비교 수치는 본문에 없음).
+i2.html:31:P : ...새로운 점(source 주장).
+i2.html:31:P : ...이미 알려진 것(배경 지식, 등급 C: 이번 호에서 1차 문헌을 다시 확인하지 않음).
+i2.html:35:P : ...Source 사슬 (bulk 셀 안).
+i2.html:38:P : ...Bridge 사슬 (ENGINEERING_INFERENCE, 모든 단계가 이 논문에서 검증되지 않음).
+i2.html:38:P : ...B2: 스펙트럼 → 열적 이온화 에너지 ET,k.
+i2.html:38:P : ...B3: ET,k → 방출·hopping 속도(전계, 온도, 수소, 이웃 trap의 영향 포함).
+i2.html:38:P : ...B4: 속도 → retention ΔVth(t, T)와 lateral migration.
+i2.html:38:P : ...B5: 셀당 소수 전자의 경로 혼합 → Vth tail.
+i2.html:47:P : ..., X 표준화된 채널 행렬, V 다섯 척도 × 일곱 구조 채널(35성분), Rt 척도 t의 구조 벡터 크기.
+i2.html:47:P : ...(source): 0 K 완화 구조, 전자 하나, Γ점, 한 가지 셀 크기, 저자가 선택한 유한 크기 보정.
+i2.html:51:P : ...유도 B (tail 농축의 통계적 크기).
+i2.html:53:P : ...유도 F (에너지 장부, 단일 configuration coordinate).
+i2.html:55:P : ...일반 배경 (논문에서 온 것이 아님).
+i2.html:63:P : ...반경, rn 질화막 바깥 반경, rg 게이트 안쪽 반경, εN, εB 질화막과 blocking 층의 유전율.
+i2.html:63:P : ... 없음, 채널 쪽 기준(flat-band에서 채널 쪽 전계 0), 포획 전하를 얇은 원통 sheet로 근사.
+i3.html:5:P : ...arXiv 제출일 2026-10-08(abs 페이지와 PDF 머리줄 일치), 라이선스 CC BY 4.0.
+i3.html:5:P : ...접근 수준: full_text.
+i3.html:5:P : ...선정 분류: new_this_week.
+i3.html:5:P : ...이 보고서에서 재현하지 않았습니다).
+i3.html:7:P : ...415개는 같은 저자군의 Vitriflow 연구(Comput.
+i3.html:7:P : ...275, 2026)의 HSE06 계열 455개 중에서, 84개는 Hückmann 등(Adv.
+i3.html:7:P : ...밀도가 3.15에서 2.92 g cm−3로 낮아지면 다음과 같이 변합니다(Sec.
+i3.html:21:P : ...1의 주석 텍스트("Ref.
+i3.html:21:P : ...저자들은 겹치는 구간의 route 비율(Ref.
+i3.html:21:P : ...[2] 22개, Ref.
+i3.html:21:P : ...N/5와 N/4 사이에서 바꾸면 평균 gap이 약 0.35 eV 움직입니다(Supplementary Fig.
+i3.html:26:P : ...이미 알려진 것(저자들이 인용한 선행 연구, 이번 호에서 1차 출처 재확인하지 않음).
+i3.html:26:P : ...이 논문이 보고한 것(SOURCE_REPORTED).
+i3.html:45:P : ...(D1) 원문 내부 산술.
+i3.html:47:P : ...(D2) Cell 부피(유도값).
+i3.html:49:P : ...4d 열 배정.
+i3.html:51:P : ...(D4) 체적 농도로 환산(유도값, 모델 집단의 값).
+i3.html:53:P : ...(D5) 열 방출 틀(기호 유도와 예시).
+i4.html:10:P : ...ossref published-online 일치; Crossref의 print issue는 2026-12).
+i4.html:10:P : ...접근 수준: full_text(open access, CC BY 4.0 PDF).
+i4.html:10:P : ...이미지는 보지 못했고(caption 텍스트만 읽음), Supplementary Information(Fig.
+i4.html:10:P : ...선정 분류: new_this_week.
+i4.html:10:P : ...커니즘은 C(적합 parameter에 기반한 저자 해석이며 원자 수준 직접 증거가 없다고 저자들이 명시함).
+i4.html:12:P : ...eakdown 이전 최대 cycle 수를 수명으로 정의; 여러 소자 결과는 Supplementary Fig.
+i4.html:12:P : ...3로 제시).
+i4.html:14:P : ...AFM은 표면 grain만 보지만, TEM의 columnar 구조(Supplementary Fig.
+i4.html:21:P : ...(1) 외삽 failure 확률.
+i4.html:21:P : ...본문은 10년 수명 허용 전계를 failure 확률 0.001%에서 구했다고 쓰지만, Fig.
+i4.html:21:P : ...(2) 패널 참조.
+i4.html:21:P : ...본문은 63.2% 특성 수명을 Fig.
+i4.html:21:P : ...5d에, 10년 외삽을 Fig.
+i4.html:21:P : ...(3) 누설 열화 순서.
+i4.html:21:P : ...(4) τ의 명칭.
+i4.html:26:P : ...이미 알려진 것(원문 서론이 인용한 선행 연구 기준; 1차 출처는 이번 호에서 재확인하지 않음).
+i4.html:26:P : ...이 논문이 보고한 것(SOURCE_REPORTED).
+i4.html:40:P : ...γ의 단위는 원문에 없어 UNKNOWN입니다(식 (7)이 무차원이 되려면 γ도 무차원이어야 합니다).
+i4.html:44:P : ...(i) 원문 내부 일관성.
+i4.html:46:P : ...(ii) 전계 대 전압.
+i4.html:48:P : ...(iii) EBD 증가의 기준선.
+i4.html:48:P : ...맞으며, 결함 배치 가설만으로 설명할 필요가 없을 수 있음을 뜻합니다(아래 경쟁 메커니즘 (2), (3)).
+i4.html:50:P : ...(iv) TDC 모델의 tail 구조.
+i4.html:52:P : ...(v) 식 (7)이 요구하는 a0 변화.
+i4.html:54:P : ...(vi) α의 비고유성.
+i4.html:59:P : ...외삽 failure 확률 기준(0.001% 대 0.01%), (d) 원문이 Supplementary Fig.
+i4.html:67:P : ...+, −}, 온도 T ∈ {T1, T2}, 파형 ∈ {DC CVS, bipolar cycling at f}.
+i4.html:67:P : ...강유전 상(같은 조성의 비결정 또는 단사정 막) 시료, 그리고 상부 전극을 바꾼 시료(MoOx 대 TiN).
+i4.html:67:P : ...FM 또는 단면 TEM), stress 전후 깊이 분해 VO 지표, C–V로 dead layer 두께 추출.
+i4.html:72:P : ...비교를 할 때 같은 전계와 같은 전압 두 기준으로 모두 비교해야 한다는 점입니다(위 (ii), (iii)).
+i5.html:5:P : ...published-online 기준, 권호 미배정), DOI 10.1142/s0217984926502520.
+i5.html:5:P : ...접근 수준: abstract_only.
+i5.html:5:P : ... 분류: new_this_week (게재일이 W41 window 2026-10-05–10-11 안에 있음).
+i5.html:5:P : ...(측정 기반 통계 결과를 보고하지만 초록만 확인했고 데이터, 표, 그림, Qeff 정의를 보지 못했습니다).
+i5.html:19:P : ...이미 알려진 것(배경 지식, 이번 호에서 1차 출처 재확인하지 않음).
+i5.html:19:P : ...이 논문에서 새로운 점(SOURCE_REPORTED).
+i5.html:33:P : ...A], Ī 고장까지의 시간 평균 전류 [A], tBD [s], QBD [C](면적으로 나누면 [C/cm2].
+i5.html:33:P : ...], tox [cm], η scale(t 또는 Q의 단위), β 무차원 shape, w(V) 무차원 가중치.
+i5.html:33:P : ...apping으로 cathode field가 바뀌면 E는 시간의 함수가 됨), planar 1차원 field.
+i5.html:37:P : ...[1] βQ > βt의 조건.
+i5.html:37:P : ... 49–76%가 소자 간 전류 차이에서 온다는 뜻이 됩니다(표시된 유도, 비율 = 1 − (βt/βQ)2).
+i5.html:41:P : ...[3] 전압 사이 collapse 조건.
+i5.html:43:P : ...[4] 세 전압 모델이 비슷하게 맞는 이유.
+i5.html:45:P : ...[5] Held-out 오차의 부호.
+i5.html:74:P : ...핵심 측정.
+report_tail.html:6:P : ...항목 1(trap 통계) ↔ 항목 2·3(trap 종류의 population).
+report_tail.html:8:P : ...항목 2 ↔ 항목 3 (하나의 연구 계열).
+report_tail.html:10:P : ...항목 4 ↔ 항목 5 (통계적 불변성·붕괴 논증 대 mechanism equivalence).
+report_tail.html:12:P : ...항목 4 ↔ 항목 5 (field 기준 대 전압 기준).
+report_tail.html:14:P : ...연결되지 않는 곳.
+report_tail.html:31:P : ...물리 이해의 변화: 확정된 것 없음 (no change established).
+report_tail.html:62:P : ...항목 1.
+report_tail.html:64:P : ...항목 2.
+report_tail.html:66:P : ...항목 3.
+report_tail.html:68:P : ...항목 4.
+report_tail.html:68:P : ...(1) 10년 허용 field의 외삽 실패 확률이 본문은 0.001%, Fig.
+report_tail.html:68:P : ...(2) 본문과 캡션의 Fig.
+report_tail.html:70:P : ...항목 5(초록).
+report_tail.html:76:P : ...ccess PDF 텍스트 추출 전체 읽음, 출판사 HTML로 재확인; 그림 미독; 식 (1)–(4) 깨짐).
+report_tail.html:78:P : ....0; arXiv PDF 텍스트 추출 전체 읽음, arXiv HTML로 재확인; 그림·보충 데이터 미개봉).
+report_tail.html:80:P : ...Y 4.0; arXiv PDF 텍스트 추출, 본문 전체와 보충자료 일부 읽음; 그림 미독; 일부 식 깨짐).
+report_tail.html:82:P : ...n access PDF 텍스트 추출 전체 읽음, 출판사 HTML로 지수와 식 재확인; 그림·보충자료 미독).
+report_tail.html:84:P : ...rossref 등록 초록; 출판사 페이지 HTTP 403, 우회하지 않음; Unpaywall 기준 비공개).

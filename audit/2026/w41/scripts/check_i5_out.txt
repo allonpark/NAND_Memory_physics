@@ -1,0 +1,17 @@
+ratio 7/5 variance fraction 1-(1/r)^2= 0.4898
+ratio 203/100 variance fraction 1-(1/r)^2= 0.7573
+predicted ratio bQ=4 sigma=.25: 1.2680
+1+6(1-gE)^2/pi^2= 1.10866  sqrt= 1.05293  sd_Q/sd_t at ratios: 0.714 0.493
+I11 b**2 I12 -1 + EulerGamma + I*pi I22 Integral((z*exp(z) - z - 1)**2*exp(z)*exp(-exp(z)), (z, -oo, oo))/b**2
+n*b^2*Var(mu)= Integral((z*exp(z) - z - 1)**2*exp(z)*exp(-exp(z)), (z, -oo, oo))/(Integral((z*exp(z) - z - 1)**2*exp(z)*exp(-exp(z)), (z, -oo, oo)) - 1 - EulerGamma**2 + 2*EulerGamma + pi**2 - 2*EulerGamma*I*pi + 2*I*pi)  -> Integral(z**2*exp(3*z)*exp(-exp(z)) - 2*z**2*exp(2*z)*exp(-exp(z)) + z**2*exp(z)*exp(-exp(z)) - 2*z*exp(2*z)*exp(-exp(z)) + 2*z*exp(z)*exp(-exp(z)) + exp(z)*exp(-exp(z)), (z, -oo, oo))/(Integral(z**2*exp(3*z)*exp(-exp(z)) - 2*z**2*exp(2*z)*exp(-exp(z)) + z**2*exp(z)*exp(-exp(z)) - 2*z*exp(2*z)*exp(-exp(z)) + 2*z*exp(z)*exp(-exp(z)) + exp(z)*exp(-exp(z)), (z, -oo, oo)) + 9.69086 + 2.65643*I)
+curv power n/(V - V_x)**2  inverse 2*G*tox/(V - V_x)**3  exp: 0
+power dev/span ~ -epsilon/8  (leading)
+inverse dev/span ~ -epsilon/4  (leading)
+numeric eps=2/39: 0.00641 0.0128
+held-out error at 40: 5*a2/4
+asym design: true error 9*a2/8  formula 15*a2/8
+8.75/e^(1.4*1.5)= 1.071  /e^(1.4*2)= 0.5321
+d1 B/E**2 - gamma + 2/E  d2 2*(-B - E)/E**3  vs -2(B+E)/E^3 diff 0
+1/E d1 0  d2 diff 0  G=B: 2*log(E)
+J(r0)/J(r1)= r1/r0
+Var(lnQ)<Var(lnt) <=> [-vI/2]

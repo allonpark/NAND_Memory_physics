@@ -1,0 +1,31 @@
+﻿== tag balance
+errors: 0
+unclosed at end: []
+== CSS classes
+used: ['boundary', 'brand', 'btn', 'chain', 'compare', 'doebox', 'download-box', 'eq', 'footer', 'inference', 'kicker', 'label', 'lead', 'nav', 'pass', 'pending', 'primary', 'qc', 'report-hero', 'report-layout', 'source-links', 'sourcebox', 'spacer', 'toc', 'topbar', 'wrap']
+missing from style.css: []
+== ko->en adjacency
+ko=298 en=298 violations=0
+raw-text adjacency violations: 0
+== card cells paired (every td containing a ko p has exactly one ko and one en)
+cells with paragraphs: 172 unpaired: 0
+== anchors
+internal anchors: 12 unresolved: []
+== forbidden strings
+writer: 0
+notes: 0
+sources.yaml: 0
+internal id S1..S9: 0
+W41-S#: 0
+model names: 0
+unpublished paper: 0
+local path: 0
+per-item qc block: report-level=1, per-item=0
+grade outside A-D: 0
+7 days: 0
+N_eff <= 56: 0
+beta-Si3N4 crystalline ref: 0
+companion study 415: 0
+decananometer: 0
+cylindrical coaxial for item 1 heading: 0
+== OVERALL PASS

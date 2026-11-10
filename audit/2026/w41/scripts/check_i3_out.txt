@@ -1,0 +1,14 @@
+rho 63/20 M 5611.320 V(A^3)= 2958.04  edge 14.355
+rho 73/25 M 5611.320 V(A^3)= 3191.03  edge 14.722
+V ratio %: 7.877
+spec surf 997/V315*1000= 337.05  1225/V292*1000= 383.89  stated 337, 389
+void vol 248.48 402.07
+ratios: void 1.500  surf 1.2287  Si3c 3.750
+D1 sum 90+211+195 496 [18.15, 42.54, 39.31]  K-like 29+? ,54: 54  63: 63  fractions sum 100?: 100 100
+D4 uncapped:  4.057e+19 1.410e+20  e density 3.381e+20 3.134e+20
+D5 exp(0.4/kT)= 5.244e+6
+D3 diffs depth [-0.110, -0.170, -0.0500]  relax [-0.140, -0.0600, -0.0200]  gaps 0.380 0.470
+inner ratio t/(a*log((a + t)/a))  limit t/a->0: 1  numeric t/a=1: 1.443
+outer ratio at t/a=1: 0.7213
+native K at 2.92 vs 3.15 ratio  3.22
+K-like totals: 9+45= 54  29+34= 63
