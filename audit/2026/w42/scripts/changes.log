@@ -1,0 +1,640 @@
+[B-1] i4 x1
+  - 본문이 쓴 하한(10<sup>−5</sup> m/s)보다 두 자릿수 작습니다(sympy).
+  + 본문이 쓴 하한(10<sup>−5</sup> m/s)보다 약 한 자릿수(약 13배) 작고, 상한(10<sup>−4</sup> m/s)보다는 약 두 자릿수 작습니다(SymPy). 확산 계수 범위가 두 자릿수(10<sup>−12</sup>–10<sup>−10</sup> cm<sup>2</sup>/s)에 걸치므로 속도도 두 자릿수에 걸쳐야 하지만, 본문의 속도 범위는 한 자릿수(10<sup>−5</sup>–10<sup>−4</sup
+[B-1] i4 x1
+  - gives a drift velocity of 7.74 × 10<sup>−7</sup> m/s, two decades below the stated lower bound of 10<sup>−5</sup> m/s (sympy).
+  + gives a drift velocity of 7.74 × 10<sup>−7</sup> m/s, about one decade (a factor of about 13) below the stated lower bound of 10<sup>−5</sup> m/s and about two decades below the stated upper bound of 10<sup>−4</sup> m/s (SymPy). A diffusion
+[B-1] report_tail x1
+  - 인용된 확산 계수 범위의 하한은 진술된 drift 속도 하한보다 두 자릿수 낮은 속도를 주고,
+  + 인용된 확산 계수 범위의 하한은 진술된 drift 속도 하한보다 약 한 자릿수(약 13배) 낮은 속도(상한보다는 약 두 자릿수 낮음)를 주고,
+[B-1] report_tail x1
+  - gives a drift velocity two decades below the stated lower bound, and
+  + gives a drift velocity about one decade (a factor of about 13) below the stated lower bound (about two decades below the upper bound), and
+[M2-2] i2 x1
+  - for gate-side-injection FeNAND, the type the authors rate most promising, which is
+  + for gate-side-injection FeNAND, the type this section discusses, which is
+[M4-2] i4 x1
+  - W40 item 5(SiC PWM 주파수가 높을수록 TDDB 수명 증가, 회복 물리 대 duty)와 반대 부호의 access-rate 의존성을 더해, "off 시간 = 회복"이 보편적이지 않음을 보입니다.
+  + 보고된 access-rate 의존의 방향은 W40 item 5(SiC PWM 주파수가 높을수록 TDDB 수명 증가, 회복 물리 대 duty)와 같습니다(두 경우 모두 낮은 rate·주파수가 더 나쁨). 반대인 것은 저자들이 제안한 de-trapping의 역할(SiC에서는 수명을 늘리고 HZO에서는 손실을 키움)이며, 비교 기준(이 항목은 같은 N, W40 item 5는 wall-clock 또는 stress time 중 어느 것
+[M4-2] i4 x1
+  - It adds an access-rate dependence of opposite sign to W40 item 5 (higher SiC PWM frequency, longer TDDB life; recovery physics vs duty), showing that "off time = recovery" is not universal.
+  + The reported direction of its access-rate dependence matches W40 item 5 (higher SiC PWM frequency, longer TDDB life; recovery physics vs duty): in both, a lower rate or frequency is worse. What is opposite is the authors' proposed role of d
+[M4-2] i4 x1
+  - <p lang="ko">HZO 커패시터에서는 access rate가 낮을수록(off 구간이 길수록) 손실이 커지는 반대 부호가 보고되었고, 저자들은 이것도 de-trapping(전자 방출)으로 설명합니다.</p>
+  + <p lang="ko">HZO 커패시터에서도 같은 cycle 수에서 access rate가 낮을수록(off 구간이 길수록) 손실이 커지며(낮은 rate가 더 나쁘다는 방향은 W40 item 5와 같음), 저자들은 이것을 de-trapping(전자 방출)으로 설명합니다. 다만 de-trapping의 역할은 반대(SiC에서는 이득, HZO에서는 손실)이고, 비교 기준(같은 N 대 W40 item 5의 UNKNOWN인 시간 회계)이
+[M4-2] i4 x1
+  - <p lang="en">In HZO capacitors the opposite sign is reported: a lower access rate (longer off interval) gives more loss, and the authors also explain it by de-trapping (electron emission).</p>
+  + <p lang="en">In HZO capacitors, at equal cycle count, a lower access rate (longer off interval) also gives more loss (the same direction as W40 item 5: a lower rate is worse), and the authors explain it by de-trapping (electron emission). T
+[M4-2] i4 x1
+  - 같은 "de-trapping"이라는 말이 두 소자에서 반대 방향의 수명 효과를 설명하는 데 쓰이므로,
+  + 같은 "de-trapping"이라는 말이 두 소자에서 반대 역할(SiC에서는 수명 이득, HZO에서는 손실의 원인)로 쓰이므로,
+[M4-2] i4 x1
+  - The same word "de-trapping" is used to explain lifetime effects of opposite sign in two devices,
+  + The same word "de-trapping" is given opposite roles in two devices (the cause of a lifetime gain in SiC and of a loss in HZO),
+[M4-2] report_tail x1
+  - SiC gate oxide TDDB 수명이 PWM 주파수와 함께 늘고 OFF 구간 fast-trap de-trapping으로 설명</p>
+  + SiC gate oxide TDDB 수명이 PWM 주파수와 함께 늘고 OFF 구간 fast-trap de-trapping으로 설명; 두 보고 모두 낮은 rate가 더 나쁘며, 비교 기준(같은 N 대 UNKNOWN인 시간 회계)이 다름</p>
+[M4-2] report_tail x1
+  - explained by fast-trap de-trapping during OFF intervals</p>
+  + explained by fast-trap de-trapping during OFF intervals; both report that the lower rate is worse, and the comparison bases differ (equal N vs time accounting UNKNOWN)</p>
+[M4-2] report_tail x1
+  - 소자가 달라 데이터 모순은 아님; 같은 단어 "de-trapping"이 반대 부호의 수명 효과를 설명</p>
+  + 소자가 달라 데이터 모순은 아님; 보고된 rate 의존 방향은 같지만(낮은 rate가 더 나쁨) 같은 단어 "de-trapping"이 SiC에서는 이득, HZO에서는 손실의 원인으로 쓰이며, 비교 기준이 달라 부호 비교는 성립하지 않음</p>
+[M4-2] report_tail x1
+  - Different devices, so no data contradiction; the same word "de-trapping" explains lifetime effects of opposite sign</p>
+  + Different devices, so no data contradiction; the reported direction of rate dependence is the same (lower rate is worse), but the same word "de-trapping" is cited as the cause of a gain in SiC and of a loss in HZO, and the comparison bases 
+[m4-5] report_tail x1
+  - <p lang="ko">off 시간 = 회복(de-trapping)</p><p lang="en">Off time = recovery (de-trapping)</p>
+  + <p lang="ko">off 시간 = 회복(de-trapping; W40 item 5의 저자 해석)</p><p lang="en">Off time = recovery (de-trapping; authors' interpretation in W40 item 5)</p>
+[m4-5] i4 x1
+  - 신뢰성 실무에서 널리 논의되며(이번 호에서 1차 출처 미확인, 배경 지식),
+  + 신뢰성 실무에서 널리 논의되며(ENGINEERING_INFERENCE, 근거 미확인: 배경 지식이며 이번 호에서 1차 출처를 확인하지 않음),
+[m4-5] i4 x1
+  - it is widely discussed in reliability practice (background knowledge; primary sources not checked for this issue)
+  + it is widely discussed in reliability practice (ENGINEERING_INFERENCE with an unverified basis: background knowledge, primary sources not checked for this issue)
+[M4-1] i4 x1
+  - 휴지가 오히려 stress 구간이 될 수 있음을 보여 주는 반례입니다.
+  + 휴지가 오히려 stress 구간이 될 수 있음을 보여 주는 반례로 읽힙니다(위 (iii)의 부호 시험에 근거한 이 보고서의 추론).
+[M4-1] i4 x1
+  - This paper is a counter-example showing that a rest can instead be a stress interval because the stored state sets up an internal field during it.
+  + This paper reads as a counter-example showing that a rest can instead be a stress interval because the stored state sets up an internal field during it (this report's inference from the sign test in (iii) above).
+[M4-1] i4 x1
+  - — the delay acts as stress, not rest, and the 10<sup>10</sup>-cycle curve is a fit extrapolation</h2>
+  + — in this stack the delay acts as net stress rather than net recovery (this report's sign-test inference; recovery may coexist), and the 10<sup>10</sup>-cycle curve is a fit extrapolation</h2>
+[M4-1] i4 x1
+  - 이 스택에서는 delay가 순회복 구간이 아니라 순 stress 구간입니다.
+  + 이 스택에서는 delay가 순회복 구간이 아니라 순 stress 구간으로 작용한다고 추론합니다(이 보고서의 추론).
+[M4-1] i4 x1
+  - so in this stack the delay is a net-stress interval, not net recovery.
+  + so we infer that in this stack the delay acts as a net-stress interval rather than net recovery (this report's inference).
+[m4-3] i4 x1
+  - (1 − cos²θ<sub>0</sub>)/2이므로 P = P<sub>0</sub>[1 − a² ln² X] 꼴,
+  + (1 − cos²θ<sub>0</sub>)/2이므로 P ∝ [1 − a² ln² X] 꼴(인자 1/2은 P<sub>0</sub>에 흡수),
+[m4-3] i4 x1
+  - giving P = P<sub>0</sub>[1 − a² ln² X], a loss
+  + giving P ∝ [1 − a² ln² X] (the factor 1/2 absorbed into P<sub>0</sub>), a loss
+[m4-3] i4 x1
+  - (notes의 수치 탐침)
+  + (이 보고서의 수치 탐침)
+[m4-3] i4 x1
+  - (numeric probe in the notes)
+  + (this report's numerical probe)
+[m4-4] i4 x1
+  - (3) <b>Domain wall pinning</b>: 저자들은 nucleation-limited switching을 근거로 핵생성 억제를 택했지만,
+  + (3) <b>Domain wall pinning</b>: 원문 서론은 cycling 중 생성되고 delay 동안 재분포된 결함(대개 산소 공공으로 식별)에 의한 domain wall pinning을 [23]–[25], [27]의 설명으로 소개합니다. 저자들은 nucleation-limited switching을 근거로 domain wall pinning이 아니라 핵생성 억제를 택했지만,
+[m4-4] i4 x1
+  - (3) <b>Domain-wall pinning</b>: the authors chose nucleation inhibition based on nucleation-limited switching,
+  + (3) <b>Domain-wall pinning</b>: the source's introduction presents domain-wall pinning by defects (typically identified as oxygen vacancies) generated during cycling and redistributed during the delay as the explanation of [23]–[25], [27]. 
+[X-label] i4 x1
+  - <div class="label">Engineering inference · sympy-checked stress-time accounting (background framework, not the paper's model)</div>
+  + <div class="label">ENGINEERING_INFERENCE — SymPy-checked stress-time accounting (background framework, not the paper's model)</div>
+[X-label] i3 x1
+  - <div class="label">Engineering inference · numerically checked framework (not from the paper)</div>
+  + <div class="label">ENGINEERING_INFERENCE — numerically checked framework (not from the paper)</div>
+[M5-1] i5 x1
+  - <div class="label">ENGINEERING_INFERENCE — derivation checks (Python standard library; the pinned SymPy environment was unavailable for this item)</div>
+  + <div class="label">ENGINEERING_INFERENCE — derivation checks (SymPy 1.14.0 with mpmath 1.3.0; script re-run, values agree)</div>
+[M-T-1] report_tail x1
+  - Symbolic checks with SymPy (items 1, 2, 4); numeric checks with the Python standard library (items 3 and 5, as stated in those items); not independently re-run
+  + Symbolic checks with SymPy (items 1, 2, 4, 5); numeric checks with the Python standard library (item 3); independently re-derived with SymPy in the physics review (one magnitude error found in item 4's drift comparison, corrected); re-check
+[m5-3] i5 x1
+  - RC peak라면 f<sub>peak</sub> ∝ 1/(R·L²)입니다.
+  + RC peak라면 f<sub>peak</sub> ∝ 1/(R<sub>sh</sub>·C<sub>ox</sub>·L²)입니다(R<sub>sh</sub>는 channel 면저항, C<sub>ox</sub>는 면적당 gate 용량, 아래 유도 D5).
+[m5-3] i5 x1
+  - an RC peak follows f<sub>peak</sub> ∝ 1/(R·L²).
+  + an RC peak follows f<sub>peak</sub> ∝ 1/(R<sub>sh</sub>·C<sub>ox</sub>·L²) (R<sub>sh</sub> = channel sheet resistance, C<sub>ox</sub> = gate capacitance per area; derivation D5).
+[M1-1] i1 x1
+  - SSD 지연 수치: simulator 결과로 등급 B이나 drive 측정이 아닙니다.
+  + SSD 지연 수치: 원문 보고값이며 simulator 결과(장치 수준 등가 지연을 lookup table로 넣은 SSDsim 출력, 이 보고서에서 재현하지 않았고 입력 표와 workload 세부를 보지 못함)이므로 등급 C입니다. drive 측정이 아닙니다.
+[M1-1] i1 x1
+  - SSD latency figures: grade B as simulator results, not drive measurements.
+  + SSD latency figures: source-reported simulator results (SSDsim output fed with device-level equivalent latency through a lookup table; not reproduced here, input tables and workload details not seen), grade C; not drive measurements.
+[M1-1] i1 x1
+  - 근거 등급 B: 동료심사된 실측이며
+  + 근거 등급 B(chip 측정에 한함; SSDsim 결과는 simulator 출력으로 등급 C): 동료심사된 실측이며
+[M1-1] i1 x1
+  - Evidence grade B: peer-reviewed measurement read twice,
+  + Evidence grade B (chip measurements only; the SSDsim results are simulator output, grade C): peer-reviewed measurement read twice,
+[M1-1] i1 x1
+  - 적합 R<sup>2</sup>와 불확도가 본문에 없습니다).</p>
+  + 적합 R<sup>2</sup>와 불확도가 본문에 없습니다. SSDsim 응답 시간 수치는 simulator 출력이므로 등급 C입니다).</p>
+[M1-1] i1 x1
+  - fitted R<sup>2</sup> and uncertainties are not in the text).</p>
+  + fitted R<sup>2</sup> and uncertainties are not in the text; the SSDsim response-time figures are simulator output and are grade C).</p>
+[M-H-1] report_head x1
+  - 보상 효과(재현하지 않았고 표본 수와 불확도가 본문에 없음), 그리고 simulator 결과로서의 SSD 지연 수치(실제 drive 측정이 아님)에 한정됩니다.
+  + 보상 효과(재현하지 않았고 표본 수와 불확도가 본문에 없음)에 한정됩니다. 항목 1의 SSD 지연 수치는 simulator 결과(실제 drive 측정이 아님)이므로 등급 C입니다.
+[M-H-1] report_head x1
+  - (not reproduced; no sample sizes or uncertainties in the text) and to the SSD latency figures as simulator results (not drive measurements).
+  + (not reproduced; no sample sizes or uncertainties in the text). Item 1's SSD latency figures are simulator results (not drive measurements) and are grade C.
+[m1-3] i1 x1
+  - 일관된 경향을 보였다고 쓰며, 데이터는 제시되지 않았습니다.
+  + 일관된 경향을 보였다고 쓰며, 본문과 캡션에는 데이터가 없습니다(그림은 읽지 않음).
+[m1-3] i1 x1
+  - show consistent cross-temperature trends; no data are shown.
+  + show consistent cross-temperature trends; no data are given in the text or captions (figures not read).
+[m1-4] i1 x1
+  - SymPy 1.14.0으로 수행했으며 script와 출력은 작업 노트에 보관했습니다.
+  + SymPy 1.14.0으로 수행했습니다.
+[m1-4] i1 x1
+  - used SymPy 1.14.0; the script and output are kept in the working notes.
+  + used SymPy 1.14.0.
+[m1-6] i1 x1
+  - a linear-in-ΔT engineering model with P/E, state and layer terms, not a mechanism test</h2>
+  + the authors' linear-in-ΔT engineering model with P/E, state and layer terms (ΔT-only dependence not shown), not a mechanism test</h2>
+[M2-1] i2 x1
+  - <p lang="ko">Charge-trap 3D NAND는 고전계 FN 동작 때문에 신뢰성, 전력, 수직 scaling에서 한계에 이르렀고, WL pitch 축소가 inter-WL 절연막 파괴와 cell 간 간섭을 심화시킨다(인용 진술). 저자 해석(AUTHOR_INTERPRETATION): ferroelectric 분극과 charge trapping을 결합한 hybrid FeNAND가 저전압 동작과 1,000층 이상의 적층
+  + <p lang="ko">Charge-trap 3D NAND는 신뢰성, 전력, 수직 scaling에서 한계에 이르렀고, WL pitch 축소가 inter-WL 절연막 파괴와 cell 간 간섭을 심화시킵니다(인용 진술). 저자 해석(AUTHOR_INTERPRETATION): 그 물리적 병목은 고전계 FN 동작이며, ferroelectric 분극과 charge trapping을 결합한 hybrid FeNAND가 저전압 동작과 1,0
+[M2-1] i2 x1
+  - <p lang="en">Charge-trap 3D NAND has reached limits in reliability, power and vertical scaling because of high-field FN operation, and WL-pitch shrinkage intensifies inter-WL dielectric breakdown and cell-to-cell interference (cited stateme
+  + <p lang="en">Charge-trap 3D NAND has reached limits in reliability, power and vertical scaling, and WL-pitch shrinkage intensifies inter-WL dielectric breakdown and cell-to-cell interference (cited statement). Authors' interpretation (AUTHO
+[M2-3] i2 x1
+  - carrier 종류 서술 차이; 일부 인용과 진술의 제목 수준 불일치(모두 읽으며 관찰, 저자 미확인).
+  + carrier 종류 서술 차이(모두 읽으며 관찰, 저자 미확인).
+[M2-3] i2 x1
+  - ; title-level mismatches between some citations and statements (all observed on reading
+  +  (all observed on reading
+[m2-4] i2 x1
+  - IL 안쪽 면과 GBL 바깥 면의 전계 비는 GAA(IL 안쪽)에서
+  + IL이 닿는 stack 경계 면의 전계와 GBL이 닿는 stack 경계 면의 전계의 비(GAA에서는 IL 쪽 면이 r<sub>a</sub>, GBL 쪽 면이 r<sub>b</sub>이고 CAA에서는 그 반대)는 GAA(IL 안쪽)에서
+[m2-4] i2 x1
+  - the field ratio between the inner face of the IL and the outer face of the GBL is
+  + the ratio of the field at the stack boundary on the IL side to the field at the stack boundary on the GBL side (in GAA the IL side is r<sub>a</sub> and the GBL side r<sub>b</sub>; in CAA the reverse) is
+[m2-5] i2 x1
+  - 같은 식은 생산 charge-trap VNAND에서 channel 쪽 tunnel oxide 전계가 blocking oxide보다 커지는 이유이기도 합니다.
+  + 같은 식은 생산 charge-trap VNAND에서 channel 쪽 tunnel oxide 전계가 blocking oxide보다 커지는 이유 가운데 곡률 기여에 해당합니다(층 두께와 유전율 비도 기여합니다).
+[m2-5] i2 x1
+  - The same relation is why the channel-side tunnel-oxide field exceeds the blocking-oxide field in production charge-trap VNAND.
+  + The same relation is a curvature contribution to why the channel-side tunnel-oxide field exceeds the blocking-oxide field in production charge-trap VNAND (layer thickness and permittivity ratios also contribute).
+[m2-6] i2 x1
+  - 고온에서 수소 확산이 빨라져 심해진다고 씁니다. (h)
+  + 고온에서 수소 확산이 빨라져 심해진다고 씁니다(원문은 이 단락에 [90]과 [80]을 인용하므로 문헌 인용 진술에 가깝지만, 이 보고서는 보수적으로 저자 해석으로 둡니다). (h)
+[m2-6] i2 x1
+  - worsen at high temperature through faster hydrogen diffusion. (h)
+  + worsen at high temperature through faster hydrogen diffusion (the source cites [90] and [80] in this passage, so this is close to a literature-cited statement; this report conservatively keeps it as the authors' interpretation). (h)
+[m3-1] i3 x1
+  - because several read iterations are needed to complete one host read.
+  + because multiple read iterations are required to complete one host read.
+[m3-2] i3 x1
+  - (ii-a) 한 age에서 block 사이 offset이 같다, (ii-b) offset이 age, cycle, 온도에 따라 변하지 않는다.
+  + (ii-a) 한 age에서 block 사이 offset이 같다는 것과 (ii-b) offset이 age, cycle, 온도에 따라 변하지 않는다는 것입니다.
+[M-T-2] report_tail x1
+  - 한 data age에서는 block 사이에서 같지만(ii-a), data age에 따라 변하며(ii-b) hole 반경이
+  + 한 data age에서는 block 사이에서 같지만(ii-a), data age에 따라서는 일정하지 않으며((ii-b)의 부정) hole 반경이
+[M-T-2] report_tail x1
+  - equal across blocks at one data age (ii-a) but changes with data age (ii-b), faster
+  + equal across blocks at one data age (ii-a) but not constant in data age (the negation of (ii-b)), faster
+[m-T-4] report_tail x2
+  - Model-Based Read-Reference-Voltage Compensation for Cross-Temperature Reliability in 3D TLC NAND Flash Memory.
+  + Model-based read-reference-voltage compensation for cross-temperature reliability in 3D TLC NAND flash memory.
+[m-T-5] report_tail x1
+  - program 상태 휴지에서 양의 부호가 나타나며, 반경 분할이 있으면 반경이 작을수록 그 효과가 큽니다.</p>
+  + program 상태 휴지에서 양의 부호가 나타나며(program 상태에서는 저장 전자가 휴지 중에도 tunnel 층에 자기 field를 유지해 휴지가 stress 구간으로 작용할 수 있다는 가정), 반경 분할이 있으면 반경이 작을수록 그 효과가 큽니다(항목 3의 G(x), 즉 같은 저장 전하에서 동축 tunnel 층 field와 planar field의 비가 반경이 작을수록 큼).</p>
+[m-T-5] report_tail x1
+  - being positive for rest in the programmed state, and with radius splits the effect is larger at smaller radius.</p>
+  + being positive for rest in the programmed state (on the assumption that in the programmed state the stored electrons keep a self-field across the tunnel layer during rest, so that the rest can act as a stress interval), and with radius spli
+[m-T-5] report_tail x1
+  - 저장 상태에 무관하면 stress 구간 해석을 그 cell에서 기각합니다(공존하는 stress 성분까지 배제하지는 않음).
+  + 저장 상태에 무관하면 stress 구간 해석을 그 cell에서 기각합니다(공존하는 stress 성분까지 배제하지는 않음). 반경 분할에서 효과의 크기가 반경과 무관하거나 반경이 클수록 크면 G(x)를 통한 반경 연결을 기각합니다.
+[m-T-5] report_tail x1
+  - and does not depend on the stored state (a coexisting stress component is not excluded by this).
+  + and does not depend on the stored state (a coexisting stress component is not excluded by this). If, with radius splits, the size of the effect does not depend on radius or is larger at larger radius, the radius link through G(x) is rejecte
+[m-H-2] report_head x1
+  - 독립 물리 검수는 아직 수행하지 않았습니다(PENDING).
+  + 독립 물리 검수를 수행했습니다. 첫 검수에서 항목 1, 2, 3, 5는 PASS-WITH-FIXES, 항목 4는 FAIL(수치 크기 오류 한 건과 부호 비교를 잘못 서술한 문구, 현재 수정됨)로 판정되었고, 지적 사항은 반영했으며 재검수는 PENDING입니다.
+[m-H-2] report_head x1
+  - An independent physics review has not yet been performed (PENDING).
+  + An independent physics review was PERFORMED. On the first pass items 1, 2, 3 and 5 were PASS-WITH-FIXES and item 4 was FAIL (one numerical-magnitude error and wording that misstated a sign comparison, now corrected); the fixes have been app
+[m-H-3] report_head x1
+  - full-text single-source analysis (items 1, 2, 4, 5) + abstract brief (item 3)
+  + full-text analysis, one source per item (items 1, 2, 4, 5) + abstract brief (item 3)
+[m-H-3] report_tail x1
+  - single-source full-text analysis (items 1, 2, 4, 5); abstract brief (item 3)
+  + full-text analysis, one source per item (items 1, 2, 4, 5); abstract brief (item 3)
+[m-H-2] report_tail x1
+  - <span class="pending">PENDING: not performed</span>
+  + <span class="pending">PERFORMED: first-pass verdicts PASS-WITH-FIXES for items 1, 2, 3 and 5, FAIL for item 4 (one numerical-magnitude error and wording that misstated a sign comparison, now corrected; the report-level summary repeated both
+[m-H-2] report_tail x1
+  - Self-check only: each item states that it used values agreeing in both reads (items 1, 2, 4, 5) or present in the abstract (item 3); independent check PENDING
+  + Each item states that it used values agreeing in both reads (items 1, 2, 4, 5) or present in the abstract (item 3); the physics review compared the values with the source text and found one magnitude error (item 4, corrected); re-check PEND
+[m-H-2] report_tail x1
+  - Applied in each item; independent review PENDING
+  + Applied in each item; the physics review found label and grade shifts in items 1, 2 and 4 (corrected); re-check PENDING
+[U-1] report_tail x1
+  - arXiv records for items 2, 4 and 5 matched via the arXiv API and DataCite (2026-10-26)
+  + arXiv records for items 2, 4 and 5 matched via the arXiv API and DataCite (2026-10-26); in the physics review the arXiv API was rate-limited, and the match was re-confirmed from the arXiv abstract pages and DataCite
+[X-obs] report_tail x1
+  - <div class="label">Observed on reading · summarized from items 1, 2, 4, 5 · not confirmed by the authors</div>
+  + <div class="label">Observed on reading, not confirmed by the authors (not a source claim) · summary of items 1, 2, 4, 5</div>
+[L-1] i2 x2
+  - {V<sub>S1</sub>, V<sub>S2</sub>}
+  + {V<sub>PS1</sub>, V<sub>PS2</sub>}
+[X-labels] report_head x1
+  - 쓰는 곳마다 단위를 적었습니다.</p>
+  + 쓰는 곳마다 단위를 적었습니다. 번호 붙은 라벨도 항목 안에서만 쓰이며 항목마다 다른 머리글자를 씁니다. 항목 1은 산술 확인 N1–N2, 기호 유도 J1–J4, DOE arm A0와 A–E, 경쟁 메커니즘 M1–M7을, 항목 2는 checklist C1–C11을, 항목 5는 유도 K1–K5, 가교 단계 BR1–BR6, 시험 구조 1–4, 기각 기준 R1–R6을 씁니다. 이 라벨들은 근거 등급 A–D와 관계가 없습니다.</p>
+[X-labels] report_head x1
+  - and units are stated at each use.</p>
+  + and units are stated at each use. Numbered labels are also used only within an item, with a distinct prefix per item: item 1 uses arithmetic checks N1–N2, symbolic derivations J1–J4, DOE arms A0 and A–E and competing mechanisms M1–M7; item 
+[X-box] i3 x1
+  - </h2>
+
+<div class="sourcebox"><div class="label">Source / citation (abstract only)</div>
+  + </h2>
+
+<div class="boundary"><div class="label">new_this_week · journal article (Eng, MDPI) · abstract only</div>
+<p lang="ko">이 논문은 Crossref 기준 2026-10-15에 온라인 게재되었으며(published-online·issued, CC BY 4.0 license 시작일도 같은 날), 이번 주 window(2026-
+[M2-2] i2 x1
+  - 같은 쪽에서 저자들이 가장 유망하다고 꼽은 gate-side injection FeNAND의 endurance를
+  + 같은 쪽에서 이 절이 다루는 gate-side injection FeNAND의 endurance를
+[U-1] report_tail x1
+  - 항목 3은 출판사 페이지가 HTTP 403을 반환해 Crossref 초록까지만 확인했습니다.</p>
+  + 항목 3은 출판사 페이지가 HTTP 403을 반환해 Crossref 초록까지만 확인했습니다. 독립 물리 검수에서는 arXiv API가 요청 제한으로 응답하지 않아, 항목 2, 4, 5의 일치를 arXiv 초록 페이지와 DataCite로 다시 확인했습니다.</p>
+[U-1] report_tail x1
+  - so access was confirmed only to the Crossref abstract.</p>
+  + so access was confirmed only to the Crossref abstract. In the physics review the arXiv API was rate-limited, so the match for items 2, 4 and 5 was re-confirmed from the arXiv abstract pages and DataCite.</p>
+[X-notes] i4 x1
+  - and as observation (2) notes, it does not match
+  + and as observation (2) states, it does not match
+[X-notes] report_tail x1
+  - As item 3's framework [4] already notes, however,
+  + As item 3's framework [4] already points out, however,
+[M2-3] i2 x1
+  - (4) <b>인용 대응.</b> 참고문헌 목록의 제목 기준으로 보면, charge-trap flash의 10<sup>3</sup>–10<sup>4</sup> cycle 진술에 붙은 refs 67, 68, 79는 FeFET/FeNAND 논문 제목이고 ref 39는 flash의 negative capacitance 논문 제목입니다. Poly-Si가 3 nm 아래에서 나빠진다는 진술에 붙은 ref 110은 원자층 증착 indium 
+  + (4) <b>950 °C.</b>
+[M2-3] regex '\\(4\\) <b>인용 대응\\.</b>.*?\\(5\\) <b>950 °C\\.</b>' total 1
+[M2-3] i2 x1
+  - (4) <b>Citation mapping.</b> By reference-list titles: refs 67, 68 and 79 attached to the 10<sup>3</sup>–10<sup>4</sup> cycle statement for charge-trap flash are FeFET/FeNAND papers, and ref 39 is a negative-capacitance-in-flash paper; ref 
+  + (4) <b>950 °C.</b>
+[M2-3] regex '\\(4\\) <b>Citation mapping\\.</b>.*?\\(5\\) <b>950 °C\\.</b>' total 1
+[M2-3] report_tail x1
+  -  (4) 일부 인용 번호와 진술의 대응은 참고문헌 제목만으로 확인할 수 없었으며, 원문을 읽지 않았으므로 인용이 진술을 뒷받침하지 않는다고 결론짓지 않았습니다. (5) poly-Si
+  +  (4) poly-Si
+[M2-3] regex ' \\(4\\) 일부 인용 번호와 진술의 대응은.*?않았습니다\\. \\(5\\) poly-Si' total 1
+[M2-3] report_tail x1
+  -  (4) For some citation numbers, the match between citation and statement could not be confirmed from reference-list titles alone; the originals were not read, so no conclusion was drawn that those citations fail to support the statements. (
+  +  (4) Whether
+[M2-3] regex ' \\(4\\) For some citation numbers.*?statements\\. \\(5\\) Whether' total 1
+[M1-2] i1 x1
+  - <b>이미 알려진 것(배경, 등급 C: 이번 호에서 1차 문헌을 재확인하지 않음).</b> poly-Si channel의 온도 의존 전류와 그에 따른 V<sub>th</sub> 이동, 2D와 3D 배열의 온도 효과 비교, string 전류의 온도 활성화와 산포, 2D·3D NAND에서 program과 read의 cross-temperature 효과, dynamic V<sub>th</sub> tracking, cell 간 cro
+  + <b>이미 알려진 것(원문 서론이 인용 문헌으로 제시하는 맥락, 등급 C: 이번 호에서 인용 문헌 원문을 재확인하지 않음).</b> 채널 전류가 온도에 따라 변해 같은 cell의 V<sub>th</sub>가 동작 온도에 따라 이동한다는 점([7]–[10]), 온칩 온도 보상 회로([12]–[16]), lookup table이나 예측 모델을 쓰는 알고리즘 수준 read 전압 조정([6], [17]–[20])은 원문 서론이 선행 
+[M1-2] regex '<b>이미 알려진 것\\(배경, 등급 C: 이번 호에서 1차 문헌을 재확인하지 않음\\)\\.</b>.*?\\(제목 기준\\)\\. ' total 1
+[M1-2] i1 x1
+  - <b>Known (background, grade C: primary literature not re-checked this week).</b> Temperature-dependent current in poly-Si channels and the resulting V<sub>th</sub> shift, comparisons of temperature effects in 2D and 3D arrays, temperature a
+  + <b>Known (context the source's introduction attributes to cited work; grade C: the cited originals were not re-checked this week).</b> That channel current varies with temperature so that the V<sub>th</sub> of the same cell shifts with oper
+[M1-2] regex '<b>Known \\(background, grade C: primary literature not re-checked this week\\)\\.</b>.*?\\(by title\\)\\. ' total 1
+[m1-5] i1 x1
+  - C2
+  + N2
+[m1-5] i1 x1
+  - C2
+  + N2
+[m1-5] i1 x1
+  - C1
+  + N1
+[m1-5] i1 x1
+  - C2
+  + N2
+[m1-5] i1 x1
+  - C1
+  + N1
+[m1-5] i1 x1
+  - C2
+  + N2
+[m1-5] regex '(?<![A-Za-z0-9])C([12])(?![0-9])' total 8
+[m1-5] i1 x1
+  - D1
+  + J1
+[m1-5] i1 x1
+  - D4
+  + J4
+[m1-5] i1 x1
+  - D1
+  + J1
+[m1-5] i1 x1
+  - D4
+  + J4
+[m1-5] i1 x1
+  - D1
+  + J1
+[m1-5] i1 x1
+  - D2
+  + J2
+[m1-5] regex '(?<![A-Za-z0-9])D([1-4])(?![0-9])' total 28
+[m1-5] report_tail x1
+  - 항목 1 유도 D1
+  + 항목 1 유도 J1
+[m1-5] report_tail x1
+  - Item 1 derivation D1
+  + Item 1 derivation J1
+[m1-5] report_tail x1
+  - 항목 1 D2
+  + 항목 1 J2
+[m1-5] report_tail x1
+  - Item 1 D2
+  + Item 1 J2
+[m1-5] regex '(항목 1 유도 |Item 1 derivation |항목 1 |Item 1 )D([12])(?![0-9])' total 4
+[m5-4] i5 x1
+  - D1
+  + K1
+[m5-4] i5 x1
+  - D2
+  + K2
+[m5-4] i5 x1
+  - D1
+  + K1
+[m5-4] i5 x1
+  - D2
+  + K2
+[m5-4] i5 x1
+  - D1
+  + K1
+[m5-4] i5 x1
+  - D2
+  + K2
+[m5-4] regex '(?<![A-Za-z0-9])D([1-7])(?![0-9])' total 24
+[m5-4] i5 x1
+  - B1
+  + BR1
+[m5-4] i5 x1
+  - B2
+  + BR2
+[m5-4] i5 x1
+  - B3
+  + BR3
+[m5-4] i5 x1
+  - B4
+  + BR4
+[m5-4] i5 x1
+  - B5
+  + BR5
+[m5-4] i5 x1
+  - B6
+  + BR6
+[m5-4] report_tail x1
+  - B1
+  + BR1
+[m5-4] report_tail x1
+  - B2
+  + BR2
+[m5-4] report_tail x1
+  - B3
+  + BR3
+[m5-4] report_tail x1
+  - B4
+  + BR4
+[m5-4] report_tail x1
+  - B5
+  + BR5
+[m5-4] report_tail x1
+  - B6
+  + BR6
+[m5-4] regex '(?<![A-Za-z0-9])B([1-6])(?![0-9])' total 30
+[X-F] i5 x1
+  - F1
+  + R1
+[X-F] i5 x1
+  - F2
+  + R2
+[X-F] i5 x1
+  - F3
+  + R3
+[X-F] i5 x1
+  - F4
+  + R4
+[X-F] i5 x1
+  - F5
+  + R5
+[X-F] i5 x1
+  - F6
+  + R6
+[X-F] report_tail x1
+  - F1
+  + R1
+[X-F] report_tail x1
+  - F4
+  + R4
+[X-F] report_tail x1
+  - F1
+  + R1
+[X-F] report_tail x1
+  - F4
+  + R4
+[X-F] report_tail x1
+  - F1
+  + R1
+[X-F] report_tail x1
+  - F4
+  + R4
+[X-F] regex '(?<![A-Za-z0-9])F([1-6])(?![0-9])' total 18
+[L-1] i4 x1
+  - Supporting Information S1–S4, Tables S1–S3
+  + Supporting Information Sections 1–4, Supplementary Tables 1–3
+[L-1] regex 'Supporting Information S1–S4, Tables S1–S3' total 1
+[L-1] i4 x1
+  - Supporting Information S1–S4, Table S1–S3
+  + Supporting Information 1–4절, Supplementary Tables 1–3
+[L-1] regex 'Supporting Information S1–S4, Table S1–S3' total 1
+[L-1] i4 x1
+  - (S4 유도, Table S2–S3)
+  + (Supporting Information 4절의 유도, Supplementary Tables 2–3)
+[L-1] regex '\\(S4 유도, Table S2–S3\\)' total 1
+[L-1] i4 x1
+  - (S4 derivation, Tables S2–S3)
+  + (Supporting Information Section 4 derivation, Supplementary Tables 2–3)
+[L-1] regex '\\(S4 derivation, Tables S2–S3\\)' total 1
+[L-1] i4 x1
+  - 그림 1–5와 S1–S2의 이미지
+  + 그림 1–5와 보충 그림 1–2의 이미지
+[L-1] regex '그림 1–5와 S1–S2의 이미지' total 1
+[L-1] i4 x1
+  - (Figs. 1–5, S1–S2)
+  + (Figs. 1–5 and Supplementary Figs. 1–2)
+[L-1] regex '\\(Figs\\. 1–5, S1–S2\\)' total 1
+[L-1] i4 x1
+  - SI S2–S4, Tables S1–S3
+  + Supporting Information Sections 2–4, Supplementary Tables 1–3
+[L-1] regex 'SI S2–S4, Tables S1–S3' total 1
+[L-1] i4 x1
+  - SI S2–S4, Table S1–S3
+  + Supporting Information 2–4절, Supplementary Tables 1–3
+[L-1] regex 'SI S2–S4, Table S1–S3' total 1
+[L-1] i4 x1
+  - Source, Sec. S4 in words
+  + Source, Supporting Information Section 4 in words
+[L-1] regex 'Source, Sec\\. S4 in words' total 1
+[L-1] i4 x1
+  - 원문 S4의
+  + 원문 Supporting Information 4절의
+[L-1] i4 x1
+  - 원문 S4의
+  + 원문 Supporting Information 4절의
+[L-1] regex '원문 S4의' total 2
+[L-1] i4 x1
+  - the S4 description
+  + the Supporting Information Section 4 description
+[L-1] i4 x1
+  - the S4 statement
+  + the Supporting Information Section 4 statement
+[L-1] regex 'the S4 (description|statement)' total 2
+[L-1] report_tail x1
+  - 보충자료 S1–S4
+  + 보충자료 1–4절
+[L-1] regex '보충자료 S1–S4' total 1
+[L-1] report_tail x1
+  - Supporting Information S1–S4
+  + Supporting Information Sections 1–4
+[L-1] regex 'Supporting Information S1–S4' total 1
+[L-1] i4 x1
+  - Table S2–S3
+  + Supplementary Tables 2–3
+[L-1] i4 x1
+  - Table S2–S3
+  + Supplementary Tables 2–3
+[L-1] i4 x1
+  - Tables S2–S3
+  + Supplementary Tables 2–3
+[L-1] i4 x1
+  - Table S2–S3
+  + Supplementary Tables 2–3
+[L-1] i4 x1
+  - Table S2–S3
+  + Supplementary Tables 2–3
+[L-1] i4 x1
+  - Table S2–S3
+  + Supplementary Tables 2–3
+[L-1] report_tail x1
+  - Table S2–S3
+  + Supplementary Tables 2–3
+[L-1] report_tail x1
+  - Tables S2–S3
+  + Supplementary Tables 2–3
+[L-1] regex 'Tables? S(\\d)–S(\\d)' total 8
+[L-1] i4 x1
+  - Table S1
+  + Supplementary Table 1
+[L-1] i4 x1
+  - Table S3
+  + Supplementary Table 3
+[L-1] i4 x1
+  - Table S1
+  + Supplementary Table 1
+[L-1] i4 x1
+  - Table S3
+  + Supplementary Table 3
+[L-1] i4 x1
+  - Table S2
+  + Supplementary Table 2
+[L-1] i4 x1
+  - Table S3
+  + Supplementary Table 3
+[L-1] report_tail x1
+  - Table S3
+  + Supplementary Table 3
+[L-1] report_tail x1
+  - Table S3
+  + Supplementary Table 3
+[L-1] regex 'Table S(\\d)' total 28
+[L-1] i4 x1
+  - 그림 S2
+  + 보충 그림 2
+[L-1] i4 x1
+  - 그림 S2
+  + 보충 그림 2
+[L-1] i4 x1
+  - 그림 S2
+  + 보충 그림 2
+[L-1] regex '그림 S(\\d)' total 3
+[L-1] i4 x1
+  - Fig. S2
+  + Supplementary Fig. 2
+[L-1] i4 x1
+  - Fig. S2
+  + Supplementary Fig. 2
+[L-1] i4 x1
+  - Fig. S2
+  + Supplementary Fig. 2
+[L-1] regex 'Fig\\. S(\\d)' total 3
+[L-1] i4 x1
+  - 식 S10
+  + 보충 식 (10)
+[L-1] i4 x1
+  - 식 S32
+  + 보충 식 (32)
+[L-1] regex '식 S(\\d+)' total 2
+[L-1] i4 x1
+  - Eq. S10
+  + Supplementary Eq. (10)
+[L-1] i4 x1
+  - Eq. S32
+  + Supplementary Eq. (32)
+[L-1] regex 'Eq\\. S(\\d+)' total 2
+[L-1] i4 x1
+  - (S24)–(S36)
+  + Supplementary Eqs. (24)–(36)
+[L-1] i4 x1
+  - (S24)–(S36)
+  + Supplementary Eqs. (24)–(36)
+[L-1] i4 x1
+  - (S24)–(S36)
+  + Supplementary Eqs. (24)–(36)
+[L-1] i4 x1
+  - (S24)–(S36)
+  + Supplementary Eqs. (24)–(36)
+[L-1] report_head x1
+  - (S24)–(S36)
+  + Supplementary Eqs. (24)–(36)
+[L-1] report_head x1
+  - (S24)–(S36)
+  + Supplementary Eqs. (24)–(36)
+[L-1] report_tail x1
+  - (S24)–(S36)
+  + Supplementary Eqs. (24)–(36)
+[L-1] report_tail x1
+  - (S24)–(S36)
+  + Supplementary Eqs. (24)–(36)
+[L-1] regex '(?:Eqs\\. )?\\(S(\\d+)\\)–\\(S(\\d+)\\)' total 8
+[L-1] i4 x1
+  - Eq. (S32)
+  + Supplementary Eq. (32)
+[L-1] i4 x1
+  - Eq. (S33)
+  + Supplementary Eq. (33)
+[L-1] i4 x1
+  - Eq. (S34)
+  + Supplementary Eq. (34)
+[L-1] i4 x1
+  - Eq. (S10)
+  + Supplementary Eq. (10)
+[L-1] regex 'Eq\\. \\(S(\\d+)\\)' total 4
+[L-1] regex '(?<![A-Za-z0-9])\\(S(\\d+)\\)' total 0
+[X-sympy] i4 x1
+  - sympy
+  + SymPy
+[X-sympy] i4 x1
+  - sympy
+  + SymPy
+[X-sympy] i4 x1
+  - sympy
+  + SymPy
+[X-sympy] i4 x1
+  - sympy
+  + SymPy
+[X-sympy] i4 x1
+  - sympy
+  + SymPy
+[X-sympy] i4 x1
+  - sympy
+  + SymPy
+[X-sympy] regex '\\bsympy\\b' total 22
+[m5-2] i5 x1
+  - <b>시험 구조.</b> (S1) 원문 재현용 AOS CSC 소자(대조군), (S2) 평판 poly-Si 박막 MOS 구조: n<sup>+</sup> 도핑 S/D("화학적" 전도 영역)와, 추가 gate로 만든 "전기적" 전도 영역의 두 변형, (S3) 같은 공정의 수직 poly-Si channel 배열: N<sub>h</sub>개 channel hole을
+  + <b>시험 구조.</b> (구조 1) 원문 재현용 AOS CSC 소자(대조군), (구조 2) 평판 poly-Si 박막 MOS 구조: n<sup>+</sup> 도핑 S/D("화학적" 전도 영역)와, 추가 gate로 만든 "전기적" 전도 영역의 두 변형, (구조 3) 같은 공정의 수직 poly-Si channel 배열: N<sub>h</sub>개 channel
+[m5-2] i5 x1
+  - <b>Test structures.</b> (S1) An AOS CSC device reproducing the paper (control); (S2) a planar poly-Si thin-film MOS structure in two variants, with n<sup>+</sup>-doped S/D ("chemical" conductive regio
+  + <b>Test structures.</b> (Structure 1) An AOS CSC device reproducing the paper (control); (Structure 2) a planar poly-Si thin-film MOS structure in two variants, with n<sup>+</sup>-doped S/D ("chemical
+[m5-2] i5 x1
+  - <b>예상 signature와 기각 기준.</b> (R1, RC 대 trap) Trap peak라면 f<sub>peak</sub>는 L과 V<sub>pass</sub>에 무관하고, RC peak라면 f<sub>peak</sub> ∝ 1/(R<sub>sh</sub>·C<sub>ox</sub>·L²)입니다(R<sub>sh</sub>는 channel 면저항, C
+  + <b>예상 signature와 기각 기준.</b> (R1, RC 대 trap) Trap peak라면 f<sub>peak</sub>는 L과 V<sub>pass</sub>에 무관하고, RC peak라면 f<sub>peak</sub> ∝ 1/(R<sub>sh</sub>·C<sub>ox</sub>·L²)입니다(R<sub>sh</sub>는 channel 면저항, C
+[m5-2] i5 x1
+  - <b>Expected signatures and falsification criteria.</b> (R1, RC vs trap) A trap peak has f<sub>peak</sub> independent of L and V<sub>pass</sub>; an RC peak follows f<sub>peak</sub> ∝ 1/(R<sub>sh</sub>·
+  + <b>Expected signatures and falsification criteria.</b> (R1, RC vs trap) A trap peak has f<sub>peak</sub> independent of L and V<sub>pass</sub>; an RC peak follows f<sub>peak</sub> ∝ 1/(R<sub>sh</sub>·

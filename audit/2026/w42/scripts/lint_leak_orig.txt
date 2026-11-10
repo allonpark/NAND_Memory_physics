@@ -1,0 +1,4 @@
+CHECK       WEEK      RESULT    DETAIL
+leak-check  2026-W42  FAIL      111 hit(s): source-id x111 (e.g. 'S1' line 250)
+
+SUMMARY: FAIL=1

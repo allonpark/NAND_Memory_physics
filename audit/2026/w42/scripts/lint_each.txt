@@ -1,0 +1,21 @@
+CHECK       WEEK      RESULT    DETAIL
+leak-check  2026-W42  PASS      no internal references found
+
+SUMMARY: PASS=1
+[leak-check exit 0]
+CHECK            WEEK      RESULT    DETAIL
+kr-en-adjacency  2026-W42  PASS      ko=366 en=366 ko_without_following_en=0 en_without_preceding_ko=0
+
+SUMMARY: PASS=1
+[kr-en-adjacency exit 0]
+CHECK       WEEK      RESULT    DETAIL
+vocabulary  2026-W42  PASS      349 label/grade token(s), all within vocabulary
+
+SUMMARY: PASS=1
+[vocabulary exit 0]
+CHECK          WEEK      RESULT    DETAIL
+doi-format     2026-W42  PASS      5 distinct DOI(s) well-formed
+doi-duplicate  2026-W42  PASS      no DOI shared with another week
+
+SUMMARY: PASS=2
+[doi-format exit 0]

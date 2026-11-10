@@ -1,0 +1,52 @@
+== 1. tag balance (assembled head+i1..i5+tail)
+   unclosed: []  mismatches: []  -> PASS
+== 2. classes not in assets/style.css: none -> PASS
+== 3. ko->en adjacency (all <p lang>)
+   ko=366 en=366 ko_without_en=0 orphan_en=0 -> PASS
+== 4. card cells paired (13 rows per item, each value cell has ko and en)
+   i1: rows 13/13, paired 13/13 PASS
+   i2: rows 13/13, paired 13/13 PASS
+   i3: rows 13/13, paired 13/13 PASS
+   i4: rows 13/13, paired 13/13 PASS
+   i5: rows 13/13, paired 13/13 PASS
+== 5. anchors
+   unresolved: none  duplicate ids: none -> PASS
+== 6. forbidden strings (count per pattern, public HTML)
+   model names: 0 
+   internal ids S#/W42-S#: 0 
+   sources.yaml: 0 
+   file paths: 0 
+   word writer: 0 
+   notes: 0 
+   unpublished branch: 0 
+   per-item .qc: 0
+   lowercase sympy: 0 
+   old labels (i1 C1/C2, D1-D4; i5 D#/B#/F#): 0
+   non-scale grades: 0 
+   two decades vs lower bound: 0 
+   opposite sign (archive comparison): 0 
+   most promising: 0 
+   title-level mismatch: 1 [('i2', '제목 수준')]
+   tail qc blocks: 1 (report-level, expected 1)
+== 7. ASCII-token multiset diff vs _orig (per file)
+   [report_head] +169 -11
+     added  : .x4 1x8 2x4 24x2 3x2 36x2 4x4 5x4 Ax4 A0x2 BR1x2 BR6x2 C C. C1x2 C11x2 D D. DOEx2 Ex2 Eqs.x2 FAILx2 Item J1x2 J4x2 K1x2 K5x2 M1x2 M7x2 N1x2 N2x2 Numbered On PASS-WITH-FIXESx2 PENDING. PERFORMED. R1x2 R6 R6. Supplementaryx2 These ax3 also an andx7 applied arex4 arithmetic arm arms bridging checklistx2 checks comparison competing corrected criteria derivationsx2 distinct error evidence first fixes grade grades have is itemx7 items labelsx2 mechanisms misstated now numerical-magnitude onex2 only pass perx2 prefix re-check refutation s sign source steps structures symbolic test that thex2 unrelated used usesx3 wasx2 were with within wording
+     removed: PENDING S24x2 S36x2 as has not performed single-source yet
+   [i1] +157 -107
+     added  : .x2 1.14.0. 10x2 12x2 16x2 17x2 20x2 6x2 7x2 Cx6 J1x6 J2x8 J3x9 J4x5 N1x2 N2x6 SSDsimx6 T-only That adjustment algorithm-level arex2 attributes authors captions cell chipx2 circuits citedx2 compensation context dependence details device-level equivalent fed figuresx2 given gradex2 here input introductionx2 latency lookupx4 measurements models notx4 on-chip only operating orx2 originals outputx2 prediction presented read-voltage reproduced response-time results same seen shifts shown simulatorx4 so source source-reported tablex3 tablesx2 temperature text that thex6 through to varies were withx4 work. workloadx2
+     removed: 1 1.14.0 2Dx4 3Dx4 Bx2 C1x2 C2x6 D1x6 D2x8 D3x9 D4x5 NANDx2 Temperature-dependent Vx2 activation andx4 arrays background cell-to-cell channels comparisons cross-temperaturex4 current dynamicx2 effectsx2 inx4 kept list literature notes. ofx3 paper poly-Six2 primary programx2 reference resulting scriptx2 shift shown. stringx2 thx2 this title topics trackingx2 variabilityx2 working
+   [i2] +65 -163
+     added  : 80x2 CAAx2 GBLx2 ILx2 PS1x2 PS2x2 VNAND a also as atx2 bx2 bottleneck boundaryx2 cites close conservatively contribute contribution curvature diffusion discusses inx3 interpretation it keeps layer literature-cited on passage permittivity physical rx4 ratios report reverse section sidex4 source stackx4 thickness thisx4
+     removed: .x4 10x4 110x2 2x2 3x4 39x2 4x2 5x2 67x2 68x2 79x2 87x2 BTIx2 By Citation FETx2 FeFETx3 FeFETs FeNANDx2 GAAx2 HfOx2 OS OS-channel Poly-Si RAWDx2 S1x2 S2x2 The Vx2 VNAND. alone an and are atomic-layer-deposited attachedx4 because below betweenx2 bracketed cannot capacitance channel charge-trapx2 citationsx2 conclude confirm cyclex2 cylindrical degrading diffusion. do facex2 fail flashx3 for hetero-strainx2 imbalance indium indium-oxide inner is mapping.x2 mismatches most nanowirex2 negative negative-capacitance-in-flash nmx2 notx2 number ofx3 originals outer oxide p.24x2 paperx3 paper. papers poly-Si promising rate re-examining read refx6 reference-list refsx2 same some statementsx2 support supports thx2 that these title-level titlesx2 tox2 transistorx2 we were windowx2
+   [i3] +128 -4
+     added  : .x4 10-18x2 2026-10-12x2 2026-10-15x2 4.0x2 403x2 BYx2 CCx2 Crossrefx3 Crossref-deposited ENGINEERING_INFERENCE Eng HTTPx2 MDPI Thex2 This ax2 abstractx3 abstract. access according and are article as automated based below briefx2 bypassed cellx2 channelx2 coaxial day describe does expressions frameworkx2 geometry holex2 inside isx2 issuedx2 it item journal licensex2 model. multiple new new_this_weekx3 notx3 onx2 online onlyx2 page paperx2 published published-onlinex2 publisher radius report required result returned sx3 same sox3 stackx2 starts thex6 thisx4 tox3 treated wasx2 weekx2 windowx2
+     removed: Engineering inference needed several
+   [i4] +570 -143
+     added  : .x10 1x18 1.3x4 10x21 11x2 12x2 13x2 2x30 23x2 24x4 25x2 27x2 3x22 3.x2 32x3 33 34 36x4 4x15 5x8 A ENGINEERING_INFERENCEx3 Eqs.x4 Figs. HZOx6 Informationx9 Nx4 Sectionx4 Sectionsx2 SiCx6 Supplementaryx52 Supportingx9 SymPyx26 SymPy-checked Tablesx8 Thex3 UNKNOWNx4 W40x6 What ax8 aboutx4 above absorbed accounting acts andx8 asx6 assumption at authors basesx2 basis be below beneficial both bound but by cannot cause cmx4 coefficients coexist comparisonx4 corresponds count cyclex2 cyclingx2 de-trappingx4 decade decadesx2 defects delayx2 dependence differx2 diffusion diffusion-coefficient directionx2 doesx2 domainx2 domain-wallx2 duringx2 equalx3 explanation factorx2 frequency from gain generated give given harmful here hold.x2 however identified iiix2 inx10 increases infer inferencex3 into introduction is itx2 itemx6 its lengthens life lossx2 lowerx2 mx4 matches may netx2 numerical ofx8 onex2 orx2 oxygen pinningx4 presents proposed rangex2 ratex6 ratherx3 reads recoveryx3 redistributed reportx5 rolex2 roles sx14 same should shows sign-test sox2 source spanningx2 spans stack statedx2 states stressx2 taken test thanx3 that thex10 therefore thisx6 timex3 twox2 typically universal unverified upper vacancies velocities velocity vs wallx2 wall-clockx2 we with worse worse.
+     removed: Engineering S1x16 S10x3 S2x24 S24x4 S3x22 S3.x2 S32x3 S33 S34 S36x4 S4x11 SIx2 Sec. Tablex8 adds effects explain it. not notesx3 numeric recovery. rest showing sympyx24 sympy-checked to universal. used
+   [i5] +117 -83
+     added  : 1x6 1.14.0 1.3.0 2x6 3x6 4x4 BR1x2 BR2x2 BR3x2 BR4x6 BR5x2 BR6x2 Cx4 K1x6 K2x6 K3x2 K4x2 K5x8 Rx2 R1x2 R2x2 R3x2 R4x2 R5x2 R6x2 Structurex9 Structures agree and area capacitance channelx2 derivation gatex2 mpmath oxx4 per re-run resistance script shx4 sheet values with
+     removed: B1x2 B2x2 B3x2 B4x6 B5x2 B6x2 D1x6 D2x6 D3x2 D4x2 D5x6 F1x2 F2x2 F3x2 F4x2 F5x2 F6x2 Python S1x6 S2x6 S3x6 S4x4 environment for item library pinned standard the this unavailable was
+   [report_tail] +396 -96
+     added  : .x2 1x4 13x2 2x6 24x2 3x7 36x2 4x8 5x3 APIx3 BR1x2 BR2x2 BR3x2 BR4x4 BR5x2 BR6x2 DataCitex2 DataCite. Each Eqs.x2 FAIL Gx4 HZOx2 If In J1x2 J2x2 Model-basedx2 Nx2 PASS-WITH-FIXES PENDING PERFORMED R1x3 R4x3 Sections SiCx2 Supplementaryx6 SymPy Tables UNKNOWNx2 W40x2 ax8 aboutx3 abstractx2 accounting across act andx11 applied arXivx6 asx3 assumption at authors basesx2 below bothx2 bound but can cause charge cited claim coaxial compared comparisonx5 compensationx2 constant correctedx5 cross-temperaturex2 decade depend dependence differx2 direction doesx2 drift during effect electrons equal errorx3 factor fieldx4 first-pass fixes flashx2 forx4 foundx3 gain grade grows hold inx8 interpretation interval isx7 itemx8 items keep label largerx2 layer link loss lowerx2 magnitudex2 match memory.x2 misstated negation now numerical-magnitude ofx7 onx2 onex5 or out pagesx2 per physicsx5 planarx2 points program programmed radiusx6 ratex6 rate-limitedx2 ratio re-checkx4 re-confirmedx2 re-derived read-reference-voltagex2 rejected. reliabilityx2 repeated report report-level reported restx2 reviewx4 sx2 samex2 self-field shifts shrinks sign size sox2 sourcex3 splits state storedx2 stressx2 summaryx2 text thatx3 thex32 through time tunnelx3 tunnel-layer upper values verdicts vs wasx3 well withx2 wording worsex2 xx4
+     removed: B1x2 B2x2 B3x2 B4x4 B5x2 B6x2 Compensationx2 Cross-Temperaturex2 D1x2 D2x2 F1x3 F4x3 Flashx2 For Memory.x2 Model-Basedx2 Read-Reference-Voltagex2 Reliabilityx2 S1x2 S2x2 S24x2 S3x4 S36x2 S4x2 Self-check Table alone be between changes check citationx2 citations conclusion confirmed could drawn each effects explains fail independentx2 lifetime no notes numbers only opposite originals performed radius. re-run read reference-list single-source some stated statement statements. summarized support thosex2 titles were

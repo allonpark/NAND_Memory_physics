@@ -1,0 +1,372 @@
+# ERRATA (added 2026-11-10 after independent review; the published report does not repeat these manifest items):
+#  - evidence grades written in this manifest (e.g. 'B-', 'A-/B') are not on the project's A-D scale; the report uses A-D only.
+#  - arXiv announcement dates for items 4 and 5 are unconfirmed (only submission/DataCite dates were checked).
+#  - the S5-style supplementary labels of the sources are written 'Supplementary Table n / Supplementary Eq. (n)' in the report.
+# W42 (ISO 2026-W42, 2026-10-12 .. 2026-10-18, Asia/Seoul) source manifest DRAFT
+# Status: DRAFT in scratchpad only. Nothing was committed, pushed, or opened as a PR. Not PUBLISHED.
+# Search/verification date (discovery date): 2026-10-26 (this is NOT a publication date).
+# Evidence labels: SOURCE_REPORTED / AUTHOR_INTERPRETATION / ENGINEERING_INFERENCE / UNKNOWN / EXTRAPOLATION_ONLY
+# Read ranges are character offsets into the pdftotext -layout extraction cached in scratchpad/w42/_txt/ (figures NOT read as images).
+# No in-house confidential values were used anywhere. All queries used public keywords only.
+
+week: 2026-W42
+window: {start: 2026-10-12, end: 2026-10-18, tz: Asia/Seoul}
+search_date: 2026-10-26
+databases_queried:
+  - Crossref REST (journals/{ISSN}/works with from-pub-date/from-online-pub-date/from-created-date; works?query.title) 2026-10-26
+  - OpenAlex (title_and_abstract.search; from/to_publication_date) 2026-10-26 -> partly rate-limited (HTTP 429 after first batch; coverage incomplete = UNKNOWN)
+  - arXiv API (submittedDate range 2026-10-12..10-18, 18 keyword queries) 2026-10-26
+  - DataCite API (arXiv DOI metadata), Unpaywall (OA status), doi.org HEAD (resolution)
+coverage_limits:
+  - IEEE and Elsevier journals carry only an issue month in Crossref (e.g. 2026-10, 2026-11); online (early-access) day is not obtainable without IEEE Xplore/ScienceDirect, whose pages are JS or bot-blocked. They were NOT scraped. Items from those publishers therefore cannot be placed inside the window and were not selected (see rejected.md).
+  - MDPI, Wiley and IOP full-text pages returned HTTP 403 or abstract-only to automation; not bypassed.
+  - Elsevier DOIs: metadata path only (sciencedirect_lookup.py not run; no Elsevier item was selected, no API key set).
+window_finding_directness: >
+  In-window items that are (a) verifiable to the day, (b) readable, and (c) directly about charge-trap 3D NAND / poly-Si channel / GIDL / CTL retention are scarce.
+  Only ONE in-window source is 3D NAND direct (S3, abstract_only, system-level). Two archive_gap sources (S4, S5) are 3D NAND direct and full_text.
+  No in-window source directly about GIDL or CTL retention physics was found/readable. This is a search-coverage statement, not proof of absence.
+
+sources:
+
+- id: W42-S1
+  title: "Access Rate-Dependent Endurance Behavior of Ferroelectric Hafnium Zirconium Oxide Capacitors"
+  authors: [Roberto Guido, Julie Laguerre, Pramoda Vishnumurthy, Florian Wunderwald, Kristina Holsgrove, Thomas Mikolajick, Sou-Chi Chang, Alfred Kersch, Uwe Schroeder]
+  venue: "arXiv preprint (physics.app-ph per arXiv listing; not peer-reviewed as of 2026-10-26)"
+  doi: 10.48550/arXiv.2610.20154
+  url: https://arxiv.org/abs/2610.20154
+  publication_date: "2026-10-14 (arXiv v1 submitted 2026-10-14T13:11:11Z; DataCite 'Submitted')"
+  online_date: "2026-10-15 (DataCite registered 2026-10-15T02:54:24Z; arXiv listing date not separately confirmed -> UNKNOWN to the day)"
+  selection_class: new_this_week
+  source_access: full_text
+  access_basis: "arXiv PDF downloaded via curl; text extracted by pdftotext; open arXiv e-print, no paywall/login"
+  read_ranges: "chars 0-73233 of extraction (entire main text + Supporting Information S1-S4, Tables S1-S3). Figures 1-5 and S1-S2 NOT read as images (captions and surrounding text only)."
+  resolve_evidence:
+    - "doi.org HEAD 302 -> https://arxiv.org/abs/2610.20154 (2026-10-26)"
+    - "DataCite: title/authors match; Submitted 2026-10-14T13:11:11Z; Updated 2026-10-15T01:15:19Z"
+    - "arXiv Atom API id_list=2610.20154: published 2026-10-14T13:11:11Z; only v1"
+    - "Crossref: not applicable (arXiv DOIs are DataCite)"
+  facts:
+    - id: F1
+      label: SOURCE_REPORTED
+      location: "Sec 2 first paragraph, Fig 1"
+      text: "Capacitor stack = 5 nm Hf0.5Zr0.5O2 between 10 nm TiN electrodes (bottom electrode also 30 nm W; top contact W or Ti/Pt); ALD at 300 C, RTA 500 C in N2; area 1963 um^2 (Methods). Pr reached 19.3 uC/cm^2 after 2e6 bipolar cycles (Fig 1c), read by the authors as the switching fraction rising from about 50% to about 77% (AUTHOR_INTERPRETATION)."
+    - id: F2
+      label: SOURCE_REPORTED
+      location: "Fig 2 and text"
+      text: "Wake-up (merging of two switching-current peaks) completes after about 1e4 cycles regardless of delay time 200 ns - 200 us; extra switchable polarization saturates at 10-12 uC/cm^2 after 1e6 cycles; relative permittivity falls from 34 to 28.5 independent of delay. Authors conclude wake-up depends on field-on time, not on delay between pulses."
+    - id: F3
+      label: SOURCE_REPORTED
+      location: "Fig 3, Methods"
+      text: "Test at 2 ms delay after 1e6 wake-up cycles at 100 kHz, +-2 V, 5 us pulses: unipolar non-switching cycling shifts the switching-current peaks / coercive field (internal bias) but gives no 2Pr loss; bipolar switching cycling gives 2Pr loss without a peak shift. Authors conclude the loss is not explained by imprint alone."
+    - id: F4
+      label: AUTHOR_INTERPRETATION
+      location: "Fig 4, Sec 2 (pp. 9-13), Table S1"
+      text: "Proposed mechanism: oxygen-vacancy levels near the TiN electrode lose electrons, giving positively charged vacancies; ab initio (HSE06) puts neutral-V_O occupied levels about 2.0 eV (Zr-rich) vs about 2.85 eV (Hf-rich) below CBM, TiN conduction-band offset taken as 2.3 eV, ionization relaxation lifts the empty state by about 1.5 eV so electron recapture is effectively irreversible. Accumulated positive charge raises the local switching threshold so some domains stop nucleating. Drift-diffusion run used a fixed accumulated charge of 0.1 C/m^2."
+    - id: F5
+      label: SOURCE_REPORTED
+      location: "Eq. (1), Fig 5a, Tables S2-S3"
+      text: "A logarithmic charge-relaxation model (Eq. 1; derivation S4) fits 2Pr reduction vs cycle count for delay 200 ns - 2 ms at 25 C. Fitted crossover time tau0: 98.0 ns (2 ms), 157.1 ns (200 us), 330.1 ns (20 us) per Table S2; the authors state no reduction was seen for 200 ns and 2 us so those tau0 values are only indicative."
+    - id: F6
+      label: SOURCE_REPORTED
+      location: "Fig 5b inset, Table S3, p.15"
+      text: "At 2 ms delay, 25-135 C: tau0 = 111.0 / 79.3 / 61.8 / 58.1 / 53.0 ns at 25 / 55 / 85 / 105 / 135 C. Activation energy 0.09 eV (low-T region) falling to 0.04 eV above about 85 C; authors contrast this with 0.5-1.2 eV for V_O migration and read it as thermal electron de-trapping rather than defect migration (AUTHOR_INTERPRETATION)."
+    - id: F7
+      label: EXTRAPOLATION_ONLY
+      location: "Fig 5a inset"
+      text: "2Pr after 1e10 cycles vs access rate is obtained by extrapolating the fitted model, not by measurement; model validity is claimed only for T <= 135 C and delay <= 2 ms."
+  key_conditions: "Single capacitor stack; ferroelectric capacitor (not a transistor/cell); room temperature plus 25-135 C series; delay 200 ns-2 ms; cycling amplitude +-2 V; 5 us pulses; PUND readout 4.6 kHz."
+  why_it_fits: "Directly about cycling endurance vs retention-like (imprint) interplay and a physics-based lifetime extrapolation with Arrhenius-type activation energy and explicit validity range. Relevant method analogy for trap/defect charge-state kinetics in HfO2-based stacks; it supports the repo rule that extrapolation needs mechanism equivalence."
+  vnand_directness: "indirect. Hafnia FE capacitor (FeRAM-type), not a charge-trap NAND cell. Only linkage to NAND is via hybrid FeNAND concepts (see S5). Do not map numbers to VNAND."
+  extrapolation_warnings:
+    - "1e10-cycle result is a fit extrapolation; Ea of 0.04-0.09 eV is a fitting-model parameter of one stack."
+    - "Drift-diffusion model has no switching kinetics and is a simplification admitted by the authors (kinetic Monte Carlo suggested as more realistic)."
+    - "Preprint, unreviewed. Planar capacitor geometry; do not apply planar E=V/t to cylindrical coaxial NAND stacks."
+  evidence_grade: "B- (literature + same-domain mechanism, not NAND-domain); D if used for VNAND numbers"
+  overlap_check:
+    used_sources_md: "not listed (W40, W43 used; W44 reserved list does not include it)"
+    origin_main: "no DOI/arXiv-id match in reports/knowledge/audit except audit/2026/w43/rejected.md, where it is listed as 'reserve only' (never used)"
+    other_branches: "no match in reliability-w41, reliability-w43, weekly/2026-w40, weekly/2026-w43"
+    w41_conflict: "no (first submitted 2026-10-14)"
+  fulltext_notes: fulltext_notes_W42-S1.md
+
+- id: W42-S2
+  title: "Decoupling Trap States in Amorphous Oxide Semiconductor Transistor Using a Conductive-Semiconducting-Conductive MOS Structure"
+  authors: [Kai Chen, Wei Zhang, Xuanyao Fong, Shengman Li, Yunlong Li]
+  venue: "arXiv preprint (not peer-reviewed as of 2026-10-26)"
+  doi: 10.48550/arXiv.2610.16438
+  url: https://arxiv.org/abs/2610.16438
+  publication_date: "2026-10-12 (arXiv v1 submitted 2026-10-12T09:03:22Z)"
+  online_date: "2026-10-14 (DataCite registered 2026-10-14T07:07:31Z; announcement day not separately confirmed)"
+  selection_class: new_this_week
+  source_access: full_text
+  access_basis: "arXiv PDF via curl + pdftotext; open"
+  read_ranges: "chars 0-23584 (entire 4-page letter). Figs 1-10 NOT read as images (captions and text only)."
+  resolve_evidence:
+    - "doi.org HEAD 302 -> https://arxiv.org/abs/2610.16438 (2026-10-26)"
+    - "DataCite title/authors match; Submitted 2026-10-12T09:03:22Z; Updated 2026-10-14T02:11:11Z"
+    - "arXiv API: published 2026-10-12T09:03:22Z"
+  facts:
+    - id: F1
+      label: SOURCE_REPORTED
+      location: "Sec II, Fig 2"
+      text: "Test device = bottom-gate IGZTO TFT: 30 nm Ni gate on p+ Si with 100 nm SiO2, 6 nm ALD HfO2 (N2 anneal 400 C, 30 min), 4.5 nm sputtered IGZTO, Ni/W/Pt source-drain, final O2 anneal 400 C 1 h to oxygen-compensate the exposed channel while Pt-covered IGZTO stays conductive (the 'CSC' structure)."
+    - id: F2
+      label: SOURCE_REPORTED
+      location: "Sec III-A, Fig 3"
+      text: "Subthreshold swing about 63.6 mV/dec and hysteresis about 4.7 mV. Capacitance with drain floating is about half that with S/D shorted; nominal exposed channel area 400 um^2 and S/D overlap 900 um^2, effective channel area estimated about 600 um^2 and used for trap-density normalization."
+    - id: F3
+      label: SOURCE_REPORTED
+      location: "Sec III-B, Figs 4-5"
+      text: "A Gp/omega peak that moves with Vg tracks total conductance (peak frequency vs 1/R_total linear, Fig 4c-d), i.e. an RC artifact; low-frequency Gp/omega follows gate leakage (Fig 4b) and falls roughly as 1/f, negligible above 100 kHz (Fig 8a). Longer channels add extra peaks (Fig 5); small-area devices are masked by RC loss, leakage and noise. Measurement range 1 kHz-1 MHz."
+    - id: F4
+      label: SOURCE_REPORTED
+      location: "Sec III-C, Figs 6, 8e"
+      text: "Optical bandgap 3.839 eV, EC-EF about 0.283 eV (UPS). Depletion (Vg -1 to -0.1 V): apparent interface-state density 9-12e11 /eV/cm^2, time constant about 250 ns nearly bias-independent."
+    - id: F5
+      label: SOURCE_REPORTED
+      location: "Sec III-C, Fig 9d"
+      text: "Weak-to-moderate accumulation (Vg 0-0.7 V): apparent volumetric shallow-state DOS 1e18-1e19 /eV/cm^3, Gaussian-like, response time us down to ns; about 0.3 eV surface-potential modulation; value is reported WITHOUT full RC correction (authors say a rigorous equivalent-circuit model is still needed)."
+    - id: F6
+      label: SOURCE_REPORTED
+      location: "Sec III-C, Figs 9j, 10c"
+      text: "Moderate-to-strong accumulation (Vg 0.8-2 V): Dit rises to 2.8-3.1e12 /eV/cm^2 with time constant near 250 ns (about 3x the depletion value); L=5 um devices with W=80 and 50 um give consistent Dit after area normalization."
+  key_conditions: "Single device family (IGZTO, 4.5 nm), conductance method 1 kHz-1 MHz, bias-resolved Vg -1 to 2 V. Measurement temperature: not stated in the text read (UNKNOWN)."
+  why_it_fits: "Trap-state spectroscopy for a thin channel material; method illustrates how contact/RC/leakage artifacts can masquerade as trap loss, which transfers as a caution to conductance-method analysis of any thin channel (including poly-Si)."
+  vnand_directness: "indirect. Oxide-semiconductor TFT, not poly-Si and not a NAND string. The paper's own intro mentions only 'monolithic 3D integration'. Link to NAND channels is ENGINEERING_INFERENCE via S5 (OS channel discussion)."
+  extrapolation_warnings:
+    - "No stress/BTI/lifetime data: only trap density and time constants; no reliability extrapolation is supported."
+    - "Apparent DOS values contain residual RC contribution (authors' own statement)."
+    - "Planar bottom-gate TFT geometry; no coaxial/cylindrical analogue was tested."
+  evidence_grade: "C (physics-consistent, measured in a different material system)"
+  overlap_check:
+    used_sources_md: "not listed"
+    origin_main: "no match"
+    other_branches: "no match"
+    w41_conflict: "no (first submitted 2026-10-12)"
+  fulltext_notes: fulltext_notes_W42-S2.md
+
+- id: W42-S3
+  title: "PAHT: Process-Aware History Tracking for Fast Read Retry in High-Capacity 3D NAND SSDs"
+  authors: [Seonguk Jang, Haun Jeon, Ilpyo Hong, Ryan Kim, Nathan Kim, Beomjun Kim, Myungsuk Kim]
+  venue: "Eng (MDPI), vol 7, issue 10, article 563, ISSN 2673-4117"
+  doi: 10.3390/eng7100563
+  url: https://doi.org/10.3390/eng7100563
+  publication_date: "2026-10-15 (Crossref issued/published/published-online all 2026-10-15)"
+  online_date: "2026-10-15 (Crossref published-online; license CC BY 4.0 start 2026-10-15)"
+  selection_class: new_this_week
+  source_access: abstract_only
+  access_basis: "Crossref record abstract (1333 chars) only. mdpi.com returns HTTP 403 to automation (WebFetch and curl); bot protection NOT bypassed. Not in Europe PMC (hitCount 0). Unpaywall says gold OA CC-BY, but no machine-fetchable copy was reachable."
+  read_ranges: "Crossref abstract field only (1333 characters). Body text, tables, figures: not read."
+  resolve_evidence:
+    - "doi.org HEAD 302 -> https://www.mdpi.com/2673-4117/7/10/563 (2026-10-26)"
+    - "Crossref /works/10.3390/eng7100563: title and 7 authors match; created 2026-10-15T08:26:17Z"
+  facts:
+    - id: F1
+      label: SOURCE_REPORTED
+      location: "Crossref abstract"
+      text: "Authors state SSDs handle reliability issues with read-retry that searches the optimal read reference voltage (VOPT); retry reduces RBER but costs several read iterations per host read."
+    - id: F2
+      label: SOURCE_REPORTED
+      location: "Crossref abstract"
+      text: "Two motivating observations claimed by the authors: (i) VOPT need not be updated for a long interval; (ii) the VOPT offset between word lines is identical across blocks in a chip."
+    - id: F3
+      label: SOURCE_REPORTED
+      location: "Crossref abstract"
+      text: "Proposal: record and reuse VOPT per WL after a successful read, and keep one VOPT per block with a predefined WL offset table that accounts for process variability in 3D flash."
+    - id: F4
+      label: SOURCE_REPORTED
+      location: "Crossref abstract"
+      text: "Characterization on 160 real 3D flash chips; system evaluation reports an average SSD performance improvement of 58.3%. No baseline definition, workload, or per-chip numbers are available from the abstract (UNKNOWN)."
+  key_conditions: "UNKNOWN beyond the abstract (layer count, vendor, temperature, P/E cycles, retention time not available)."
+  why_it_fits: "Only in-window item that is explicitly about 3D NAND flash reliability with real-chip characterization; WL-dependent optimum read voltage is a signature of layer/process dependence in VNAND."
+  vnand_directness: "direct (3D NAND) but system/firmware level; no device physics claims can be extracted from the abstract."
+  extrapolation_warnings:
+    - "No numeric claim beyond those in the abstract is made here; the 58.3% figure is the authors' system-level result for their evaluated setup."
+    - "Abstract-only: do not derive retention or Vth-distribution physics from it."
+  evidence_grade: "D for any physics use (abstract only); A-/B for the existence of the claim"
+  overlap_check:
+    used_sources_md: "not listed"
+    origin_main: "audit/2026/w43/rejected.md lists it as a held reserve (never used in a W43 report)"
+    other_branches: "no other match"
+    w41_conflict: "no (2026-10-15)"
+  fulltext_notes: null
+  notes: "Retry: if the user can place the PDF in inbox/, this could be upgraded to full_text locally (not stored in repo)."
+
+- id: W42-S4
+  title: "Model-Based Read-Reference-Voltage Compensation for Cross-Temperature Reliability in 3D TLC NAND Flash Memory"
+  authors: [Cheng Luo, Qianqi Zhao, Minghui Dong, Yicheng Ke, Wangyong Chen, Ying Yang, Qi Wang, Zongliang Huo]
+  venue: "IEICE Electronics Express (J-STAGE advance publication), Crossref volume 23 issue 18, article 20260379, ISSN 1349-2543"
+  doi: 10.1587/elex.23.20260379
+  url: https://www.jstage.jst.go.jp/article/elex/23/18/23_23.20260379/_article
+  publication_date: "2026-09-25 (Crossref issued/published-print; issue date)"
+  online_date: "2026-08-25 ('Publicized' on the PDF cover page; Crossref created 2026-08-24T22:12:22Z). Received 2026-07-13, accepted 2026-07-23 (PDF cover)."
+  selection_class: archive_gap
+  archive_gap_reason: "Online 2026-08-25, i.e. before the W42 window and not in the W41 window (2026-10-05..10-11). Selected because no in-window source covers 3D NAND device-level Vth behaviour."
+  source_access: full_text
+  access_basis: "J-STAGE gold OA advance PDF (cover states CC BY-NC-ND 4.0); PDF fetched; text layer extracted by pdftotext. Crossref carries no license field."
+  read_ranges: "chars 0-38582 (entire 6-page letter incl. references). Figures 1-5 NOT read as images; Greek symbols/units lost in extraction (units in Table I and overhead number are UNKNOWN)."
+  resolve_evidence:
+    - "doi.org HEAD 302 -> https://www.jstage.jst.go.jp/article/elex/23/18/23_23.20260379/_article (2026-10-26)"
+    - "Crossref: title and 8 authors match; issued 2026-09-25; created 2026-08-24"
+    - "PDF cover: Received 2026-07-13, Accepted 2026-07-23, Publicized 2026-08-25"
+    - "Discrepancy recorded: PDF running header says 'Vol.21, No.1' and copyright 2024 (template artifact) while Crossref/J-STAGE say vol 23 issue 18."
+  facts:
+    - id: F1
+      label: SOURCE_REPORTED
+      location: "Abstract, Sec 4.1 (Fig 5), Sec 5"
+      text: "Worst-case RBER falls from 24.28% (baseline default read voltages) to 0.44% with the model-based compensation (relative 98.19%) in the most severe program/read temperature combination of Fig 5."
+    - id: F2
+      label: SOURCE_REPORTED
+      location: "Sec 2, Algorithm 1"
+      text: "Characterization: compensation circuit disabled; random data programmed at -40/0/40/80/120 C; baked 85 C for 10 h to suppress short-term retention loss; threshold-voltage distributions read at -40 to 120 C in 20 C steps. Platform named NplusT (Sec 4)."
+    - id: F3
+      label: SOURCE_REPORTED
+      location: "Sec 2, Fig 2, Eq. (1)"
+      text: "Mean Vth shift is approximately linear in read temperature for each program temperature (high R^2 reported) and so mainly follows the temperature difference between program and read, not absolute temperature; modelled as a temperature coefficient times delta-T."
+    - id: F4
+      label: SOURCE_REPORTED
+      location: "Sec 2, Fig 3, Eq. (2)"
+      text: "The temperature coefficient grows with P/E cycling, differs by program-state centre voltage, and varies with layer index (kept as a lookup table); modelled by piecewise-linear functions (engineering model, parameters must be re-extracted per device)."
+    - id: F5
+      label: AUTHOR_INTERPRETATION
+      location: "Sec 2 paragraphs 1 and 4"
+      text: "Authors attribute the temperature dependence to poly-Si channel grain boundaries/trap states acting on channel current (citing earlier work), and the P/E-cycle growth 'may be related to cycling-induced traps'; they defer the underlying physics to future device-level work. No test isolating these mechanisms is shown."
+    - id: F6
+      label: SOURCE_REPORTED
+      location: "Table I, Sec 4.2"
+      text: "SSDsim over 45 temperature pairs and ten workload traces: mean read response time 774.770 (baseline) vs 435.362 (model-based) vs 440.496 (lookup-table scheme) vs 435.008 (ideal read-retry), a 43.81% reduction; P90 1094.966 vs 436.020; std 323.055 vs 1.320. Time unit symbol was lost in extraction (UNKNOWN). These latencies are mapped from device-level RBER through a lookup table into a simulator, not measured on drives."
+    - id: F7
+      label: SOURCE_REPORTED
+      location: "Sec 2 end"
+      text: "A 128-layer 3D TLC device from another generation 'showed consistent cross-temperature trends' (data not shown); main-device layer count and chip count are not stated in the text read (UNKNOWN)."
+  key_conditions: "3D TLC, poly-Si channel stated; short-term retention suppressed by an 85 C/10 h bake before temperature sweeps; compensation circuit off; verify voltages untouched."
+  why_it_fits: "Chip-measured 3D NAND Vth-distribution temperature sensitivity with layer position, P/E cycling and program-state dependence; cross-temperature is a first-order read-margin/retention-interplay topic for VNAND reliability."
+  vnand_directness: "direct (3D TLC NAND chips, layer-dependent behaviour)."
+  extrapolation_warnings:
+    - "Linear-in-delta-T model validated over -40..120 C only; retention (time-dependent charge loss) is deliberately suppressed, so results do not describe retention-temperature coupling."
+    - "Model is 're-characterizable engineering framework' (authors); parameters are device-specific. Do not transfer coefficients."
+    - "Mechanism attribution to grain boundaries/traps is cited, not demonstrated here (AUTHOR_INTERPRETATION)."
+  evidence_grade: "B- (chip measurements by authors, mechanism cited)"
+  overlap_check:
+    used_sources_md: "not listed"
+    origin_main: "no DOI match"
+    other_branches: "appears only as an UNVERIFIED hint in origin/reliability-w42 (this item was independently re-verified here)"
+    w41_conflict: "no (online 2026-08-25)"
+  fulltext_notes: fulltext_notes_W42-S4.md
+
+- id: W42-S5
+  title: "Vertical NAND in a Ferroelectric-driven Paradigm Shift"
+  authors: [Giuk Kim, Hyojun Choi, Prasanna Venkat Ravindran, Moonyoung Jung, Sanghyun Park, Kijoon Kim, Suhwan Lim, Kwangyou Seo, Kwangsoo Kim, Wanki Kim, Daewon Ha, Sukjoong Shin, Asif Khan, Sanghun Jeon, Kai Ni]
+  venue: "arXiv preprint (Perspective, physics.app-ph; not peer-reviewed as of 2026-10-26; no journal reference found)"
+  doi: 10.48550/arXiv.2512.15988
+  url: https://arxiv.org/abs/2512.15988
+  publication_date: "2025-12-17 (arXiv v1 submitted 2025-12-17T21:43:39Z)"
+  online_date: "2025-12-19 (DataCite registered; announcement day not separately confirmed)"
+  selection_class: archive_gap
+  archive_gap_reason: "Published about 10 months before the window; selected because it is the most VNAND-direct readable item (charge-trap 3D NAND limits, inter-WL oxide breakdown, retention, poly-Si channel, GIDL/BTBT erase) and no in-window source covers those."
+  source_access: full_text
+  access_basis: "arXiv PDF + pdftotext; open"
+  read_ranges: "chars 0-92062 (title page through reference 15, i.e. the complete main text, figure captions, Table/Fig 4 text, conclusions, data-availability statement). Chars 92062-114000 (remaining reference list) NOT read. Figures read only through captions/embedded text; Fig 4 table cells are scrambled in extraction and were NOT used for numbers."
+  resolve_evidence:
+    - "doi.org HEAD 302 -> https://arxiv.org/abs/2512.15988 (2026-10-26)"
+    - "DataCite title/authors match; Submitted 2025-12-17T21:43:39Z; Updated 2025-12-19T01:11:02Z"
+    - "arXiv API: published 2025-12-17T21:43:39Z; v1 only"
+  facts:
+    - id: F1
+      label: SOURCE_REPORTED
+      location: "Abstract; Introduction (PDF p.4-5)"
+      text: "Authors state charge-trap 3D NAND is constrained by reliability degradation at device level, operating power at array level, and vertical-scaling saturation; reducing WL pitch has intensified dielectric breakdown in inter-layer space oxides and cell-to-cell interference. Data-availability statement: the Perspective contains NO new experimental data; all numbers are from cited literature."
+    - id: F2
+      label: SOURCE_REPORTED
+      location: "Sec 'Scaling Limitations', Fig 2a-b (p.7-9)"
+      text: "Combined WL + space-oxide height is stated to reach about 40 nm (ref 22); program voltage 'typically above 20 V' (refs 25, 39, 40); thinner inter-WL dielectric lowers its breakdown voltage and the PGM field accelerates space-oxide degradation. Fig 2b is a qualitative trade-off schematic, not data."
+    - id: F3
+      label: SOURCE_REPORTED
+      location: "Sec 'Shaping the memory landscape', Fig 3a-d (p.11-15)"
+      text: "Flat-band memory-window model for charge-trap flash: window increases with trapped charge Q_trap and decreases with charge-trap-layer and block-oxide capacitance; PGM/ERS use FN tunneling with magnitudes stated as exceeding about 20 V."
+    - id: F4
+      label: SOURCE_REPORTED
+      location: "p.10, p.19-20, Fig 4 discussion"
+      text: "Conventional charge-trap flash: ISPP slope stated to be limited to <=1 while ferroelectric NAND achieves >2; CTF endurance given as about 1e3-1e4 cycles with >20 V programming; gate-side-injection FeNAND endurance 1e3-1e4 cycles limited by gate-blocking-layer and interfacial-layer wear (p.27). All cited, none measured by these authors."
+    - id: F5
+      label: AUTHOR_INTERPRETATION
+      location: "p.23 (architecture), Fig 5"
+      text: "In a gate-all-around (cylindrical) geometry the gate-blocking layer sits on the outer surface and the interfacial layer inside, producing a field imbalance; authors propose a 'channel-all-around' arrangement to fix it. This is a proposal, labelled radical and not evaluated in the paper."
+    - id: F6
+      label: AUTHOR_INTERPRETATION
+      location: "p.24-27"
+      text: "Retention loss in gate-injection FeNAND is mainly in the ERS state through detrapping of gate-injected electrons; authors say the exact mechanism is not fully understood and suggest a self-reinforcing detrapping/depolarization loop. Short-term read-after-write delay is attributed to channel-injected interface charge that detraps over time."
+    - id: F7
+      label: SOURCE_REPORTED
+      location: "p.29, p.31-33"
+      text: "Erase-verify idea uses hole conduction via band-to-band tunneling between ground-select line and common source line (refs 100-102); oxide-semiconductor channels lack holes, which the authors say disables GIDL-assisted erase; poly-Si crystallization stated to need >950 C, incompatible with hafnia ferroelectrics; amorphous OS mobility quoted about 50 cm^2/Vs (comparison symbol lost in extraction)."
+  key_conditions: "Review/perspective; numeric values are literature-cited and not tied to a single stack; no test temperature/time set."
+  why_it_fits: "Maps the failure-mode landscape of charge-trap 3D NAND (inter-WL oxide breakdown, high-field FN stress, retention/detrapping, poly-Si channel limits, GIDL/BTBT erase) in one citable place; useful for T01, T05 and T02-type reasoning, with OS-channel vs poly-Si trade-offs."
+  vnand_directness: "direct (charge-trap 3D NAND, GAA/cylindrical discussed qualitatively, poly-Si channel, GIDL-assisted erase)."
+  extrapolation_warnings:
+    - "Perspective with no new data; every number inherits the cited papers' conditions (unverified here)."
+    - "FeNAND is a proposed/early technology, not the production VNAND cell; do not apply FeNAND endurance numbers to production CTF."
+    - "Layer-count claims (e.g. beyond 1000 layers) are forward-looking statements."
+  evidence_grade: "C (literature-synthesis; claims not independently re-derived)"
+  overlap_check:
+    used_sources_md: "not listed"
+    origin_main: "no match for 2512.15988"
+    other_branches: "no match"
+    w41_conflict: "no (2025-12)"
+  fulltext_notes: fulltext_notes_W42-S5.md
+
+reserve:
+- id: W42-R1
+  title: "Adaptive Sequential Test Planning for Multi-Mechanism Reliability Qualification via Bayesian Monte Carlo Tree Search"
+  authors: [Youssef A. Elhagrasy, Ian Hill, Andre Ivanov]
+  doi: 10.48550/arXiv.2608.09622
+  publication_date: "2026-08-10 (arXiv v1 submitted 2026-08-10T14:04:22Z; DataCite Updated 2026-08-17)"
+  selection_class: archive_gap
+  source_access: full_text (read chars 0-100174; reference tail 100174-110722 not read)
+  status: "NOT in the 5; kept as first reserve. Read in full and verified; notes in fulltext_notes_W42-R1.md."
+  vnand_directness: "none (generic BTI/EM/TDDB test planning on a simulated FinFET-like environment; simulation-only; no Weibull; E-model TDDB with assumed parameters)."
+  reason_not_selected: "Simulation-only with assumed parameter distributions, weak physical content for VNAND; 3D NAND-direct items were prioritized."
+
+draft_branch_check:
+  note: "origin/reliability-w42 (commit f216e46c14, unreviewed external-AI draft) was used ONLY to extract the five identifiers below. No fact from that branch was relied upon. Each item was re-verified independently on 2026-10-26."
+  items:
+    - id: "arXiv 2610.06363"
+      title_verified: "Direct Observation of Nanoscale Polarization Switching in HZO Ferroelectrics Using STEM-EBIC (Venkatesan, Chen, O'Neill, Chan, Jayasankar, et al.)"
+      verified: "exists; title/authors resolved via arXiv API and DataCite"
+      date: "v1 submitted 2026-10-05T14:00:42Z; v2 submitted 2026-10-16T01:38:11Z (DataCite). First publication date falls in the W41 window"
+      window_status: "NOT usable for W42 new_this_week (v1 is 2026-10-05, W41 window; another agent covers W41). A v2 revision on 10-16 does not make it new."
+      access_level: "arXiv open (full_text possible); not read"
+      topic_fit: "HZO ferroelectric imaging, not VNAND/reliability"
+      decision: rejected
+    - id: "10.1109/LED.2026.3710382"
+      title_verified: "Time-Step-Free Physics-Based Modeling of Retention Loss in Cryogenic 3-D NAND Flash (Jin, Choi, Shin; IEEE Electron Device Letters)"
+      verified: "DOI resolves (doi.org 302); Crossref title/authors match"
+      date: "Crossref issued/published-print 2026-09 (month only); created 2026-07-06. Online/early-access day UNKNOWN"
+      window_status: "not in window (issue month September 2026); would at best be archive_gap, but day-level date unverifiable"
+      access_level: "metadata_only (Unpaywall closed; Crossref has no abstract; IEEE Xplore page is JS-only and returned no text)"
+      topic_fit: "VNAND-direct (retention), but nothing readable"
+      decision: rejected (no readable content; no numeric claims possible)
+    - id: "10.1109/TED.2026.3724518"
+      title_verified: "Physics-Informed Neural Network for PGM Operation of 3-D CT-NANDs Under Data-Scarce Environments (Yoo, Choi, Shin; IEEE Trans. Electron Devices)"
+      verified: "DOI resolves; Crossref title/authors match"
+      date: "Crossref issued 2026-10 (month only); created 2026-08-25. Day-level online date UNKNOWN"
+      window_status: "cannot be placed inside 2026-10-12..10-18 (month-only); not new_this_week by evidence"
+      access_level: "metadata_only (closed, no abstract in Crossref)"
+      topic_fit: "VNAND-direct (PGM of 3-D CT-NAND), nothing readable"
+      decision: rejected (UNKNOWN date, metadata_only)
+    - id: "10.1109/TPEL.2026.3710070"
+      title_verified: "Measurement and Quantitative Analysis of Oxide Trap Evolution in Power SiC Devices (Li, Shekhar, Simjanoski, van Driel, Zhang; IEEE Trans. Power Electronics)"
+      verified: "DOI resolves; Crossref title/authors match"
+      date: "Crossref issued 2026-11 (issue month); created 2026-07-03. Online day UNKNOWN"
+      window_status: "not in window by evidence"
+      access_level: "metadata_only (closed)"
+      topic_fit: "SiC oxide traps; not VNAND"
+      decision: rejected
+    - id: "10.1587/elex.23.20260379"
+      title_verified: "Model-Based Read-Reference-Voltage Compensation for Cross-Temperature Reliability in 3D TLC NAND Flash Memory (Luo, Zhao, Dong, Ke, Chen, Yang, Wang, Huo; IEICE Electronics Express)"
+      verified: "yes: DOI resolves to J-STAGE; Crossref match; full PDF read"
+      date: "Publicized (online) 2026-08-25 per PDF cover; Crossref issued 2026-09-25"
+      window_status: "NOT new_this_week; qualifies as archive_gap (before window, not in W41 window)"
+      access_level: "full_text (gold OA, CC BY-NC-ND 4.0 per PDF cover)"
+      topic_fit: "VNAND-direct"
+      decision: USED as W42-S4 (archive_gap), based on independent reading, not on the draft branch text

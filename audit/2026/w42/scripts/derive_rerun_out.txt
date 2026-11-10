@@ -1,0 +1,69 @@
+sympy 1.14.0
+== ITEM 1 ==
+98.19 -> 98.18780889621087 | 43.81 -> 43.80758160486338 | 0.08 (gap rel. Ideal) -> 0.08137781374135648
+PASS 98.19% 
+PASS 43.81% 
+PASS 0.08% 
+PASS 5x9=45 levels 9
+unordered swapped pairs among 5 Tp levels: 10 ; max|dT| on grid 160
+PASS antisymmetry (arbitrary g) 
+PASS additivity (arbitrary g) 
+PASS quadratic g -> -a dT - b dT (Tp+Tr-2T0) 
+PASS dV = Q/(2 pi eps) ln(rout/rin) 
+PASS coax/planar dV for sheet sigma at r0 = ln(1+u)/u, u=t/r0 
+f'(u) = (u - (u + 1)*log(u + 1))/(u**2*(u + 1))
+PASS f<1 for u>0 
+PASS f->1 as u->0 
+PASS D3 E(r0)/E_planar = 1+u (all image charge on channel side) 
+opposite radius dependence: df/dr0 at t=1,r0=2 = 0.07213177477483104 (>0); d(1+t/r0)/dr0 = -0.25 (<0)
+PASS D4 |dT|* = sqrt((m/z)^2 - s0^2)/sk [sqrt(m**2 - sigma0**2*z**2)/(sigma_k*z)]
+large-dT: sres/(sk dT) -> 1
+== ITEM 2 ==
+GAA E_IL/E_GBL = epsilon_GBL*rb/(epsilon_IL*ra) | CAA = epsilon_GBL*ra/(epsilon_IL*rb)
+PASS geometric factors reciprocal 
+PASS rb/ra = 1+t/ra ; ra/rb = 1 - t/(ra+t) 
+literal CAA reading (inner face of IL / outer face of GBL at the common interface rm): epsilon_GBL/epsilon_IL -> no geometric factor at all
+PASS VFB coax/planar = ln(1+u)/u, u=t/rc 
+PASS ISPP steady-state slope 1 
+with extra VT term DP per pulse slope = (DP + s)/s
+PASS fixed dV: d ln tBD/d ln tsp = gamma dV/tsp 
+PASS fixed field: tBD independent of tsp 
+PASS dm/dtsp = EBD/dVWL 
+== ITEM 3 ==
+PASS retry cost coefficient = h phi(h)/(2 Q(h)) at h=2: 2.373216 vs 2.373216
+PASS dVopt/dmu_a 
+PASS dVopt/dsigma_a 
+PASS E_T(r0) formula 0.649034
+G first-order series: (a**2*e*x/2 + a*e*x + a*e + x/2 + 1)/(a*e + 1)
+item formula 1 + x(1+2ea+ea^2)/[2(1+ea)] (ea read as product e*a); series minus claim = 0
+  e=0.5,a=1.0: exact G-1 = 8.330e-04; series = 8.333e-04; item formula = 8.333e-04
+  e=0.557,a=2.0: exact G-1 = 1.290e-03; series = 1.290e-03; item formula = 1.290e-03
+  e=2.0,a=0.5: exact G-1 = 8.748e-04; series = 8.750e-04; item formula = 8.750e-04
+G(x) for e=0.557,a=2: [1.01283, 1.12232, 1.5319, 1.9588, 2.69204]
+PASS reuse interval 
+rel SE sqrt(2/(C-1)) = 0.11215443081840885 | 1-0.05^(1/C) = 0.018549134077503804 | 1-0.051/C (wrong reading if superscript lost) = 0.99968125
+additive: 0 | multiplicative: -gt*kk*(Ab - Abp)*(aw - awr)
+== ITEM 4 ==
+Ea low = 0.08996940581002946  high = 0.038804436133495816
+PASS Ea 0.08997/0.03880 
+tau0 per decade factors: 1.603061224489796 2.1012094207511143 | HSE06 gap diff 0.8500000000000001
+D=1e-10 cm2/s -> v=7.736e-05 m/s ; 2 ms travel = 155 nm
+D=1e-11 cm2/s -> v=7.736e-06 m/s ; 2 ms travel = 15.5 nm
+D=1e-12 cm2/s -> v=7.736e-07 m/s ; 2 ms travel = 1.55 nm
+Einstein drift at D=1e-12 cm2/s: 7.736345414366721e-07 | 1e-5/v = 12.925999893217769 = 1.111464147998929 decades below 1e-5; 2.111464147998929 decades below 1e-4
+PASS discriminant ratio = beta 
+wall-clock dlnX/dln td = td/(td + tp)
+recovery model dDelta/dln td = td*Derivative(R(td), td)
+int cos*sin = sin(theta0)**2/2
+PASS E(r)=V/[r ln(rout/rin)] 
+== ITEM 5 ==
+1/(2 pi tau) = 636619.7723675814  w*tau at 1 MHz = 1.5707963267948963  at 1 kHz = 0.0015707963267948964
+continuum peak w*tau = 1.98029130043221 height 0.402371171274706 | single-level 1.00000000000000 0.500000000000000
+continuum-form peak frequency (tau=250ns) = 1260692.596902657 Hz
+PASS D3 4.5e11..4.5e12 
+D4 ratios 2.3333333333333335 3.4444444444444446
+distributed RC (both ends driven), Re[sqrt(jx)tanh(sqrt(jx))]/x peak at x ~ 2.54 (x = omega*Rsh*Cox*(L/2)^2)
+sqrt(y)tanh(sqrt(y)) series: y - y**2/3 + 2*y**3/15 + O(y**4)
+Cs_coax/Cs_planar = u/log(u + 1) ; series 1 + u/2 + O(u**2)
+PASS annulus volume per outer surface = tch(1-v/2) 
+PASS u/ln(1+u) * ln(1+u)/u = 1 

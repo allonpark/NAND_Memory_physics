@@ -1,0 +1,396 @@
+##### report_head
+[replace] OLD: AOS trap decoupling, CSC structure (preprint) Cross-paper synthesis Contradiction matrix What changed Testable hypotheses QC Sources Executive Summary Evidence level · 근거 등급 · full-text single-source analysis (items 1, 2, 4, 5) + abstract brief (item 3) 원문(full text)은 다섯 건 중 네 건(항목 1, 2, 4, 5)을 읽었습니다.
+      NEW: AOS trap decoupling, CSC structure (preprint) Cross-paper synthesis Contradiction matrix What changed Testable hypotheses QC Sources Executive Summary Evidence level · 근거 등급 · full-text analysis, one source per item (items 1, 2, 4, 5) + abstract brief (item 3) 원문(full text)은 다섯 건 중 네 건(항목 1, 2, 4, 5)을 읽었습니다.
+
+[replace] OLD: 다섯 건 모두 그림은 이미지로 보지 않았고(캡션과 추출된 문자열만 읽음), 추출 과정에서 깨져 형태를 확정할 수 없는 식은 재구성하지 않고 UNKNOWN으로 표시했습니다(항목 2의 그림 3 식, 항목 4의 식 (1), (2), (S24)–(S36)).
+      NEW: 다섯 건 모두 그림은 이미지로 보지 않았고(캡션과 추출된 문자열만 읽음), 추출 과정에서 깨져 형태를 확정할 수 없는 식은 재구성하지 않고 UNKNOWN으로 표시했습니다(항목 2의 그림 3 식, 항목 4의 식 (1), (2), Supplementary Eqs. (24)–(36)).
+
+[replace] OLD: 독립 물리 검수는 아직 수행하지 않았습니다(PENDING).
+      NEW: 독립 물리 검수를 수행했습니다. 첫 검수에서 항목 1, 2, 3, 5는 PASS-WITH-FIXES, 항목 4는 FAIL(수치 크기 오류 한 건과 부호 비교를 잘못 서술한 문구, 현재 수정됨)로 판정되었고, 지적 사항은 반영했으며 재검수는 PENDING입니다.
+
+[replace] OLD: (1), (2) and (S24)–(S36) of item 4).
+      NEW: (1), (2) and Supplementary Eqs. (24)–(36) of item 4).
+
+[replace] OLD: An independent physics review has not yet been performed (PENDING).
+      NEW: An independent physics review was PERFORMED. On the first pass items 1, 2, 3 and 5 were PASS-WITH-FIXES and item 4 was FAIL (one numerical-magnitude error and wording that misstated a sign comparison, now corrected); the fixes have been applied and a re-check is PENDING.
+
+[replace] OLD: 등급 B는 항목 1에서만 쓰였으며, 그 chip에서 측정한 평균 V th 이동의 선형성과 보상 효과(재현하지 않았고 표본 수와 불확도가 본문에 없음), 그리고 simulator 결과로서의 SSD 지연 수치(실제 drive 측정이 아님)에 한정됩니다.
+      NEW: 등급 B는 항목 1에서만 쓰였으며, 그 chip에서 측정한 평균 V th 이동의 선형성과 보상 효과(재현하지 않았고 표본 수와 불확도가 본문에 없음)에 한정됩니다. 항목 1의 SSD 지연 수치는 simulator 결과(실제 drive 측정이 아님)이므로 등급 C입니다.
+
+[replace] OLD: no sample sizes or uncertainties in the text) and to the SSD latency figures as simulator results (not drive measurements).
+      NEW: no sample sizes or uncertainties in the text). Item 1's SSD latency figures are simulator results (not drive measurements) and are grade C.
+
+[insert] OLD: 
+      NEW: 번호 붙은 라벨도 항목 안에서만 쓰이며 항목마다 다른 머리글자를 씁니다. 항목 1은 산술 확인 N1–N2, 기호 유도 J1–J4, DOE arm A0와 A–E, 경쟁 메커니즘 M1–M7을, 항목 2는 checklist C1–C11을, 항목 5는 유도 K1–K5, 가교 단계 BR1–BR6, 시험 구조 1–4, 기각 기준 R1–R6을 씁니다. 이 라벨들은 근거 등급 A–D와 관계가 없습니다.
+
+[insert] OLD: 
+      NEW: Numbered labels are also used only within an item, with a distinct prefix per item: item 1 uses arithmetic checks N1–N2, symbolic derivations J1–J4, DOE arms A0 and A–E and competing mechanisms M1–M7; item 2 uses checklist C1–C11; item 5 uses derivations K1–K5, bridging steps BR1–BR6, test structures 1–4 and refutation criteria R1–R6. These labels are unrelated to the evidence grades A–D.
+
+##### i1
+[replace] OLD: [archive_gap] Cross-temperature read-voltage shift measured on 3D TLC NAND chips: a linear-in-ΔT engineering model with P/E, state and layer terms, not a mechanism test archive_gap · not new this week 이 논문의 게재일은 두 가지로 기록되어 있습니다.
+      NEW: [archive_gap] Cross-temperature read-voltage shift measured on 3D TLC NAND chips: the authors' linear-in-ΔT engineering model with P/E, state and layer terms (ΔT-only dependence not shown), not a mechanism test archive_gap · not new this week 이 논문의 게재일은 두 가지로 기록되어 있습니다.
+
+[insert] OLD: 
+      NEW: SSDsim 응답 시간 수치는 simulator 출력이므로 등급 C입니다).
+
+[insert] OLD: 
+      NEW: the SSDsim response-time figures are simulator output and are grade C).
+
+[replace] OLD: (10) 다른 세대의 128-layer 3D TLC 소자에서도 일관된 경향을 보였다고 쓰며, 데이터는 제시되지 않았습니다.
+      NEW: (10) 다른 세대의 128-layer 3D TLC 소자에서도 일관된 경향을 보였다고 쓰며, 본문과 캡션에는 데이터가 없습니다(그림은 읽지 않음).
+
+[replace] OLD: no data are shown.
+      NEW: no data are given in the text or captions (figures not read).
+
+[replace] OLD: 이미 알려진 것(배경, 등급 C: 이번 호에서 1차 문헌을 재확인하지 않음). poly-Si channel의 온도 의존 전류와 그에 따른 V th 이동, 2D와 3D 배열의 온도 효과 비교, string 전류의 온도 활성화와 산포, 2D·3D NAND에서 program과 read의 cross-temperature 효과, dynamic V th tracking, cell 간 cross-temperature 산포는 이 논문의 참고문헌 목록에 있는 선행 연구 주제입니다(제목 기준).
+      NEW: 이미 알려진 것(원문 서론이 인용 문헌으로 제시하는 맥락, 등급 C: 이번 호에서 인용 문헌 원문을 재확인하지 않음). 채널 전류가 온도에 따라 변해 같은 cell의 V th 가 동작 온도에 따라 이동한다는 점([7]–[10]), 온칩 온도 보상 회로([12]–[16]), lookup table이나 예측 모델을 쓰는 알고리즘 수준 read 전압 조정([6], [17]–[20])은 원문 서론이 선행 연구로 소개하는 내용입니다.
+
+[replace] OLD: Known (background, grade C: primary literature not re-checked this week). Temperature-dependent current in poly-Si channels and the resulting V th shift, comparisons of temperature effects in 2D and 3D arrays, temperature activation and variability of string current, cross-temperature effects of program and read in 2D and 3D NAND, dynamic V th tracking, and cell-to-cell cross-temperature variability are topics of prior work in this paper's reference list (by title).
+      NEW: Known (context the source's introduction attributes to cited work; grade C: the cited originals were not re-checked this week). That channel current varies with temperature so that the V th of the same cell shifts with operating temperature ([7]–[10]), on-chip temperature compensation circuits ([12]–[16]), and algorithm-level read-voltage adjustment with lookup tables or prediction models ([6], [17]–[20]) are presented by the introduction as prior work.
+
+[replace] OLD: 계산 방법: 산술은 Python 정확 유리수 연산, 기호 유도(D1–D4)는 SymPy 1.14.0으로 수행했으며 script와 출력은 작업 노트에 보관했습니다.
+      NEW: 계산 방법: 산술은 Python 정확 유리수 연산, 기호 유도(J1–J4)는 SymPy 1.14.0으로 수행했습니다.
+
+[delete] OLD: the script and output are kept in the working notes.
+      NEW: 
+
+[replace] OLD: 근거 등급 B: 동료심사된 실측이며 본문을 두 번 확인했으나 재현하지 않았고 표본 수·P/E 수준·R 2 ·불확도가 없습니다.
+      NEW: 근거 등급 B(chip 측정에 한함; SSDsim 결과는 simulator 출력으로 등급 C): 동료심사된 실측이며 본문을 두 번 확인했으나 재현하지 않았고 표본 수·P/E 수준·R 2 ·불확도가 없습니다.
+
+[replace] OLD: Evidence grade B: peer-reviewed measurement read twice, not reproduced;
+      NEW: Evidence grade B (chip measurements only; the SSDsim results are simulator output, grade C): peer-reviewed measurement read twice, not reproduced;
+
+[replace] OLD: SSD 지연 수치: simulator 결과로 등급 B이나 drive 측정이 아닙니다.
+      NEW: SSD 지연 수치: 원문 보고값이며 simulator 결과(장치 수준 등가 지연을 lookup table로 넣은 SSDsim 출력, 이 보고서에서 재현하지 않았고 입력 표와 workload 세부를 보지 못함)이므로 등급 C입니다. drive 측정이 아닙니다.
+
+[replace] OLD: SSD latency figures: grade B as simulator results, not drive measurements.
+      NEW: SSD latency figures: source-reported simulator results (SSDsim output fed with device-level equivalent latency through a lookup table; not reproduced here, input tables and workload details not seen), grade C; not drive measurements.
+
+##### i2
+[replace] OLD: (g) OS channel의 BTI는 주로 V O 와 수소 관련 결함에서 오며, 고온에서 수소 확산이 빨라져 심해진다고 씁니다.
+      NEW: (g) OS channel의 BTI는 주로 V O 와 수소 관련 결함에서 오며, 고온에서 수소 확산이 빨라져 심해진다고 씁니다(원문은 이 단락에 [90]과 [80]을 인용하므로 문헌 인용 진술에 가깝지만, 이 보고서는 보수적으로 저자 해석으로 둡니다).
+
+[replace] OLD: (g) BTI in OS channels is attributed mainly to V O and hydrogen-related defects and is said to worsen at high temperature through faster hydrogen diffusion.
+      NEW: (g) BTI in OS channels is attributed mainly to V O and hydrogen-related defects and is said to worsen at high temperature through faster hydrogen diffusion (the source cites [90] and [80] in this passage, so this is close to a literature-cited statement; this report conservatively keeps it as the authors' interpretation).
+
+[replace] OLD: p.27은 hafnia FeNAND가 charge-trap NAND보다 우수한 endurance를 "약속한다"고 쓰지만, 같은 쪽에서 저자들이 가장 유망하다고 꼽은 gate-side injection FeNAND의 endurance를 10 3 –10 4 cycle로 쓰며, 이는 p.20의 charge-trap flash 값과 같은 범위입니다.
+      NEW: p.27은 hafnia FeNAND가 charge-trap NAND보다 우수한 endurance를 "약속한다"고 쓰지만, 같은 쪽에서 이 절이 다루는 gate-side injection FeNAND의 endurance를 10 3 –10 4 cycle로 쓰며, 이는 p.20의 charge-trap flash 값과 같은 범위입니다.
+
+[replace] OLD: (4) 인용 대응. 참고문헌 목록의 제목 기준으로 보면, charge-trap flash의 10 3 –10 4 cycle 진술에 붙은 refs 67, 68, 79는 FeFET/FeNAND 논문 제목이고 ref 39는 flash의 negative capacitance 논문 제목입니다. Poly-Si가 3 nm 아래에서 나빠진다는 진술에 붙은 ref 110은 원자층 증착 indium oxide transistor 논문 제목입니다. OS channel BTI 진술에 대괄호로 붙은 [90]은 HfO 2 FeFET의 V th window 재검토 논문 제목이며, 같은 번호가 p.24에서는 RAWD 근거로 쓰였습니다. GAA 전계 불균형에 붙은 ref 87은 hetero-strain 원통형 GAA nanowire FET 논문 제목입니다. 원 논문을 읽지 않았으므로 이 인용들이 진술을 뒷받침하지 않는다고 단정하지 않으며, 제목만으로는 대응을 확인할 수 없다는 뜻입니다. (5) 950 °C.
+      NEW: (4) 950 °C.
+
+[replace] OLD: p.27 says hafnia FeNANDs "promise" superior endurance over charge-trap NAND, yet on the same page gives 10 3 –10 4 cycles for gate-side-injection FeNAND, the type the authors rate most promising, which is the same range given for charge-trap flash on p.20.
+      NEW: p.27 says hafnia FeNANDs "promise" superior endurance over charge-trap NAND, yet on the same page gives 10 3 –10 4 cycles for gate-side-injection FeNAND, the type this section discusses, which is the same range given for charge-trap flash on p.20.
+
+[replace] OLD: (4) Citation mapping. By reference-list titles: refs 67, 68 and 79 attached to the 10 3 –10 4 cycle statement for charge-trap flash are FeFET/FeNAND papers, and ref 39 is a negative-capacitance-in-flash paper; ref 110, attached to poly-Si degrading below 3 nm, is an atomic-layer-deposited indium-oxide transistor paper; the bracketed [90] attached to OS-channel BTI is a paper re-examining the V th window of HfO 2 FeFETs, and the same number supports RAWD on p.24; ref 87, attached to the GAA field imbalance, is a hetero-strain cylindrical GAA nanowire FET paper. The originals were not read, so we do not conclude that these citations fail to support the statements; titles alone cannot confirm the mapping. (5) 950 °C.
+      NEW: (4) 950 °C.
+
+[replace] OLD: 같은 Q′가 반경 r a (안쪽 면)에서 r b (바깥 면)까지의 stack을 지날 때, IL 안쪽 면과 GBL 바깥 면의 전계 비는 GAA(IL 안쪽)에서 E IL /E GBL = (ε GBL /ε IL )·(r b /r a ), CAA(IL 바깥쪽)에서 (ε GBL /ε IL )·(r a /r b )입니다.
+      NEW: 같은 Q′가 반경 r a (안쪽 면)에서 r b (바깥 면)까지의 stack을 지날 때, IL이 닿는 stack 경계 면의 전계와 GBL이 닿는 stack 경계 면의 전계의 비(GAA에서는 IL 쪽 면이 r a , GBL 쪽 면이 r b 이고 CAA에서는 그 반대)는 GAA(IL 안쪽)에서 E IL /E GBL = (ε GBL /ε IL )·(r b /r a ), CAA(IL 바깥쪽)에서 (ε GBL /ε IL )·(r a /r b )입니다.
+
+[replace] OLD: 같은 식은 생산 charge-trap VNAND에서 channel 쪽 tunnel oxide 전계가 blocking oxide보다 커지는 이유이기도 합니다.
+      NEW: 같은 식은 생산 charge-trap VNAND에서 channel 쪽 tunnel oxide 전계가 blocking oxide보다 커지는 이유 가운데 곡률 기여에 해당합니다(층 두께와 유전율 비도 기여합니다).
+
+[replace] OLD: With the same Q′ through a stack from radius r a (inner surface) to r b (outer surface), the field ratio between the inner face of the IL and the outer face of the GBL is E IL /E GBL = (ε GBL /ε IL )·(r b /r a ) in GAA (IL inside) and (ε GBL /ε IL )·(r a /r b ) in CAA (IL outside).
+      NEW: With the same Q′ through a stack from radius r a (inner surface) to r b (outer surface), the ratio of the field at the stack boundary on the IL side to the field at the stack boundary on the GBL side (in GAA the IL side is r a and the GBL side r b ; in CAA the reverse) is E IL /E GBL = (ε GBL /ε IL )·(r b /r a ) in GAA (IL inside) and (ε GBL /ε IL )·(r a /r b ) in CAA (IL outside).
+
+[replace] OLD: The same relation is why the channel-side tunnel-oxide field exceeds the blocking-oxide field in production charge-trap VNAND.
+      NEW: The same relation is a curvature contribution to why the channel-side tunnel-oxide field exceeds the blocking-oxide field in production charge-trap VNAND (layer thickness and permittivity ratios also contribute).
+
+[replace] OLD: Claim–evidence card CLAIM Charge-trap 3D NAND는 고전계 FN 동작 때문에 신뢰성, 전력, 수직 scaling에서 한계에 이르렀고, WL pitch 축소가 inter-WL 절연막 파괴와 cell 간 간섭을 심화시킨다(인용 진술). 저자 해석(AUTHOR_INTERPRETATION): ferroelectric 분극과 charge trapping을 결합한 hybrid FeNAND가 저전압 동작과 1,000층 이상의 적층으로 가는 경로이다. Charge-trap 3D NAND has reached limits in reliability, power and vertical scaling because of high-field FN operation, and WL-pitch shrinkage intensifies inter-WL dielectric breakdown and cell-to-cell interference (cited statement). Authors' interpretation (AUTHOR_INTERPRETATION): hybrid FeNAND coupling ferroelectric polarization with charge trapping is a path to low-voltage operation and stacking beyond 1,000 layers.
+      NEW: Claim–evidence card CLAIM Charge-trap 3D NAND는 신뢰성, 전력, 수직 scaling에서 한계에 이르렀고, WL pitch 축소가 inter-WL 절연막 파괴와 cell 간 간섭을 심화시킵니다(인용 진술). 저자 해석(AUTHOR_INTERPRETATION): 그 물리적 병목은 고전계 FN 동작이며, ferroelectric 분극과 charge trapping을 결합한 hybrid FeNAND가 저전압 동작과 1,000층 이상의 적층으로 가는 경로입니다. Charge-trap 3D NAND has reached limits in reliability, power and vertical scaling, and WL-pitch shrinkage intensifies inter-WL dielectric breakdown and cell-to-cell interference (cited statement). Authors' interpretation (AUTHOR_INTERPRETATION): the physical bottleneck is high-field FN operation, and hybrid FeNAND coupling ferroelectric polarization with charge trapping is a path to low-voltage operation and stacking beyond 1,000 layers.
+
+[replace] OLD: gate-injected 전하의 carrier 종류 서술 차이; 일부 인용과 진술의 제목 수준 불일치(모두 읽으며 관찰, 저자 미확인).
+      NEW: gate-injected 전하의 carrier 종류 서술 차이(모두 읽으며 관찰, 저자 미확인).
+
+[replace] OLD: differing statements of the carrier type of gate-injected charge; title-level mismatches between some citations and statements (all observed on reading, not confirmed by the authors).
+      NEW: differing statements of the carrier type of gate-injected charge (all observed on reading, not confirmed by the authors).
+
+##### i3
+[replace] OLD: Read-retry history reuse in 3D NAND SSDs: what a stored V OPT measures, and when a block-invariant WL-offset table should fail Source / citation (abstract only) Seonguk Jang, Haun Jeon, Ilpyo Hong, Ryan Kim, Nathan Kim, Beomjun Kim, Myungsuk Kim, PAHT: Process-Aware History Tracking for Fast Read Retry in High-Capacity 3D NAND SSDs , Eng (MDPI) 7(10), 563 (2026), DOI 10.3390/eng7100563 .
+      NEW: Read-retry history reuse in 3D NAND SSDs: what a stored V OPT measures, and when a block-invariant WL-offset table should fail new_this_week · journal article (Eng, MDPI) · abstract only 이 논문은 Crossref 기준 2026-10-15에 온라인 게재되었으며(published-online·issued, CC BY 4.0 license 시작일도 같은 날), 이번 주 window(2026-10-12–10-18) 안에 있으므로 이번 주 신규 결과(new_this_week)로 다룹니다. 출판사 페이지는 자동 조회에 HTTP 403을 반환했고 우회하지 않았으므로, 이 항목은 Crossref에 등록된 초록에만 근거한 요약(abstract brief)입니다. 초록은 cell 형상(channel hole, 반경, stack 구성)을 기술하지 않으므로, 아래의 동축 식은 이 논문의 모델이 아니라 이 보고서의 framework입니다. This paper was published online on 2026-10-15 according to Crossref (published-online/issued; the CC BY 4.0 license starts the same day), inside this week's window (2026-10-12 to 10-18), so it is treated as a new result this week (new_this_week). The publisher page returned HTTP 403 to automated access and was not bypassed, so this item is a brief based only on the Crossref-deposited abstract. The abstract does not describe the cell geometry (channel hole, radius, stack), so the coaxial expressions below are this report's framework, not the paper's model. Source / citation (abstract only) Seonguk Jang, Haun Jeon, Ilpyo Hong, Ryan Kim, Nathan Kim, Beomjun Kim, Myungsuk Kim, PAHT: Process-Aware History Tracking for Fast Read Retry in High-Capacity 3D NAND SSDs , Eng (MDPI) 7(10), 563 (2026), DOI 10.3390/eng7100563 .
+
+[replace] OLD: Read-retry reduces the raw bit error rate (RBER) but significantly degrades read performance because several read iterations are needed to complete one host read.
+      NEW: Read-retry reduces the raw bit error rate (RBER) but significantly degrades read performance because multiple read iterations are required to complete one host read.
+
+[replace] OLD: Engineering inference · numerically checked framework (not from the paper) [1] 관측 (i)과 log-time kinetics.
+      NEW: ENGINEERING_INFERENCE — numerically checked framework (not from the paper) [1] 관측 (i)과 log-time kinetics.
+
+[replace] OLD: (ii-a) 한 age에서 block 사이 offset이 같다, (ii-b) offset이 age, cycle, 온도에 따라 변하지 않는다.
+      NEW: (ii-a) 한 age에서 block 사이 offset이 같다는 것과 (ii-b) offset이 age, cycle, 온도에 따라 변하지 않는다는 것입니다.
+
+##### i4
+[replace] OLD: Access-rate-dependent endurance of HZO capacitors: longer delays between pulses remove more switchable polarization — the delay acts as stress, not rest, and the 10 10 -cycle curve is a fit extrapolation new_this_week · preprint (not peer reviewed) · planar MFM capacitor, not a VNAND stack 이 논문은 arXiv에 2026-10-14(v1 제출 시각 2026-10-14T13:11:11Z, arXiv API와 DataCite 기록 일치)에 제출되었으며, 이번 주 window(2026-10-12–10-18) 안에 있으므로 이번 주 신규 결과(new_this_week)로 다룹니다.
+      NEW: Access-rate-dependent endurance of HZO capacitors: longer delays between pulses remove more switchable polarization — in this stack the delay acts as net stress rather than net recovery (this report's sign-test inference; recovery may coexist), and the 10 10 -cycle curve is a fit extrapolation new_this_week · preprint (not peer reviewed) · planar MFM capacitor, not a VNAND stack 이 논문은 arXiv에 2026-10-14(v1 제출 시각 2026-10-14T13:11:11Z, arXiv API와 DataCite 기록 일치)에 제출되었으며, 이번 주 window(2026-10-12–10-18) 안에 있으므로 이번 주 신규 결과(new_this_week)로 다룹니다.
+
+[replace] OLD: 본문, 참고문헌, Supporting Information S1–S4, Table S1–S3). 둘째, 2026-10-28에 PDF를 다시 내려받아 다른 도구(pypdf)로 추출한 본(전체 71,926자) 중 10,411–15,528자(그림 1–2 관련 본문), 22,565–29,543자(결함 준위, drift-diffusion, 전하 이동), 30,537–36,208자(식 (1)–(2), α와 β, 그림 5, 활성화 에너지), 38,612–42,210자(전기 측정 방법), 55,853–56,322자(Table S1), 63,895–69,213자(S4 유도, Table S2–S3)를 읽어 수치를 대조했습니다.
+      NEW: 본문, 참고문헌, Supporting Information 1–4절, Supplementary Tables 1–3). 둘째, 2026-10-28에 PDF를 다시 내려받아 다른 도구(pypdf)로 추출한 본(전체 71,926자) 중 10,411–15,528자(그림 1–2 관련 본문), 22,565–29,543자(결함 준위, drift-diffusion, 전하 이동), 30,537–36,208자(식 (1)–(2), α와 β, 그림 5, 활성화 에너지), 38,612–42,210자(전기 측정 방법), 55,853–56,322자(Supplementary Table 1), 63,895–69,213자(Supporting Information 4절의 유도, Supplementary Tables 2–3)를 읽어 수치를 대조했습니다.
+
+[replace] OLD: 그림 1–5와 S1–S2의 이미지는 보지 못했고 caption만 읽었습니다. 두 추출본 모두 수식 글리프(ln, 지수, 일부 그리스 문자)가 깨져 있어 식 (1), (2), (S24)–(S36)의 정확한 함수형은 UNKNOWN입니다.
+      NEW: 그림 1–5와 보충 그림 1–2의 이미지는 보지 못했고 caption만 읽었습니다. 두 추출본 모두 수식 글리프(ln, 지수, 일부 그리스 문자)가 깨져 있어 식 (1), (2), Supplementary Eqs. (24)–(36)의 정확한 함수형은 UNKNOWN입니다.
+
+[replace] OLD: 다만 Table S3에서 활성화 에너지를 재계산해 본문 값과 일치함을 확인), 산소 공공 전자 방출 메커니즘은 C (ab initio와 drift-diffusion이 뒷받침하는 물리적으로 일관된 가설이나 실험으로 분리되지 않음), 10 10 cycle 전망은 D (적합식 외삽).
+      NEW: 다만 Supplementary Table 3에서 활성화 에너지를 재계산해 본문 값과 일치함을 확인), 산소 공공 전자 방출 메커니즘은 C (ab initio와 drift-diffusion이 뒷받침하는 물리적으로 일관된 가설이나 실험으로 분리되지 않음), 10 10 cycle 전망은 D (적합식 외삽).
+
+[replace] OLD: Ranges read: first, the whole pdftotext extraction of the PDF (characters 0–73,233: main text, references, Supporting Information S1–S4, Tables S1–S3).
+      NEW: Ranges read: first, the whole pdftotext extraction of the PDF (characters 0–73,233: main text, references, Supporting Information Sections 1–4, Supplementary Tables 1–3).
+
+[replace] OLD: 5, activation energy), 38,612–42,210 (electrical methods), 55,853–56,322 (Table S1) and 63,895–69,213 (S4 derivation, Tables S2–S3) were read to cross-check values.
+      NEW: 5, activation energy), 38,612–42,210 (electrical methods), 55,853–56,322 (Supplementary Table 1) and 63,895–69,213 (Supporting Information Section 4 derivation, Supplementary Tables 2–3) were read to cross-check values.
+
+[replace] OLD: 1–5, S1–S2) were not viewed;
+      NEW: 1–5 and Supplementary Figs. 1–2) were not viewed;
+
+[replace] OLD: (1), (2) and (S24)–(S36) are UNKNOWN.
+      NEW: (1), (2) and Supplementary Eqs. (24)–(36) are UNKNOWN.
+
+[replace] OLD: the activation energies were recomputed from Table S3 and match the text), C for the oxygen-vacancy electron-emission mechanism (a physically consistent hypothesis supported by ab initio and drift-diffusion calculations, not isolated experimentally), and D for the 10 10 -cycle projection (a fit extrapolation).
+      NEW: the activation energies were recomputed from Supplementary Table 3 and match the text), C for the oxygen-vacancy electron-emission mechanism (a physically consistent hypothesis supported by ab initio and drift-diffusion calculations, not isolated experimentally), and D for the 10 10 -cycle projection (a fit extrapolation).
+
+[replace] OLD: 이 시험 동안 누설 전류 밀도와 유전율(약 27.5)은 눈에 띄게 변하지 않았습니다(그림 S2). 실온 적합 parameter τ 0 (Table S2)는 delay 2 ms, 200 μs, 20 μs에서 98.0, 157.1, 330.1 ns(표준편차 11.2, 25.3, 139.1 ns)이고, 200 ns와 2 μs 값(2385.3, 613929.1 ns)은 표준편차가 매우 커서 저자들도 "purely indicative"라고 씁니다. 2 ms delay에서 25/55/85/105/135 °C의 τ 0 는 111.0/79.3/61.8/58.1/53.0 ns입니다(Table S3).
+      NEW: 이 시험 동안 누설 전류 밀도와 유전율(약 27.5)은 눈에 띄게 변하지 않았습니다(보충 그림 2). 실온 적합 parameter τ 0 (Supplementary Table 2)는 delay 2 ms, 200 μs, 20 μs에서 98.0, 157.1, 330.1 ns(표준편차 11.2, 25.3, 139.1 ns)이고, 200 ns와 2 μs 값(2385.3, 613929.1 ns)은 표준편차가 매우 커서 저자들도 "purely indicative"라고 씁니다. 2 ms delay에서 25/55/85/105/135 °C의 τ 0 는 111.0/79.3/61.8/58.1/53.0 ns입니다(Supplementary Table 3).
+
+[replace] OLD: S2). The room-temperature fit parameter τ 0 (Table S2) is 98.0, 157.1 and 330.1 ns (standard deviations 11.2, 25.3, 139.1 ns) for delays of 2 ms, 200 μs and 20 μs;
+      NEW: 2). The room-temperature fit parameter τ 0 (Supplementary Table 2) is 98.0, 157.1 and 330.1 ns (standard deviations 11.2, 25.3, 139.1 ns) for delays of 2 ms, 200 μs and 20 μs;
+
+[replace] OLD: At 2 ms delay, τ 0 is 111.0/79.3/61.8/58.1/53.0 ns at 25/55/85/105/135 °C (Table S3).
+      NEW: At 2 ms delay, τ 0 is 111.0/79.3/61.8/58.1/53.0 ns at 25/55/85/105/135 °C (Supplementary Table 3).
+
+[replace] OLD: 식 (1), (2), (S24)–(S36)의 정확한 함수형(두 추출본 모두 ln, 지수, 기호가 깨짐), 시간·cycle에 따른 Δ2P r 의 실제 크기(그림 5에만 있음), 10 10 cycle 외삽값, 조건당 소자 수와 소자 간 산포(본문은 "시험마다 다른 커패시터"라고만 씀), bipolar cycle 하나에 delay가 한 번 들어가는지 pulse마다 들어가는지, 판독 PUND와 마지막 cycling pulse 사이의 시간, 고속 cycling 중 소자 온도, 2 ms보다 긴 delay와 135 °C 초과 온도의 거동은 확인할 수 없어 UNKNOWN입니다.
+      NEW: 식 (1), (2), Supplementary Eqs. (24)–(36)의 정확한 함수형(두 추출본 모두 ln, 지수, 기호가 깨짐), 시간·cycle에 따른 Δ2P r 의 실제 크기(그림 5에만 있음), 10 10 cycle 외삽값, 조건당 소자 수와 소자 간 산포(본문은 "시험마다 다른 커패시터"라고만 씀), bipolar cycle 하나에 delay가 한 번 들어가는지 pulse마다 들어가는지, 판독 PUND와 마지막 cycling pulse 사이의 시간, 고속 cycling 중 소자 온도, 2 ms보다 긴 delay와 135 °C 초과 온도의 거동은 확인할 수 없어 UNKNOWN입니다.
+
+[replace] OLD: (1), (2) and (S24)–(S36) (ln, exponents and symbols are lost in both extractions), the actual magnitude of Δ2P r versus time and cycles (only in Fig.
+      NEW: (1), (2) and Supplementary Eqs. (24)–(36) (ln, exponents and symbols are lost in both extractions), the actual magnitude of Δ2P r versus time and cycles (only in Fig.
+
+[replace] OLD: 본문은 τ 0 를 crossover 시간 τ와 delay t d 의 비(무차원)로 정의하지만, Table S2–S3은 τ 0 를 ns 단위로, 그림 5b inset은 "ln τ 0 in seconds"로 표기합니다.
+      NEW: 본문은 τ 0 를 crossover 시간 τ와 delay t d 의 비(무차원)로 정의하지만, Supplementary Tables 2–3은 τ 0 를 ns 단위로, 그림 5b inset은 "ln τ 0 in seconds"로 표기합니다.
+
+[replace] OLD: 아래 (iv)의 재구성 형태에 이 α를 넣으면 Δ2P r 이 측정 불가능할 만큼 작아지므로(notes의 수치 탐침), 식 (1)은 본문 텍스트만으로 재현할 수 없습니다.
+      NEW: 아래 (iv)의 재구성 형태에 이 α를 넣으면 Δ2P r 이 측정 불가능할 만큼 작아지므로(이 보고서의 수치 탐침), 식 (1)은 본문 텍스트만으로 재현할 수 없습니다.
+
+[replace] OLD: 인용된 확산 계수 범위의 하한을 Einstein 관계(식 S10, 전하수 2, 300 K, 1 MV/cm)에 넣으면 drift 속도는 7.74 × 10 −7 m/s로, 본문이 쓴 하한(10 −5 m/s)보다 두 자릿수 작습니다(sympy).
+      NEW: 인용된 확산 계수 범위의 하한을 Einstein 관계(보충 식 (10), 전하수 2, 300 K, 1 MV/cm)에 넣으면 drift 속도는 7.74 × 10 −7 m/s로, 본문이 쓴 하한(10 −5 m/s)보다 약 한 자릿수(약 13배) 작고, 상한(10 −4 m/s)보다는 약 두 자릿수 작습니다(SymPy). 확산 계수 범위가 두 자릿수(10 −12 –10 −10 cm 2 /s)에 걸치므로 속도도 두 자릿수에 걸쳐야 하지만, 본문의 속도 범위는 한 자릿수(10 −5 –10 −4 m/s)이며 확산 계수 약 1.3 × 10 −11 –1.3 × 10 −10 cm 2 /s에 해당합니다(SymPy).
+
+[replace] OLD: 실온 2 ms의 τ 0 는 Table S2에서 98.0 ± 11.2 ns(10 7 wake-up 후), Table S3의 25 °C에서 111.0 ± 15.9 ns(10 6 wake-up 후, 다른 probe station)입니다.
+      NEW: 실온 2 ms의 τ 0 는 Supplementary Table 2에서 98.0 ± 11.2 ns(10 7 wake-up 후), Supplementary Table 3의 25 °C에서 111.0 ± 15.9 ns(10 6 wake-up 후, 다른 probe station)입니다.
+
+[replace] OLD: 이 때문에 이 보고서는 식 (1)의 함수형과 10 10 cycle 값을 사용하지 않고, 측정 경향과 Table S2–S3의 적합값만 사례값으로 씁니다.
+      NEW: 이 때문에 이 보고서는 식 (1)의 함수형과 10 10 cycle 값을 사용하지 않고, 측정 경향과 Supplementary Tables 2–3의 적합값만 사례값으로 씁니다.
+
+[replace] OLD: The text defines τ 0 as the ratio of the crossover time τ to the delay t d (dimensionless), yet Tables S2–S3 give τ 0 in ns and the Fig.
+      NEW: The text defines τ 0 as the ratio of the crossover time τ to the delay t d (dimensionless), yet Supplementary Tables 2–3 give τ 0 in ns and the Fig.
+
+[replace] OLD: Inserting this α into the reconstructed form in (iv) below makes Δ2P r undetectably small (numeric probe in the notes), so Eq.
+      NEW: Inserting this α into the reconstructed form in (iv) below makes Δ2P r undetectably small (this report's numerical probe), so Eq.
+
+[replace] OLD: S10; charge number 2, 300 K, 1 MV/cm) gives a drift velocity of 7.74 × 10 −7 m/s, two decades below the stated lower bound of 10 −5 m/s (sympy).
+      NEW: (10); charge number 2, 300 K, 1 MV/cm) gives a drift velocity of 7.74 × 10 −7 m/s, about one decade (a factor of about 13) below the stated lower bound of 10 −5 m/s and about two decades below the stated upper bound of 10 −4 m/s (SymPy). A diffusion-coefficient range spanning two decades (10 −12 –10 −10 cm 2 /s) should give velocities spanning two decades, but the stated velocity range spans one (10 −5 –10 −4 m/s) and corresponds to diffusion coefficients of about 1.3 × 10 −11 –1.3 × 10 −10 cm 2 /s (SymPy).
+
+[replace] OLD: At room temperature and 2 ms, τ 0 is 98.0 ± 11.2 ns in Table S2 (after 10 7 wake-up cycles) and 111.0 ± 15.9 ns at 25 °C in Table S3 (after 10 6 wake-up cycles, different probe station).
+      NEW: At room temperature and 2 ms, τ 0 is 98.0 ± 11.2 ns in Supplementary Table 2 (after 10 7 wake-up cycles) and 111.0 ± 15.9 ns at 25 °C in Supplementary Table 3 (after 10 6 wake-up cycles, different probe station).
+
+[replace] OLD: (1) or the 10 10 -cycle values, and uses only the measured trends and the Table S2–S3 fit values as case values.
+      NEW: (1) or the 10 10 -cycle values, and uses only the measured trends and the Supplementary Tables 2–3 fit values as case values.
+
+[replace] OLD: (1)–(2) UNKNOWN) Source, Sec. S4 in words: V th (t) grows logarithmically with t (crossover time τ between linear and logarithmic charge relaxation);
+      NEW: (1)–(2) UNKNOWN) Source, Supporting Information Section 4 in words: V th (t) grows logarithmically with t (crossover time τ between linear and logarithmic charge relaxation);
+
+[replace] OLD: (S32) in words: delay effects add linearly per cycle (effective time ∝ N·t d );
+      NEW: (32) in words: delay effects add linearly per cycle (effective time ∝ N·t d );
+
+[replace] OLD: (S33): an acceleration factor β with a power law in N;
+      NEW: (33): an acceleration factor β with a power law in N;
+
+[replace] OLD: (S34): τ 0 = τ/t d Source, Eq.
+      NEW: (34): τ 0 = τ/t d Source, Eq.
+
+[replace] OLD: (S10): Einstein relation between vacancy diffusion coefficient D and mobility μ;
+      NEW: (10): Einstein relation between vacancy diffusion coefficient D and mobility μ;
+
+[replace] OLD: Engineering inference · sympy-checked stress-time accounting (background framework, not the paper's model) (i) 회계 틀.
+      NEW: ENGINEERING_INFERENCE — SymPy-checked stress-time accounting (background framework, not the paper's model) (i) 회계 틀.
+
+[replace] OLD: 원문이 쓴 delay 누적 시계 X = N β t d /τ(β = 1이면 식 S32의 선형 누적)에서는 G의 형태와 무관하게 (∂Δ/∂ln N)/(∂Δ/∂ln t d ) = β이고, 같은 손실을 주는 등손실선의 기울기는 ∂ln t d /∂ln N = −β입니다(sympy).
+      NEW: 원문이 쓴 delay 누적 시계 X = N β t d /τ(β = 1이면 보충 식 (32)의 선형 누적)에서는 G의 형태와 무관하게 (∂Δ/∂ln N)/(∂Δ/∂ln t d ) = β이고, 같은 손실을 주는 등손실선의 기울기는 ∂ln t d /∂ln N = −β입니다(SymPy).
+
+[replace] OLD: S32), for any form of G, (∂Δ/∂ln N)/(∂Δ/∂ln t d ) = β, and the iso-loss contour has slope ∂ln t d /∂ln N = −β (sympy).
+      NEW: (32)), for any form of G, (∂Δ/∂ln N)/(∂Δ/∂ln t d ) = β, and the iso-loss contour has slope ∂ln t d /∂ln N = −β (SymPy).
+
+[replace] OLD: 원문은 반대 부호(delay가 길수록 손실이 큼)를 보고하므로, 이 스택에서는 delay가 순회복 구간이 아니라 순 stress 구간입니다.
+      NEW: 원문은 반대 부호(delay가 길수록 손실이 큼)를 보고하므로, 이 스택에서는 delay가 순회복 구간이 아니라 순 stress 구간으로 작용한다고 추론합니다(이 보고서의 추론).
+
+[replace] OLD: The source reports the opposite sign (longer delay, more loss), so in this stack the delay is a net-stress interval, not net recovery.
+      NEW: The source reports the opposite sign (longer delay, more loss), so we infer that in this stack the delay acts as a net-stress interval rather than net recovery (this report's inference).
+
+[replace] OLD: 원문 S4의 서술(cos θ 0 가 문턱 전압의 로그에 비례, P = P 0 ∫cos θ sin θ dθ)을 따르면 ∫ 0 θ 0 cos θ sin θ dθ = sin²θ 0 /2 = (1 − cos²θ 0 )/2이므로 P = P 0 [1 − a² ln² X] 꼴, 즉 로그의 제곱에 비례하는 손실이 됩니다(sympy).
+      NEW: 원문 Supporting Information 4절의 서술(cos θ 0 가 문턱 전압의 로그에 비례, P = P 0 ∫cos θ sin θ dθ)을 따르면 ∫ 0 θ 0 cos θ sin θ dθ = sin²θ 0 /2 = (1 − cos²θ 0 )/2이므로 P ∝ [1 − a² ln² X] 꼴(인자 1/2은 P 0 에 흡수), 즉 로그의 제곱에 비례하는 손실이 됩니다(SymPy).
+
+[replace] OLD: Following the S4 description (cos θ 0 proportional to the logarithm in the threshold voltage, P = P 0 ∫cos θ sin θ dθ), ∫ 0 θ 0 cos θ sin θ dθ = sin²θ 0 /2 = (1 − cos²θ 0 )/2, giving P = P 0 [1 − a² ln² X], a loss proportional to the square of a logarithm (sympy).
+      NEW: Following the Supporting Information Section 4 description (cos θ 0 proportional to the logarithm in the threshold voltage, P = P 0 ∫cos θ sin θ dθ), ∫ 0 θ 0 cos θ sin θ dθ = sin²θ 0 /2 = (1 − cos²θ 0 )/2, giving P ∝ [1 − a² ln² X] (the factor 1/2 absorbed into P 0 ), a loss proportional to the square of a logarithm (SymPy).
+
+[replace] OLD: (1), and as observation (2) notes, it does not match the measurements when combined with the source's α.
+      NEW: (1), and as observation (2) states, it does not match the measurements when combined with the source's α.
+
+[replace] OLD: Table S3의 ln τ 0 대 1/k B T 최소제곱 기울기는 25–85 °C에서 0.08997 eV, 85–135 °C에서 0.03880 eV로, 본문의 0.09 eV와 0.04 eV를 재현합니다(sympy). Table S1에서 전도대 바닥과 중성 V O 점유 준위의 차는 ZrO 2 2.0 eV, HfO 2 2.85 eV이고 차이 0.85 eV는 본문과 일치합니다(sympy). Table S2에서 τ 0 는 delay 한 decade당 2.10배, 1.60배 줄어 τ 0 ∝ 1/t d 가 요구하는 10배보다 훨씬 작습니다(sympy).
+      NEW: Supplementary Table 3의 ln τ 0 대 1/k B T 최소제곱 기울기는 25–85 °C에서 0.08997 eV, 85–135 °C에서 0.03880 eV로, 본문의 0.09 eV와 0.04 eV를 재현합니다(SymPy). Supplementary Table 1에서 전도대 바닥과 중성 V O 점유 준위의 차는 ZrO 2 2.0 eV, HfO 2 2.85 eV이고 차이 0.85 eV는 본문과 일치합니다(SymPy). Supplementary Table 2에서 τ 0 는 delay 한 decade당 2.10배, 1.60배 줄어 τ 0 ∝ 1/t d 가 요구하는 10배보다 훨씬 작습니다(SymPy).
+
+[replace] OLD: 이는 τ가 축적 전하량에 의존한다는 원문 S4의 서술과 모순되지 않지만, τ 0 가 "물리 상수"처럼 외삽에 쓰일 수 없다는 뜻입니다.
+      NEW: 이는 τ가 축적 전하량에 의존한다는 원문 Supporting Information 4절의 서술과 모순되지 않지만, τ 0 가 "물리 상수"처럼 외삽에 쓰일 수 없다는 뜻입니다.
+
+[replace] OLD: Least-squares slopes of ln τ 0 versus 1/k B T from Table S3 are 0.08997 eV for 25–85 °C and 0.03880 eV for 85–135 °C, reproducing the text's 0.09 eV and 0.04 eV (sympy). In Table S1 the gap between the conduction-band minimum and the occupied neutral V O level is 2.0 eV in ZrO 2 and 2.85 eV in HfO 2 , and the 0.85 eV difference matches the text (sympy). In Table S2, τ 0 falls by 2.10 and 1.60 times per decade of delay, far less than the factor of 10 required by τ 0 ∝ 1/t d (sympy).
+      NEW: Least-squares slopes of ln τ 0 versus 1/k B T from Supplementary Table 3 are 0.08997 eV for 25–85 °C and 0.03880 eV for 85–135 °C, reproducing the text's 0.09 eV and 0.04 eV (SymPy). In Supplementary Table 1 the gap between the conduction-band minimum and the occupied neutral V O level is 2.0 eV in ZrO 2 and 2.85 eV in HfO 2 , and the 0.85 eV difference matches the text (SymPy). In Supplementary Table 2, τ 0 falls by 2.10 and 1.60 times per decade of delay, far less than the factor of 10 required by τ 0 ∝ 1/t d (SymPy).
+
+[replace] OLD: This does not contradict the S4 statement that τ depends on the accumulated charge, but it means τ 0 cannot be used for extrapolation as if it were a physical constant.
+      NEW: This does not contradict the Supporting Information Section 4 statement that τ depends on the accumulated charge, but it means τ 0 cannot be used for extrapolation as if it were a physical constant.
+
+[replace] OLD: (3) Domain wall pinning : 저자들은 nucleation-limited switching을 근거로 핵생성 억제를 택했지만, pinning과 핵생성 억제를 전기 신호로 구별한 데이터는 없습니다.
+      NEW: (3) Domain wall pinning : 원문 서론은 cycling 중 생성되고 delay 동안 재분포된 결함(대개 산소 공공으로 식별)에 의한 domain wall pinning을 [23]–[25], [27]의 설명으로 소개합니다. 저자들은 nucleation-limited switching을 근거로 domain wall pinning이 아니라 핵생성 억제를 택했지만, pinning과 핵생성 억제를 전기 신호로 구별한 데이터는 없습니다.
+
+[replace] OLD: Table S3에서 τ 0 가 25–135 °C에서 111.0에서 53.0 ns로만 변하므로, 발열이 결과를 바꾸려면 상당히 커야 합니다.
+      NEW: Supplementary Table 3에서 τ 0 가 25–135 °C에서 111.0에서 53.0 ns로만 변하므로, 발열이 결과를 바꾸려면 상당히 커야 합니다.
+
+[replace] OLD: (7) 상 구성 변화 : fatigue 단계에서 유전율이 약 27.5로 일정하다는 보고(그림 S2)는 이 단계에서의 상전이 기여를 약하게 만듭니다.
+      NEW: (7) 상 구성 변화 : fatigue 단계에서 유전율이 약 27.5로 일정하다는 보고(보충 그림 2)는 이 단계에서의 상전이 기여를 약하게 만듭니다.
+
+[replace] OLD: (3) Domain-wall pinning : the authors chose nucleation inhibition based on nucleation-limited switching, but no data separate pinning from nucleation inhibition by an electrical signature.
+      NEW: (3) Domain-wall pinning : the source's introduction presents domain-wall pinning by defects (typically identified as oxygen vacancies) generated during cycling and redistributed during the delay as the explanation of [23]–[25], [27]. The authors chose nucleation inhibition rather than domain-wall pinning based on nucleation-limited switching, but no data separate pinning from nucleation inhibition by an electrical signature.
+
+[replace] OLD: Since τ 0 in Table S3 only changes from 111.0 to 53.0 ns over 25–135 °C, heating would have to be large to change the result.
+      NEW: Since τ 0 in Supplementary Table 3 only changes from 111.0 to 53.0 ns over 25–135 °C, heating would have to be large to change the result.
+
+[replace] OLD: S2) weakens a phase-transition contribution in this stage;
+      NEW: 2) weakens a phase-transition contribution in this stage;
+
+[replace] OLD: 누설과 유전율이 변하지 않았다는 보고(그림 S2)는 이 단계에서 breakdown 전구 현상이 지배하지 않았음을 뜻합니다.
+      NEW: 누설과 유전율이 변하지 않았다는 보고(보충 그림 2)는 이 단계에서 breakdown 전구 현상이 지배하지 않았음을 뜻합니다.
+
+[replace] OLD: S2) means breakdown precursors did not dominate in this stage.
+      NEW: 2) means breakdown precursors did not dominate in this stage.
+
+[replace] OLD: NAND의 P/E cycling 시험에서도 cycle 사이 휴지 간격을 바꾸면 결과가 달라질 수 있다는 것은 신뢰성 실무에서 널리 논의되며(이번 호에서 1차 출처 미확인, 배경 지식), 보통은 휴지가 detrapping 회복을 주는 방향으로 이해됩니다. 이 논문은 휴지 동안 저장 상태가 만드는 내부 전계 때문에 휴지가 오히려 stress 구간이 될 수 있음을 보여 주는 반례입니다.
+      NEW: NAND의 P/E cycling 시험에서도 cycle 사이 휴지 간격을 바꾸면 결과가 달라질 수 있다는 것은 신뢰성 실무에서 널리 논의되며(ENGINEERING_INFERENCE, 근거 미확인: 배경 지식이며 이번 호에서 1차 출처를 확인하지 않음), 보통은 휴지가 detrapping 회복을 주는 방향으로 이해됩니다. 이 논문은 휴지 동안 저장 상태가 만드는 내부 전계 때문에 휴지가 오히려 stress 구간이 될 수 있음을 보여 주는 반례로 읽힙니다(위 (iii)의 부호 시험에 근거한 이 보고서의 추론).
+
+[replace] OLD: In NAND P/E cycling tests too, it is widely discussed in reliability practice (background knowledge; primary sources not checked for this issue) that changing the rest interval between cycles can change the outcome, usually understood as rest giving detrapping recovery. This paper is a counter-example showing that a rest can instead be a stress interval because the stored state sets up an internal field during it.
+      NEW: In NAND P/E cycling tests too, it is widely discussed in reliability practice (ENGINEERING_INFERENCE with an unverified basis: background knowledge, primary sources not checked for this issue) that changing the rest interval between cycles can change the outcome, usually understood as rest giving detrapping recovery. This paper reads as a counter-example showing that a rest can instead be a stress interval because the stored state sets up an internal field during it (this report's inference from the sign test in (iii) above).
+
+[replace] OLD: EVIDENCE 본문과 SI 전체 열람, 두 번째 독립 추출로 수치 대조(SOURCE_REPORTED): PUND 전류, 2P r , 항전계, 유전율, 누설, 단극성/양극성 대조, Table S2–S3 적합값, HSE06 결함 준위(Table S1), drift-diffusion 계산. Table S3의 활성화 에너지와 Table S1의 준위 차는 재계산으로 일치를 확인했습니다(sympy).
+      NEW: EVIDENCE 본문과 SI 전체 열람, 두 번째 독립 추출로 수치 대조(SOURCE_REPORTED): PUND 전류, 2P r , 항전계, 유전율, 누설, 단극성/양극성 대조, Supplementary Tables 2–3 적합값, HSE06 결함 준위(Supplementary Table 1), drift-diffusion 계산. Supplementary Table 3의 활성화 에너지와 Supplementary Table 1의 준위 차는 재계산으로 일치를 확인했습니다(SymPy).
+
+[replace] OLD: Full main text and SI read, values cross-checked in a second independent extraction (SOURCE_REPORTED): PUND currents, 2P r , coercive field, permittivity, leakage, unipolar/bipolar control, Table S2–S3 fit values, HSE06 defect levels (Table S1), drift-diffusion calculation. The activation energies from Table S3 and the level differences in Table S1 were recomputed and match (sympy).
+      NEW: Full main text and SI read, values cross-checked in a second independent extraction (SOURCE_REPORTED): PUND currents, 2P r , coercive field, permittivity, leakage, unipolar/bipolar control, Supplementary Tables 2–3 fit values, HSE06 defect levels (Supplementary Table 1), drift-diffusion calculation. The activation energies from Supplementary Table 3 and the level differences in Supplementary Table 1 were recomputed and match (SymPy).
+
+[replace] OLD: 값의 위치: 2장 본문과 그림 1–5 caption, 4장 Methods, 식 (1)–(2), SI S2–S4, Table S1–S3.
+      NEW: 값의 위치: 2장 본문과 그림 1–5 caption, 4장 Methods, 식 (1)–(2), Supporting Information 2–4절, Supplementary Tables 1–3.
+
+[replace] OLD: (1)–(2), SI S2–S4, Tables S1–S3.
+      NEW: (1)–(2), Supporting Information Sections 2–4, Supplementary Tables 1–3.
+
+[replace] OLD: Change vs archive W40 item 5(SiC PWM 주파수가 높을수록 TDDB 수명 증가, 회복 물리 대 duty)와 반대 부호의 access-rate 의존성을 더해, "off 시간 = 회복"이 보편적이지 않음을 보입니다.
+      NEW: Change vs archive 보고된 access-rate 의존의 방향은 W40 item 5(SiC PWM 주파수가 높을수록 TDDB 수명 증가, 회복 물리 대 duty)와 같습니다(두 경우 모두 낮은 rate·주파수가 더 나쁨). 반대인 것은 저자들이 제안한 de-trapping의 역할(SiC에서는 수명을 늘리고 HZO에서는 손실을 키움)이며, 비교 기준(이 항목은 같은 N, W40 item 5는 wall-clock 또는 stress time 중 어느 것인지 UNKNOWN)이 달라 rate 의존성의 부호 비교는 성립하지 않습니다. 따라서 "off 시간 = 회복"을 보편 가정으로 둘 수 없음을 보입니다(이 보고서의 추론).
+
+[replace] OLD: It adds an access-rate dependence of opposite sign to W40 item 5 (higher SiC PWM frequency, longer TDDB life; recovery physics vs duty), showing that "off time = recovery" is not universal.
+      NEW: The reported direction of its access-rate dependence matches W40 item 5 (higher SiC PWM frequency, longer TDDB life; recovery physics vs duty): in both, a lower rate or frequency is worse. What is opposite is the authors' proposed role of de-trapping (it lengthens life in SiC and increases loss in HZO), and the comparison bases differ (equal N here; wall-clock or stress time, UNKNOWN, in W40 item 5), so a sign comparison of the rate dependence does not hold. It therefore shows that "off time = recovery" cannot be taken as a universal assumption (this report's inference).
+
+[replace] OLD: HZO 커패시터에서는 access rate가 낮을수록(off 구간이 길수록) 손실이 커지는 반대 부호가 보고되었고, 저자들은 이것도 de-trapping(전자 방출)으로 설명합니다. In HZO capacitors the opposite sign is reported: a lower access rate (longer off interval) gives more loss, and the authors also explain it by de-trapping (electron emission). 같은 "de-trapping"이라는 말이 두 소자에서 반대 방향의 수명 효과를 설명하는 데 쓰이므로, 용어만으로 메커니즘을 정할 수 없습니다.
+      NEW: HZO 커패시터에서도 같은 cycle 수에서 access rate가 낮을수록(off 구간이 길수록) 손실이 커지며(낮은 rate가 더 나쁘다는 방향은 W40 item 5와 같음), 저자들은 이것을 de-trapping(전자 방출)으로 설명합니다. 다만 de-trapping의 역할은 반대(SiC에서는 이득, HZO에서는 손실)이고, 비교 기준(같은 N 대 W40 item 5의 UNKNOWN인 시간 회계)이 달라 부호 비교는 성립하지 않습니다. In HZO capacitors, at equal cycle count, a lower access rate (longer off interval) also gives more loss (the same direction as W40 item 5: a lower rate is worse), and the authors explain it by de-trapping (electron emission). The role of de-trapping is opposite, however (beneficial in SiC, harmful in HZO), and the comparison bases differ (equal N vs time accounting UNKNOWN in W40 item 5), so a sign comparison does not hold. 같은 "de-trapping"이라는 말이 두 소자에서 반대 역할(SiC에서는 수명 이득, HZO에서는 손실의 원인)로 쓰이므로, 용어만으로 메커니즘을 정할 수 없습니다.
+
+[replace] OLD: The same word "de-trapping" is used to explain lifetime effects of opposite sign in two devices, so the term alone cannot fix the mechanism.
+      NEW: The same word "de-trapping" is given opposite roles in two devices (the cause of a lifetime gain in SiC and of a loss in HZO), so the term alone cannot fix the mechanism.
+
+##### i5
+[replace] OLD: ENGINEERING_INFERENCE — derivation checks (Python standard library; the pinned SymPy environment was unavailable for this item) (D1) 측정 창과 τ.
+      NEW: ENGINEERING_INFERENCE — derivation checks (SymPy 1.14.0 with mpmath 1.3.0; script re-run, values agree) (K1) 측정 창과 τ.
+
+[replace] OLD: 길이 L(또는 S2/S3에서 pass 영역 길이) ∈ {L 1 , 2L 1 , 4L 1 }, 면적(W 또는 N h ) ∈ {A 1 , A 2 , A 3 }, 이웃 WL pass bias V pass ∈ {V p1 , V p2 }(대상 셀 bias 고정), grain 크기 d g ∈ {d small , d large }(결정화 열처리 split), 수소 passivation ∈ {없음, 있음}, 온도 T ∈ {T 1 , T 2 , T 3 }, 주파수 창 [f min , f max ]와 확장 창 [f min , k·f max ], 기하 ∈ {평판, 원통 r 0 ∈ {r a , r b }}.
+      NEW: 길이 L(또는 구조 2·3에서 pass 영역 길이) ∈ {L 1 , 2L 1 , 4L 1 }, 면적(W 또는 N h ) ∈ {A 1 , A 2 , A 3 }, 이웃 WL pass bias V pass ∈ {V p1 , V p2 }(대상 셀 bias 고정), grain 크기 d g ∈ {d small , d large }(결정화 열처리 split), 수소 passivation ∈ {없음, 있음}, 온도 T ∈ {T 1 , T 2 , T 3 }, 주파수 창 [f min , f max ]와 확장 창 [f min , k·f max ], 기하 ∈ {평판, 원통 r 0 ∈ {r a , r b }}.
+
+[replace] OLD: Length L (or, for S2/S3, pass-region length) ∈ {L 1 , 2L 1 , 4L 1 };
+      NEW: Length L (or, for Structures 2 and 3, pass-region length) ∈ {L 1 , 2L 1 , 4L 1 };
+
+[replace] OLD: (F1, RC 대 trap) Trap peak라면 f peak 는 L과 V pass 에 무관하고, RC peak라면 f peak ∝ 1/(R·L²)입니다.
+      NEW: (R1, RC 대 trap) Trap peak라면 f peak 는 L과 V pass 에 무관하고, RC peak라면 f peak ∝ 1/(R sh ·C ox ·L²)입니다(R sh 는 channel 면저항, C ox 는 면적당 gate 용량, 아래 유도 K5).
+
+[replace] OLD: an RC peak follows f peak ∝ 1/(R·L²).
+      NEW: an RC peak follows f peak ∝ 1/(R sh ·C ox ·L²) (R sh = channel sheet resistance, C ox = gate capacitance per area; derivation K5).
+
+##### report_tail
+[replace] OLD: As item 3's framework [4] already notes, however, a WL-dependent temperature component would make an offset table built at one temperature wrong at another.
+      NEW: As item 3's framework [4] already points out, however, a WL-dependent temperature component would make an offset table built at one temperature wrong at another.
+
+[replace] OLD: the conclusion does not follow from the evidence given (observed on reading, not confirmed by the authors) 기존 격자의 바꾼 온도 쌍으로 반대칭·가산성과 b = 0을 검정하기 전까지 ΔT만의 의존은 미확정(W42-H1) ΔT-only dependence stays unsettled until antisymmetry, additivity and b = 0 are tested on the swapped pairs of the existing grid (W42-H1) cycle 사이 휴지(off 구간)는 회복인가 stress인가? Is the rest (off interval) between cycles recovery or stress? off 시간 = 회복(de-trapping) Off time = recovery (de-trapping) 항목 4: delay가 길수록 2P r 손실이 커짐, 저자는 전자 방출(de-trapping)로 설명;
+      NEW: the conclusion does not follow from the evidence given (observed on reading, not confirmed by the authors) 기존 격자의 바꾼 온도 쌍으로 반대칭·가산성과 b = 0을 검정하기 전까지 ΔT만의 의존은 미확정(W42-H1) ΔT-only dependence stays unsettled until antisymmetry, additivity and b = 0 are tested on the swapped pairs of the existing grid (W42-H1) cycle 사이 휴지(off 구간)는 회복인가 stress인가? Is the rest (off interval) between cycles recovery or stress? off 시간 = 회복(de-trapping; W40 item 5의 저자 해석) Off time = recovery (de-trapping; authors' interpretation in W40 item 5) 항목 4: delay가 길수록 2P r 손실이 커짐, 저자는 전자 방출(de-trapping)로 설명;
+
+[replace] OLD: W40 item 5(항목 4가 인용): SiC gate oxide TDDB 수명이 PWM 주파수와 함께 늘고 OFF 구간 fast-trap de-trapping으로 설명 Item 4: longer delays give larger 2P r loss, explained by the authors through electron emission (de-trapping);
+      NEW: W40 item 5(항목 4가 인용): SiC gate oxide TDDB 수명이 PWM 주파수와 함께 늘고 OFF 구간 fast-trap de-trapping으로 설명; 두 보고 모두 낮은 rate가 더 나쁘며, 비교 기준(같은 N 대 UNKNOWN인 시간 회계)이 다름 Item 4: longer delays give larger 2P r loss, explained by the authors through electron emission (de-trapping);
+
+[replace] OLD: W40 item 5 (cited in item 4): SiC gate-oxide TDDB life lengthens with PWM frequency, explained by fast-trap de-trapping during OFF intervals 소자가 달라 데이터 모순은 아님; 같은 단어 "de-trapping"이 반대 부호의 수명 효과를 설명 Different devices, so no data contradiction; the same word "de-trapping" explains lifetime effects of opposite sign 휴지의 역할은 그 동안의 내부 field(잔류 분극, 저장 전하)에 달려 있으므로, 짧은 간격 가속 결과를 긴 간격 사용 조건으로 옮기기 전에 부호 시험을 먼저 수행(W42-H5, W42-H8) The role of the rest depends on the internal field during it (remanent polarization, stored charge), so a sign test comes first before short-interval accelerated results are moved to long-interval use (W42-H5, W42-H8) 적합 매개변수의 온도 의존이 메커니즘을 정하는가? Does the temperature dependence of a fitted parameter identify the mechanism? 낮은 활성화 에너지 → 전자 de-trapping(항목 4 저자 해석);
+      NEW: W40 item 5 (cited in item 4): SiC gate-oxide TDDB life lengthens with PWM frequency, explained by fast-trap de-trapping during OFF intervals; both report that the lower rate is worse, and the comparison bases differ (equal N vs time accounting UNKNOWN) 소자가 달라 데이터 모순은 아님; 보고된 rate 의존 방향은 같지만(낮은 rate가 더 나쁨) 같은 단어 "de-trapping"이 SiC에서는 이득, HZO에서는 손실의 원인으로 쓰이며, 비교 기준이 달라 부호 비교는 성립하지 않음 Different devices, so no data contradiction; the reported direction of rate dependence is the same (lower rate is worse), but the same word "de-trapping" is cited as the cause of a gain in SiC and of a loss in HZO, and the comparison bases differ, so a sign comparison does not hold 휴지의 역할은 그 동안의 내부 field(잔류 분극, 저장 전하)에 달려 있으므로, 짧은 간격 가속 결과를 긴 간격 사용 조건으로 옮기기 전에 부호 시험을 먼저 수행(W42-H5, W42-H8) The role of the rest depends on the internal field during it (remanent polarization, stored charge), so a sign test comes first before short-interval accelerated results are moved to long-interval use (W42-H5, W42-H8) 적합 매개변수의 온도 의존이 메커니즘을 정하는가? Does the temperature dependence of a fitted parameter identify the mechanism? 낮은 활성화 에너지 → 전자 de-trapping(항목 4 저자 해석);
+
+[replace] OLD: high-R 2 linear fit → one coefficient suffices (item 1) 항목 4 유도 (v): Table S3에서 0.09·0.04 eV가 재현되지만 τ 0 는 delay 10배당 2.10배·1.60배만 줄어 stack 상수가 아님;
+      NEW: high-R 2 linear fit → one coefficient suffices (item 1) 항목 4 유도 (v): Supplementary Table 3에서 0.09·0.04 eV가 재현되지만 τ 0 는 delay 10배당 2.10배·1.60배만 줄어 stack 상수가 아님;
+
+[replace] OLD: W43 item 2(항목 4가 인용): 적합된 shape는 통계 결과이지 단일 메커니즘의 증거가 아님 Item 4 derivation (v): 0.09 and 0.04 eV are reproduced from Table S3, but τ 0 falls only 2.10 and 1.60 times per decade of delay, so it is not a stack constant.
+      NEW: W43 item 2(항목 4가 인용): 적합된 shape는 통계 결과이지 단일 메커니즘의 증거가 아님 Item 4 derivation (v): 0.09 and 0.04 eV are reproduced from Supplementary Table 3, but τ 0 falls only 2.10 and 1.60 times per decade of delay, so it is not a stack constant.
+
+[replace] OLD: D W42-H3 (from item 3 DOE) WL 간 V OPT offset은 한 data age에서는 block 사이에서 같지만(ii-a), data age에 따라 변하며(ii-b) hole 반경이 작은 WL에서 더 빨리 변합니다. The inter-WL V OPT offset is equal across blocks at one data age (ii-a) but changes with data age (ii-b), faster at WLs of smaller hole radius.
+      NEW: D W42-H3 (from item 3 DOE) WL 간 V OPT offset은 한 data age에서는 block 사이에서 같지만(ii-a), data age에 따라서는 일정하지 않으며((ii-b)의 부정) hole 반경이 작은 WL에서 더 빨리 변합니다. The inter-WL V OPT offset is equal across blocks at one data age (ii-a) but not constant in data age (the negation of (ii-b)), faster at WLs of smaller hole radius.
+
+[replace] OLD: 같은 N에서 휴지 t rest 를 바꾸고 휴지 중 저장 상태(erase 대 program)를 나누면, 열화 지표(window, SS, cycling 후 retention 손실 중 사전에 정한 하나)의 ∂/∂ln t rest 부호가 저장 상태에 따라 달라지고, program 상태 휴지에서 양의 부호가 나타나며, 반경 분할이 있으면 반경이 작을수록 그 효과가 큽니다. With t rest varied at equal N and the stored state during rest split (erased vs programmed), the sign of ∂/∂ln t rest of a pre-selected degradation metric (window, SS or post-cycling retention loss) depends on the stored state, being positive for rest in the programmed state, and with radius splits the effect is larger at smaller radius.
+      NEW: 같은 N에서 휴지 t rest 를 바꾸고 휴지 중 저장 상태(erase 대 program)를 나누면, 열화 지표(window, SS, cycling 후 retention 손실 중 사전에 정한 하나)의 ∂/∂ln t rest 부호가 저장 상태에 따라 달라지고, program 상태 휴지에서 양의 부호가 나타나며(program 상태에서는 저장 전자가 휴지 중에도 tunnel 층에 자기 field를 유지해 휴지가 stress 구간으로 작용할 수 있다는 가정), 반경 분할이 있으면 반경이 작을수록 그 효과가 큽니다(항목 3의 G(x), 즉 같은 저장 전하에서 동축 tunnel 층 field와 planar field의 비가 반경이 작을수록 큼). With t rest varied at equal N and the stored state during rest split (erased vs programmed), the sign of ∂/∂ln t rest of a pre-selected degradation metric (window, SS or post-cycling retention loss) depends on the stored state, being positive for rest in the programmed state (on the assumption that in the programmed state the stored electrons keep a self-field across the tunnel layer during rest, so that the rest can act as a stress interval), and with radius splits the effect is larger at smaller radius (item 3's G(x), the ratio of the coaxial to the planar tunnel-layer field for the same stored charge, grows as the radius shrinks).
+
+[insert] OLD: 
+      NEW: 반경 분할에서 효과의 크기가 반경과 무관하거나 반경이 클수록 크면 G(x)를 통한 반경 연결을 기각합니다.
+
+[insert] OLD: 
+      NEW: If, with radius splits, the size of the effect does not depend on radius or is larger at larger radius, the radius link through G(x) is rejected.
+
+[replace] OLD: arXiv records for items 2, 4 and 5 matched via the arXiv API and DataCite (2026-10-26) DOI resolution PASS: doi.org redirected 5/5 (2026-10-26): items 1 and 3 to the publisher article page, items 2, 4 and 5 to the arXiv abstract page Publisher / page access PARTIAL: item 1 open-access PDF on J-STAGE (advance and copyedited editions);
+      NEW: arXiv records for items 2, 4 and 5 matched via the arXiv API and DataCite (2026-10-26); in the physics review the arXiv API was rate-limited, and the match was re-confirmed from the arXiv abstract pages and DataCite DOI resolution PASS: doi.org redirected 5/5 (2026-10-26): items 1 and 3 to the publisher article page, items 2, 4 and 5 to the arXiv abstract page Publisher / page access PARTIAL: item 1 open-access PDF on J-STAGE (advance and copyedited editions);
+
+[replace] OLD: Physics independent review PENDING: not performed Numbers traced to source or labeled derivation Self-check only: each item states that it used values agreeing in both reads (items 1, 2, 4, 5) or present in the abstract (item 3); independent check PENDING Fact vs inference labels Applied in each item; independent review PENDING Derivations Symbolic checks with SymPy (items 1, 2, 4); numeric checks with the Python standard library (items 3 and 5, as stated in those items); not independently re-run KR→EN pairing mechanical check PASS: every Korean paragraph is followed by its English paragraph (table headers, item headings and chain nodes are English-only) DOI links 5/5 DOI links present (doi.org);
+      NEW: Physics independent review PERFORMED: first-pass verdicts PASS-WITH-FIXES for items 1, 2, 3 and 5, FAIL for item 4 (one numerical-magnitude error and wording that misstated a sign comparison, now corrected; the report-level summary repeated both and is corrected as well); fixes applied; re-check PENDING Numbers traced to source or labeled derivation Each item states that it used values agreeing in both reads (items 1, 2, 4, 5) or present in the abstract (item 3); the physics review compared the values with the source text and found one magnitude error (item 4, corrected); re-check PENDING Fact vs inference labels Applied in each item; the physics review found label and grade shifts in items 1, 2 and 4 (corrected); re-check PENDING Derivations Symbolic checks with SymPy (items 1, 2, 4, 5); numeric checks with the Python standard library (item 3); independently re-derived with SymPy in the physics review (one magnitude error found in item 4's drift comparison, corrected); re-check PENDING KR→EN pairing mechanical check PASS: every Korean paragraph is followed by its English paragraph (table headers, item headings and chain nodes are English-only) DOI links 5/5 DOI links present (doi.org);
+
+[replace] OLD: page-level visual check NOT DONE Figures none in this issue Issue grade single-source full-text analysis (items 1, 2, 4, 5); abstract brief (item 3) Source inconsistencies observed on reading (not claims about the authors' intent) Observed on reading · summarized from items 1, 2, 4, 5 · not confirmed by the authors 아래는 각 항목에서 이미 보고한 관찰을 중립적으로 요약한 것입니다.
+      NEW: page-level visual check NOT DONE Figures none in this issue Issue grade full-text analysis, one source per item (items 1, 2, 4, 5); abstract brief (item 3) Source inconsistencies observed on reading (not claims about the authors' intent) Observed on reading, not confirmed by the authors (not a source claim) · summary of items 1, 2, 4, 5 아래는 각 항목에서 이미 보고한 관찰을 중립적으로 요약한 것입니다.
+
+[replace] OLD: (4) 일부 인용 번호와 진술의 대응은 참고문헌 제목만으로 확인할 수 없었으며, 원문을 읽지 않았으므로 인용이 진술을 뒷받침하지 않는다고 결론짓지 않았습니다. (5) poly-Si 결정화에 950 °C 초과가 필요하다는 값이 모든 poly-Si channel 공정에 일반적인지는 본문에서 확립되지 않습니다.
+      NEW: (4) poly-Si 결정화에 950 °C 초과가 필요하다는 값이 모든 poly-Si channel 공정에 일반적인지는 본문에서 확립되지 않습니다.
+
+[replace] OLD: (4) For some citation numbers, the match between citation and statement could not be confirmed from reference-list titles alone; the originals were not read, so no conclusion was drawn that those citations fail to support the statements. (5) Whether the value of more than 950 °C for poly-Si crystallization is general to all poly-Si channel processes is not established in the text.
+      NEW: (4) Whether the value of more than 950 °C for poly-Si crystallization is general to all poly-Si channel processes is not established in the text.
+
+[replace] OLD: (1) τ 0 는 본문에서 비 τ/t d (무차원)로 정의되지만 Table S2–S3은 ns 단위로, 그림 5b 삽입도는 "ln τ 0 in seconds"로 표시합니다.
+      NEW: (1) τ 0 는 본문에서 비 τ/t d (무차원)로 정의되지만 Supplementary Tables 2–3은 ns 단위로, 그림 5b 삽입도는 "ln τ 0 in seconds"로 표시합니다.
+
+[replace] OLD: (4) 인용된 확산 계수 범위의 하한은 진술된 drift 속도 하한보다 두 자릿수 낮은 속도를 주고, 진술된 속도로는 2 ms delay 동안 이동 거리가 5 nm 막보다 훨씬 깁니다(delay 중 실제 field는 1 MV/cm가 아닐 수 있음).
+      NEW: (4) 인용된 확산 계수 범위의 하한은 진술된 drift 속도 하한보다 약 한 자릿수(약 13배) 낮은 속도(상한보다는 약 두 자릿수 낮음)를 주고, 진술된 속도로는 2 ms delay 동안 이동 거리가 5 nm 막보다 훨씬 깁니다(delay 중 실제 field는 1 MV/cm가 아닐 수 있음).
+
+[replace] OLD: (1) τ 0 is defined in the text as the ratio τ/t d (dimensionless), but Tables S2–S3 give it in ns and the Fig.
+      NEW: (1) τ 0 is defined in the text as the ratio τ/t d (dimensionless), but Supplementary Tables 2–3 give it in ns and the Fig.
+
+[replace] OLD: (4) The lower end of the cited diffusion-coefficient range gives a drift velocity two decades below the stated lower bound, and with the stated velocities the travel during a 2 ms delay far exceeds the 5 nm film (the actual field during the delay need not be 1 MV/cm).
+      NEW: (4) The lower end of the cited diffusion-coefficient range gives a drift velocity about one decade (a factor of about 13) below the stated lower bound (about two decades below the upper bound), and with the stated velocities the travel during a 2 ms delay far exceeds the 5 nm film (the actual field during the delay need not be 1 MV/cm).
+
+[replace] OLD: Model-Based Read-Reference-Voltage Compensation for Cross-Temperature Reliability in 3D TLC NAND Flash Memory.
+      NEW: Model-based read-reference-voltage compensation for cross-temperature reliability in 3D TLC NAND flash memory.
+
+[replace] OLD: Model-Based Read-Reference-Voltage Compensation for Cross-Temperature Reliability in 3D TLC NAND Flash Memory.
+      NEW: Model-based read-reference-voltage compensation for cross-temperature reliability in 3D TLC NAND flash memory.
+
+[replace] OLD: 제출 2026-10-14(arXiv 공지일 미확인) · new_this_week · full_text(arXiv PDF, 본문과 보충자료 S1–S4;
+      NEW: 제출 2026-10-14(arXiv 공지일 미확인) · new_this_week · full_text(arXiv PDF, 본문과 보충자료 1–4절;
+
+[replace] OLD: 식 (1), (2), (S24)–(S36) 형태 UNKNOWN).
+      NEW: 식 (1), (2), Supplementary Eqs. (24)–(36) 형태 UNKNOWN).
+
+[replace] OLD: Submitted 2026-10-14 (arXiv announcement date unconfirmed) · new_this_week · full_text (arXiv PDF, main text and Supporting Information S1–S4;
+      NEW: Submitted 2026-10-14 (arXiv announcement date unconfirmed) · new_this_week · full_text (arXiv PDF, main text and Supporting Information Sections 1–4;
+
+[replace] OLD: (1), (2), (S24)–(S36) UNKNOWN).
+      NEW: (1), (2), Supplementary Eqs. (24)–(36) UNKNOWN).
+
+[insert] OLD: 
+      NEW: 독립 물리 검수에서는 arXiv API가 요청 제한으로 응답하지 않아, 항목 2, 4, 5의 일치를 arXiv 초록 페이지와 DataCite로 다시 확인했습니다.
+
+[insert] OLD: 
+      NEW: In the physics review the arXiv API was rate-limited, so the match for items 2, 4 and 5 was re-confirmed from the arXiv abstract pages and DataCite.
