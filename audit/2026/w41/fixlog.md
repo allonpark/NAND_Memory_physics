@@ -137,3 +137,6 @@ Scope: edits only in `sections/` (i1, i2, i4, i5, report_head, report_tail; i3 u
 - F3-m1 (tail H7, ko/en): added 'under the Weibull log-variance proxy' to the necessary-and-sufficient statement.
 - F6-m1 (head banner, ko/en): 'could not be cross-checked by two reads' instead of 'two reads did not agree' for equations (2)-(4) of item 1.
 - QC wording (head and tail, ko/en and the three QC cells): the major fixes received a focused independent re-check (no blocker, no major); minor edits after that re-check received mechanical checks only.
+
+## Erratum pass (coordinator, 2026-11-20): item 5 online date
+Crossref re-lookup 2026-11-20 for 10.1142/s0217984926502520: issued/published/published-online 2026-11-07, published-print 2026-11-30, created 2026-10-12, deposited 2026-11-17. The W41 report had stated 2026-10-09 (Crossref at the 2026-10-26 lookup). Edits (exact-string replacements, each asserted): head banner selection paragraph (items 2-4 new; item 5 unconfirmed) with a new bilingual erratum paragraph; item 5 source box (date uncertain, selection unconfirmed); item 5 source trace; sources list; QC cells (window classification set to pending; bibliographic match qualified). Items 1 and 4 Crossref dates re-checked unchanged.
